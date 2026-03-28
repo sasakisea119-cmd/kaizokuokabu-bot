@@ -1,0 +1,18 @@
+# Environment variables (secrets)
+config/.env
+
+# Dependencies
+node_modules/
+
+# Logs
+data/logs/*.log
+
+# Claude Code
+.claude/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temp files
+*.tmp

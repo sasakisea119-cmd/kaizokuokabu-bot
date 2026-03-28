@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <radialGradient id="doughGrad" cx="0.4" cy="0.35" r="0.6">
+      <stop offset="0%" stop-color="#F5D5A0"/>
+      <stop offset="40%" stop-color="#E8B56A"/>
+      <stop offset="100%" stop-color="#C8883A"/>
+    </radialGradient>
+
+    <linearGradient id="glazeGrad" x1="0" y1="0" x2="0.8" y2="1">
+      <stop offset="0%" stop-color="#FF6B6B"/>
+      <stop offset="50%" stop-color="#FF8E72"/>
+      <stop offset="100%" stop-color="#FFAA85"/>
+    </linearGradient>
+
+    <radialGradient id="glazeShine" cx="0.3" cy="0.25" r="0.5">
+      <stop offset="0%" stop-color="rgba(255,255,255,0.35)"/>
+      <stop offset="100%" stop-color="rgba(255,255,255,0)"/>
+    </radialGradient>
+
+    <mask id="donutMask">
+      <rect width="512" height="512" fill="black"/>
+      <circle cx="256" cy="256" r="210" fill="white"/>
+      <circle cx="256" cy="256" r="85" fill="black"/>
+    </mask>
+
+    <clipPath id="glazeClip">
+      <circle cx="256" cy="256" r="208"/>
+    </clipPath>
+
+    <filter id="shadow" x="-10%" y="-5%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="rgba(0,0,0,0.12)"/>
+    </filter>
+  </defs>
+
+  <g filter="url(#shadow)">
+    <g mask="url(#donutMask)">
+      <!-- Dough base -->
+      <circle cx="256" cy="256" r="210" fill="url(#doughGrad)"/>
+
+      <!-- Subtle texture -->
+      <circle cx="256" cy="256" r="190" fill="none" stroke="#D4943A" stroke-width="0.5" opacity="0.25"/>
+      <circle cx="256" cy="256" r="150" fill="none" stroke="#D4943A" stroke-width="0.5" opacity="0.15"/>
+
+      <!-- Glaze with drips -->
+      <path d="
+        M46,256
+        C46,140 140,46 256,46
+        C372,46 466,140 466,256
+        L466,275
+        C458,275 452,295 444,275
+        C436,275 430,275 422,275
+        C414,275 408,310 398,275
+        C390,275 382,275 374,275
+        C366,275 362,290 354,275
+        C346,275 338,275 330,275
+        C322,275 316,318 306,275
+        C298,275 290,275 282,275
+        C274,275 268,298 258,275
+        C250,275 242,275 234,275
+        C226,275 220,285 212,275
+        C204,275 196,275 188,275
+        C180,275 174,308 164,275
+        C156,275 148,275 140,275
+        C132,275 126,282 118,275
+        C110,275 102,275 94,275
+        C86,275 80,288 70,275
+        L46,275
+        Z
+      " fill="url(#glazeGrad)" clip-path="url(#glazeClip)"/>
+
+      <!-- Glaze shine -->
+      <path d="
+        M46,256
+        C46,140 140,46 256,46
+        C372,46 466,140 466,256
+        L466,275
+        C458,275 452,295 444,275
+        C436,275 430,275 422,275
+        C414,275 408,310 398,275
+        C390,275 382,275 374,275
+        C366,275 362,290 354,275
+        C346,275 338,275 330,275
+        C322,275 316,318 306,275
+        C298,275 290,275 282,275
+        C274,275 268,298 258,275
+        C250,275 242,275 234,275
+        C226,275 220,285 212,275
+        C204,275 196,275 188,275
+        C180,275 174,308 164,275
+        C156,275 148,275 140,275
+        C132,275 126,282 118,275
+        C110,275 102,275 94,275
+        C86,275 80,288 70,275
+        L46,275
+        Z
+      " fill="url(#glazeShine)" clip-path="url(#glazeClip)"/>
+
+      <!-- Network connection lines -->
+      <line x1="160" y1="155" x2="220" y2="125" stroke="white" stroke-width="1.8" opacity="0.4" stroke-linecap="round"/>
+      <line x1="220" y1="125" x2="296" y2="112" stroke="white" stroke-width="1.8" opacity="0.35" stroke-linecap="round"/>
+      <line x1="296" y1="112" x2="365" y2="140" stroke="white" stroke-width="1.8" opacity="0.4" stroke-linecap="round"/>
+      <line x1="220" y1="125" x2="235" y2="195" stroke="white" stroke-width="1.8" opacity="0.3" stroke-linecap="round"/>
+      <line x1="296" y1="112" x2="315" y2="185" stroke="white" stroke-width="1.8" opacity="0.3" stroke-linecap="round"/>
+      <line x1="160" y1="155" x2="140" y2="220" stroke="white" stroke-width="1.8" opacity="0.3" stroke-linecap="round"/>
+      <line x1="365" y1="140" x2="380" y2="210" stroke="white" stroke-width="1.8" opacity="0.3" stroke-linecap="round"/>
+
+      <!-- Network node dots -->
+      <circle cx="160" cy="155" r="6.5" fill="white" opacity="0.95"/>
+      <circle cx="220" cy="125" r="5" fill="white" opacity="0.9"/>
+      <circle cx="296" cy="112" r="7.5" fill="white" opacity="0.95"/>
+      <circle cx="365" cy="140" r="5.5" fill="white" opacity="0.9"/>
+      <circle cx="235" cy="195" r="4.5" fill="white" opacity="0.85"/>
+      <circle cx="315" cy="185" r="6" fill="white" opacity="0.9"/>
+      <circle cx="140" cy="220" r="4.5" fill="white" opacity="0.85"/>
+      <circle cx="380" cy="210" r="5" fill="white" opacity="0.85"/>
+
+      <!-- Small accent dots -->
+      <circle cx="190" cy="100" r="3" fill="white" opacity="0.55"/>
+      <circle cx="340" cy="98" r="3" fill="white" opacity="0.55"/>
+      <circle cx="110" cy="200" r="2.5" fill="white" opacity="0.5"/>
+      <circle cx="405" cy="190" r="2.5" fill="white" opacity="0.5"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,759 @@
+[
+  {
+    "tweet_id": "2036337469667549347",
+    "text": "日経平均とS&P500、リスク調整後リターン1.8倍差。この差は正当か？\n\n昨日の1866円安を見て改めて思う。日本株だけのポートフォリオ、リスク高すぎない？\n\n地政学リスク→円高→輸出株売り→全面安のパターン。一方、米国株は業種分散が効いて下げ幅限定的。\n\n分散投資の威力を数字で実感した一日。みんなのポートフォリオ、日米比率どのくらい？",
+    "score": {
+      "scores": {
+        "buzz": 7,
+        "hook": 8,
+        "value": 8,
+        "data": 7,
+        "unique": 6,
+        "discussion": 8,
+        "bookmark": 7,
+        "tempo": 8,
+        "persona": 8,
+        "ng_check": 9
+      },
+      "average": 7.6
+    },
+    "pattern_id": "P14",
+    "hook_id": "H11",
+    "theme": "ポートフォリオ戦略",
+    "research_id": "r_1774098453305_vmqr",
+    "posted_at": "2026-03-24T07:01:00.955Z",
+    "metrics": {
+      "impressions": 23,
+      "likes": 2,
+      "retweets": 0,
+      "replies": 0
+    },
+    "fetched_at": "2026-03-28T05:56:26.323Z"
+  },
+  {
+    "tweet_id": "2036360120373022914",
+    "text": "2027年、Physical AIの市場規模は1兆3000億円に。\n\n要は「AIが現実世界で動く」技術。\n- テスラの自動運転\n- ボストン・ダイナミクスのロボット\n- アマゾンの倉庫自動化\n\nソフトウェアAIの次は確実にこれ。日本企業では安川電機、ファナック、オムロンが本命。株価はまだ織り込んでない。\n\nPhysical AI関連で一番期待してる銘柄ある？",
+    "score": {
+      "scores": {
+        "buzz": 7,
+        "hook": 8,
+        "value": 8,
+        "data": 7,
+        "unique": 6,
+        "discussion": 8,
+        "bookmark": 7,
+        "tempo": 8,
+        "persona": 7,
+        "ng_check": 4
+      },
+      "average": 7
+    },
+    "pattern_id": "P05",
+    "hook_id": "H03",
+    "theme": "テーマ投資（半導体・AI・防衛・原子力・宇宙・Physical AI）",
+    "research_id": "r_1774098453305_jkqb",
+    "posted_at": "2026-03-24T08:31:01.336Z",
+    "metrics": {
+      "impressions": 15,
+      "likes": 2,
+      "retweets": 0,
+      "replies": 0
+    },
+    "fetched_at": "2026-03-28T05:56:28.516Z"
+  },
+  {
+    "tweet_id": "2036382771275506089",
+    "text": "メタプラ民に聞きたい。これ「テック企業」じゃなくて「ビットコインETFの劣化版」だよね？\n\n【朝の市場メモ】\n🇺🇸 ナスダック-1.2%、テック株全面安\n🇯🇵 日経先物1970円安の51020円\n📌 今日はFOMC議事録公表\n\nPhysical AI関連のエヌビディア、テスラ、パランティアも軒並み下落。でも本質的な成長ストーリーは変わってない。\n\nむしろ仕込み場だと思うんだけど、どう思う？",
+    "score": {
+      "scores": {
+        "buzz": 7,
+        "hook": 8,
+        "value": 7,
+        "data": 8,
+        "unique": 6,
+        "discussion": 8,
+        "bookmark": 6,
+        "tempo": 8,
+        "persona": 8,
+        "ng_check": 6
+      },
+      "average": 7.2
+    },
+    "pattern_id": "P01",
+    "hook_id": "H27",
+    "theme": "テーマ投資（半導体・AI・防衛・原子力・宇宙・Physical AI）",
+    "research_id": "r_1774101046426_77w0",
+    "posted_at": "2026-03-24T10:01:01.856Z",
+    "metrics": {
+      "impressions": 12,
+      "likes": 2,
+      "retweets": 0,
+      "replies": 0
+    },
+    "fetched_at": "2026-03-28T05:56:30.696Z"
+  },
+  {
+    "tweet_id": "2036405422505205979",
+    "text": "1866円安。これが日経の現実。でもIPOセカンダリーはもっと悲惨なことになってる。\n\n【IPO銘柄の惨状】\n・上場直後▲30%超えが続出\n・機関投資家の売り圧力で需給最悪\n・小型株ほど流動性リスクで暴落加速\n\n特にバイオ・テック系は壊滅状態。でもここで仕込める銘柄もある。相場全体が悪い時のIPO投資、どう思う？",
+    "score": {
+      "scores": {
+        "buzz": 7,
+        "hook": 8,
+        "value": 7,
+        "data": 8,
+        "unique": 6,
+        "discussion": 8,
+        "bookmark": 6,
+        "tempo": 8,
+        "persona": 8,
+        "ng_check": 9
+      },
+      "average": 7.5
+    },
+    "pattern_id": "P13",
+    "hook_id": "H29",
+    "theme": "IPO分析・セカンダリー",
+    "research_id": "r_1774136177446_xzka",
+    "posted_at": "2026-03-24T11:31:02.234Z",
+    "metrics": {
+      "impressions": 16,
+      "likes": 1,
+      "retweets": 0,
+      "replies": 0
+    },
+    "fetched_at": "2026-03-28T05:56:32.878Z"
+  },
+  {
+    "tweet_id": "2036428073252560928",
+    "text": "日経1100円高の裏で、東京海上HDが地味に最強説。\n\n📊 今日の上昇率\n・日経平均: +2.8%\n・東京海上HD: +4.2%\n・損保ジャパン: +3.1%\n\n地政学リスク後退→原油安→損保の支払いリスク減。しかも東京海上は海外事業比率6割で円安メリットも享受。\n\nPER12倍、配当利回り3%台。バリュー×グロースの二刀流なのに、なぜみんな半導体ばかり見てるの？",
+    "score": {
+      "scores": {
+        "buzz": 8,
+        "hook": 7,
+        "value": 8,
+        "data": 9,
+        "unique": 8,
+        "discussion": 7,
+        "bookmark": 8,
+        "tempo": 8,
+        "persona": 9,
+        "ng_check": 9
+      },
+      "average": 8.1
+    },
+    "pattern_id": "P03",
+    "hook_id": "H19",
+    "theme": "日本株個別銘柄分析",
+    "research_id": "r_1774334096397_y3bl",
+    "posted_at": "2026-03-24T13:01:02.604Z",
+    "metrics": {
+      "impressions": 9,
+      "likes": 1,
+      "retweets": 0,
+      "replies": 0
+    },
+    "fetched_at": "2026-03-28T05:56:35.076Z"
+  },
+  {
+    "tweet_id": "2036568321953616046",
+    "text": "🚨外国人が4906億円の大量売り越し！6カ月ぶりの衝撃\n\n・中東情勢の長期化を警戒\n・日本株売買の67.4%を占める外国人が売りに転換\n・個人投資家は逆張りで買い向かう展開\n・需給悪化で上値重い状況が続く可能性\n\nでも、これって絶好の買い場のサインかも？🤔",
+    "type": "image",
+    "pattern_id": "P12",
+    "hook_id": null,
+    "theme": "海外勢が4906億円の日本株売り越し、6カ月ぶりの大きさ",
+    "research_id": "r_1774098453305_49z5",
+    "posted_at": "2026-03-24T22:18:20.692Z",
+    "metrics": {
+      "impressions": 10,
+      "likes": 1,
+      "retweets": 0,
+      "replies": 0
+    },
+    "fetched_at": "2026-03-28T05:56:37.248Z"
+  },
+  {
+    "tweet_id": "2036568827190977021",
+    "text": "エヌビディア×ファナック、フィジカルAI協業で急伸+12%。\n\n正直に言うと、ファナック（6954）は前から注目してた。工場自動化＋AIの組み合わせって、日本企業が世界で戦える数少ない分野なんだよね。\n\n理由：\n・産業ロボット世界シェア上位の技術力\n・製造現場のデータ蓄積量が圧倒的\n・エヌビディアとの協業でAI実装加速\n\nバイアスかかってるかもだけど、2026年のフィジカルAI市場は爆発的に伸びる。半導体製造装置も含めて、日本の製造業復活のシナリオが見えてきた。\n\nみんなはどう思う？",
+    "score": {
+      "scores": {
+        "buzz": 8,
+        "hook": 9,
+        "value": 7,
+        "data": 6,
+        "unique": 7,
+        "discussion": 8,
+        "bookmark": 6,
+        "tempo": 8,
+        "persona": 8,
+        "ng_check": 9
+      },
+      "average": 7.6
+    },
+    "pattern_id": "P17",
+    "hook_id": "H02",
+    "theme": "今日のバズニュース（海外）",
+    "research_id": "r_1774334096397_sj04",
+    "posted_at": "2026-03-24T22:20:21.099Z",
+    "metrics": {
+      "impressions": 8,
+      "likes": 1,
+      "retweets": 0,
+      "replies": 0
+    },
+    "fetched_at": "2026-03-28T05:56:39.432Z"
+  },
+  {
+    "tweet_id": "2036604639693652252",
+    "text": "📈日本株投資家必見！東証プライム企業の純利益が予想を覆し史上最高へ🚀\n\n5年連続最高益54.2兆円、AI需要と資本効率改革で利益率も史上最高水準に📊決算シーズンの上方修正期待で個別株の物色が活発化中💡\n\n#日本株 #投資 #AI #決算 #株価",
+    "type": "image",
+    "pattern_id": "P04",
+    "hook_id": null,
+    "theme": "上場企業5年連続最高益、2026年3月期は前期比1%増に転換",
+    "research_id": "r_1774098453305_xrbg",
+    "posted_at": "2026-03-25T00:42:39.545Z",
+    "metrics": {
+      "impressions": 10,
+      "likes": 1,
+      "retweets": 0,
+      "replies": 0
+    },
+    "fetched_at": "2026-03-28T05:56:41.616Z"
+  },
+  {
+    "tweet_id": "2036605144704622914",
+    "text": "IPO後のセカンダリー、90%の銘柄が公開価格割れしてる現実。\n\nでも残り10%は10倍株になったりする。この差は何？\n\n✅事業のスケーラビリティ\n✅既存市場を破壊する技術\n✅海外展開の具体性\n\n直近だとLayerXとかプレイドが典型例。逆にテンバガー狙いでIPO飛び込んでる人、ちゃんと事業モデル理解してる？\n\nセカンダリーで勝つコツ、教えて。",
+    "score": {
+      "scores": {
+        "buzz": 7,
+        "hook": 8,
+        "value": 8,
+        "data": 7,
+        "unique": 6,
+        "discussion": 9,
+        "bookmark": 7,
+        "tempo": 8,
+        "persona": 8,
+        "ng_check": 6
+      },
+      "average": 7.4
+    },
+    "pattern_id": "P08",
+    "hook_id": "H01",
+    "theme": "IPO分析・セカンダリー",
+    "research_id": "r_1774334770119_4ozb",
+    "posted_at": "2026-03-25T00:44:39.901Z",
+    "metrics": {
+      "impressions": 9,
+      "likes": 1,
+      "retweets": 0,
+      "replies": 0
+    },
+    "fetched_at": "2026-03-28T05:56:43.792Z"
+  },
+  {
+    "tweet_id": "2036625493542486045",
+    "text": "日銀利上げで終わったって言ってたやつ、今どんな気持ち？\n\n0.75%据え置きで金利敏感株は反発。でも原油高でインフレ圧力は残ってる。みんな安心してるけど、次の利上げは5月か6月。\n\n不動産REITは+3%、電力株も上昇。でもこれ、一時的な安心材料に過ぎない。\n\n中東情勢悪化でWTI原油は90ドル突破してるのに、なんで楽観視できるの？",
+    "score": {
+      "scores": {
+        "buzz": 8,
+        "hook": 9,
+        "value": 7,
+        "data": 8,
+        "unique": 7,
+        "discussion": 9,
+        "bookmark": 6,
+        "tempo": 8,
+        "persona": 8,
+        "ng_check": 9
+      },
+      "average": 7.9
+    },
+    "pattern_id": "P12",
+    "hook_id": "H17",
+    "theme": "物議を醸す投資トピック（逆張り・アンチテーゼ系で議論を生む）",
+    "research_id": "r_1774389937674_5pmq",
+    "posted_at": "2026-03-25T02:05:31.454Z",
+    "metrics": {
+      "impressions": 11,
+      "likes": 2,
+      "retweets": 0,
+      "replies": 0
+    },
+    "fetched_at": "2026-03-28T05:56:45.970Z"
+  },
+  {
+    "tweet_id": "2036627795607228731",
+    "text": "正直に言う。AI関連で一番見落とされてるのはファナック。\n\nエヌビディアとの協業発表で株価+8%だけど、これフィジカルAI分野での勝ち確銘柄じゃない？\n\n・工場自動化シェア世界1位\n・AI×製造業の最前線\n・時価総額まだ4.8兆円（トヨタの38兆と比較）\n\n製造業DXって10兆円市場なんだよね。この波に乗れない理由ある？\n\n#AI #日本株",
+    "score": {
+      "scores": {
+        "buzz": 7,
+        "hook": 8,
+        "value": 8,
+        "data": 9,
+        "unique": 8,
+        "discussion": 7,
+        "bookmark": 7,
+        "tempo": 8,
+        "persona": 9,
+        "ng_check": 6
+      },
+      "average": 7.7
+    },
+    "pattern_id": "P16",
+    "hook_id": "H24",
+    "theme": "日本株個別銘柄分析",
+    "research_id": "r_1774389937674_xrlk",
+    "posted_at": "2026-03-25T02:14:40.335Z",
+    "metrics": {
+      "impressions": 16,
+      "likes": 2,
+      "retweets": 0,
+      "replies": 0
+    },
+    "fetched_at": "2026-03-28T05:56:48.158Z"
+  },
+  {
+    "tweet_id": "2036648144260464865",
+    "text": "銀行株が静かに復活してる。\n\n日銀の金利正常化で利ざや改善期待。特に地銀は10年以上続いた超低金利地獄からようやく脱出のチャンス。\n\n三菱UFJは0.75%→1.5%なら利息収入が2倍に。地銀なら効果はもっとデカい。\n\nただしリスクは貸倒れ増加。金利上昇で中小企業の借り換えが厳しくなる。\n\n脱デフレの最大受益者、気づいてる人まだ少ない。\n\nみんなは銀行株どう見てる？",
+    "score": {
+      "scores": {
+        "buzz": 7,
+        "hook": 8,
+        "value": 8,
+        "data": 7,
+        "unique": 7,
+        "discussion": 9,
+        "bookmark": 7,
+        "tempo": 8,
+        "persona": 8,
+        "ng_check": 9
+      },
+      "average": 7.8
+    },
+    "pattern_id": "P02",
+    "hook_id": "H20",
+    "theme": "今日のバズニュース（国内）",
+    "research_id": "r_1774389937674_52o5",
+    "posted_at": "2026-03-25T03:35:31.812Z",
+    "metrics": {
+      "impressions": 7,
+      "likes": 1,
+      "retweets": 0,
+      "replies": 0
+    },
+    "fetched_at": "2026-03-28T05:56:50.350Z"
+  },
+  {
+    "tweet_id": "2036650446325243926",
+    "text": "IPO後のセカンダリー狙いで失敗する人の共通点がヤバい。\n\n初値から50%以上下落したIPO銘柄、過去3年で約60%。みんな「安くなったから買い時」って思うけど、それが罠。\n\nセカンダリー成功の鉄則：\n・事業モデルが理解できる\n・売上成長率20%以上継続\n・既存株主のロックアップ期限を把握\n\n逆に避けるべきは「IPO割れ＝バーゲン」思考。業績下振れで割れてるケースが大半だから。\n\nあなたは直近でIPO銘柄、セカンダリーで買った？",
+    "score": {
+      "scores": {
+        "buzz": 7,
+        "hook": 8,
+        "value": 8,
+        "data": 7,
+        "unique": 7,
+        "discussion": 8,
+        "bookmark": 7,
+        "tempo": 8,
+        "persona": 9,
+        "ng_check": 6
+      },
+      "average": 7.5
+    },
+    "pattern_id": "P09",
+    "hook_id": "H08",
+    "theme": "IPO分析・セカンダリー",
+    "research_id": "r_1774394913256_bd0p",
+    "posted_at": "2026-03-25T03:44:40.681Z",
+    "metrics": {
+      "impressions": 21,
+      "likes": 2,
+      "retweets": 0,
+      "replies": 0
+    },
+    "fetched_at": "2026-03-28T05:56:52.555Z"
+  },
+  {
+    "tweet_id": "2037042363366096981",
+    "text": "半導体はもう終わり、実は今が本当の始まり。\n\n東京エレクトロンが急騰してるけど、みんな「AIバブル」って言うよね？でも2026年の製造装置市場、過去最高更新の予想。顧客は納期前倒し要求ラッシュ。\n\nこれバブルじゃなくて、10年続くスーパーサイクルの入り口だと思うんだけど。\n\n半導体株、まだ「高い」って思ってる人いる？",
+    "score": {
+      "scores": {
+        "buzz": 8,
+        "hook": 9,
+        "value": 7,
+        "data": 6,
+        "unique": 8,
+        "discussion": 9,
+        "bookmark": 6,
+        "tempo": 8,
+        "persona": 8,
+        "ng_check": 7
+      },
+      "average": 7.4
+    },
+    "pattern_id": "P08",
+    "hook_id": "H14",
+    "theme": "物議を醸す投資トピック（逆張り・アンチテーゼ系で議論を生む）",
+    "research_id": "r_1774394913256_gjk1",
+    "posted_at": "2026-03-26T05:41:57.733Z",
+    "metrics": {
+      "impressions": 58,
+      "likes": 2,
+      "retweets": 0,
+      "replies": 0
+    },
+    "fetched_at": "2026-03-28T05:56:54.746Z"
+  },
+  {
+    "tweet_id": "2037042511605358742",
+    "text": "IPOで億り人になった人の共通点、知ってる？\n\n「上場直後は買わない」\n\nこれ。みんな初値に飛びつくけど、データ見ると上場1ヶ月後の平均リターンは-15%。\n\n本当に儲けてる人は：\n・事業内容を理解してから\n・需給が落ち着いてから\n・適正PERで判断してから\n\n参入してる。\n\nスマートニュースやポケトークの上場観測も出てるけど、焦る必要なし。良い企業なら適正価格で買える日が必ず来る。\n\nあなたはIPO、どのタイミングで買う？",
+    "score": {
+      "scores": {
+        "buzz": 8,
+        "hook": 9,
+        "value": 8,
+        "data": 7,
+        "unique": 7,
+        "discussion": 9,
+        "bookmark": 8,
+        "tempo": 9,
+        "persona": 8,
+        "ng_check": 6
+      },
+      "average": 7.9
+    },
+    "pattern_id": "P01",
+    "hook_id": "H13",
+    "theme": "投資の基礎知識・考え方",
+    "research_id": "r_1774098453305_tacp",
+    "posted_at": "2026-03-26T05:42:33.147Z",
+    "metrics": {
+      "impressions": 23,
+      "likes": 2,
+      "retweets": 0,
+      "replies": 0
+    },
+    "fetched_at": "2026-03-28T05:56:56.933Z"
+  },
+  {
+    "tweet_id": "2037042660226326537",
+    "text": "2026年のテーマ投資、専門家106人に聞いた結果が衝撃的。\n\n1位：AI（フィジカルAI含む）\n2位：防衛・宇宙\n3位：半導体\n\nみんなが飽きたって言ってるこの3つが、結局また来年も主役かよ。\n\n高市政権の防衛費GDP2%目標とAI革命が重なるタイミング。国策銘柄への資金流入はまだ序章だったってことか。\n\n君たちはもうこのテーマに飽きた？",
+    "score": {
+      "scores": {
+        "buzz": 8,
+        "hook": 9,
+        "value": 7,
+        "data": 8,
+        "unique": 7,
+        "discussion": 9,
+        "bookmark": 6,
+        "tempo": 8,
+        "persona": 8,
+        "ng_check": 9
+      },
+      "average": 7.9
+    },
+    "pattern_id": "P16",
+    "hook_id": "H12",
+    "theme": "今日のバズニュース（国内）",
+    "research_id": "r_1774098453305_xsma",
+    "posted_at": "2026-03-26T05:43:08.472Z",
+    "metrics": {
+      "impressions": 59,
+      "likes": 1,
+      "retweets": 0,
+      "replies": 0
+    },
+    "fetched_at": "2026-03-28T05:56:59.106Z"
+  },
+  {
+    "tweet_id": "2037042811422597165",
+    "text": "半導体関連、年初来で平均+35%。まだ行くのか。\n\n野村が日経6万円予想を維持してるけど、その根拠の一つが「AI需要の継続」。TSMCの設備投資は過去最高、NVIDIAのH200は予約殺到。\n\nでも冷静に考えて。\n・メモリ価格は既にピーク感\n・中国規制でエクスポージャー限定的\n・バリュエーション的には割高圏\n\nPhysical AI関連（ロボティクス・自動運転）の方が、まだ株価に織り込まれてない気がする。みんなどう思う？",
+    "score": {
+      "scores": {
+        "buzz": 7,
+        "hook": 8,
+        "value": 8,
+        "data": 7,
+        "unique": 7,
+        "discussion": 9,
+        "bookmark": 6,
+        "tempo": 8,
+        "persona": 8,
+        "ng_check": 9
+      },
+      "average": 7.7
+    },
+    "pattern_id": "P01",
+    "hook_id": "H02",
+    "theme": "テーマ投資（半導体・AI・防衛・原子力・宇宙・Physical AI）",
+    "research_id": "r_1774098453305_vr7h",
+    "posted_at": "2026-03-26T05:43:44.515Z",
+    "metrics": {
+      "impressions": 265,
+      "likes": 2,
+      "retweets": 0,
+      "replies": 0
+    },
+    "fetched_at": "2026-03-28T05:57:01.291Z"
+  },
+  {
+    "tweet_id": "2037042959674466625",
+    "text": "メタプラネット、また2億円分のBTC買い増し発表。\n\n時価総額600億円の会社が、四半期で20億円もビットコインに突っ込んでる。これもはや投資会社だろ。\n\nでも株価はBTCの3倍動く。BTCが10%上がればメタプラも30%上がる。逆もまた然り。\n\nボラティリティ取りたいなら面白いけど、テック企業として評価してる人いる？\n\n#メタプラネット",
+    "score": {
+      "scores": {
+        "buzz": 7,
+        "hook": 8,
+        "value": 8,
+        "data": 9,
+        "unique": 7,
+        "discussion": 8,
+        "bookmark": 6,
+        "tempo": 8,
+        "persona": 8,
+        "ng_check": 9
+      },
+      "average": 7.8
+    },
+    "pattern_id": "P05",
+    "hook_id": "H22",
+    "theme": "メタプラネット・ビットコイン関連（賛否両論あるネタとして積極的に取り上げる）",
+    "research_id": "r_1774098453305_6eqs",
+    "posted_at": "2026-03-26T05:44:19.955Z",
+    "metrics": {
+      "impressions": 30,
+      "likes": 3,
+      "retweets": 0,
+      "replies": 0
+    },
+    "fetched_at": "2026-03-28T05:57:03.470Z"
+  },
+  {
+    "tweet_id": "2037044634996924656",
+    "text": "🔥ついに始まったフィジカルAI革命\n\nデジタル世界に閉じていたAIが遂に「身体」を獲得💪\n\n📊市場規模：2025年52億ドル→2033年497億ドル\n🚀ファナック：8年ぶり高値、エヌビディアと協業\n🤖ヒューマノイド：8年で200倍成長予測\n\n日本の製造業DXが世界を席巻する時代の幕開け‼️\n\n#フィジカルAI #ファナック #製造業DX #投資",
+    "type": "image",
+    "pattern_id": "P07",
+    "hook_id": null,
+    "theme": "フィジカルAI関連銘柄に注目集まる",
+    "research_id": "r_1774101046426_ykec",
+    "posted_at": "2026-03-26T05:50:59.360Z",
+    "metrics": {
+      "impressions": 113,
+      "likes": 4,
+      "retweets": 0,
+      "replies": 0
+    },
+    "fetched_at": "2026-03-28T05:57:05.727Z"
+  },
+  {
+    "tweet_id": "2037377799141613943",
+    "text": "データセンター電力需要、2030年までに3倍増。でも原子力株に飛びつく前に考えて。\n\nSMRも核融合も実用化は10年先。今の株価は期待だけで上がってる。\n\n投資で大事なのは「いつ実現するか」のタイムライン。技術の可能性と商業化のギャップを見極められるかが勝負の分かれ目。\n\n夢を買うのか、確実性を買うのか？",
+    "score": {
+      "scores": {
+        "buzz": 7,
+        "hook": 8,
+        "value": 8,
+        "data": 7,
+        "unique": 7,
+        "discussion": 8,
+        "bookmark": 7,
+        "tempo": 8,
+        "persona": 8,
+        "ng_check": 9
+      },
+      "average": 7.7
+    },
+    "pattern_id": "P03",
+    "hook_id": "H11",
+    "theme": "投資の基礎知識・考え方",
+    "research_id": "r_1774098453305_fd6p",
+    "posted_at": "2026-03-27T03:54:51.992Z",
+    "metrics": {
+      "impressions": 6,
+      "likes": 1,
+      "retweets": 0,
+      "replies": 0
+    },
+    "fetched_at": "2026-03-28T05:57:07.917Z"
+  },
+  {
+    "tweet_id": "2037377947494154598",
+    "text": "防災庁創設で建設株爆上げ？ちょっと待て。\n\n2026年11月設置予定だから、まだ1年半先の話。しかも国土強靭化予算は既に年5兆円規模で動いてる。新しい材料じゃないんだよね。\n\nむしろ注目すべきは老朽化インフラの更新需要。橋梁だけで全国73万橋のうち、建設から50年超が2033年に63%到達。\n\nこれ、景気に左右されない安定収益だから、むしろディフェンシブ銘柄として見るべきでは？",
+    "score": {
+      "scores": {
+        "buzz": 7,
+        "hook": 8,
+        "value": 8,
+        "data": 9,
+        "unique": 8,
+        "discussion": 8,
+        "bookmark": 7,
+        "tempo": 8,
+        "persona": 9,
+        "ng_check": 8
+      },
+      "average": 8
+    },
+    "pattern_id": "P12",
+    "hook_id": "H10",
+    "theme": "今日のバズニュース（国内）",
+    "research_id": "r_1774098453305_ne2o",
+    "posted_at": "2026-03-27T03:55:27.299Z",
+    "metrics": {
+      "impressions": 10,
+      "likes": 1,
+      "retweets": 0,
+      "replies": 0
+    },
+    "fetched_at": "2026-03-28T05:57:10.094Z"
+  },
+  {
+    "tweet_id": "2037378095687315910",
+    "text": "日銀が利上げ見送った今、半導体株どう動く？\n\n据え置きで円安継続→輸出企業には追い風\nでも4月利上げ示唆で長期金利は上昇圧力\n\n注目は：\n🔹東エレク：設備投資回復期待\n🔹信越化学：シリコンウエハー需要堅調\n🔹ソニーG：イメージセンサー復調\n\n金利敏感な成長株から、業績安定の大型株にシフトするタイミング？\n\nみんなはどの半導体株に注目してる？",
+    "score": {
+      "scores": {
+        "buzz": 7,
+        "hook": 8,
+        "value": 8,
+        "data": 5,
+        "unique": 6,
+        "discussion": 8,
+        "bookmark": 7,
+        "tempo": 8,
+        "persona": 8,
+        "ng_check": 9
+      },
+      "average": 7.4
+    },
+    "pattern_id": "P10",
+    "hook_id": "H05",
+    "theme": "テーマ投資（半導体・AI・防衛・原子力・宇宙・Physical AI）",
+    "research_id": "r_1774101046426_ec0w",
+    "posted_at": "2026-03-27T03:56:02.625Z",
+    "metrics": {
+      "impressions": 15,
+      "likes": 2,
+      "retweets": 0,
+      "replies": 0
+    },
+    "fetched_at": "2026-03-28T05:57:12.280Z"
+  },
+  {
+    "tweet_id": "2037378243884683335",
+    "text": "東証プライム1000社、純利益5年連続最高益って本当にすごい？\n\n前期比わずか1%増。これを「絶好調」って言うのは違和感ある。成長鈍化してない？\n\nAI投資ブームで設備投資は増えてるけど、それが利益に直結してるのは一部だけ。大部分は横ばい圏内。\n\n資本効率改革とか言ってるけど、ROEが劇的に改善した企業、どれくらいあるか知ってる？\n\nみんなはこの「5年連続最高益」をどう見てる？",
+    "score": {
+      "scores": {
+        "buzz": 7,
+        "hook": 8,
+        "value": 7,
+        "data": 6,
+        "unique": 7,
+        "discussion": 9,
+        "bookmark": 6,
+        "tempo": 8,
+        "persona": 8,
+        "ng_check": 10
+      },
+      "average": 7.6
+    },
+    "pattern_id": "P08",
+    "hook_id": "H05",
+    "theme": "日本株個別銘柄分析",
+    "research_id": "r_1774101046426_l176",
+    "posted_at": "2026-03-27T03:56:37.975Z",
+    "metrics": {
+      "impressions": 10,
+      "likes": 1,
+      "retweets": 0,
+      "replies": 0
+    },
+    "fetched_at": "2026-03-28T05:57:14.451Z"
+  },
+  {
+    "tweet_id": "2037378392048505078",
+    "text": "2026年IPO市場、意外と面白そう。\n\n件数は2025年比で減少予想だけど、ポケトークやスマートニュースなど質の高い大型案件が控えてる。\n\n問題は公開価格。最近のIPOは初値が公開価格割れするパターンが多い。逆に言えば、上場後に仕込むチャンスが増えてるってこと。\n\n2026年のIPO、どの銘柄が一番気になる？",
+    "score": {
+      "scores": {
+        "buzz": 7,
+        "hook": 8,
+        "value": 8,
+        "data": 6,
+        "unique": 7,
+        "discussion": 9,
+        "bookmark": 6,
+        "tempo": 8,
+        "persona": 8,
+        "ng_check": 9
+      },
+      "average": 7.6
+    },
+    "pattern_id": "P02",
+    "hook_id": "H20",
+    "theme": "決算速報・決算レビュー",
+    "research_id": "r_1774101046426_yksh",
+    "posted_at": "2026-03-27T03:57:13.280Z",
+    "metrics": {
+      "impressions": 13,
+      "likes": 2,
+      "retweets": 0,
+      "replies": 0
+    },
+    "fetched_at": "2026-03-28T05:57:16.633Z"
+  },
+  {
+    "tweet_id": "2037378889241206799",
+    "text": "🚨日銀30年ぶり利上げ決定！政策金利0.75%へ\n\n✅11か月ぶり追加利上げで0.25%上昇\n✅1995年以来の高水準達成\n✅長期金利2%突破で金融株に追い風\n✅実質金利はまだ低水準、継続利上げ示唆\n\n金融正常化が本格化！投資戦略の見直し必須💡\n\n#日銀利上げ #金融政策 #投資戦略",
+    "type": "image",
+    "pattern_id": "P08",
+    "hook_id": null,
+    "theme": "日銀金融政策決定会合結果 - 3月19日政策金利据え置き",
+    "research_id": "r_1774334096397_2opl",
+    "posted_at": "2026-03-27T03:59:11.891Z",
+    "metrics": {
+      "impressions": 16,
+      "likes": 2,
+      "retweets": 0,
+      "replies": 0
+    },
+    "fetched_at": "2026-03-28T05:57:18.807Z"
+  },
+  {
+    "tweet_id": "2037774401299701972",
+    "text": "🚨日銀がまた裏切った！？0.75%据え置きで金融株ピンチ⚡\n\n✅中東情勢で慎重姿勢\n✅30年ぶり高水準は維持\n✅銀行株は失望売りリスク\n✅次の利上げは夏以降に後ズレ\n\n政策転換の流れは変わらずも、タイミングが読めない展開に。金融株ホルダーは要注意⚠️\n\n#日銀 #金利 #銀行株",
+    "type": "image",
+    "pattern_id": "P11",
+    "hook_id": null,
+    "theme": "日銀、3月会合で政策金利0.75%据え置き決定",
+    "research_id": "r_1774334770119_ms8h",
+    "posted_at": "2026-03-28T06:10:52.283Z",
+    "metrics": null,
+    "fetched_at": null
+  },
+  {
+    "tweet_id": "2037774907006976226",
+    "text": "日銀が0.75%据え置きで金融株爆下げは間違ってると思う。\n\n声明文で「中東情勢による原油高が物価上昇率のプラス幅を拡大する」って明記してるのに、みんな見落としすぎ。\n\nこれ、4月会合での利上げフラグじゃん。原油価格次第だけど、金融株の仕込み時期かもしれない。\n\nみんなはどう読んだ？",
+    "score": {
+      "scores": {
+        "buzz": 7,
+        "hook": 8,
+        "value": 8,
+        "data": 7,
+        "specific": 7,
+        "unique": 7,
+        "discussion": 9,
+        "bookmark": 6,
+        "tempo": 8,
+        "ng_check": 4
+      },
+      "average": 7.1
+    },
+    "pattern_id": "P01",
+    "hook_id": "H18",
+    "theme": "決算速報・決算レビュー",
+    "research_id": "r_1774136177446_dwv1",
+    "posted_at": "2026-03-28T06:12:52.703Z",
+    "metrics": null,
+    "fetched_at": null
+  }
+]

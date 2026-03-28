@@ -1,0 +1,152 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 960" width="800" height="960">
+  <defs>
+    <!-- Donut dough gradient - warm golden brown -->
+    <radialGradient id="doughGrad" cx="0.4" cy="0.35" r="0.6">
+      <stop offset="0%" stop-color="#F5D5A0"/>
+      <stop offset="40%" stop-color="#E8B56A"/>
+      <stop offset="100%" stop-color="#C8883A"/>
+    </radialGradient>
+
+    <!-- Glaze gradient - warm coral to peach -->
+    <linearGradient id="glazeGrad" x1="0" y1="0" x2="0.8" y2="1">
+      <stop offset="0%" stop-color="#FF6B6B"/>
+      <stop offset="50%" stop-color="#FF8E72"/>
+      <stop offset="100%" stop-color="#FFAA85"/>
+    </linearGradient>
+
+    <!-- Subtle glaze shine -->
+    <radialGradient id="glazeShine" cx="0.3" cy="0.25" r="0.5">
+      <stop offset="0%" stop-color="rgba(255,255,255,0.35)"/>
+      <stop offset="100%" stop-color="rgba(255,255,255,0)"/>
+    </radialGradient>
+
+    <!-- Donut ring mask -->
+    <mask id="donutMask">
+      <rect width="800" height="960" fill="black"/>
+      <circle cx="400" cy="320" r="220" fill="white"/>
+      <circle cx="400" cy="320" r="90" fill="black"/>
+    </mask>
+
+    <!-- Glaze area mask (top ~65% of donut + drips) -->
+    <clipPath id="glazeClip">
+      <circle cx="400" cy="320" r="218"/>
+    </clipPath>
+
+    <!-- Shadow filter -->
+    <filter id="shadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="rgba(0,0,0,0.1)"/>
+    </filter>
+
+    <!-- Subtle inner shadow for donut hole -->
+    <filter id="innerGlow">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="4" result="blur"/>
+      <feOffset dx="0" dy="2" result="offset"/>
+      <feComposite in="SourceGraphic" in2="offset" operator="over"/>
+    </filter>
+  </defs>
+
+  <!-- === DONUT ICON === -->
+  <g filter="url(#shadow)">
+    <!-- Donut ring base (dough) -->
+    <g mask="url(#donutMask)">
+      <circle cx="400" cy="320" r="220" fill="url(#doughGrad)"/>
+
+      <!-- Dough texture - subtle rings -->
+      <circle cx="400" cy="320" r="200" fill="none" stroke="#D4943A" stroke-width="0.5" opacity="0.3"/>
+      <circle cx="400" cy="320" r="160" fill="none" stroke="#D4943A" stroke-width="0.5" opacity="0.2"/>
+
+      <!-- === GLAZE LAYER === -->
+      <!-- Glaze covers top portion with organic drip shapes -->
+      <path d="
+        M180,320
+        C180,198 276,102 400,102
+        C524,102 620,198 620,320
+        L620,340
+        C610,340 602,365 592,340
+        C582,340 575,340 565,340
+        C555,340 548,385 535,340
+        C525,340 515,340 505,340
+        C495,340 490,358 480,340
+        C470,340 460,340 450,340
+        C440,340 432,395 418,340
+        C408,340 398,340 388,340
+        C378,340 372,370 362,340
+        C352,340 342,340 332,340
+        C322,340 315,355 305,340
+        C295,340 285,340 275,340
+        C265,340 258,380 245,340
+        C235,340 225,340 215,340
+        C205,340 198,350 190,340
+        L180,340
+        Z
+      " fill="url(#glazeGrad)" clip-path="url(#glazeClip)"/>
+
+      <!-- Glaze shine/highlight -->
+      <path d="
+        M180,320
+        C180,198 276,102 400,102
+        C524,102 620,198 620,320
+        L620,340
+        C610,340 602,365 592,340
+        C582,340 575,340 565,340
+        C555,340 548,385 535,340
+        C525,340 515,340 505,340
+        C495,340 490,358 480,340
+        C470,340 460,340 450,340
+        C440,340 432,395 418,340
+        C408,340 398,340 388,340
+        C378,340 372,370 362,340
+        C352,340 342,340 332,340
+        C322,340 315,355 305,340
+        C295,340 285,340 275,340
+        C265,340 258,380 245,340
+        C235,340 225,340 215,340
+        C205,340 198,350 190,340
+        L180,340
+        Z
+      " fill="url(#glazeShine)" clip-path="url(#glazeClip)"/>
+
+      <!-- === NETWORK NODES (sprinkles that look like connection points) === -->
+      <!-- Node connections (thin lines between nodes) -->
+      <line x1="290" y1="210" x2="350" y2="170" stroke="white" stroke-width="1.8" opacity="0.4" stroke-linecap="round"/>
+      <line x1="350" y1="170" x2="430" y2="155" stroke="white" stroke-width="1.8" opacity="0.35" stroke-linecap="round"/>
+      <line x1="430" y1="155" x2="510" y2="190" stroke="white" stroke-width="1.8" opacity="0.4" stroke-linecap="round"/>
+      <line x1="350" y1="170" x2="370" y2="250" stroke="white" stroke-width="1.8" opacity="0.3" stroke-linecap="round"/>
+      <line x1="430" y1="155" x2="460" y2="235" stroke="white" stroke-width="1.8" opacity="0.3" stroke-linecap="round"/>
+      <line x1="290" y1="210" x2="260" y2="280" stroke="white" stroke-width="1.8" opacity="0.3" stroke-linecap="round"/>
+      <line x1="510" y1="190" x2="530" y2="265" stroke="white" stroke-width="1.8" opacity="0.3" stroke-linecap="round"/>
+
+      <!-- Node dots -->
+      <circle cx="290" cy="210" r="7" fill="white" opacity="0.95"/>
+      <circle cx="350" cy="170" r="5.5" fill="white" opacity="0.9"/>
+      <circle cx="430" cy="155" r="8" fill="white" opacity="0.95"/>
+      <circle cx="510" cy="190" r="6" fill="white" opacity="0.9"/>
+      <circle cx="370" cy="250" r="5" fill="white" opacity="0.85"/>
+      <circle cx="460" cy="235" r="6.5" fill="white" opacity="0.9"/>
+      <circle cx="260" cy="280" r="5" fill="white" opacity="0.85"/>
+      <circle cx="530" cy="265" r="5.5" fill="white" opacity="0.85"/>
+
+      <!-- Extra small accent sprinkles -->
+      <circle cx="320" cy="140" r="3" fill="white" opacity="0.6"/>
+      <circle cx="480" cy="145" r="3.5" fill="white" opacity="0.6"/>
+      <circle cx="230" cy="250" r="3" fill="white" opacity="0.55"/>
+      <circle cx="555" cy="240" r="3" fill="white" opacity="0.55"/>
+    </g>
+  </g>
+
+  <!-- === TYPOGRAPHY === -->
+  <!-- GMO - Bold, modern, tracked -->
+  <text x="400" y="660" text-anchor="middle"
+        font-family="'Inter', 'Helvetica Neue', 'Arial', sans-serif"
+        font-size="96" font-weight="800" fill="#2C2C2C" letter-spacing="18">GMO</text>
+
+  <!-- Donuts - Lighter weight, wider tracking -->
+  <text x="400" y="730" text-anchor="middle"
+        font-family="'Inter', 'Helvetica Neue', 'Arial', sans-serif"
+        font-size="42" font-weight="400" fill="#2C2C2C" letter-spacing="14">DONUTS</text>
+
+  <!-- Subtle tagline -->
+  <text x="400" y="790" text-anchor="middle"
+        font-family="'Inter', 'Helvetica Neue', 'Arial', sans-serif"
+        font-size="14" font-weight="400" fill="#999999" letter-spacing="6">CONNECT THROUGH FLAVOR</text>
+</svg>

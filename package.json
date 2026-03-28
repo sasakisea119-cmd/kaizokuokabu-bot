@@ -1,0 +1,24 @@
+{
+  "name": "x-kaizokuokabu-bot",
+  "version": "1.0.0",
+  "description": "X投資アカウント kaizokuokabu 自動投稿システム",
+  "main": "scripts/autopilot.js",
+  "scripts": {
+    "autopilot": "node scripts/autopilot.js",
+    "dashboard": "node scripts/dashboard.js",
+    "test-writer": "node agents/test-writer.js",
+    "writer": "node agents/writer.js",
+    "poster": "node agents/poster.js",
+    "retweeter": "node agents/retweeter.js",
+    "fetcher": "node agents/fetcher.js",
+    "analyst": "node agents/analyst.js",
+    "researcher": "node agents/researcher.js",
+    "supervisor": "node agents/supervisor.js",
+    "image-poster": "node agents/image-poster.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.39.0",
+    "@resvg/resvg-js": "^2.6.2",
+    "dotenv": "^16.4.0"
+  }
+}
