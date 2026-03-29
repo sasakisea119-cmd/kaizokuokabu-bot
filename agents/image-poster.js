@@ -27,71 +27,115 @@ function escSvg(str) {
     .replace(/"/g, '&quot;');
 }
 
-// インフォグラフィックSVGを生成
+// テキストを指定文字数で切り捨て
+function truncate(str, maxLen) {
+  const s = String(str || '');
+  return s.length > maxLen ? s.slice(0, maxLen - 1) + '…' : s;
+}
+
+// インフォグラフィックSVGを生成（動的レイアウト版）
 function buildInfographicSVG(data) {
   const W = 1200;
   const H = 675;
-  const bullets = data.bullets || [];
+  const FONT = "'Noto Sans CJK JP', 'Noto Sans JP', 'Yu Gothic UI', 'Meiryo', sans-serif";
+  const PAD = 60;
 
-  // 各バレットの色（上昇=緑、下落=赤、中立=青）
+  // bulletsは最大4件に絞る
+  const bullets = (data.bullets || []).slice(0, 4);
+
+  // 色決定
   function accentColor(change) {
     if (!change) return '#4EA8DE';
     const s = String(change);
-    if (s.includes('+') || s.includes('上') || s.includes('増')) return '#00E676';
-    if (s.includes('-') || s.includes('下') || s.includes('減')) return '#FF5252';
+    if (s.includes('+') || s.includes('上') || s.includes('増') || s.includes('高')) return '#00C853';
+    if (s.includes('-') || s.includes('下') || s.includes('減') || s.includes('低')) return '#FF5252';
     return '#4EA8DE';
   }
 
+  // 動的にy座標を計算
+  // ヘッダーエリア: 60〜200px (タイトル+サブタイトル)
+  // データエリア: 200〜580px
+  // フッター: 580〜675px
+  const dataAreaTop = 205;
+  const dataAreaBottom = 575;
+  const dataAreaH = dataAreaBottom - dataAreaTop;
+  const itemH = bullets.length > 0 ? Math.floor(dataAreaH / bullets.length) : dataAreaH;
+
   const bulletsSvg = bullets.map((b, i) => {
-    const y = 220 + i * 85;
+    const itemTop = dataAreaTop + i * itemH;
+    const midY = itemTop + itemH / 2;
     const color = accentColor(b.change);
+    const label = truncate(b.label, 18);
+    const value = truncate(b.value, 22);
+    const change = b.change ? truncate(b.change, 12) : '';
+
     return `
-      <rect x="80" y="${y}" width="6" height="60" rx="3" fill="${color}"/>
-      <text x="110" y="${y + 22}" font-family="'Yu Gothic UI', 'Meiryo', sans-serif" font-size="22" fill="#B0BEC5">${escSvg(b.label)}</text>
-      <text x="110" y="${y + 52}" font-family="'Yu Gothic UI', 'Meiryo', sans-serif" font-size="30" font-weight="bold" fill="#FFFFFF">${escSvg(b.value)}</text>
-      ${b.change ? `<text x="500" y="${y + 52}" font-family="'Yu Gothic UI', 'Meiryo', sans-serif" font-size="26" font-weight="bold" fill="${color}">${escSvg(b.change)}</text>` : ''}
+      <!-- 区切り線 -->
+      ${i > 0 ? `<line x1="${PAD}" y1="${itemTop}" x2="${W - PAD}" y2="${itemTop}" stroke="#1e2448" stroke-width="1"/>` : ''}
+      <!-- アクセントバー -->
+      <rect x="${PAD}" y="${midY - 28}" width="6" height="56" rx="3" fill="${color}"/>
+      <!-- ラベル -->
+      <text x="${PAD + 22}" y="${midY - 8}" font-family="${FONT}" font-size="20" fill="#90A4AE">${escSvg(label)}</text>
+      <!-- 数値 -->
+      <text x="${PAD + 22}" y="${midY + 26}" font-family="${FONT}" font-size="32" font-weight="bold" fill="#FFFFFF">${escSvg(value)}</text>
+      <!-- 変動 -->
+      ${change ? `<text x="${W - PAD - 20}" y="${midY + 26}" font-family="${FONT}" font-size="28" font-weight="bold" fill="${color}" text-anchor="end">${escSvg(change)}</text>` : ''}
     `;
   }).join('');
 
   const today = new Date().toLocaleDateString('ja-JP', { year: 'numeric', month: 'long', day: 'numeric' });
+  const title = truncate(data.title, 24);
+  const subtitle = truncate(data.subtitle, 36);
+  const conclusion = truncate(data.conclusion, 44);
 
   return `<?xml version="1.0" encoding="UTF-8"?>
 <svg width="${W}" height="${H}" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#0a0e27"/>
-      <stop offset="100%" style="stop-color:#1a1f3a"/>
+      <stop offset="0%" style="stop-color:#060b1a"/>
+      <stop offset="100%" style="stop-color:#0f1730"/>
+    </linearGradient>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#1565C0;stop-opacity:0.9"/>
+      <stop offset="100%" style="stop-color:#0D47A1;stop-opacity:0.4"/>
     </linearGradient>
   </defs>
 
   <!-- 背景 -->
   <rect width="${W}" height="${H}" fill="url(#bg)"/>
 
-  <!-- グリッド装飾 -->
-  ${Array.from({ length: 12 }, (_, i) => `<line x1="${i * 100}" y1="0" x2="${i * 100}" y2="${H}" stroke="#1e2448" stroke-width="1"/>`).join('')}
-  ${Array.from({ length: 7 }, (_, i) => `<line x1="0" y1="${i * 100}" x2="${W}" y2="${i * 100}" stroke="#1e2448" stroke-width="1"/>`).join('')}
+  <!-- ヘッダー背景 -->
+  <rect x="0" y="0" width="${W}" height="195" fill="url(#headerGrad)"/>
 
-  <!-- アクセントライン -->
-  <rect x="80" y="80" width="60" height="4" rx="2" fill="#4EA8DE"/>
+  <!-- アクセントライン（上部） -->
+  <rect x="0" y="0" width="${W}" height="5" fill="#1E88E5"/>
 
   <!-- タイトル -->
-  <text x="80" y="130" font-family="'Yu Gothic UI', 'Meiryo', sans-serif" font-size="36" font-weight="bold" fill="#FFFFFF">${escSvg(data.title)}</text>
+  <text x="${PAD}" y="80" font-family="${FONT}" font-size="42" font-weight="bold" fill="#FFFFFF">${escSvg(title)}</text>
 
   <!-- サブタイトル -->
-  ${data.subtitle ? `<text x="80" y="175" font-family="'Yu Gothic UI', 'Meiryo', sans-serif" font-size="20" fill="#78909C">${escSvg(data.subtitle)}</text>` : ''}
+  ${subtitle ? `<text x="${PAD}" y="130" font-family="${FONT}" font-size="22" fill="#90CAF9">${escSvg(subtitle)}</text>` : ''}
+
+  <!-- 日付タグ -->
+  <rect x="${PAD}" y="148" width="200" height="32" rx="6" fill="#0D47A1"/>
+  <text x="${PAD + 12}" y="170" font-family="${FONT}" font-size="16" fill="#90CAF9">${escSvg(today)}</text>
+
+  <!-- データエリア枠 -->
+  <rect x="${PAD - 10}" y="${dataAreaTop - 10}" width="${W - (PAD - 10) * 2}" height="${dataAreaH + 20}" rx="10" fill="#0a0f22" stroke="#1a2744" stroke-width="1"/>
 
   <!-- データ項目 -->
   ${bulletsSvg}
 
-  <!-- 結論 -->
-  ${data.conclusion ? `
-  <rect x="80" y="${220 + bullets.length * 85 + 10}" width="${W - 160}" height="50" rx="8" fill="#1a2744" stroke="#2a3a5c" stroke-width="1"/>
-  <text x="100" y="${220 + bullets.length * 85 + 42}" font-family="'Yu Gothic UI', 'Meiryo', sans-serif" font-size="20" fill="#90CAF9">${escSvg(data.conclusion)}</text>
+  <!-- 結論エリア -->
+  ${conclusion ? `
+  <rect x="${PAD - 10}" y="${dataAreaBottom + 10}" width="${W - (PAD - 10) * 2}" height="58" rx="8" fill="#0D47A1" opacity="0.7"/>
+  <text x="${PAD + 10}" y="${dataAreaBottom + 47}" font-family="${FONT}" font-size="22" fill="#FFFFFF">💡 ${escSvg(conclusion)}</text>
   ` : ''}
 
-  <!-- ウォーターマーク -->
-  <text x="${W - 80}" y="${H - 30}" font-family="'Yu Gothic UI', 'Meiryo', sans-serif" font-size="16" fill="#546E7A" text-anchor="end">@kaizokuokabu</text>
-  <text x="80" y="${H - 30}" font-family="'Yu Gothic UI', 'Meiryo', sans-serif" font-size="14" fill="#37474F">${escSvg(today)}</text>
+  <!-- フッター -->
+  <rect x="0" y="${H - 38}" width="${W}" height="38" fill="#060b1a"/>
+  <text x="${PAD}" y="${H - 14}" font-family="${FONT}" font-size="15" fill="#37474F">#日本株 #投資 #kaizokuokabu</text>
+  <text x="${W - PAD}" y="${H - 14}" font-family="${FONT}" font-size="18" font-weight="bold" fill="#1E88E5" text-anchor="end">@kaizokuokabu</text>
 </svg>`;
 }
 
@@ -115,16 +159,20 @@ async function generateInfographicData(researchItem) {
 
 以下のJSON形式で出力してください：
 {
-  "title": "インフォグラフィックのタイトル（20文字以内、インパクトのある表現）",
-  "subtitle": "サブタイトル（30文字以内）",
+  "title": "タイトル（最大20文字、インパクト重視）",
+  "subtitle": "サブタイトル（最大30文字）",
   "bullets": [
-    { "label": "項目名", "value": "具体的な数値やデータ", "change": "+15%（変動がある場合）" }
+    { "label": "項目名（最大12文字）", "value": "数値データ（最大18文字）", "change": "±XX%（変動がある場合のみ、最大8文字）" }
   ],
-  "conclusion": "まとめの一言（40文字以内）",
-  "tweet_text": "この画像に添えるツイート本文（200文字以内、フック力のある1行目＋簡潔な解説）"
+  "conclusion": "まとめ（最大38文字）",
+  "tweet_text": "添付ツイート本文（最大200文字、フック力のある1行目＋簡潔な解説）"
 }
 
-bullets は3〜5項目。必ず具体的な数字を含めること。
+重要ルール：
+- bullets は3〜4項目（4項目以内厳守）
+- labelは短く、valueは具体的な数字を必ず含める
+- changeはパーセンテージや増減を示す場合のみ設定（例: +12.5%、-3.2%、前年比+15%）
+- 全フィールドで文字数制限を厳守すること
 JSONのみ出力してください。`
     }],
     system: 'あなたはX（旧Twitter）の投資アカウント「kaizokuokabu」です。バズを最優先に。JSONのみ出力。'
