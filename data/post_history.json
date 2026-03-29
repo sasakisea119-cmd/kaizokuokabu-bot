@@ -727,8 +727,13 @@
     "theme": "日銀、3月会合で政策金利0.75%据え置き決定",
     "research_id": "r_1774334770119_ms8h",
     "posted_at": "2026-03-28T06:10:52.283Z",
-    "metrics": null,
-    "fetched_at": null
+    "metrics": {
+      "impressions": 5,
+      "likes": 1,
+      "retweets": 0,
+      "replies": 0
+    },
+    "fetched_at": "2026-03-29T23:04:34.353Z"
   },
   {
     "tweet_id": "2037774907006976226",
@@ -753,6 +758,127 @@
     "theme": "決算速報・決算レビュー",
     "research_id": "r_1774136177446_dwv1",
     "posted_at": "2026-03-28T06:12:52.703Z",
+    "metrics": {
+      "impressions": 11,
+      "likes": 1,
+      "retweets": 0,
+      "replies": 0
+    },
+    "fetched_at": "2026-03-29T23:04:36.492Z"
+  },
+  {
+    "tweet_id": "2038399817655677017",
+    "text": "AI・半導体が2026年も投資の主役確定💪\n\n✅専門家106人中64%が強気\n✅半導体市場9,755億ドル（+26%）\n✅AI市場385億ドル（+23%）\n✅フィジカルAI革命が本格化\n\n調整局面は絶好の押し目買いチャンス。構造的成長テーマで中長期的投資妙味あり👑\n\n#AI半導体 #投資",
+    "type": "image",
+    "pattern_id": "P02",
+    "hook_id": null,
+    "theme": "AI・半導体関連株が2026年も投資テーマの中心に",
+    "research_id": "r_1774334770119_y9ur",
+    "posted_at": "2026-03-29T23:36:03.109Z",
+    "metrics": null,
+    "fetched_at": null
+  },
+  {
+    "tweet_id": "2038400578645049825",
+    "text": "正直に言う。今のIPO市場で一番怖いのは暴落じゃなくて、良い銘柄を初値で買い逃すこと。\n\n2024年のIPO平均騰落率は+23.4%。でもセカンダリーで追いかけた人の8割は損してる。\n\n初値が高くても本当に成長する企業なら3年後には安い買い物だった、というのが投資の現実。\n\n問題は見極め方。みんなはIPO銘柄の何を最重視してる？",
+    "score": {
+      "scores": {
+        "buzz": 8,
+        "hook": 9,
+        "value": 8,
+        "data": 7,
+        "unique": 7,
+        "discussion": 9,
+        "bookmark": 7,
+        "tempo": 8,
+        "persona": 8,
+        "ng_check": 6
+      },
+      "average": 7.7
+    },
+    "pattern_id": "P06",
+    "hook_id": "H24",
+    "theme": "IPO分析・セカンダリー",
+    "research_id": "r_1774136177446_k4ss",
+    "posted_at": "2026-03-29T23:39:04.423Z",
+    "metrics": null,
+    "fetched_at": null
+  },
+  {
+    "tweet_id": "2038400831813267674",
+    "text": "正直に言うと、今年のIPO銘柄の9割は上場後に株価が下落してる。\n\nでも残り1割が爆発的に上がってるから、全体の平均リターンはプラス。これがIPO投資の本質。\n\n成功パターン：\n・時価総額200億円未満\n・営業利益率15%以上\n・創業者持株比率30%以上\n\n失敗パターン：\n・親会社の子会社上場\n・VCの持株比率50%超\n・上場時PER40倍以上\n\nIPOは宝くじじゃない。ちゃんと選べば勝てる。\n\nあなたが最近注目してるIPO銘柄は？",
+    "score": {
+      "scores": {
+        "buzz": 8,
+        "hook": 9,
+        "value": 9,
+        "data": 9,
+        "unique": 8,
+        "discussion": 9,
+        "bookmark": 9,
+        "tempo": 8,
+        "persona": 9,
+        "ng_check": 7
+      },
+      "average": 8.5
+    },
+    "pattern_id": "P05",
+    "hook_id": "H28",
+    "theme": "IPO分析・セカンダリー",
+    "research_id": "r_1774136177446_2j0e",
+    "posted_at": "2026-03-29T23:40:04.739Z",
+    "metrics": null,
+    "fetched_at": null
+  },
+  {
+    "tweet_id": "2038401085006619028",
+    "text": "IPO投資で勝てない人の共通点、これ。\n\n上場初日に飛びつく→高値掴み\n公開価格割れを狙う→そのまま下落\n業績だけ見る→需給を無視\n\nセカンダリーで勝つなら上場3ヶ月後。機関投資家のロックアップ解除前が狙い目。今年のIPOで公開価格から+50%以上は8社だけ。\n\nあなたはどのタイミングでIPO買ってる？",
+    "score": {
+      "scores": {
+        "buzz": 8,
+        "hook": 9,
+        "value": 8,
+        "data": 7,
+        "unique": 7,
+        "discussion": 8,
+        "bookmark": 8,
+        "tempo": 9,
+        "persona": 8,
+        "ng_check": 6
+      },
+      "average": 7.6
+    },
+    "pattern_id": "P15",
+    "hook_id": "H06",
+    "theme": "IPO分析・セカンダリー",
+    "research_id": "r_1774136177446_5k93",
+    "posted_at": "2026-03-29T23:41:05.104Z",
+    "metrics": null,
+    "fetched_at": null
+  },
+  {
+    "tweet_id": "2038401338006962452",
+    "text": "5年連続最高益更新。これが日本企業の実力。\n\n2026年3月期の上場企業業績見通し、従来の2%減から1%増に上方修正。AI投資需要と事業ポートフォリオ改革が効いてる。\n\n注目すべきは利益率の改善。資本効率改革でROEも最高水準に。これでもまだ「日本株はダメ」って言う人いる？\n\nデータ見てから判断しようよ。",
+    "score": {
+      "scores": {
+        "buzz": 7,
+        "hook": 8,
+        "value": 7,
+        "data": 6,
+        "unique": 6,
+        "discussion": 8,
+        "persona": 7,
+        "bookmark": 6,
+        "tempo": 8,
+        "ng_check": 9
+      },
+      "average": 7.2
+    },
+    "pattern_id": "P01",
+    "hook_id": "H29",
+    "theme": "決算速報・決算レビュー",
+    "research_id": "r_1774334096397_1576",
+    "posted_at": "2026-03-29T23:42:05.449Z",
     "metrics": null,
     "fetched_at": null
   }
