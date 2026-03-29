@@ -1,9 +1,6 @@
-require('dotenv').config({ path: require('path').join(__dirname, '..', 'config', '.env'), override: true });
 const fs = require('fs');
 const path = require('path');
-const Anthropic = require('@anthropic-ai/sdk');
-
-const anthropic = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY });
+const { createWithRetry } = require('../lib/anthropic-client');
 const DATA_DIR = path.join(__dirname, '..', 'data');
 const KNOWLEDGE_DIR = path.join(__dirname, '..', 'knowledge');
 
@@ -21,7 +18,7 @@ function writeJSON(filePath, data) {
 
 // Anthropic APIでWeb検索を使ってリサーチ
 async function searchWithClaude(prompt) {
-  const response = await anthropic.messages.create({
+  const response = await createWithRetry({
     model: 'claude-sonnet-4-20250514',
     max_tokens: 4096,
     tools: [{ type: 'web_search_20250305', name: 'web_search' }],
@@ -35,7 +32,7 @@ async function searchWithClaude(prompt) {
 
 // Web検索結果からツイートURLを抽出する版
 async function searchBuzzTweets(prompt) {
-  const response = await anthropic.messages.create({
+  const response = await createWithRetry({
     model: 'claude-sonnet-4-20250514',
     max_tokens: 4096,
     tools: [{ type: 'web_search_20250305', name: 'web_search' }],

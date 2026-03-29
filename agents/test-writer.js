@@ -1,9 +1,6 @@
-require('dotenv').config({ path: require('path').join(__dirname, '..', 'config', '.env'), override: true });
 const fs = require('fs');
 const path = require('path');
-const Anthropic = require('@anthropic-ai/sdk');
-
-const anthropic = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY });
+const { createWithRetry } = require('../lib/anthropic-client');
 const KNOWLEDGE_DIR = path.join(__dirname, '..', 'knowledge');
 const DATA_DIR = path.join(__dirname, '..', 'data');
 
@@ -64,7 +61,7 @@ ${JSON.stringify(buzzRef.structural_patterns, null, 2)}
 
 投稿テキストだけを出力してください。`;
 
-  const response = await anthropic.messages.create({
+  const response = await createWithRetry({
     model: 'claude-sonnet-4-20250514',
     max_tokens: 1024,
     messages: [{ role: 'user', content: `テーマ「${theme}」で投稿を1本生成してください。` }],
@@ -74,7 +71,7 @@ ${JSON.stringify(buzzRef.structural_patterns, null, 2)}
   const postText = response.content[0].text.trim();
 
   // 採点
-  const scoreResponse = await anthropic.messages.create({
+  const scoreResponse = await createWithRetry({
     model: 'claude-sonnet-4-20250514',
     max_tokens: 512,
     messages: [{

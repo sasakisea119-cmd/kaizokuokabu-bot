@@ -1,11 +1,8 @@
-require('dotenv').config({ path: require('path').join(__dirname, '..', 'config', '.env'), override: true });
 const fs = require('fs');
 const path = require('path');
 const { Resvg } = require('@resvg/resvg-js');
-const Anthropic = require('@anthropic-ai/sdk');
+const { createWithRetry } = require('../lib/anthropic-client');
 const { uploadMedia, postTweetWithMedia } = require('../lib/x-api');
-
-const anthropic = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY });
 const DATA_DIR = path.join(__dirname, '..', 'data');
 const KNOWLEDGE_DIR = path.join(__dirname, '..', 'knowledge');
 
@@ -108,7 +105,7 @@ async function generateInfographicData(researchItem) {
 投資観点: ${researchItem.investment_angle}`
     : `今日の日本株または米国株に関する注目トピックについて、投資家向けインフォグラフィック用のデータを作成してください。`;
 
-  const response = await anthropic.messages.create({
+  const response = await createWithRetry({
     model: 'claude-sonnet-4-20250514',
     max_tokens: 1024,
     tools: [{ type: 'web_search_20250305', name: 'web_search' }],

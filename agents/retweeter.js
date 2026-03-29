@@ -1,10 +1,7 @@
-require('dotenv').config({ path: require('path').join(__dirname, '..', 'config', '.env'), override: true });
 const fs = require('fs');
 const path = require('path');
-const Anthropic = require('@anthropic-ai/sdk');
+const { createWithRetry } = require('../lib/anthropic-client');
 const { quoteTweet } = require('../lib/x-api');
-
-const anthropic = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY });
 const DATA_DIR = path.join(__dirname, '..', 'data');
 const KNOWLEDGE_DIR = path.join(__dirname, '..', 'knowledge');
 
@@ -70,7 +67,7 @@ async function run() {
 
     try {
       // コメント生成
-      const response = await anthropic.messages.create({
+      const response = await createWithRetry({
         model: 'claude-sonnet-4-20250514',
         max_tokens: 256,
         messages: [{

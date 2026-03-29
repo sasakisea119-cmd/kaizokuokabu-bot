@@ -1,9 +1,6 @@
-require('dotenv').config({ path: require('path').join(__dirname, '..', 'config', '.env'), override: true });
 const fs = require('fs');
 const path = require('path');
-const Anthropic = require('@anthropic-ai/sdk');
-
-const anthropic = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY });
+const { createWithRetry } = require('../lib/anthropic-client');
 const DATA_DIR = path.join(__dirname, '..', 'data');
 
 function readJSON(filePath, fallback = []) {
@@ -47,7 +44,7 @@ async function run() {
     posted_at: h.posted_at
   }));
 
-  const response = await anthropic.messages.create({
+  const response = await createWithRetry({
     model: 'claude-sonnet-4-20250514',
     max_tokens: 2048,
     messages: [{
