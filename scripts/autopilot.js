@@ -79,7 +79,7 @@ async function main() {
   // 8. scheduler起動
   console.log('\n--- Step 7: Scheduler スケジュール投稿 ---');
   const scheduler = require('../agents/scheduler');
-  await scheduler.run(5, 5400); // 5本、1.5時間おき
+  await scheduler.run(5, 60); // 5本、60秒間隔（GitHub Actions用）
 
   console.log('\n========================================');
   console.log(' 自動運転完了');
