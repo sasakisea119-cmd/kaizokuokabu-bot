@@ -94,6 +94,12 @@ function extractJSON(text) {
   return [];
 }
 
+// 当日ニュースかどうかを判定（published_dateが今日でないものを除外）
+function isTodayNews(item, today) {
+  if (!item.published_date) return true; // 日付不明は通す（保守的）
+  return item.published_date.startsWith(today);
+}
+
 async function run() {
   console.log('[researcher] リサーチ開始...');
 
@@ -101,43 +107,59 @@ async function run() {
   const poolPath = path.join(DATA_DIR, 'research_pool.json');
   let pool = readJSON(poolPath);
 
-  const today = new Date().toISOString().split('T')[0];
+  // JSTの今日の日付を使用
+  const jstNow = new Date(Date.now() + 9 * 60 * 60 * 1000);
+  const today = jstNow.toISOString().split('T')[0];
+  const yesterday = new Date(jstNow - 86400000).toISOString().split('T')[0];
   let newItems = [];
 
   // A. 国内の最新投資ニュース
   console.log('  [researcher] 国内ニュースを検索中...');
   try {
     const domesticResult = await searchWithClaude(
-      `今日（${today}）の日本の投資関連ニュースを検索して、以下のテーマについて情報を収集してください：
-- 日本株市場の動向（日経平均、TOPIX）
-- 注目の決算発表
-- 日銀の金融政策
-- 日本の経済指標
-- 注目のIPO
-- テーマ投資（半導体、AI、防衛、原子力、宇宙）の国内動向
+      `【重要】本日${today}（JST）に公開・発表されたばかりの日本の投資関連ニュースのみを検索してください。
+昨日以前のニュースは絶対に含めないでください。「今日」「本日」「速報」などのキーワードで絞ってください。
 
-各ニュースについて以下のJSON配列形式で出力してください：
+対象テーマ：
+- 日本株市場の本日の動向（日経平均、TOPIX、今日の終値・変動率）
+- 本日発表の決算（企業名・証券コード・増減益率を含む）
+- 日銀の本日の発言・政策動向
+- 本日発表の日本の経済指標
+- 本日のIPO・新規上場
+- 半導体・AI・防衛・原子力・宇宙の本日ニュース
+
+以下のJSON配列形式で出力してください（当日ニュースのみ）：
 [
   {
     "title": "ニュースのタイトル",
-    "summary": "要約（2〜3文）",
-    "investment_angle": "投資家目線での分析ポイント",
+    "published_date": "${today}",
+    "summary": "要約（2〜3文、具体的な数字・銘柄名・証券コードを含む）",
+    "investment_angle": "投資家目線での分析ポイント（なぜ今日重要か）",
+    "tickers": ["7203", "6758"],
+    "keywords": ["日経平均", "半導体", "決算"],
     "recommended_pattern": "P01〜P17のいずれか",
-    "urgency": "high / medium / low"
+    "urgency": "high（速報・当日発表）/ medium / low"
   }
 ]
 
-JSON配列のみ出力してください。`
+JSON配列のみ出力してください。古いニュースは絶対に含めないこと。`
     );
 
     const domesticItems = extractJSON(domesticResult);
-    for (const item of domesticItems) {
+    const todayItems = domesticItems.filter(item => isTodayNews(item, today));
+    const skipped = domesticItems.length - todayItems.length;
+    if (skipped > 0) console.log(`  [researcher] 当日フィルタ: ${skipped}件除外`);
+
+    for (const item of todayItems) {
       newItems.push({
         id: `r_${Date.now()}_${Math.random().toString(36).substring(2, 6)}`,
         theme: item.title || 'domestic',
         title: item.title || '',
+        published_date: item.published_date || today,
         summary: item.summary || '',
         investment_angle: item.investment_angle || '',
+        tickers: item.tickers || [],
+        keywords: item.keywords || [],
         recommended_pattern: item.recommended_pattern || 'P14',
         urgency: item.urgency || 'medium',
         source_type: 'domestic',
@@ -145,7 +167,7 @@ JSON配列のみ出力してください。`
         used: false
       });
     }
-    console.log(`  [researcher] 国内ニュース: ${domesticItems.length}件収集`);
+    console.log(`  [researcher] 国内ニュース: ${todayItems.length}件収集（当日のみ）`);
   } catch (err) {
     console.error(`  [researcher] 国内ニュース検索エラー: ${err.message}`);
   }
@@ -157,20 +179,26 @@ JSON配列のみ出力してください。`
   console.log('  [researcher] 海外ニュースを検索中...');
   try {
     const internationalResult = await searchWithClaude(
-      `今日（${today}）の海外投資関連ニュースを検索して収集してください：
-- 米国株市場（S&P500, NASDAQ）の動向
-- FRBの金融政策
-- 米国の主要企業決算（FAANG, 半導体等）
-- 地政学リスク（米中関係、中東等の市場影響）
-- グローバルなテーマ投資トレンド
-- 暗号資産・新興市場の動向
+      `【重要】本日${today}（JST）/ ${yesterday}（米国時間）に発表・公開された海外投資関連ニュースのみを検索してください。
+古いニュースは絶対に含めないでください。
 
-JSON配列形式で出力：
+対象テーマ：
+- 米国株市場の本日の動向（S&P500・NASDAQ・NYダウの変動率・終値）
+- FRBの本日の発言・政策決定
+- 本日発表の米国主要企業決算（FAANG・半導体・AI企業、EPS・売上の実績vs予想）
+- 地政学リスクの本日の動き（米中・中東・ウクライナ）
+- 本日のグローバルテーマ投資トレンド
+- 本日の暗号資産価格動向
+
+JSON配列形式で出力（当日ニュースのみ）：
 [
   {
     "title": "ニュースのタイトル",
-    "summary": "要約（2〜3文）",
+    "published_date": "${today}",
+    "summary": "要約（2〜3文、具体的な数字・ティッカーシンボルを含む）",
     "investment_angle": "投資家目線での分析ポイント",
+    "tickers": ["NVDA", "AAPL"],
+    "keywords": ["S&P500", "FRB", "半導体"],
     "recommended_pattern": "P01〜P17のいずれか",
     "urgency": "high / medium / low"
   }
@@ -180,13 +208,20 @@ JSON配列のみ出力してください。`
     );
 
     const intlItems = extractJSON(internationalResult);
-    for (const item of intlItems) {
+    const todayIntlItems = intlItems.filter(item => isTodayNews(item, today));
+    const skippedIntl = intlItems.length - todayIntlItems.length;
+    if (skippedIntl > 0) console.log(`  [researcher] 当日フィルタ（海外）: ${skippedIntl}件除外`);
+
+    for (const item of todayIntlItems) {
       newItems.push({
         id: `r_${Date.now()}_${Math.random().toString(36).substring(2, 6)}`,
         theme: item.title || 'international',
         title: item.title || '',
+        published_date: item.published_date || today,
         summary: item.summary || '',
         investment_angle: item.investment_angle || '',
+        tickers: item.tickers || [],
+        keywords: item.keywords || [],
         recommended_pattern: item.recommended_pattern || 'P14',
         urgency: item.urgency || 'medium',
         source_type: 'international',
@@ -194,7 +229,7 @@ JSON配列のみ出力してください。`
         used: false
       });
     }
-    console.log(`  [researcher] 海外ニュース: ${intlItems.length}件収集`);
+    console.log(`  [researcher] 海外ニュース: ${todayIntlItems.length}件収集（当日のみ）`);
   } catch (err) {
     console.error(`  [researcher] 海外ニュース検索エラー: ${err.message}`);
   }
@@ -202,19 +237,23 @@ JSON配列のみ出力してください。`
   // レートリミット回避: 65秒待機
   await new Promise(r => setTimeout(r, 65000));
 
-  // C. Xでバズっている投資系の話題
+  // C. Xでバズっている投資系の話題（今日の話題に絞る）
   console.log('  [researcher] Xトレンドを検索中...');
   try {
     const trendingResult = await searchWithClaude(
-      `X（Twitter）の日本語の投資クラスタで今バズっている話題、トレンドになっている銘柄やテーマを検索してください。
-日本語の投資系ツイートで話題になっていること、議論になっていることを5個挙げてください。
+      `本日${today}、X（Twitter）の日本語の投資クラスタで話題になっていること・バズっていることを検索してください。
+今日の相場に関連した話題、本日の決算・ニュースへの反応、今日トレンドの銘柄やテーマを5個挙げてください。
+昨日以前の古い話題は除外してください。
 
 JSON配列形式で出力：
 [
   {
     "title": "話題のタイトル",
+    "published_date": "${today}",
     "summary": "どんな議論がされているか（2〜3文）",
     "investment_angle": "この話題を投稿に活かすポイント",
+    "tickers": ["7203"],
+    "keywords": ["半導体", "決算"],
     "recommended_pattern": "P08やP11など適切なパターン",
     "urgency": "high / medium / low"
   }
@@ -229,8 +268,11 @@ JSON配列のみ出力してください。`
         id: `r_${Date.now()}_${Math.random().toString(36).substring(2, 6)}`,
         theme: item.title || 'trending',
         title: item.title || '',
+        published_date: item.published_date || today,
         summary: item.summary || '',
         investment_angle: item.investment_angle || '',
+        tickers: item.tickers || [],
+        keywords: item.keywords || [],
         recommended_pattern: item.recommended_pattern || 'P11',
         urgency: item.urgency || 'medium',
         source_type: 'trending',

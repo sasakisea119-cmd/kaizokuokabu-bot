@@ -102,17 +102,42 @@ ${JSON.stringify(topPatterns, null, 2)}
 
 ${feedback ? `## アナリストフィードバック\n${JSON.stringify(feedback, null, 2)}` : ''}
 
+## 検索流入を最大化するルール（必須）
+Xの検索・アルゴリズムに引っかかりやすくするため、以下を必ず守る：
+
+1. **キャッシュタグ**：銘柄・指数には$マークを付ける
+   - 日本株: $7203（トヨタ）、$6758（ソニー）、$6857（アドバンテスト）、$8306（三菱UFJ）など
+   - 米国株: $NVDA、$AAPL、$TSLA、$TSM、$MSFT など
+   - 指数: $NIKKEI、$SPX、$QQQ など
+   - キャッシュタグはXの検索で専用フィルターとして機能する（必ず使う）
+
+2. **銘柄名は正式名称＋コードで書く**
+   - 例：「東京エレクトロン（$8035）」「エヌビディア（$NVDA）」
+
+3. **検索されやすいキーワードを自然に含める**
+   - 時事：決算、増配、減益、利上げ、円安、円高、日銀、FRB
+   - テーマ：半導体、生成AI、Physical AI、防衛株、原子力、宇宙
+   - 指標：PER、ROE、EPS、売上高、営業利益率
+
+4. **ネタのtickers・keywordsを優先的に使う**（research_poolから来た場合）
+
 ## 絶対ルール
 - 特定銘柄の「買い推奨」「売り推奨」はしない
 - 免責文不要（プロフィールに記載済み）
-- ハッシュタグ0〜2個
+- ハッシュタグ0〜2個（キャッシュタグ$は別扱いで上限なし）
 - 1行目でスクロールを止める`;
 
   const userPrompt = `テーマ「${selectedTheme}」でツイートを生成し、JSONで出力してください。
 
 ツイートタイプ: ${tweetTypeInstructions[tweetType]}
 
-${researchItem ? `最新ネタ（優先使用）:\nタイトル: ${researchItem.title}\n要約: ${researchItem.summary}\n投資角度: ${researchItem.investment_angle}` : ''}
+${researchItem ? `最新ネタ（優先使用・当日ニュース）:
+タイトル: ${researchItem.title}
+要約: ${researchItem.summary}
+投資角度: ${researchItem.investment_angle}
+関連ティッカー: ${(researchItem.tickers || []).map(t => '$' + t).join(', ') || 'なし'}
+キーワード: ${(researchItem.keywords || []).join(', ') || 'なし'}
+→ 上記のキャッシュタグ・キーワードを投稿に自然に含めること` : ''}
 
 出力形式（JSONのみ、余計なテキスト一切不要）:
 {"text":"投稿テキスト","scores":{"buzz":0,"hook":0,"value":0,"data":0,"unique":0,"discussion":0,"bookmark":0,"tempo":0,"persona":0,"ng_check":0},"average":0.0}
