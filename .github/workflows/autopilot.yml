@@ -2,9 +2,18 @@ name: kaizokuokabu autopilot
 
 on:
   schedule:
-    # 毎日朝7時（JST）= UTC 22:00（前日）
+    # 朝7時 JST（UTC 22:00 前日）: フル実行 - researcher+writer+画像+投稿5本
     - cron: '0 22 * * *'
-  workflow_dispatch: # 手動実行も可能
+    # 昼12時半 JST（UTC 03:30）: 投稿3本+引用RT2本
+    - cron: '30 3 * * *'
+    # 夜21時 JST（UTC 12:00）: researcher+writer+投稿2本+引用RT1本
+    - cron: '0 12 * * *'
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: '実行モード (morning/noon/evening/full)'
+        required: false
+        default: 'full'
 
 jobs:
   autopilot:
@@ -35,12 +44,21 @@ jobs:
           X_API_SECRET: ${{ secrets.X_API_SECRET }}
           X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
           X_ACCESS_TOKEN_SECRET: ${{ secrets.X_ACCESS_TOKEN_SECRET }}
-        run: node scripts/autopilot.js
+        run: |
+          # workflow_dispatch の場合はinputのmodeを使用
+          MODE="${{ github.event.inputs.mode }}"
+          if [ -n "$MODE" ]; then
+            node scripts/autopilot.js --$MODE
+          else
+            # cronトリガーの場合は時刻から自動判定
+            node scripts/autopilot.js
+          fi
 
       - name: Commit updated data files
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          git pull --rebase origin master || true
           git add data/
-          git diff --staged --quiet || git commit -m "chore: update data files [autopilot $(date -u +%Y-%m-%d)]"
+          git diff --staged --quiet || git commit -m "chore: update data files [autopilot $(date -u +%Y-%m-%dT%H:%M)]"
           git push

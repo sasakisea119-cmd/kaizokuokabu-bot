@@ -324,7 +324,42 @@ JSON配列のみ出力してください。`
   console.log(`[researcher] 完了: ${newItems.length}件追加、プール合計: ${pool.length}件`);
 }
 
-module.exports = { run };
+// 軽量版：バズツイート候補収集のみ（昼モード用・API1回で完結）
+async function runBuzzOnly() {
+  console.log('[researcher] バズツイート候補収集（軽量）...');
+  const today = new Date().toISOString().split('T')[0];
+  const candidatesPath = path.join(DATA_DIR, 'retweet_candidates.json');
+  const rtHistoryPath = path.join(DATA_DIR, 'retweet_history.json');
+  const existingCandidates = readJSON(candidatesPath);
+  const rtHistory = readJSON(rtHistoryPath);
+
+  const usedIds = new Set([
+    ...existingCandidates.map(c => c.tweet_id),
+    ...rtHistory.map(r => r.quoted_tweet_id)
+  ]);
+
+  try {
+    const found = await searchBuzzTweets(
+      `今日（${today}）の日本語投資Xアカウントでバズっているツイートを検索してください。
+      いいね・RTが多い投資系ツイートのURLと内容を5件教えてください。`
+    );
+
+    const newCandidates = [];
+    for (const [tweetId, context] of found) {
+      if (!usedIds.has(tweetId) && newCandidates.length < 5) {
+        newCandidates.push({ tweet_id: tweetId, context: context.substring(0, 200), found_at: new Date().toISOString() });
+      }
+    }
+
+    const merged = [...existingCandidates, ...newCandidates].slice(0, 10);
+    writeJSON(candidatesPath, merged);
+    console.log(`[researcher] バズツイート${newCandidates.length}件追加、合計${merged.length}件`);
+  } catch (err) {
+    console.error(`[researcher] バズツイート収集エラー: ${err.message}`);
+  }
+}
+
+module.exports = { run, runBuzzOnly };
 
 if (require.main === module) {
   run().catch(console.error);

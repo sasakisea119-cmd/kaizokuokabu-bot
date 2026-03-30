@@ -16,26 +16,24 @@ function writeJSON(filePath, data) {
   fs.writeFileSync(filePath, JSON.stringify(data, null, 2), 'utf-8');
 }
 
-// パターン選択（直近3件と被らない）
 function selectPattern(patterns, history) {
   const recent3 = history.slice(-3).map(h => h.pattern_id);
   const available = patterns.filter(p => !recent3.includes(p.id));
-  if (available.length === 0) return patterns[Math.floor(Math.random() * patterns.length)];
-  return available[Math.floor(Math.random() * available.length)];
+  return available.length > 0
+    ? available[Math.floor(Math.random() * available.length)]
+    : patterns[Math.floor(Math.random() * patterns.length)];
 }
 
-// フック選択（直近5件と被らない）
 function selectHook(hooks, history) {
   const recent5 = history.slice(-5).map(h => h.hook_id);
   const available = hooks.filter(h => !recent5.includes(h.id));
-  if (available.length === 0) return hooks[Math.floor(Math.random() * hooks.length)];
-  return available[Math.floor(Math.random() * available.length)];
+  return available.length > 0
+    ? available[Math.floor(Math.random() * available.length)]
+    : hooks[Math.floor(Math.random() * hooks.length)];
 }
 
-// テーマ選択（3回連続禁止）
 function selectTheme(themes, history) {
   const recent3 = history.slice(-3).map(h => h.theme);
-  // 全部同じテーマなら除外
   if (recent3.length === 3 && recent3.every(t => t === recent3[0])) {
     const filtered = themes.filter(t => t !== recent3[0]);
     if (filtered.length > 0) return filtered[Math.floor(Math.random() * filtered.length)];
@@ -43,55 +41,83 @@ function selectTheme(themes, history) {
   return themes[Math.floor(Math.random() * themes.length)];
 }
 
+// ツイートタイプを決定（投稿の多様性確保）
+function selectTweetType(postIndex, history) {
+  const recent5Types = history.slice(-5).map(h => h.tweet_type || 'standard');
+  const shortCount = recent5Types.filter(t => t === 'short_personal').length;
+  const ctaCount = recent5Types.filter(t => t === 'note_cta').length;
+
+  // ロールベースで選択（バランス重視）
+  const roll = Math.random();
+  if (shortCount < 2 && roll < 0.25) return 'short_personal';   // 25%: 短め親近感
+  if (ctaCount < 1 && roll < 0.40) return 'note_cta';           // 15%: Note誘導
+  if (roll < 0.55) return 'contrarian';                          // 15%: 逆張り
+  return 'standard';                                              // 45%: データ分析系
+}
+
 async function generatePost(persona, patterns, hooks, buzzRef, history, feedback, researchPool, postIndex) {
-  const selectedPattern = selectPattern(patterns.patterns, history);
-  const selectedHook = selectHook(hooks.hooks, history);
+  const selectedPattern = selectPattern(patterns.patterns || [], history);
+  const selectedHook = selectHook(hooks.hooks || [], history);
   const themes = persona.themes?.main_categories || [];
   const selectedTheme = selectTheme(themes, history);
+  const tweetType = selectTweetType(postIndex, history);
 
-  // research_poolから未使用のネタを取得（urgency=highを優先）
-  let researchItem = null;
-  if (researchPool.length > 0) {
-    const unused = researchPool.filter(r => !r.used);
-    const highUrgency = unused.filter(r => r.urgency === 'high');
-    researchItem = highUrgency.length > 0 ? highUrgency[0] : (unused.length > 0 ? unused[0] : null);
-  }
+  const unused = researchPool.filter(r => !r.used);
+  const highUrgency = unused.filter(r => r.urgency === 'high');
+  const researchItem = highUrgency.length > 0 ? highUrgency[0] : (unused.length > 0 ? unused[0] : null);
 
-  const systemPrompt = `あなたはX（旧Twitter）の投資アカウント「kaizokuokabu」として投稿を作成するAIです。
+  // ペルソナのキーポイントのみ抽出（プロンプト圧縮）
+  const personaSummary = {
+    name: persona.name,
+    description: persona.description,
+    tone: persona.tone,
+    virality_principles: persona.virality_principles,
+    themes: themes
+  };
 
-## ペルソナ
-${JSON.stringify(persona, null, 2)}
+  // 構造パターンは上位3件のみ
+  const topPatterns = (buzzRef.structural_patterns || []).slice(0, 3);
 
-## 特にvirality_principles（バズの原則）を熟読して従ってください
-${JSON.stringify(persona.virality_principles, null, 2)}
+  const tweetTypeInstructions = {
+    standard: `【データ分析系】数字・データを軸にした深い分析。250文字前後。`,
+    short_personal: `【短め親近感系】80〜120文字の短いツイート。「正直に言うと」「みんなに聞きたい」「これ知ってた？」などの口語。データは最小限。思わず反応したくなる親近感重視。`,
+    contrarian: `【逆張り・議論誘発系】みんなが信じていることに疑問を投げかける。「〜って本当か？」「実はこれ、間違ってる」の構成。240文字前後。`,
+    note_cta: `【Note誘導系】有益な情報を少しだけ見せて「詳しくはNoteに書きました（準備中）」で終わる。知的好奇心を刺激する。230文字前後。`
+  };
 
-## 今回使用するパターン
+  // 生成＋採点を1回のAPIコールで実行（コスト50%削減）
+  const systemPrompt = `あなたはX投資アカウント「kaizokuokabu」の投稿AIです。
+
+## ペルソナ要約
+${JSON.stringify(personaSummary, null, 2)}
+
+## パターン
 ${JSON.stringify(selectedPattern, null, 2)}
 
-## 今回使用するフック（1行目）
+## フック
 ${JSON.stringify(selectedHook, null, 2)}
 
-## バズ戦略
-${JSON.stringify(buzzRef.virality_strategy, null, 2)}
+## バズ構造（参考）
+${JSON.stringify(topPatterns, null, 2)}
 
-## 構造パターン
-${JSON.stringify(buzzRef.structural_patterns, null, 2)}
+${feedback ? `## アナリストフィードバック\n${JSON.stringify(feedback, null, 2)}` : ''}
 
-${researchItem ? `## 今回のネタ（最新リサーチ）\n${JSON.stringify(researchItem, null, 2)}` : ''}
+## 絶対ルール
+- 特定銘柄の「買い推奨」「売り推奨」はしない
+- 免責文不要（プロフィールに記載済み）
+- ハッシュタグ0〜2個
+- 1行目でスクロールを止める`;
 
-${feedback ? `## アナリストからのフィードバック\n${JSON.stringify(feedback, null, 2)}` : ''}
+  const userPrompt = `テーマ「${selectedTheme}」でツイートを生成し、JSONで出力してください。
 
-## ルール
-- 280文字以内（厳守）
-- 免責文は不要（プロフィールに記載済み）
-- ハッシュタグは0〜2個（多すぎるとスパム扱い）
-- 数字を必ず含める（具体的なデータが説得力を生む）
-- 1行目でスクロールを止めさせる（フックを使う）
-- バズることを最優先に。感情を揺さぶる＋データで裏付ける構成にして
-- 特定銘柄の「買い推奨」「売り推奨」はしない（分析・解説に留める）
-- テーマ：${selectedTheme}
+ツイートタイプ: ${tweetTypeInstructions[tweetType]}
 
-投稿テキストだけを出力してください。余計な説明は不要です。`;
+${researchItem ? `最新ネタ（優先使用）:\nタイトル: ${researchItem.title}\n要約: ${researchItem.summary}\n投資角度: ${researchItem.investment_angle}` : ''}
+
+出力形式（JSONのみ、余計なテキスト一切不要）:
+{"text":"投稿テキスト","scores":{"buzz":0,"hook":0,"value":0,"data":0,"unique":0,"discussion":0,"bookmark":0,"tempo":0,"persona":0,"ng_check":0},"average":0.0}
+
+採点基準: buzz=RT期待度, hook=1行目の引力, value=有益性, data=数字効果, unique=独自性, discussion=リプ誘発, bookmark=保存欲, tempo=読みやすさ, persona=キャラ一致, ng_check=投資助言非該当`;
 
   let bestPost = null;
   let bestScore = 0;
@@ -99,97 +125,53 @@ ${feedback ? `## アナリストからのフィードバック\n${JSON.stringify
   for (let retry = 0; retry < 3; retry++) {
     const response = await createWithRetry({
       model: 'claude-sonnet-4-20250514',
-      max_tokens: 1024,
-      messages: [{ role: 'user', content: `投稿 #${postIndex + 1} を生成してください。テーマ: ${selectedTheme}` }],
+      max_tokens: 800,
+      messages: [{ role: 'user', content: userPrompt }],
       system: systemPrompt
     });
 
-    const postText = response.content[0].text.trim();
-
-    // 自己採点
-    const scoreResponse = await createWithRetry({
-      model: 'claude-sonnet-4-20250514',
-      max_tokens: 512,
-      messages: [{
-        role: 'user',
-        content: `以下の投稿を10項目×10点で採点してください。各項目の点数と平均点をJSON形式で返してください。
-
-投稿：
-${postText}
-
-採点項目：
-1. バズ力（リツイートされそうか）
-2. フック力（1行目で止まるか）
-3. 有益性（読む価値があるか）
-4. データ具体性（数字が効果的か）
-5. 独自性（他と差別化できているか）
-6. 議論誘発力（リプが来そうか）
-7. 保存したくなるか（ブックマーク率）
-8. テンポ（読みやすいか）
-9. ペルソナ一致（kaizokuokabuらしいか）
-10. NGワード非含有（投資助言に当たらないか）
-
-回答形式（JSONのみ）：
-{"scores":{"buzz":X,"hook":X,"value":X,"data":X,"unique":X,"discussion":X,"bookmark":X,"tempo":X,"persona":X,"ng_check":X},"average":X.X}`
-      }],
-      system: 'JSONのみ出力してください。'
-    });
-
-    let scoreData;
+    const rawText = response.content[0].text.trim();
+    let parsed;
     try {
-      const scoreText = scoreResponse.content[0].text.trim();
-      const jsonMatch = scoreText.match(/\{[\s\S]*\}/);
-      scoreData = JSON.parse(jsonMatch[0]);
+      const jsonMatch = rawText.match(/\{[\s\S]*\}/);
+      parsed = JSON.parse(jsonMatch[0]);
     } catch {
-      scoreData = { average: 5.0, scores: {} };
+      continue;
     }
 
-    console.log(`  [writer] 投稿#${postIndex + 1} 試行${retry + 1}: スコア ${scoreData.average} - ${postText.substring(0, 50)}...`);
+    const postText = parsed.text?.trim();
+    if (!postText) continue;
+
+    const scoreData = {
+      scores: parsed.scores || {},
+      average: parsed.average || Object.values(parsed.scores || {}).reduce((a, b) => a + b, 0) / 10
+    };
+
+    console.log(`  [writer] 投稿#${postIndex + 1} 試行${retry + 1} [${tweetType}] スコア${scoreData.average.toFixed(1)}: ${postText.substring(0, 40)}...`);
 
     if (scoreData.average >= 7.0 && scoreData.average > bestScore) {
-      bestPost = {
-        text: postText,
-        score: scoreData,
-        pattern_id: selectedPattern.id,
-        hook_id: selectedHook.id,
-        theme: selectedTheme,
-        research_id: researchItem?.id || null
-      };
+      bestPost = { text: postText, score: scoreData, pattern_id: selectedPattern?.id, hook_id: selectedHook?.id, theme: selectedTheme, tweet_type: tweetType, research_id: researchItem?.id || null };
       bestScore = scoreData.average;
-      break; // 7.0以上なら合格
+      break;
     }
 
     if (!bestPost || scoreData.average > bestScore) {
-      bestPost = {
-        text: postText,
-        score: scoreData,
-        pattern_id: selectedPattern.id,
-        hook_id: selectedHook.id,
-        theme: selectedTheme,
-        research_id: researchItem?.id || null
-      };
+      bestPost = { text: postText, score: scoreData, pattern_id: selectedPattern?.id, hook_id: selectedHook?.id, theme: selectedTheme, tweet_type: tweetType, research_id: researchItem?.id || null };
       bestScore = scoreData.average;
     }
   }
 
-  // 7.0未満は棄却
   if (bestScore < 7.0) {
-    console.log(`  [writer] 投稿#${postIndex + 1} 棄却（スコア ${bestScore}）`);
+    console.log(`  [writer] 投稿#${postIndex + 1} 棄却（スコア${bestScore.toFixed(1)}）`);
     return null;
   }
 
-  // リサーチアイテムをusedに
-  if (researchItem) {
-    researchItem.used = true;
-  }
-
+  if (researchItem) researchItem.used = true;
   return bestPost;
 }
 
-// 簡易類似度チェック
 function isSimilar(newText, historyTexts) {
   for (const old of historyTexts.slice(-100)) {
-    // 単純なJaccard類似度
     const newWords = new Set(newText.split(/\s+/));
     const oldWords = new Set(old.split(/\s+/));
     const intersection = [...newWords].filter(w => oldWords.has(w)).length;
@@ -199,8 +181,8 @@ function isSimilar(newText, historyTexts) {
   return false;
 }
 
-async function run() {
-  console.log('[writer] 投稿生成開始...');
+async function run(count = 5) {
+  console.log(`[writer] 投稿生成開始（${count}本）...`);
 
   const persona = readJSON(path.join(KNOWLEDGE_DIR, 'persona.json'), {});
   const patterns = readJSON(path.join(KNOWLEDGE_DIR, 'patterns.json'), { patterns: [] });
@@ -214,34 +196,27 @@ async function run() {
   const historyTexts = history.map(h => h.text);
   const generated = [];
 
-  for (let i = 0; i < 5; i++) {
-    // レートリミット回避: 2本目以降は65秒待機
+  for (let i = 0; i < count; i++) {
     if (i > 0) {
       console.log(`  [writer] レートリミット回避: 65秒待機...`);
       await new Promise(r => setTimeout(r, 65000));
     }
     try {
-      const post = await generatePost(
-        persona, patterns, hooks, buzzRef, [...history, ...generated],
-        feedback, researchPool, i
-      );
-
+      const post = await generatePost(persona, patterns, hooks, buzzRef, [...history, ...generated], feedback, researchPool, i);
       if (!post) continue;
 
-      // 類似度チェック
       if (isSimilar(post.text, [...historyTexts, ...generated.map(g => g.text)])) {
         console.log(`  [writer] 投稿#${i + 1} 類似投稿あり、スキップ`);
         continue;
       }
 
       generated.push(post);
-      console.log(`  [writer] 投稿#${i + 1} 合格 (スコア: ${post.score.average})`);
+      console.log(`  [writer] 投稿#${i + 1} 合格 (スコア: ${post.score.average.toFixed(1)})`);
     } catch (err) {
       console.error(`  [writer] 投稿#${i + 1} エラー: ${err.message}`);
     }
   }
 
-  // キューに追加
   const newQueue = [...queue, ...generated.map(g => ({
     id: `q_${Date.now()}_${Math.random().toString(36).substring(2, 8)}`,
     text: g.text,
@@ -249,13 +224,12 @@ async function run() {
     pattern_id: g.pattern_id,
     hook_id: g.hook_id,
     theme: g.theme,
+    tweet_type: g.tweet_type,
     research_id: g.research_id,
     created_at: new Date().toISOString()
   }))];
 
   writeJSON(path.join(DATA_DIR, 'queue.json'), newQueue);
-
-  // research_poolの更新（usedフラグ）
   writeJSON(path.join(DATA_DIR, 'research_pool.json'), researchPool);
 
   console.log(`[writer] 完了: ${generated.length}本生成、キュー残: ${newQueue.length}本`);
@@ -265,5 +239,6 @@ async function run() {
 module.exports = { run };
 
 if (require.main === module) {
-  run().catch(console.error);
+  const count = parseInt(process.argv[2]) || 5;
+  run(count).catch(console.error);
 }
