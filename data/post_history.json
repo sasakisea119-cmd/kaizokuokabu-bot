@@ -775,8 +775,13 @@
     "theme": "AI・半導体関連株が2026年も投資テーマの中心に",
     "research_id": "r_1774334770119_y9ur",
     "posted_at": "2026-03-29T23:36:03.109Z",
-    "metrics": null,
-    "fetched_at": null
+    "metrics": {
+      "impressions": 34,
+      "likes": 1,
+      "retweets": 0,
+      "replies": 0
+    },
+    "fetched_at": "2026-03-30T23:52:39.256Z"
   },
   {
     "tweet_id": "2038400578645049825",
@@ -801,8 +806,13 @@
     "theme": "IPO分析・セカンダリー",
     "research_id": "r_1774136177446_k4ss",
     "posted_at": "2026-03-29T23:39:04.423Z",
-    "metrics": null,
-    "fetched_at": null
+    "metrics": {
+      "impressions": 53,
+      "likes": 1,
+      "retweets": 0,
+      "replies": 0
+    },
+    "fetched_at": "2026-03-30T23:52:41.352Z"
   },
   {
     "tweet_id": "2038400831813267674",
@@ -827,8 +837,13 @@
     "theme": "IPO分析・セカンダリー",
     "research_id": "r_1774136177446_2j0e",
     "posted_at": "2026-03-29T23:40:04.739Z",
-    "metrics": null,
-    "fetched_at": null
+    "metrics": {
+      "impressions": 51,
+      "likes": 2,
+      "retweets": 0,
+      "replies": 0
+    },
+    "fetched_at": "2026-03-30T23:52:43.454Z"
   },
   {
     "tweet_id": "2038401085006619028",
@@ -853,8 +868,13 @@
     "theme": "IPO分析・セカンダリー",
     "research_id": "r_1774136177446_5k93",
     "posted_at": "2026-03-29T23:41:05.104Z",
-    "metrics": null,
-    "fetched_at": null
+    "metrics": {
+      "impressions": 18,
+      "likes": 1,
+      "retweets": 0,
+      "replies": 0
+    },
+    "fetched_at": "2026-03-30T23:52:45.550Z"
   },
   {
     "tweet_id": "2038401338006962452",
@@ -879,6 +899,153 @@
     "theme": "決算速報・決算レビュー",
     "research_id": "r_1774334096397_1576",
     "posted_at": "2026-03-29T23:42:05.449Z",
+    "metrics": {
+      "impressions": 25,
+      "likes": 2,
+      "retweets": 0,
+      "replies": 0
+    },
+    "fetched_at": "2026-03-30T23:52:47.666Z"
+  },
+  {
+    "tweet_id": "2038773273144553596",
+    "text": "🔥高市政権で防衛株バブル来た！GDP2%目標で防衛費11兆円に急拡大。三菱重工の受注高3倍超、造船も国策で2035年製造力倍増へ。2027年増税も織り込み済み。地政学リスク×国策の最強コンボで中長期成長確実。ただし政治リスク要注意、分散投資必須 #防衛株 #高市政権 #国策テーマ",
+    "type": "image",
+    "pattern_id": "P04",
+    "hook_id": null,
+    "theme": "防衛・宇宙関連株が高市政権下で継続注目",
+    "research_id": "r_1774334770119_n7gg",
+    "posted_at": "2026-03-31T00:20:01.735Z",
+    "metrics": null,
+    "fetched_at": null
+  },
+  {
+    "tweet_id": "2038773792281858194",
+    "text": "NVDA vs AMD、AI半導体戦争で比べてみた。\n\nNVIDIA（NVDA）\n・時価総額：$3.4兆（AMDの約10倍）\n・データセンター売上：前年比+427%\n・GPU市場シェア：80%超\n\nAMD（AMD）\n・時価総額：$3400億\n・データセンター売上：前年比+122%\n・CPUでインテル追撃中\n\nリスク：NVDAは既に割高、AMDは技術格差\n\n個人的にはAMDの方が伸び代あると思う。\n\nみんなはどっち派？",
+    "score": {
+      "scores": {
+        "buzz": 7,
+        "hook": 8,
+        "value": 7,
+        "data": 8,
+        "unique": 6,
+        "discussion": 8,
+        "bookmark": 6,
+        "tempo": 8,
+        "persona": 7,
+        "ng_check": 9
+      },
+      "average": 7.4
+    },
+    "pattern_id": "P02",
+    "hook_id": "H10",
+    "theme": "米国株個別銘柄分析",
+    "research_id": "r_1774825563764_xzv9",
+    "posted_at": "2026-03-31T00:22:05.427Z",
+    "metrics": null,
+    "fetched_at": null
+  },
+  {
+    "tweet_id": "2038774045055877137",
+    "text": "正直に言う。今の相場で一番怖いのは、次のAIトレンドに乗り遅れることかも。\n\n「フィジカルAI」って知ってる？\nAIがカメラやセンサーで現実を認識して、ロボットや機械を自律制御する技術。\n\n2026年の投資テーマ予測で、半導体の次はこれが来るって話が海外で盛り上がってる。工場・物流・建設現場での導入が加速する見込み。\n\n日本だとファナックあたりが関連しそうだけど、まだ市場は全然注目してない。\n\nみんなはどう思う？半導体バブルの次はフィジカルAI？",
+    "score": {
+      "scores": {
+        "buzz": 7,
+        "hook": 8,
+        "value": 8,
+        "data": 4,
+        "unique": 8,
+        "discussion": 9,
+        "bookmark": 7,
+        "tempo": 8,
+        "persona": 8,
+        "ng_check": 6
+      },
+      "average": 7.3
+    },
+    "pattern_id": "P08",
+    "hook_id": "H24",
+    "theme": "今日のバズニュース（海外）",
+    "research_id": "r_1774825563764_cjhu",
+    "posted_at": "2026-03-31T00:23:05.724Z",
+    "metrics": null,
+    "fetched_at": null
+  },
+  {
+    "tweet_id": "2038774297808810456",
+    "text": "パワー半導体はもう終わり。理由は3つ。\n\n①中国勢が価格競争で攻勢\n②EV失速で需要鈍化\n③AIチップに投資資金が流出\n\nでも待って。ローム・東芝・三菱電機が世界2位連合を組むって報道が出た。\n\nこれ、逆にチャンスかも。日本の技術力×規模の経済で中国に対抗できる唯一の手段。\n\n半導体で「日本復活」って何回聞いた？今度は本気かもしれない。\n\nあなたはどう見る？",
+    "score": {
+      "scores": {
+        "buzz": 8,
+        "hook": 9,
+        "value": 7,
+        "data": 4,
+        "unique": 7,
+        "discussion": 9,
+        "bookmark": 6,
+        "tempo": 8,
+        "persona": 8,
+        "ng_check": 8
+      },
+      "average": 7.4
+    },
+    "pattern_id": "P07",
+    "hook_id": "H21",
+    "theme": "投資の基礎知識・考え方",
+    "research_id": "r_1774825563764_hqcs",
+    "posted_at": "2026-03-31T00:24:05.958Z",
+    "metrics": null,
+    "fetched_at": null
+  },
+  {
+    "tweet_id": "2038774550515569138",
+    "text": "個別株で勝てない人の共通点、実は「分析しすぎ」なんだよね。\n\nPERもPBRもROEも全部見て、決算書も読み込んで、でも結局買えない。\n\n逆に勝ってる人は3つの数字しか見てない：\n①売上成長率（前年比）\n②営業利益率\n③時価総額\n\n完璧を求めるより、シンプルに動ける人が勝つ。\n\nあなたは何個の指標を見てから買ってる？",
+    "score": {
+      "scores": {
+        "buzz": 8,
+        "hook": 9,
+        "value": 8,
+        "data": 6,
+        "unique": 7,
+        "discussion": 9,
+        "bookmark": 7,
+        "tempo": 9,
+        "persona": 8,
+        "ng_check": 8
+      },
+      "average": 7.9
+    },
+    "pattern_id": "P14",
+    "hook_id": "H14",
+    "theme": "投資の基礎知識・考え方",
+    "research_id": "r_1774825563764_xtun",
+    "posted_at": "2026-03-31T00:25:06.202Z",
+    "metrics": null,
+    "fetched_at": null
+  },
+  {
+    "tweet_id": "2038774803201499267",
+    "text": "原油95ドル突破で防衛株が爆上げしてるけど、みんな気づいてる？\n\n地政学リスク＝防衛予算増額の法則。NATO諸国、GDP比2%目標で軍事費40%増の計画。日本も防衛費43兆円（5年間）で過去最高水準。\n\n川重（7012）+8%、三菱重（7011）+12%、IHI（7013）も急騰。\n\nでも原油高で製造コスト上昇リスクもある。\n\nみんなはエネルギー株と防衛株、どっち買う？",
+    "score": {
+      "scores": {
+        "buzz": 8,
+        "hook": 9,
+        "value": 7,
+        "data": 8,
+        "unique": 6,
+        "discussion": 9,
+        "bookmark": 6,
+        "tempo": 8,
+        "persona": 8,
+        "ng_check": 4
+      },
+      "average": 7.3
+    },
+    "pattern_id": "P02",
+    "hook_id": "H02",
+    "theme": "テーマ投資（半導体・AI・防衛・原子力・宇宙・Physical AI）",
+    "research_id": "r_1774825563764_q5n4",
+    "posted_at": "2026-03-31T00:26:06.452Z",
     "metrics": null,
     "fetched_at": null
   }
