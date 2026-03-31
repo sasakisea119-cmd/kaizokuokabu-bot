@@ -2,12 +2,15 @@ name: kaizokuokabu autopilot
 
 on:
   schedule:
-    # 朝7時 JST（UTC 22:00 前日）: フル実行 - researcher+writer+画像+投稿5本
+    # 朝7時 JST = UTC 22:00（プライマリ＋バックアップ）
     - cron: '0 22 * * *'
-    # 昼12時半 JST（UTC 03:30）: 投稿3本+引用RT2本
+    - cron: '20 22 * * *'
+    # 昼12時半 JST = UTC 03:30（プライマリ＋バックアップ）
     - cron: '30 3 * * *'
-    # 夜21時 JST（UTC 12:00）: researcher+writer+投稿2本+引用RT1本
+    - cron: '50 3 * * *'
+    # 夜21時 JST = UTC 12:00（プライマリ＋バックアップ）
     - cron: '0 12 * * *'
+    - cron: '20 12 * * *'
   workflow_dispatch:
     inputs:
       mode:
@@ -26,18 +29,35 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Check if already ran (dedup)
+        id: dedup
+        if: github.event_name == 'schedule'
+        run: |
+          git fetch origin master
+          if git log origin/master --oneline --since="90 minutes ago" --grep="autopilot" | grep -q "autopilot"; then
+            echo "Already ran in the last 90 min. Skipping."
+            echo "skip=true" >> $GITHUB_OUTPUT
+          else
+            echo "No recent run found. Proceeding."
+            echo "skip=false" >> $GITHUB_OUTPUT
+          fi
+
       - name: Setup Node.js
+        if: steps.dedup.outputs.skip != 'true'
         uses: actions/setup-node@v4
         with:
           node-version: '18'
 
       - name: Install Japanese fonts
+        if: steps.dedup.outputs.skip != 'true'
         run: sudo apt-get install -y fonts-noto-cjk fonts-noto-cjk-extra
 
       - name: Install dependencies
+        if: steps.dedup.outputs.skip != 'true'
         run: npm install
 
       - name: Run autopilot
+        if: steps.dedup.outputs.skip != 'true'
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           X_API_KEY: ${{ secrets.X_API_KEY }}
@@ -45,16 +65,15 @@ jobs:
           X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
           X_ACCESS_TOKEN_SECRET: ${{ secrets.X_ACCESS_TOKEN_SECRET }}
         run: |
-          # workflow_dispatch の場合はinputのmodeを使用
           MODE="${{ github.event.inputs.mode }}"
           if [ -n "$MODE" ]; then
             node scripts/autopilot.js --$MODE
           else
-            # cronトリガーの場合は時刻から自動判定
             node scripts/autopilot.js
           fi
 
       - name: Commit updated data files
+        if: steps.dedup.outputs.skip != 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
