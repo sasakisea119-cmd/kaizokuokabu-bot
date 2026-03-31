@@ -41,18 +41,30 @@ function selectTheme(themes, history) {
   return themes[Math.floor(Math.random() * themes.length)];
 }
 
-// ツイートタイプを決定（投稿の多様性確保）
-function selectTweetType(postIndex, history) {
+// ツイートタイプを決定（A/Bテスト結果からの比率を反映）
+function selectTweetType(postIndex, history, feedback) {
+  // analystのA/Bテスト結果からtweet_type_ratioを取得（なければデフォルト）
+  const ratio = feedback?.tweet_type_ratio || { standard: 40, short_personal: 25, contrarian: 20, note_cta: 15 };
+  const total = Object.values(ratio).reduce((a, b) => a + b, 0);
+
+  // 直近の偏りチェック
   const recent5Types = history.slice(-5).map(h => h.tweet_type || 'standard');
   const shortCount = recent5Types.filter(t => t === 'short_personal').length;
   const ctaCount = recent5Types.filter(t => t === 'note_cta').length;
 
-  // ロールベースで選択（バランス重視）
-  const roll = Math.random();
-  if (shortCount < 2 && roll < 0.25) return 'short_personal';   // 25%: 短め親近感
-  if (ctaCount < 1 && roll < 0.40) return 'note_cta';           // 15%: Note誘導
-  if (roll < 0.55) return 'contrarian';                          // 15%: 逆張り
-  return 'standard';                                              // 45%: データ分析系
+  // 重み付きランダム選択（A/Bテスト結果に基づく）
+  let roll = Math.random() * total;
+  const types = Object.entries(ratio).sort((a, b) => b[1] - a[1]);
+
+  // 偏り防止（直近5件で同タイプ3回以上ならスキップ）
+  for (const [type, weight] of types) {
+    const recentCount = recent5Types.filter(t => t === type).length;
+    if (recentCount >= 3) continue; // 偏りすぎ防止
+    roll -= weight;
+    if (roll <= 0) return type;
+  }
+
+  return 'standard'; // フォールバック
 }
 
 async function generatePost(persona, patterns, hooks, buzzRef, history, feedback, researchPool, postIndex) {
@@ -60,7 +72,7 @@ async function generatePost(persona, patterns, hooks, buzzRef, history, feedback
   const selectedHook = selectHook(hooks.hooks || [], history);
   const themes = persona.themes?.main_categories || [];
   const selectedTheme = selectTheme(themes, history);
-  const tweetType = selectTweetType(postIndex, history);
+  const tweetType = selectTweetType(postIndex, history, feedback);
 
   const unused = researchPool.filter(r => !r.used);
   const highUrgency = unused.filter(r => r.urgency === 'high');
