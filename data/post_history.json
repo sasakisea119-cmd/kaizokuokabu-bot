@@ -1048,5 +1048,57 @@
     "posted_at": "2026-04-01T01:07:50.300Z",
     "metrics": null,
     "fetched_at": null
+  },
+  {
+    "tweet_id": "2039731931793744199",
+    "text": "メタプラネット（$3350）、イラン情勢で株価-12%も、BTC保有量は変わらず4,380BTC維持。\n\n日経急落で「リスク資産売り」が加速したが、同社の価値源泉であるビットコイン自体は$66,000台で堅調。\n\n地政学リスク時のBTC vs 株式の動きの違いが鮮明に。これが「デジタルゴールド」論の試金石になってる。\n\n$BTC が上昇すればメタプラも反発？それとも株式市場の重力に負ける？",
+    "score": {
+      "scores": {
+        "buzz": 8,
+        "hook": 8,
+        "value": 8,
+        "data": 9,
+        "unique": 8,
+        "discussion": 9,
+        "bookmark": 7,
+        "tempo": 8,
+        "persona": 8,
+        "ng_check": 10
+      },
+      "average": 8.3
+    },
+    "pattern_id": "P13",
+    "hook_id": "H07",
+    "theme": "メタプラネット・ビットコイン関連（賛否両論あるネタとして積極的に取り上げる）",
+    "research_id": "r_1774826361210_8lf8",
+    "posted_at": "2026-04-02T15:49:23.688Z",
+    "metrics": null,
+    "fetched_at": null
+  },
+  {
+    "tweet_id": "2039739482434355623",
+    "text": "専門家106人調査「2026年最有望業種」で銀行・金融が1位。\n\n理由は明確：\n📊 利ざや拡大効果\n📈 累進配当銘柄の割合高い\n💹 PBR0.3～0.7倍の割安放置株多数\n\n実質賃金上昇＋金利正常化のダブル追い風。特に地銀株の株価水準見直しはまだ序の口だと思う。\n\n「銀行なんて斜陽産業」って言ってた人たち、どう思う？",
+    "score": {
+      "scores": {
+        "buzz": 8,
+        "hook": 9,
+        "value": 8,
+        "data": 9,
+        "unique": 7,
+        "discussion": 8,
+        "bookmark": 7,
+        "tempo": 8,
+        "persona": 8,
+        "ng_check": 10
+      },
+      "average": 8.2
+    },
+    "pattern_id": "P03",
+    "hook_id": "H11",
+    "theme": "投資の基礎知識・考え方",
+    "research_id": "r_1774334096397_mqv3",
+    "posted_at": "2026-04-02T16:19:23.908Z",
+    "metrics": null,
+    "fetched_at": null
   }
 ]

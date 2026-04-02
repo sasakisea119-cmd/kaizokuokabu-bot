@@ -501,7 +501,7 @@
     "urgency": "low",
     "source_type": "domestic",
     "created_at": "2026-03-24T22:05:37.674Z",
-    "used": false
+    "used": true
   },
   {
     "id": "r_1774389937674_gifc",
@@ -894,7 +894,7 @@
     "urgency": "high",
     "source_type": "domestic",
     "created_at": "2026-04-01T08:06:40.731Z",
-    "used": false
+    "used": true
   },
   {
     "id": "r_1775030800731_imii",
@@ -913,7 +913,7 @@
     "urgency": "high",
     "source_type": "domestic",
     "created_at": "2026-04-01T08:06:40.731Z",
-    "used": false
+    "used": true
   },
   {
     "id": "r_1775030800731_yusr",
@@ -951,7 +951,7 @@
     "urgency": "high",
     "source_type": "domestic",
     "created_at": "2026-04-01T08:06:40.731Z",
-    "used": false
+    "used": true
   },
   {
     "id": "r_1775030858523_0xfw",
@@ -1026,6 +1026,81 @@
     "urgency": "medium",
     "source_type": "trending_x",
     "created_at": "2026-04-01T08:07:38.523Z",
+    "used": false
+  },
+  {
+    "id": "r_1775144395040_b3z6",
+    "theme": "### 日本株相場トレンド（直近12時間：2026/04/02 取引終了後中心）",
+    "title": "### 日本株相場トレンド（直近12時間：2026/04/02 取引終了後中心）",
+    "published_date": "2026-04-03",
+    "summary": "### 日本株相場トレンド（直近12時間：2026/04/02 取引終了後中心）",
+    "investment_angle": "",
+    "tickers": [],
+    "keywords": [],
+    "recommended_pattern": "P14",
+    "urgency": "medium",
+    "source_type": "trending_x",
+    "created_at": "2026-04-02T15:39:55.040Z",
+    "used": false
+  },
+  {
+    "id": "r_1775144395040_jxmj",
+    "theme": "- **日経平均株価終値**: 52,463円（前日比 -1,276円、-2.38%）。朝方はトランプ大統領のイラン停戦",
+    "title": "- **日経平均株価終値**: 52,463円（前日比 -1,276円、-2.38%）。朝方はトランプ大統領のイラン停戦",
+    "published_date": "2026-04-03",
+    "summary": "- **日経平均株価終値**: 52,463円（前日比 -1,276円、-2.38%）。朝方はトランプ大統領のイラン停戦期待で500円超高寄りつき、一時54,258円の高値をつけたが、演説で「2-3週間攻撃継続」との示唆を受け中東情勢悪化懸念が再燃。原油高（WTI 106ドル台）と新年度の利益確定売りが重なり、寄天安値（52,273円）で大陰線を形成し急落。[[1]](https://x.com/i/status/2039728059327062329)[[2]](https://x.com/i/status/2039726335917228347)[[3]](https://x.com/i/status/2039726989955985479)",
+    "investment_angle": "",
+    "tickers": [],
+    "keywords": [],
+    "recommended_pattern": "P14",
+    "urgency": "medium",
+    "source_type": "trending_x",
+    "created_at": "2026-04-02T15:39:55.040Z",
+    "used": false
+  },
+  {
+    "id": "r_1775144395040_b4sm",
+    "theme": "- **TOPIX終値**: 3,612（前日比 -59、-1.61%）。同様にリスクオフムードで全面安、上昇銘柄319",
+    "title": "- **TOPIX終値**: 3,612（前日比 -59、-1.61%）。同様にリスクオフムードで全面安、上昇銘柄319",
+    "published_date": "2026-04-03",
+    "summary": "- **TOPIX終値**: 3,612（前日比 -59、-1.61%）。同様にリスクオフムードで全面安、上昇銘柄319に対し下落1,224と弱気優勢。[[2]](https://x.com/i/status/2039726335917228347)[[4]](https://x.com/i/status/2039727052857991212)",
+    "investment_angle": "",
+    "tickers": [],
+    "keywords": [],
+    "recommended_pattern": "P14",
+    "urgency": "medium",
+    "source_type": "trending_x",
+    "created_at": "2026-04-02T15:39:55.040Z",
+    "used": false
+  },
+  {
+    "id": "r_1775144395040_ll2u",
+    "theme": "- **全体トレンド**: 前日の+2,675円急騰が「騙し上げ」確定。二番底警戒で下落トレンド継続、5日線下抜け。ボラ",
+    "title": "- **全体トレンド**: 前日の+2,675円急騰が「騙し上げ」確定。二番底警戒で下落トレンド継続、5日線下抜け。ボラ",
+    "published_date": "2026-04-03",
+    "summary": "- **全体トレンド**: 前日の+2,675円急騰が「騙し上げ」確定。二番底警戒で下落トレンド継続、5日線下抜け。ボラティリティ高く、短期下落・中期下落の弱気シグナル。[[5]](https://x.com/i/status/2039728310872412610)[[1]](https://x.com/i/status/2039728059327062329)",
+    "investment_angle": "",
+    "tickers": [],
+    "keywords": [],
+    "recommended_pattern": "P14",
+    "urgency": "medium",
+    "source_type": "trending_x",
+    "created_at": "2026-04-02T15:39:55.040Z",
+    "used": false
+  },
+  {
+    "id": "r_1775144395040_4330",
+    "theme": "- **東証売買代金**: 約7兆8,181億円。リスクオフで活況も、期初売り中心の回転率高め。[[2]](https:",
+    "title": "- **東証売買代金**: 約7兆8,181億円。リスクオフで活況も、期初売り中心の回転率高め。[[2]](https:",
+    "published_date": "2026-04-03",
+    "summary": "- **東証売買代金**: 約7兆8,181億円。リスクオフで活況も、期初売り中心の回転率高め。[[2]](https://x.com/i/status/2039726335917228347)",
+    "investment_angle": "",
+    "tickers": [],
+    "keywords": [],
+    "recommended_pattern": "P14",
+    "urgency": "medium",
+    "source_type": "trending_x",
+    "created_at": "2026-04-02T15:39:55.040Z",
     "used": false
   }
 ]
