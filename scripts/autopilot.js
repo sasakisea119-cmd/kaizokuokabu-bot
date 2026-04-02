@@ -78,9 +78,9 @@ async function main() {
     const retweeter = require('../agents/retweeter');
     await retweeter.run(2);
 
-    console.log('\n--- Scheduler: 投稿（5本、60秒間隔） ---');
+    console.log('\n--- Scheduler: 投稿（5本、30分間隔） ---');
     const scheduler = require('../agents/scheduler');
-    await scheduler.run(5, 60);
+    await scheduler.run(5, 1800);
   }
 
   // === 昼モード（12時半）: 投稿＋引用RT ===
@@ -96,9 +96,9 @@ async function main() {
     const retweeter = require('../agents/retweeter');
     await retweeter.run(2);
 
-    console.log('\n--- Scheduler: 投稿（3本、60秒間隔） ---');
+    console.log('\n--- Scheduler: 投稿（3本、30分間隔） ---');
     const scheduler = require('../agents/scheduler');
-    await scheduler.run(3, 60);
+    await scheduler.run(3, 1800);
   }
 
   // === 夜モード（21時）: リサーチ＋投稿＋引用RT ===
@@ -119,9 +119,9 @@ async function main() {
     const retweeter = require('../agents/retweeter');
     await retweeter.run(1);
 
-    console.log('\n--- Scheduler: 投稿（2本、60秒間隔） ---');
+    console.log('\n--- Scheduler: 投稿（2本、30分間隔） ---');
     const scheduler = require('../agents/scheduler');
-    await scheduler.run(2, 60);
+    await scheduler.run(2, 1800);
   }
 
   console.log('\n========================================');
