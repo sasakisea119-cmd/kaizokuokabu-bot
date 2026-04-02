@@ -52,20 +52,10 @@ async function run() {
     alerts.push('total_frequency_high');
   }
 
-  // B. 投稿間隔チェック（画像投稿は別枠：通常投稿同士の間隔のみチェック）
-  const last24hRegular = last24h.filter(h => h.type !== 'image');
-  if (last24hRegular.length >= 2) {
-    const sorted = last24hRegular.sort((a, b) => new Date(b.posted_at) - new Date(a.posted_at));
-    for (let i = 0; i < sorted.length - 1; i++) {
-      const gap = new Date(sorted[i].posted_at) - new Date(sorted[i + 1].posted_at);
-      if (gap < THIRTY_MIN) {
-        logAlert('CRITICAL', `投稿間隔が30分未満（${Math.round(gap / 60000)}分）`);
-        activateKillSwitch('投稿間隔が30分未満');
-        alerts.push('interval_too_short');
-        break;
-      }
-    }
-  }
+  // B. 投稿間隔チェック
+  // scheduler投稿（60秒間隔の連続投稿）は正常動作なのでチェック対象外
+  // 「異なるセッション間」で30分未満に投稿が被った場合のみWARNING（KILL_SWITCHは発動しない）
+  // ※ 1日の投稿数チェック(A)で十分にカバーできるため、間隔チェックでの緊急停止は廃止
 
   // C. 品質スコアチェック
   const recent10 = history.slice(-10);

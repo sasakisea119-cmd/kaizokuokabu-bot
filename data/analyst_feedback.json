@@ -1,63 +1,262 @@
 {
   "analyzed_at": "2026-03-30T00:00:00Z",
-  "total_posts_analyzed": 33,
+  "total_posts_analyzed": 32,
+  "ab_test_results": {
+    "tweet_type": {
+      "standard": {
+        "count": 32,
+        "avg_impressions": 31,
+        "avg_engagement": 2
+      }
+    },
+    "post_length": {
+      "medium": {
+        "count": 26,
+        "avg_impressions": 23,
+        "avg_engagement": 2
+      },
+      "long": {
+        "count": 6,
+        "avg_impressions": 64,
+        "avg_engagement": 2
+      }
+    },
+    "hour_bucket": {
+      "noon": {
+        "count": 19,
+        "avg_impressions": 37,
+        "avg_engagement": 2
+      },
+      "evening": {
+        "count": 4,
+        "avg_impressions": 13,
+        "avg_engagement": 2
+      },
+      "morning": {
+        "count": 9,
+        "avg_impressions": 25,
+        "avg_engagement": 1
+      }
+    },
+    "has_cashtag": {
+      "false": {
+        "count": 32,
+        "avg_impressions": 31,
+        "avg_engagement": 2
+      }
+    },
+    "pattern_id": {
+      "P14": {
+        "count": 1,
+        "avg_impressions": 23,
+        "avg_engagement": 2
+      },
+      "P05": {
+        "count": 3,
+        "avg_impressions": 32,
+        "avg_engagement": 2
+      },
+      "P01": {
+        "count": 5,
+        "avg_impressions": 67,
+        "avg_engagement": 2
+      },
+      "P13": {
+        "count": 1,
+        "avg_impressions": 16,
+        "avg_engagement": 1
+      },
+      "P03": {
+        "count": 2,
+        "avg_impressions": 8,
+        "avg_engagement": 1
+      },
+      "P12": {
+        "count": 3,
+        "avg_impressions": 10,
+        "avg_engagement": 1
+      },
+      "P17": {
+        "count": 1,
+        "avg_impressions": 8,
+        "avg_engagement": 1
+      },
+      "P04": {
+        "count": 1,
+        "avg_impressions": 10,
+        "avg_engagement": 1
+      },
+      "P08": {
+        "count": 4,
+        "avg_impressions": 23,
+        "avg_engagement": 2
+      },
+      "P16": {
+        "count": 2,
+        "avg_impressions": 38,
+        "avg_engagement": 2
+      },
+      "P02": {
+        "count": 3,
+        "avg_impressions": 18,
+        "avg_engagement": 1
+      },
+      "P09": {
+        "count": 1,
+        "avg_impressions": 21,
+        "avg_engagement": 2
+      },
+      "P07": {
+        "count": 1,
+        "avg_impressions": 113,
+        "avg_engagement": 4
+      },
+      "P10": {
+        "count": 1,
+        "avg_impressions": 15,
+        "avg_engagement": 2
+      },
+      "P11": {
+        "count": 1,
+        "avg_impressions": 5,
+        "avg_engagement": 1
+      },
+      "P06": {
+        "count": 1,
+        "avg_impressions": 54,
+        "avg_engagement": 1
+      },
+      "P15": {
+        "count": 1,
+        "avg_impressions": 19,
+        "avg_engagement": 1
+      }
+    },
+    "theme": {
+      "ポートフォリオ戦略": {
+        "count": 1,
+        "avg_impressions": 23,
+        "avg_engagement": 2
+      },
+      "テーマ投資（半導体・AI・防衛・原子力・宇宙・Physical AI）": {
+        "count": 4,
+        "avg_impressions": 77,
+        "avg_engagement": 2
+      },
+      "IPO分析・セカンダリー": {
+        "count": 6,
+        "avg_impressions": 29,
+        "avg_engagement": 1
+      },
+      "日本株個別銘柄分析": {
+        "count": 3,
+        "avg_impressions": 12,
+        "avg_engagement": 1
+      },
+      "海外勢が4906億円の日本株売り越し、6カ月ぶりの大きさ": {
+        "count": 1,
+        "avg_impressions": 10,
+        "avg_engagement": 1
+      },
+      "今日のバズニュース（海外）": {
+        "count": 1,
+        "avg_impressions": 8,
+        "avg_engagement": 1
+      },
+      "上場企業5年連続最高益、2026年3月期は前期比1%増に転換": {
+        "count": 1,
+        "avg_impressions": 10,
+        "avg_engagement": 1
+      },
+      "物議を醸す投資トピック（逆張り・アンチテーゼ系で議論を生む）": {
+        "count": 2,
+        "avg_impressions": 35,
+        "avg_engagement": 2
+      },
+      "今日のバズニュース（国内）": {
+        "count": 3,
+        "avg_impressions": 25,
+        "avg_engagement": 1
+      },
+      "投資の基礎知識・考え方": {
+        "count": 2,
+        "avg_impressions": 15,
+        "avg_engagement": 2
+      },
+      "メタプラネット・ビットコイン関連（賛否両論あるネタとして積極的に取り上げる）": {
+        "count": 1,
+        "avg_impressions": 30,
+        "avg_engagement": 3
+      },
+      "フィジカルAI関連銘柄に注目集まる": {
+        "count": 1,
+        "avg_impressions": 113,
+        "avg_engagement": 4
+      },
+      "決算速報・決算レビュー": {
+        "count": 3,
+        "avg_impressions": 17,
+        "avg_engagement": 2
+      },
+      "日銀金融政策決定会合結果 - 3月19日政策金利据え置き": {
+        "count": 1,
+        "avg_impressions": 16,
+        "avg_engagement": 2
+      },
+      "日銀、3月会合で政策金利0.75%据え置き決定": {
+        "count": 1,
+        "avg_impressions": 5,
+        "avg_engagement": 1
+      },
+      "AI・半導体関連株が2026年も投資テーマの中心に": {
+        "count": 1,
+        "avg_impressions": 34,
+        "avg_engagement": 1
+      }
+    }
+  },
   "top_patterns": [
-    "P01",
-    "P08",
-    "P05",
-    "P02",
-    "P12"
+    "P07: 113インプレッション (フィジカルAI特化)",
+    "P01: 67インプレッション (テーマ投資×個人見解)",
+    "P16: 38インプレッション (個別銘柄分析)"
   ],
   "top_themes": [
-    "テーマ投資（半導体・AI・防衛・原子力・宇宙・Physical AI）",
-    "IPO分析・セカンダリー",
-    "投資の基礎知識・考え方",
-    "日本株個別銘柄分析",
-    "今日のバズニュース（国内）"
-  ],
-  "top_hooks": [
-    "H24",
-    "H02",
-    "H01",
-    "H05",
-    "H11"
+    "フィジカルAI関連銘柄: 113インプレッション",
+    "テーマ投資（半導体・AI・防衛・原子力・宇宙・Physical AI）: 77インプレッション",
+    "IPO分析・セカンダリー: 29インプレッション"
   ],
   "best_hours": [
-    5,
-    22,
-    0,
-    3,
-    23
+    "noon: 37インプレッション平均",
+    "morning: 25インプレッション平均",
+    "evening: 13インプレッション平均"
   ],
-  "avg_impressions": 40.1,
+  "avg_impressions": 31,
   "top3_posts": [
-    {
-      "tweet_id": "2037042811422597165",
-      "impressions": 265,
-      "why": "半導体関連の具体的数値データ+逆張り視点で議論を誘発"
-    },
-    {
-      "tweet_id": "2037044634996924656",
-      "impressions": 113,
-      "why": "フィジカルAIという新テーマ+絵文字多用でバズ要素満載"
-    },
-    {
-      "tweet_id": "2037042660226326537",
-      "impressions": 59,
-      "why": "専門家106人調査という権威性+意外な結果で話題性"
-    }
+    "P07フィジカルAI革命投稿: 113インプレッション",
+    "P01半導体関連年初来+35%: 265インプレッション",
+    "P16テーマ投資ランキング: 59インプレッション"
   ],
   "recommendations": [
-    "早朝5-6時の投稿を増やす（最高インプレッション265は朝5時投稿）",
-    "半導体・AI関連テーマで逆張り視点を強化（「もう終わり→実は始まり」パターン）",
-    "具体的な数値データ+個人見解の組み合わせを多用（○○億円、○%増など）",
-    "hook_idなし投稿の改善（平均インプレッション低下の要因）",
-    "絵文字使用投稿の戦略的活用（バズ投稿の共通点）"
+    "P07パターン（フィジカルAI特化）の投稿頻度を増加",
+    "長文投稿（150文字以上）の比率を40%に拡大",
+    "昼間（12-15時）の投稿を全体の50%に集中",
+    "テーマ投資×Physical AIの組み合わせを重点化",
+    "データ・統計を含む具体的数値投稿を増加"
   ],
   "patterns_to_avoid": [
-    "P04",
-    "P07",
-    "P11"
+    "P11: 5インプレッション（日銀据え置き系）",
+    "P03: 8インプレッション（個別銘柄単発分析）",
+    "P17: 8インプレッション（海外ニュース単発）"
   ],
-  "buzz_insights": "早朝投稿+半導体テーマ+逆張り視点+具体数値が最強。絵文字多用とhook活用でエンゲージメント向上。"
+  "tweet_type_ratio": {
+    "standard": 60,
+    "short_personal": 15,
+    "contrarian": 15,
+    "note_cta": 10
+  },
+  "buzz_insights": "フィジカルAI関連が圧倒的パフォーマンス。P07パターン×長文×昼間投稿の組み合わせが最適。テーマ投資系（半導体・AI）も安定して高インプレッション。IPO分析は安定需要あり。日銀関連は飽和状態で避けるべき。",
+  "ab_recommendations": [
+    "投稿の長さ「long」が最もインプが高い（平均64）",
+    "時間帯「noon」のインプが最高（平均37）。投稿をこの時間帯に集中させる"
+  ]
 }
