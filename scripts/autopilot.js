@@ -46,8 +46,28 @@ async function main() {
     process.exit(1);
   }
 
+  // 月初チェック: 社員6(product-creator) + 社員7(line-builder)
+  const dayOfMonth = new Date().getDate();
+  if (dayOfMonth === 1 && mode === 'morning') {
+    console.log('\n--- 🗓️ 月初タスク ---');
+    try {
+      console.log('\n--- 社員6: product-creator（月次企画書）---');
+      const productCreator = require('../employees/product-creator');
+      await productCreator.run();
+      await sleep(10000);
+
+      console.log('\n--- 社員7: line-builder（月次シナリオ）---');
+      const lineBuilder = require('../employees/line-builder');
+      await lineBuilder.run();
+      await sleep(10000);
+    } catch (err) {
+      console.error(`[autopilot] 月次タスクエラー: ${err.message}`);
+    }
+  }
+
   // === 朝モード（7時）: フル実行 ===
   if (mode === 'morning' || mode === 'full') {
+    // --- コアエージェント ---
     console.log('\n--- Fetcher: メトリクス取得 ---');
     const fetcher = require('../agents/fetcher');
     await fetcher.run();
@@ -62,9 +82,29 @@ async function main() {
 
     await sleep(90000);
 
-    console.log('\n--- Writer: 投稿生成（6本） ---');
-    const writer = require('../agents/writer');
-    await writer.run(6);
+    // --- 社員1: アカウント選定（毎朝） ---
+    console.log('\n--- 社員1: account-selector ---');
+    try {
+      const accountSelector = require('../employees/account-selector');
+      await accountSelector.run();
+    } catch (err) {
+      console.error(`[autopilot] account-selector エラー: ${err.message}`);
+    }
+
+    await sleep(10000);
+
+    // --- 社員5: コンテンツ生成（writerの代わり） ---
+    // 月500枠管理: 朝5本生成→キュー、4本投稿
+    console.log('\n--- 社員5: content-poster（5本生成） ---');
+    try {
+      const contentPoster = require('../employees/content-poster');
+      await contentPoster.run(5);
+    } catch (err) {
+      console.error(`[autopilot] content-poster エラー: ${err.message}`);
+      console.log('\n--- Writer（フォールバック）: 投稿生成（5本） ---');
+      const writer = require('../agents/writer');
+      await writer.run(5);
+    }
 
     await sleep(90000);
 
@@ -74,34 +114,85 @@ async function main() {
 
     await sleep(60000);
 
-    console.log('\n--- Retweeter: 引用RT（2本） ---');
-    const retweeter = require('../agents/retweeter');
-    await retweeter.run(2);
+    // --- 社員4: 引用RT（朝1本） ---
+    console.log('\n--- 社員4: quote-poster（1本） ---');
+    try {
+      const quotePoster = require('../employees/quote-poster');
+      await quotePoster.run(1);
+    } catch (err) {
+      console.error(`[autopilot] quote-poster エラー: ${err.message}`);
+      const retweeter = require('../agents/retweeter');
+      await retweeter.run(1);
+    }
 
-    console.log('\n--- Scheduler: 投稿（5本、30分間隔） ---');
+    // --- 社員3: いいね（Freeプランでは自動スキップ） ---
+    console.log('\n--- 社員3: like-worker ---');
+    try {
+      const likeWorker = require('../employees/like-worker');
+      await likeWorker.run(8);
+    } catch (err) {
+      console.error(`[autopilot] like-worker エラー: ${err.message}`);
+    }
+
+    // --- 社員2: リプライ（朝1件） ---
+    console.log('\n--- 社員2: reply-worker（1件） ---');
+    try {
+      const replyWorker = require('../employees/reply-worker');
+      await replyWorker.run(1);
+    } catch (err) {
+      console.error(`[autopilot] reply-worker エラー: ${err.message}`);
+    }
+
+    // 朝: オリジナル4本投稿（30分間隔）
+    console.log('\n--- Scheduler: 投稿（4本、30分間隔） ---');
     const scheduler = require('../agents/scheduler');
-    await scheduler.run(5, 1800);
+    await scheduler.run(4, 1800);
   }
 
-  // === 昼モード（12時半）: 投稿＋引用RT ===
+  // === 昼モード（12時半）: 投稿＋引用RT＋交流 ===
   else if (mode === 'noon') {
-    // 軽量リサーチ（バズツイート候補収集のみ）
     console.log('\n--- Researcher: バズツイート候補収集 ---');
     const researcher = require('../agents/researcher');
     await researcher.runBuzzOnly();
 
     await sleep(60000);
 
-    console.log('\n--- Retweeter: 引用RT（2本） ---');
-    const retweeter = require('../agents/retweeter');
-    await retweeter.run(2);
+    // --- 社員4: 引用RT（昼1本） ---
+    console.log('\n--- 社員4: quote-poster（1本） ---');
+    try {
+      const quotePoster = require('../employees/quote-poster');
+      await quotePoster.run(1);
+    } catch (err) {
+      console.error(`[autopilot] quote-poster エラー: ${err.message}`);
+      const retweeter = require('../agents/retweeter');
+      await retweeter.run(1);
+    }
 
-    console.log('\n--- Scheduler: 投稿（3本、30分間隔） ---');
+    // --- 社員3: いいね（Freeプランでは自動スキップ） ---
+    console.log('\n--- 社員3: like-worker ---');
+    try {
+      const likeWorker = require('../employees/like-worker');
+      await likeWorker.run(8);
+    } catch (err) {
+      console.error(`[autopilot] like-worker エラー: ${err.message}`);
+    }
+
+    // --- 社員2: リプライ（昼1件） ---
+    console.log('\n--- 社員2: reply-worker（1件） ---');
+    try {
+      const replyWorker = require('../employees/reply-worker');
+      await replyWorker.run(1);
+    } catch (err) {
+      console.error(`[autopilot] reply-worker エラー: ${err.message}`);
+    }
+
+    // 昼: オリジナル2本投稿（30分間隔）
+    console.log('\n--- Scheduler: 投稿（2本、30分間隔） ---');
     const scheduler = require('../agents/scheduler');
-    await scheduler.run(3, 1800);
+    await scheduler.run(2, 1800);
   }
 
-  // === 夜モード（21時）: リサーチ＋投稿＋引用RT ===
+  // === 夜モード（21時）: リサーチ＋投稿＋交流 ===
   else if (mode === 'evening') {
     console.log('\n--- Researcher: 夜間ニュース収集 ---');
     const researcher = require('../agents/researcher');
@@ -109,16 +200,49 @@ async function main() {
 
     await sleep(90000);
 
-    console.log('\n--- Writer: 投稿生成（4本） ---');
-    const writer = require('../agents/writer');
-    await writer.run(4);
+    // --- 社員5: コンテンツ生成 ---
+    console.log('\n--- 社員5: content-poster（3本生成） ---');
+    try {
+      const contentPoster = require('../employees/content-poster');
+      await contentPoster.run(3);
+    } catch (err) {
+      console.error(`[autopilot] content-poster エラー: ${err.message}`);
+      const writer = require('../agents/writer');
+      await writer.run(3);
+    }
 
     await sleep(60000);
 
-    console.log('\n--- Retweeter: 引用RT（1本） ---');
-    const retweeter = require('../agents/retweeter');
-    await retweeter.run(1);
+    // --- 社員4: 引用RT（夜1本） ---
+    console.log('\n--- 社員4: quote-poster（1本） ---');
+    try {
+      const quotePoster = require('../employees/quote-poster');
+      await quotePoster.run(1);
+    } catch (err) {
+      console.error(`[autopilot] quote-poster エラー: ${err.message}`);
+      const retweeter = require('../agents/retweeter');
+      await retweeter.run(1);
+    }
 
+    // --- 社員3: いいね（Freeプランでは自動スキップ） ---
+    console.log('\n--- 社員3: like-worker ---');
+    try {
+      const likeWorker = require('../employees/like-worker');
+      await likeWorker.run(5);
+    } catch (err) {
+      console.error(`[autopilot] like-worker エラー: ${err.message}`);
+    }
+
+    // --- 社員2: リプライ（夜1件） ---
+    console.log('\n--- 社員2: reply-worker（1件） ---');
+    try {
+      const replyWorker = require('../employees/reply-worker');
+      await replyWorker.run(1);
+    } catch (err) {
+      console.error(`[autopilot] reply-worker エラー: ${err.message}`);
+    }
+
+    // 夜: オリジナル2本投稿（30分間隔）
     console.log('\n--- Scheduler: 投稿（2本、30分間隔） ---');
     const scheduler = require('../agents/scheduler');
     await scheduler.run(2, 1800);
