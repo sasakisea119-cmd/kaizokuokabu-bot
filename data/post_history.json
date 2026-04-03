@@ -1272,5 +1272,57 @@
     "posted_at": "2026-04-03T01:19:16.087Z",
     "metrics": null,
     "fetched_at": null
+  },
+  {
+    "tweet_id": "2039973331026239995",
+    "text": "$NIKKEI が前日比2064円高って、上げ幅だけで中小型株の株価並みじゃん。\n\n4.04%の反発は2023年3月以来の大幅上昇。前場の出来高も2.8兆円と平常の1.5倍。海外勢の売り越しが続いてただけに、今回のリリーフラリーは「売られすぎ」の反動が大きい。\n\n中東情勢の緩和期待で地政学リスクプレミアムが剥落。ただし、この勢いが続くかは米金利と円相場次第だな。",
+    "score": {
+      "scores": {
+        "buzz": 8,
+        "hook": 9,
+        "value": 8,
+        "data": 9,
+        "unique": 7,
+        "discussion": 8,
+        "bookmark": 7,
+        "tempo": 8,
+        "persona": 9,
+        "ng_check": 10
+      },
+      "average": 8.3
+    },
+    "pattern_id": "P12",
+    "hook_id": "H11",
+    "theme": "決算速報・決算レビュー",
+    "research_id": "r_1775030800731_cgk7",
+    "posted_at": "2026-04-03T07:48:37.760Z",
+    "metrics": null,
+    "fetched_at": null
+  },
+  {
+    "tweet_id": "2039980881951981587",
+    "text": "日銀短観3月、大企業製造業DIが+17で4四半期連続改善。\n\n📊 前回調査比+1ポイント上昇\n📈 市場予想も上回る好結果\n💡 AI関連需要の拡大が企業業績を押し上げる構造\n\n特に注目は「AI関連」がキーワードとして明記された点。これ、日銀の金融政策判断にも影響するよね。\n\n先行きは製造業・非製造業とも悪化予想だが、AI需要の持続性がカギを握る。短期調整はあっても、構造的な成長トレンドは変わらない。",
+    "score": {
+      "scores": {
+        "buzz": 8,
+        "hook": 9,
+        "value": 9,
+        "data": 9,
+        "unique": 7,
+        "discussion": 8,
+        "bookmark": 8,
+        "tempo": 8,
+        "persona": 9,
+        "ng_check": 10
+      },
+      "average": 8.5
+    },
+    "pattern_id": "P03",
+    "hook_id": "H10",
+    "theme": "決算速報・決算レビュー",
+    "research_id": "r_1775030800731_imii",
+    "posted_at": "2026-04-03T08:18:38.033Z",
+    "metrics": null,
+    "fetched_at": null
   }
 ]
