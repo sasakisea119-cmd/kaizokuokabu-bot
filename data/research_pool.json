@@ -513,7 +513,7 @@
     "urgency": "medium",
     "source_type": "domestic",
     "created_at": "2026-03-24T22:05:37.674Z",
-    "used": false
+    "used": true
   },
   {
     "id": "r_1774394913256_dtmg",
@@ -525,7 +525,7 @@
     "urgency": "medium",
     "source_type": "domestic",
     "created_at": "2026-03-24T23:28:33.256Z",
-    "used": false
+    "used": true
   },
   {
     "id": "r_1774394913256_bd0p",
@@ -549,7 +549,7 @@
     "urgency": "medium",
     "source_type": "domestic",
     "created_at": "2026-03-24T23:28:33.256Z",
-    "used": false
+    "used": true
   },
   {
     "id": "r_1774394913256_gjk1",
@@ -573,7 +573,7 @@
     "urgency": "low",
     "source_type": "domestic",
     "created_at": "2026-03-24T23:28:33.256Z",
-    "used": false
+    "used": true
   },
   {
     "id": "r_1774394913256_x8er",
@@ -585,7 +585,7 @@
     "urgency": "medium",
     "source_type": "domestic",
     "created_at": "2026-03-24T23:28:33.256Z",
-    "used": false
+    "used": true
   },
   {
     "id": "r_1774394913256_s5ta",
@@ -597,7 +597,7 @@
     "urgency": "low",
     "source_type": "domestic",
     "created_at": "2026-03-24T23:28:33.256Z",
-    "used": false
+    "used": true
   },
   {
     "id": "r_1774394913256_4p18",
@@ -621,7 +621,7 @@
     "urgency": "medium",
     "source_type": "domestic",
     "created_at": "2026-03-29T23:06:03.763Z",
-    "used": false
+    "used": true
   },
   {
     "id": "r_1774825563764_vjv7",
@@ -1101,6 +1101,81 @@
     "urgency": "medium",
     "source_type": "trending_x",
     "created_at": "2026-04-02T15:39:55.040Z",
+    "used": false
+  },
+  {
+    "id": "r_1775171168782_t1yx",
+    "theme": "### 日本株相場トレンド（直近12時間：2026/4/2 夜間取引中心）",
+    "title": "### 日本株相場トレンド（直近12時間：2026/4/2 夜間取引中心）",
+    "published_date": "2026-04-03",
+    "summary": "### 日本株相場トレンド（直近12時間：2026/4/2 夜間取引中心）",
+    "investment_angle": "",
+    "tickers": [],
+    "keywords": [],
+    "recommended_pattern": "P14",
+    "urgency": "medium",
+    "source_type": "trending_x",
+    "created_at": "2026-04-02T23:06:08.782Z",
+    "used": false
+  },
+  {
+    "id": "r_1775171168782_i5mc",
+    "theme": "- **日経平均先物夜間取引**：大幅上昇。830円高の**5万3250円**で終了し、強い買い戻しやリスクオン地合いを",
+    "title": "- **日経平均先物夜間取引**：大幅上昇。830円高の**5万3250円**で終了し、強い買い戻しやリスクオン地合いを",
+    "published_date": "2026-04-03",
+    "summary": "- **日経平均先物夜間取引**：大幅上昇。830円高の**5万3250円**で終了し、強い買い戻しやリスクオン地合いを示唆。日中終値からの反発が顕著で、全体的に**上昇トレンド**が継続中。[[1]](https://x.com/i/status/2039841574562218383)[[2]](https://x.com/i/status/2039841538650562992)",
+    "investment_angle": "",
+    "tickers": [],
+    "keywords": [],
+    "recommended_pattern": "P14",
+    "urgency": "medium",
+    "source_type": "trending_x",
+    "created_at": "2026-04-02T23:06:08.782Z",
+    "used": false
+  },
+  {
+    "id": "r_1775171168782_annt",
+    "theme": "- 前日比では日経平均先物が**+1.58%**と堅調に推移し、米市場の小幅上昇（Nasdaq +0.18%、S&P50",
+    "title": "- 前日比では日経平均先物が**+1.58%**と堅調に推移し、米市場の小幅上昇（Nasdaq +0.18%、S&P50",
+    "published_date": "2026-04-03",
+    "summary": "- 前日比では日経平均先物が**+1.58%**と堅調に推移し、米市場の小幅上昇（Nasdaq +0.18%、S&P500 +0.11%）に連動した形。[[3]](https://x.com/i/status/2039841384686063884)",
+    "investment_angle": "",
+    "tickers": [],
+    "keywords": [],
+    "recommended_pattern": "P14",
+    "urgency": "medium",
+    "source_type": "trending_x",
+    "created_at": "2026-04-02T23:06:08.782Z",
+    "used": false
+  },
+  {
+    "id": "r_1775171168782_a99q",
+    "theme": "- **株価上昇×出来高急増銘柄**（4/2日中基準）：太平洋興発(8835) **+13.91%**、リファインバース",
+    "title": "- **株価上昇×出来高急増銘柄**（4/2日中基準）：太平洋興発(8835) **+13.91%**、リファインバース",
+    "published_date": "2026-04-03",
+    "summary": "- **株価上昇×出来高急増銘柄**（4/2日中基準）：太平洋興発(8835) **+13.91%**、リファインバースグループ(7375) **+22.76%**、クリングルファーマ(4884) **+5.54%**などが目立つ。出来高伴う上昇シグナルが散見され、個別物色活発化。[[4]](https://x.com/i/status/2039841568233046362)",
+    "investment_angle": "",
+    "tickers": [],
+    "keywords": [],
+    "recommended_pattern": "P14",
+    "urgency": "medium",
+    "source_type": "trending_x",
+    "created_at": "2026-04-02T23:06:08.782Z",
+    "used": false
+  },
+  {
+    "id": "r_1775171168782_u05y",
+    "theme": "- **株価下落×出来高急増**：ブイキューブ(3681) **-28.57%**、クボテック(7709) **-9.4",
+    "title": "- **株価下落×出来高急増**：ブイキューブ(3681) **-28.57%**、クボテック(7709) **-9.4",
+    "published_date": "2026-04-03",
+    "summary": "- **株価下落×出来高急増**：ブイキューブ(3681) **-28.57%**、クボテック(7709) **-9.45%**など。ボラティリティ高く、投機的な売買が集中。",
+    "investment_angle": "",
+    "tickers": [],
+    "keywords": [],
+    "recommended_pattern": "P14",
+    "urgency": "medium",
+    "source_type": "trending_x",
+    "created_at": "2026-04-02T23:06:08.782Z",
     "used": false
   }
 ]

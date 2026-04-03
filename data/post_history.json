@@ -916,8 +916,13 @@
     "theme": "防衛・宇宙関連予算拡大で関連株に注目",
     "research_id": "r_1774389937674_kbrr",
     "posted_at": "2026-04-01T01:01:42.513Z",
-    "metrics": null,
-    "fetched_at": null
+    "metrics": {
+      "impressions": 4,
+      "likes": 1,
+      "retweets": 0,
+      "replies": 0
+    },
+    "fetched_at": "2026-04-02T23:04:32.784Z"
   },
   {
     "tweet_id": "2039146684052349201",
@@ -942,8 +947,13 @@
     "theme": "物議を醸す投資トピック（逆張り・アンチテーゼ系で議論を生む）",
     "research_id": "r_1774825897040_bcr4",
     "posted_at": "2026-04-01T01:03:47.464Z",
-    "metrics": null,
-    "fetched_at": null
+    "metrics": {
+      "impressions": 8,
+      "likes": 2,
+      "retweets": 0,
+      "replies": 0
+    },
+    "fetched_at": "2026-04-02T23:04:34.903Z"
   },
   {
     "tweet_id": "2039146937254019316",
@@ -968,8 +978,13 @@
     "theme": "ポートフォリオ戦略",
     "research_id": "r_1774825897040_tf2t",
     "posted_at": "2026-04-01T01:04:47.796Z",
-    "metrics": null,
-    "fetched_at": null
+    "metrics": {
+      "impressions": 12,
+      "likes": 1,
+      "retweets": 0,
+      "replies": 0
+    },
+    "fetched_at": "2026-04-02T23:04:37.022Z"
   },
   {
     "tweet_id": "2039147190279704950",
@@ -994,8 +1009,13 @@
     "theme": "ポートフォリオ戦略",
     "research_id": "r_1774825897040_x04v",
     "posted_at": "2026-04-01T01:05:48.127Z",
-    "metrics": null,
-    "fetched_at": null
+    "metrics": {
+      "impressions": 7,
+      "likes": 2,
+      "retweets": 0,
+      "replies": 0
+    },
+    "fetched_at": "2026-04-02T23:04:39.193Z"
   },
   {
     "tweet_id": "2039147443460493768",
@@ -1020,8 +1040,13 @@
     "theme": "日本株個別銘柄分析",
     "research_id": "r_1774826361210_u1hs",
     "posted_at": "2026-04-01T01:06:48.504Z",
-    "metrics": null,
-    "fetched_at": null
+    "metrics": {
+      "impressions": 18,
+      "likes": 3,
+      "retweets": 0,
+      "replies": 0
+    },
+    "fetched_at": "2026-04-02T23:04:41.329Z"
   },
   {
     "tweet_id": "2039147699552108958",
@@ -1046,8 +1071,13 @@
     "theme": "ポートフォリオ戦略",
     "research_id": "r_1774826361210_abic",
     "posted_at": "2026-04-01T01:07:50.300Z",
-    "metrics": null,
-    "fetched_at": null
+    "metrics": {
+      "impressions": 25,
+      "likes": 3,
+      "retweets": 0,
+      "replies": 0
+    },
+    "fetched_at": "2026-04-02T23:04:43.481Z"
   },
   {
     "tweet_id": "2039731931793744199",
@@ -1098,6 +1128,148 @@
     "theme": "投資の基礎知識・考え方",
     "research_id": "r_1774334096397_mqv3",
     "posted_at": "2026-04-02T16:19:23.908Z",
+    "metrics": null,
+    "fetched_at": null
+  },
+  {
+    "tweet_id": "2039844635023904998",
+    "text": "🔥配当マネーが相場を救った！日経平均-230円も下げ幅限定✨\n\n📍米半導体株安で東京も連動\n📍でも3月末権利付き日で配当狙いが下支え\n📍中東情勢も注視材料\n\n半導体株の調整局面は一時的との見方💡権利落ち効果剥落後の反転上昇に期待🚀\n\n#日経平均 #配当狙い #半導体株 #投資戦略",
+    "type": "image",
+    "pattern_id": "P07",
+    "hook_id": null,
+    "theme": "日経平均続落、半導体関連に売り圧力も配当狙いが下支え",
+    "research_id": "r_1774825563763_pr06",
+    "posted_at": "2026-04-02T23:17:14.371Z",
+    "metrics": null,
+    "fetched_at": null
+  },
+  {
+    "tweet_id": "2039845140999651511",
+    "text": "米国の原子力ルネッサンスが本格化してる。\n\nデータセンターの電力需要が2030年までに3倍になる見通しで、テック大手が次々と原子力に回帰。$MSFT（マイクロソフト）は閉鎖予定だったスリーマイル島原発の再稼働に合意、$GOOGL（アルファベット）も小型モジュール炉への投資を発表。\n\nAI時代の電力インフラ革命について、どの銘柄が本命か詳しく分析しました。\n\n詳細はNote（準備中）で。",
+    "score": {
+      "scores": {
+        "buzz": 8,
+        "hook": 9,
+        "value": 8,
+        "data": 7,
+        "unique": 7,
+        "discussion": 6,
+        "bookmark": 8,
+        "tempo": 8,
+        "persona": 8,
+        "ng_check": 10
+      },
+      "average": 7.9
+    },
+    "pattern_id": "P04",
+    "hook_id": "H21",
+    "theme": "米国株個別銘柄分析",
+    "research_id": "r_1774334096397_boy7",
+    "posted_at": "2026-04-02T23:19:14.879Z",
+    "metrics": null,
+    "fetched_at": null
+  },
+  {
+    "tweet_id": "2039852692005093854",
+    "text": "「IPOは宝くじ」って本当？\n\n今年のIPO市場、具体的な大型案件発表は限定的。でも実は、上場後のセカンダリー投資の方が狙い目かも。\n\n理由：\n・情報が増えて分析しやすい\n・初値の熱狂が冷めた後の方が適正価格\n・四半期決算で成長確認できる\n\nIPOより「上場後の成長企業」に注目してる人、どれくらいいる？",
+    "score": {
+      "scores": {
+        "buzz": 7,
+        "hook": 8,
+        "value": 7,
+        "data": 6,
+        "unique": 8,
+        "discussion": 8,
+        "bookmark": 6,
+        "tempo": 7,
+        "persona": 8,
+        "ng_check": 10
+      },
+      "average": 7.5
+    },
+    "pattern_id": "P06",
+    "hook_id": "H08",
+    "theme": "ポートフォリオ戦略",
+    "research_id": "r_1774334096397_g104",
+    "posted_at": "2026-04-02T23:49:15.165Z",
+    "metrics": null,
+    "fetched_at": null
+  },
+  {
+    "tweet_id": "2039860242779930880",
+    "text": "3月24日の決算発表予定、たった1銘柄。\n\n3月決算企業の本格的な決算ラッシュは4月以降になるから、今は材料不足の期間なんだよね。\n\nこういう時こそ地政学リスクやマクロ指標に市場が敏感になる。個別銘柄の業績じゃなく、外部要因で株価が動きやすい局面。\n\n来月からの決算シーズンで、来期予想の修正がどうなるか。そこで今年の相場の方向性が見えてくる。",
+    "score": {
+      "scores": {
+        "buzz": 7,
+        "hook": 8,
+        "value": 8,
+        "data": 9,
+        "unique": 7,
+        "discussion": 6,
+        "bookmark": 7,
+        "tempo": 8,
+        "persona": 8,
+        "ng_check": 10
+      },
+      "average": 7.8
+    },
+    "pattern_id": "P05",
+    "hook_id": "H03",
+    "theme": "今日のバズニュース（国内）",
+    "research_id": "r_1774334770119_h3ig",
+    "posted_at": "2026-04-03T00:19:15.417Z",
+    "metrics": null,
+    "fetched_at": null
+  },
+  {
+    "tweet_id": "2039867794133598539",
+    "text": "中東リスク後退で日経平均394円高の反発🔥\n\nでも冷静に見てほしいデータがある。\n\n📊 セクター別騰落率\n• 防衛株: +2.8%（川重$7012、三菱重$7011）\n• 半導体: +1.9%（$8035、$6857）\n• 原子力: +2.1%（$9513、$1963）\n\n地政学材料で上がる銘柄って、材料消化も早いんだよね。Physical AI関連（$6758、$6861）は反発鈍い。\n\nこういう日こそ、テーマの持続力見極めるチャンスかも。",
+    "score": {
+      "scores": {
+        "buzz": 7,
+        "hook": 8,
+        "value": 8,
+        "data": 9,
+        "unique": 7,
+        "discussion": 7,
+        "bookmark": 8,
+        "tempo": 8,
+        "persona": 8,
+        "ng_check": 9
+      },
+      "average": 7.9
+    },
+    "pattern_id": "P14",
+    "hook_id": "H04",
+    "theme": "テーマ投資（半導体・AI・防衛・原子力・宇宙・Physical AI）",
+    "research_id": "r_1774389937674_lgxx",
+    "posted_at": "2026-04-03T00:49:15.793Z",
+    "metrics": null,
+    "fetched_at": null
+  },
+  {
+    "tweet_id": "2039875345118077102",
+    "text": "2月消費者物価指数1.3%で安定推移。\n\nこれが投資家にとって重要な理由：\n\n✓ 日銀の急激利上げ懸念が後退\n✓ 成長株には明確な追い風\n✓ ただし原油価格次第で3月以降は要警戒\n\nインフレ安定化＝金融緩和継続のシグナル。グロース株投資家は今のうちだと思う。問題は原油がどこまで上がるかだけど、みんなはどう見てる？",
+    "score": {
+      "scores": {
+        "buzz": 8,
+        "hook": 9,
+        "value": 8,
+        "data": 9,
+        "unique": 7,
+        "discussion": 8,
+        "bookmark": 7,
+        "tempo": 8,
+        "persona": 8,
+        "ng_check": 10
+      },
+      "average": 8.2
+    },
+    "pattern_id": "P04",
+    "hook_id": "H20",
+    "theme": "今日のバズニュース（国内）",
+    "research_id": "r_1774389937674_dddt",
+    "posted_at": "2026-04-03T01:19:16.087Z",
     "metrics": null,
     "fetched_at": null
   }
