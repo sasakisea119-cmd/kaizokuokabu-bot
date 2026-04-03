@@ -1324,5 +1324,57 @@
     "posted_at": "2026-04-03T08:18:38.033Z",
     "metrics": null,
     "fetched_at": null
+  },
+  {
+    "tweet_id": "2040075644625723778",
+    "text": "「原油高で石油株買い」って本当に正解？\n\n実は $XOM や $CVX、原油価格と株価の相関は0.6程度。むしろ設備投資回収期間の方が重要なんだよね。\n\n今回のサウジ産8割急騰も、18年ぶり高値だからこそ「いつまで続く？」が焦点。エネルギー株投資してる人、どう考えてる？\n\n#原油価格 #エネルギー株",
+    "score": {
+      "scores": {
+        "buzz": 8,
+        "hook": 9,
+        "value": 7,
+        "data": 8,
+        "unique": 8,
+        "discussion": 9,
+        "bookmark": 6,
+        "tempo": 8,
+        "persona": 8,
+        "ng_check": 10
+      },
+      "average": 8.1
+    },
+    "pattern_id": "P17",
+    "hook_id": "H01",
+    "theme": "米国株個別銘柄分析",
+    "research_id": "r_1775030800731_64mq",
+    "posted_at": "2026-04-03T14:35:11.217Z",
+    "metrics": null,
+    "fetched_at": null
+  },
+  {
+    "tweet_id": "2040083195920625870",
+    "text": "2025年IPO件数65社、前年から21社減少。これ、単なる市場悪化じゃない。\n\n・グロース市場上場維持基準厳格化\n・東証アジアスタートアップハブで外国企業誘致\n・JPXスタートアップ急成長100指数開始\n\n量より質への転換点。投資効率は明らかに向上してる。新興株見るなら、今年からが本番かもね。",
+    "score": {
+      "scores": {
+        "buzz": 7,
+        "hook": 8,
+        "value": 9,
+        "data": 9,
+        "unique": 8,
+        "discussion": 7,
+        "bookmark": 8,
+        "tempo": 8,
+        "persona": 8,
+        "ng_check": 10
+      },
+      "average": 8.2
+    },
+    "pattern_id": "P08",
+    "hook_id": "H25",
+    "theme": "マクロ経済・市場環境",
+    "research_id": "r_1774389937674_gv4b",
+    "posted_at": "2026-04-03T15:05:11.581Z",
+    "metrics": null,
+    "fetched_at": null
   }
 ]
