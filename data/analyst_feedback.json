@@ -1,18 +1,18 @@
 {
-  "analyzed_at": "2026-04-01T01:10:00Z",
-  "total_posts_analyzed": 38,
+  "analyzed_at": "2026-04-02T16:30:00.000Z",
+  "total_posts_analyzed": 40,
   "ab_test_results": {
     "tweet_type": {
       "standard": {
-        "count": 38,
-        "avg_impressions": 28,
+        "count": 40,
+        "avg_impressions": 27,
         "avg_engagement": 2
       }
     },
     "post_length": {
       "medium": {
-        "count": 30,
-        "avg_impressions": 22,
+        "count": 32,
+        "avg_impressions": 21,
         "avg_engagement": 2
       },
       "long": {
@@ -36,18 +36,23 @@
         "count": 15,
         "avg_impressions": 20,
         "avg_engagement": 2
+      },
+      "night": {
+        "count": 2,
+        "avg_impressions": 9,
+        "avg_engagement": 2
       }
     },
     "has_cashtag": {
       "false": {
-        "count": 36,
-        "avg_impressions": 29,
+        "count": 37,
+        "avg_impressions": 28,
         "avg_engagement": 2
       },
       "true": {
-        "count": 2,
-        "avg_impressions": 13,
-        "avg_engagement": 3
+        "count": 3,
+        "avg_impressions": 10,
+        "avg_engagement": 2
       }
     },
     "pattern_id": {
@@ -67,13 +72,13 @@
         "avg_engagement": 2
       },
       "P13": {
-        "count": 1,
-        "avg_impressions": 16,
+        "count": 2,
+        "avg_impressions": 11,
         "avg_engagement": 1
       },
       "P03": {
-        "count": 2,
-        "avg_impressions": 8,
+        "count": 3,
+        "avg_impressions": 9,
         "avg_engagement": 1
       },
       "P12": {
@@ -184,14 +189,14 @@
         "avg_engagement": 1
       },
       "投資の基礎知識・考え方": {
-        "count": 2,
-        "avg_impressions": 15,
+        "count": 3,
+        "avg_impressions": 14,
         "avg_engagement": 2
       },
       "メタプラネット・ビットコイン関連（賛否両論あるネタとして積極的に取り上げる）": {
-        "count": 1,
-        "avg_impressions": 30,
-        "avg_engagement": 3
+        "count": 2,
+        "avg_impressions": 18,
+        "avg_engagement": 2
       },
       "フィジカルAI関連銘柄に注目集まる": {
         "count": 1,
@@ -226,85 +231,62 @@
     }
   },
   "top_patterns": [
-    {
-      "pattern_id": "P01",
-      "avg_impressions": 67,
-      "count": 5
-    },
-    {
-      "pattern_id": "P07",
-      "avg_impressions": 69,
-      "count": 2
-    },
-    {
-      "pattern_id": "P16",
-      "avg_impressions": 38,
-      "count": 2
-    }
+    "P07",
+    "P01",
+    "P06",
+    "P16",
+    "P08"
   ],
   "top_themes": [
-    {
-      "theme": "フィジカルAI関連銘柄に注目集まる",
-      "avg_impressions": 113,
-      "count": 1
-    },
-    {
-      "theme": "テーマ投資（半導体・AI・防衛・原子力・宇宙・Physical AI）",
-      "avg_impressions": 77,
-      "count": 4
-    },
-    {
-      "theme": "今日のバズニュース（国内）",
-      "avg_impressions": 25,
-      "count": 3
-    }
+    "フィジカルAI関連銘柄に注目集まる",
+    "テーマ投資（半導体・AI・防衛・原子力・宇宙・Physical AI）",
+    "AI・半導体関連株が2026年も投資テーマの中心に"
   ],
   "best_hours": [
     "noon",
-    "morning",
-    "evening"
+    "morning"
   ],
-  "avg_impressions": 28,
+  "avg_impressions": 27,
   "top3_posts": [
     {
       "text": "🔥ついに始まったフィジカルAI革命",
       "impressions": 113,
-      "pattern": "P07"
+      "pattern_id": "P07"
     },
     {
       "text": "半導体関連、年初来で平均+35%。まだ行くのか。",
       "impressions": 265,
-      "pattern": "P01"
+      "pattern_id": "P01"
     },
     {
       "text": "2026年のテーマ投資、専門家106人に聞いた結果が衝撃的。",
       "impressions": 59,
-      "pattern": "P16"
+      "pattern_id": "P16"
     }
   ],
   "recommendations": [
-    "P01パターン（データ＋逆張り視点）を40%増量 - 平均67インプレッション",
-    "フィジカルAI・半導体テーマを50%増量 - 高パフォーマンス確認済",
-    "noon時間帯投稿を70%に集中 - 平均37インプレッション",
-    "long形式投稿を60%に増加 - 平均51インプレッション vs 22インプレッション",
-    "cashtag使用を完全停止 - パフォーマンス低下要因"
+    "P07パターン（絵文字多用・データ重視）のインプレッション効果が突出（69→113）。フィジカルAI・半導体テーマで積極活用",
+    "P01パターン（断言系・逆張り）も高効果（67imp）。テーマ投資分野での組み合わせが最強",
+    "昼間投稿（noon）が最も効果的（37imp）。朝・昼の投稿比率を8:2に調整",
+    "AIテーマは確実にバズる。P07×フィジカルAIの組み合わせを週3回実施",
+    "投稿長は「long」が圧倒的（51imp vs 21imp）。詳細データ付きの長文投稿を増加"
   ],
   "patterns_to_avoid": [
-    "P03",
     "P11",
-    "P12",
-    "P17"
+    "P17",
+    "P03",
+    "P12"
   ],
   "tweet_type_ratio": {
-    "standard": 85,
-    "short_personal": 5,
-    "contrarian": 10,
-    "note_cta": 0
+    "standard": 65,
+    "short_personal": 15,
+    "contrarian": 15,
+    "note_cta": 5
   },
-  "buzz_insights": "フィジカルAI・半導体テーマが圧倒的高パフォーマンス。P01（データ分析＋逆張り）とP07（視覚的インパクト）パターンが最強。noon時間帯＋long形式の組み合わせで最適化可能。",
+  "buzz_insights": "フィジカルAI×P07パターンが最強の組み合わせ。インプレッション113と突出。半導体テーマも安定して高パフォーマンス（77imp平均）。昼間投稿×長文×データ重視の投稿が最適解。キャッシュタグは逆効果（10imp）のため完全排除を推奨。",
   "ab_recommendations": [
     "投稿の長さ「long」が最もインプが高い（平均51）",
     "時間帯「noon」のインプが最高（平均37）。投稿をこの時間帯に集中させる",
-    "キャッシュタグの効果は限定的（差-16）。自然な使い方を心がける"
+    "キャッシュタグの効果は限定的（差-18）。自然な使い方を心がける"
   ]
 }

@@ -657,7 +657,7 @@
     "urgency": "medium",
     "source_type": "domestic",
     "created_at": "2026-03-29T23:06:03.764Z",
-    "used": false
+    "used": true
   },
   {
     "id": "r_1774825563764_cjhu",
@@ -1251,6 +1251,81 @@
     "urgency": "medium",
     "source_type": "trending_x",
     "created_at": "2026-04-03T14:29:28.332Z",
+    "used": false
+  },
+  {
+    "id": "r_1775257638224_ufym",
+    "theme": "### 日本株相場トレンド（直近12時間：2026年4月3日夜間～4月4日早朝 JST）",
+    "title": "### 日本株相場トレンド（直近12時間：2026年4月3日夜間～4月4日早朝 JST）",
+    "published_date": "2026-04-04",
+    "summary": "### 日本株相場トレンド（直近12時間：2026年4月3日夜間～4月4日早朝 JST）",
+    "investment_angle": "",
+    "tickers": [],
+    "keywords": [],
+    "recommended_pattern": "P14",
+    "urgency": "medium",
+    "source_type": "trending_x",
+    "created_at": "2026-04-03T23:07:18.224Z",
+    "used": false
+  },
+  {
+    "id": "r_1775257638224_jltq",
+    "theme": "- **日経平均株価（4/3終値）**: 53,123.49円（先週比 -249.58円、小幅下落）。本日は半導体株中心",
+    "title": "- **日経平均株価（4/3終値）**: 53,123.49円（先週比 -249.58円、小幅下落）。本日は半導体株中心",
+    "published_date": "2026-04-04",
+    "summary": "- **日経平均株価（4/3終値）**: 53,123.49円（先週比 -249.58円、小幅下落）。本日は半導体株中心に一時+1.26%の大幅反発を見せたが、後場以降は売圧力が強まり、一時1,300円超の下落を記録。全体として神経質なレンジ推移で、下落圧力が継続中。4月相場は「試練の局面」との声が多く、底打ちはまだ遠いとの見方が優勢。[[1]](https://x.com/i/status/2040203079300292926)[[2]](https://x.com/i/status/2040018535842451650)[[3]](https://x.com/i/status/2040201764981658064)[[4]](https://x.com/i/status/2040202953248895178)",
+    "investment_angle": "",
+    "tickers": [],
+    "keywords": [],
+    "recommended_pattern": "P14",
+    "urgency": "medium",
+    "source_type": "trending_x",
+    "created_at": "2026-04-03T23:07:18.224Z",
+    "used": false
+  },
+  {
+    "id": "r_1775257638224_j0be",
+    "theme": "- **先物（CME日経先物4/4早朝）**: 53,305円（先週比 +2,070円）と反発基調。来週が「勝負の週」と",
+    "title": "- **先物（CME日経先物4/4早朝）**: 53,305円（先週比 +2,070円）と反発基調。来週が「勝負の週」と",
+    "published_date": "2026-04-04",
+    "summary": "- **先物（CME日経先物4/4早朝）**: 53,305円（先週比 +2,070円）と反発基調。来週が「勝負の週」との指摘もあり、三角持ち合い収束後のトレンド発生を警戒（下落リスク含む）。[[1]](https://x.com/i/status/2040203079300292926)[[5]](https://x.com/i/status/2040202932214432254)",
+    "investment_angle": "",
+    "tickers": [],
+    "keywords": [],
+    "recommended_pattern": "P14",
+    "urgency": "medium",
+    "source_type": "trending_x",
+    "created_at": "2026-04-03T23:07:18.224Z",
+    "used": false
+  },
+  {
+    "id": "r_1775257638224_wap8",
+    "theme": "- **全体ムード**: 海外休暇による商い低調、地政学リスク（中東情勢、原油高止まり）、米雇用統計待ちで方向感欠如。押",
+    "title": "- **全体ムード**: 海外休暇による商い低調、地政学リスク（中東情勢、原油高止まり）、米雇用統計待ちで方向感欠如。押",
+    "published_date": "2026-04-04",
+    "summary": "- **全体ムード**: 海外休暇による商い低調、地政学リスク（中東情勢、原油高止まり）、米雇用統計待ちで方向感欠如。押し目買い優勢も上値重く、弱気姿勢が目立つ。[[6]](https://x.com/i/status/2040006606184948075)",
+    "investment_angle": "",
+    "tickers": [],
+    "keywords": [],
+    "recommended_pattern": "P14",
+    "urgency": "medium",
+    "source_type": "trending_x",
+    "created_at": "2026-04-03T23:07:18.224Z",
+    "used": false
+  },
+  {
+    "id": "r_1775257638224_m83b",
+    "theme": "- 具体的な直近12時間の出来高データはポストで明記なし。市場全体で商い低調（海外休暇影響）とされ、ボラティリティ高めの",
+    "title": "- 具体的な直近12時間の出来高データはポストで明記なし。市場全体で商い低調（海外休暇影響）とされ、ボラティリティ高めの",
+    "published_date": "2026-04-04",
+    "summary": "- 具体的な直近12時間の出来高データはポストで明記なし。市場全体で商い低調（海外休暇影響）とされ、ボラティリティ高めの日経先物チャート（4時間足）で下落シグナル点灯の指摘あり。資金は強気セクターに集中傾向。[[6]](https://x.com/i/status/2040006606184948075)[[7]](https://x.com/i/status/2039983481665868242)",
+    "investment_angle": "",
+    "tickers": [],
+    "keywords": [],
+    "recommended_pattern": "P14",
+    "urgency": "medium",
+    "source_type": "trending_x",
+    "created_at": "2026-04-03T23:07:18.224Z",
     "used": false
   }
 ]

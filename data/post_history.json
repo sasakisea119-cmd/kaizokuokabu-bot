@@ -1102,8 +1102,13 @@
     "theme": "メタプラネット・ビットコイン関連（賛否両論あるネタとして積極的に取り上げる）",
     "research_id": "r_1774826361210_8lf8",
     "posted_at": "2026-04-02T15:49:23.688Z",
-    "metrics": null,
-    "fetched_at": null
+    "metrics": {
+      "impressions": 5,
+      "likes": 1,
+      "retweets": 0,
+      "replies": 0
+    },
+    "fetched_at": "2026-04-03T23:05:33.479Z"
   },
   {
     "tweet_id": "2039739482434355623",
@@ -1128,8 +1133,13 @@
     "theme": "投資の基礎知識・考え方",
     "research_id": "r_1774334096397_mqv3",
     "posted_at": "2026-04-02T16:19:23.908Z",
-    "metrics": null,
-    "fetched_at": null
+    "metrics": {
+      "impressions": 12,
+      "likes": 2,
+      "retweets": 0,
+      "replies": 0
+    },
+    "fetched_at": "2026-04-03T23:05:35.589Z"
   },
   {
     "tweet_id": "2039844635023904998",
@@ -1374,6 +1384,122 @@
     "theme": "マクロ経済・市場環境",
     "research_id": "r_1774389937674_gv4b",
     "posted_at": "2026-04-03T15:05:11.581Z",
+    "metrics": null,
+    "fetched_at": null
+  },
+  {
+    "tweet_id": "2040206490938614037",
+    "text": "🔥2026年IPO最大の話題株！AI翻訳のポケトーク1,000億円、ニュースアプリのスマートニュース2,000億円で上場へ👀 どちらも技術力と成長性を併せ持つユニコーン企業。翻訳機国内シェア98%のポケトークは秋に東証グロース上場、スマートニュースは野村・MUFG主幹事で準備中。大型IPOラッシュで市場活況！ #IPO #投資",
+    "type": "image",
+    "pattern_id": "P01",
+    "hook_id": null,
+    "theme": "2026年上場期待のIPO銘柄、ポケトークやスマートニュースが注目",
+    "research_id": "r_1774825563764_mg7m",
+    "posted_at": "2026-04-03T23:15:07.474Z",
+    "metrics": null,
+    "fetched_at": null
+  },
+  {
+    "tweet_id": "2040207384849612991",
+    "text": "メタプラネット($3350)の株価、ビットコイン連動から脱却中？\n\n1月：BTC+8%、メタプラ-12%\n昨年12月：BTC+14%、メタプラ+22%\n\n相関係数0.85→0.42に低下。\n\nAIデータセンター電力需要でエネルギー株注目の中、BTC採掘の電力コストも論点に。核融合・SMR実用化までは従来電源に依存だが、メタプラの投資判断に影響する？\n\nBTC保有企業として見るか、日本株として見るか。",
+    "score": {
+      "scores": {
+        "buzz": 8,
+        "hook": 9,
+        "value": 8,
+        "data": 9,
+        "unique": 7,
+        "discussion": 9,
+        "bookmark": 7,
+        "tempo": 8,
+        "persona": 8,
+        "ng_check": 10
+      },
+      "average": 8.3
+    },
+    "pattern_id": "P08",
+    "hook_id": "H30",
+    "theme": "メタプラネット・ビットコイン関連（賛否両論あるネタとして積極的に取り上げる）",
+    "research_id": "r_1774389937674_gifc",
+    "posted_at": "2026-04-03T23:18:40.532Z",
+    "metrics": null,
+    "fetched_at": null
+  },
+  {
+    "tweet_id": "2040214935905431562",
+    "text": "$NIKKEI、午前で394円高の5万1961円。\n\n注目すべきは出来高。前日比+15%増の12.8億株で、明らかに「待ってました」の買いが入ってる。中東リスクが一服したタイミングで、溜まってた買い圧力が一気に放出。\n\n期末配当取りの思惑もあるが、それより大きいのは5万2000円の心理的節目を意識した仕込み。ここ抜けたら次は5万3000円だし。\n\nただし午前高値から縮小してるのが気になる。本当の勝負は後場。",
+    "score": {
+      "scores": {
+        "buzz": 8,
+        "hook": 9,
+        "value": 8,
+        "data": 9,
+        "unique": 7,
+        "discussion": 8,
+        "bookmark": 7,
+        "tempo": 8,
+        "persona": 9,
+        "ng_check": 10
+      },
+      "average": 8.3
+    },
+    "pattern_id": "P02",
+    "hook_id": "H12",
+    "theme": "日本株個別銘柄分析",
+    "research_id": "r_1774394913256_dtmg",
+    "posted_at": "2026-04-03T23:48:40.844Z",
+    "metrics": null,
+    "fetched_at": null
+  },
+  {
+    "tweet_id": "2040222486839652743",
+    "text": "日銀、政策金利0.75%据え置き。\n\nでも次回利上げ予想は2026年後半にズレ込み。これ、円安トレンド継続ってことだよな？\n\n・輸出企業の業績押し上げ継続\n・金融株への圧迫は一旦回避\n・インバウンド需要も底堅く推移\n\nイラン情勢で原油価格見極めるって言ってるけど、実際は米国利下げ待ちでしょ。円安メリット銘柄、まだ買えるタイミングかも。",
+    "score": {
+      "scores": {
+        "buzz": 8,
+        "hook": 8,
+        "value": 8,
+        "data": 7,
+        "unique": 8,
+        "discussion": 8,
+        "bookmark": 7,
+        "tempo": 8,
+        "persona": 8,
+        "ng_check": 9
+      },
+      "average": 7.9
+    },
+    "pattern_id": "P12",
+    "hook_id": "H06",
+    "theme": "今日のバズニュース（海外）",
+    "research_id": "r_1774394913256_3ref",
+    "posted_at": "2026-04-04T00:18:41.134Z",
+    "metrics": null,
+    "fetched_at": null
+  },
+  {
+    "tweet_id": "2040230037824118833",
+    "text": "$NVDA の12ヶ月PER、現在33倍。\n\nこれをどう見るかで投資家のレベルがわかる。\n\n高いと思った人→成長株投資に向いてない\n安いと思った人→データ中毒\n\n重要なのはPEGレシオ。予想成長率40%で計算すると0.8倍。実はバリュー株なんだよね。\n\n機械受注の一時減も、AI投資シフトの表れ。従来設備<生成AI投資の構図が鮮明になってきた。",
+    "score": {
+      "scores": {
+        "buzz": 8,
+        "hook": 9,
+        "value": 9,
+        "data": 9,
+        "unique": 8,
+        "discussion": 9,
+        "bookmark": 7,
+        "tempo": 8,
+        "persona": 9,
+        "ng_check": 10
+      },
+      "average": 8.6
+    },
+    "pattern_id": "P06",
+    "hook_id": "H05",
+    "theme": "米国株個別銘柄分析",
+    "research_id": "r_1774394913256_85gg",
+    "posted_at": "2026-04-04T00:48:41.416Z",
     "metrics": null,
     "fetched_at": null
   }
