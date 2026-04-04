@@ -1502,5 +1502,57 @@
     "posted_at": "2026-04-04T00:48:41.416Z",
     "metrics": null,
     "fetched_at": null
+  },
+  {
+    "tweet_id": "2040319942688641224",
+    "text": "防衛費GDP2%達成なら、年間予算は11兆円規模に。現在の5.4兆円から倍増だ。\n\n三菱重工業（$7011）：F-35戦闘機の最終組立\nIHI（$7013）：ジェットエンジン技術\n川崎重工（$7012）：輸送機・ヘリ開発\n\nこの3社だけで防衛売上高は計1.2兆円。市場拡大で取り合いじゃなく、パイ自体が大きくなる。\n\n宇宙分野も2030年までに8兆円市場目標。国策銘柄、まだ織り込み不十分じゃない？",
+    "score": {
+      "scores": {
+        "buzz": 8,
+        "hook": 9,
+        "value": 9,
+        "data": 9,
+        "unique": 7,
+        "discussion": 8,
+        "bookmark": 9,
+        "tempo": 8,
+        "persona": 8,
+        "ng_check": 10
+      },
+      "average": 8.5
+    },
+    "pattern_id": "P15",
+    "hook_id": "H25",
+    "theme": "テーマ投資（半導体・AI・防衛・原子力・宇宙・Physical AI）",
+    "research_id": "r_1774394913256_x8er",
+    "posted_at": "2026-04-04T06:45:56.434Z",
+    "metrics": null,
+    "fetched_at": null
+  },
+  {
+    "tweet_id": "2040327494679806322",
+    "text": "2026年IPO市場、60-70社上場予想だが過去データ見ると面白い。\n\n📊 IPO市場推移\n2021年：125社（バブル期）\n2022年：91社\n2023年：76社\n2024年：80社\n2025年：約70社（予想）\n2026年：60-70社（予想）\n\nUSJ、スマートニュースの大型案件控えてるけど、これ実質的に「量から質」への転換期だよね。\n\n市場規模縮小してるのに大型案件期待って、結局小型IPOが淘汰されてるだけじゃん。投資家にとってはむしろプラスかも。",
+    "score": {
+      "scores": {
+        "buzz": 7,
+        "hook": 8,
+        "value": 8,
+        "data": 9,
+        "unique": 7,
+        "discussion": 8,
+        "bookmark": 8,
+        "tempo": 7,
+        "persona": 8,
+        "ng_check": 10
+      },
+      "average": 8
+    },
+    "pattern_id": "P01",
+    "hook_id": "H10",
+    "theme": "今日のバズニュース（海外）",
+    "research_id": "r_1774394913256_s5ta",
+    "posted_at": "2026-04-04T07:15:56.953Z",
+    "metrics": null,
+    "fetched_at": null
   }
 ]
