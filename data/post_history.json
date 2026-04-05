@@ -1150,8 +1150,13 @@
     "theme": "日経平均続落、半導体関連に売り圧力も配当狙いが下支え",
     "research_id": "r_1774825563763_pr06",
     "posted_at": "2026-04-02T23:17:14.371Z",
-    "metrics": null,
-    "fetched_at": null
+    "metrics": {
+      "impressions": 11,
+      "likes": 1,
+      "retweets": 0,
+      "replies": 0
+    },
+    "fetched_at": "2026-04-04T23:01:59.118Z"
   },
   {
     "tweet_id": "2039845140999651511",
@@ -1176,8 +1181,13 @@
     "theme": "米国株個別銘柄分析",
     "research_id": "r_1774334096397_boy7",
     "posted_at": "2026-04-02T23:19:14.879Z",
-    "metrics": null,
-    "fetched_at": null
+    "metrics": {
+      "impressions": 9,
+      "likes": 1,
+      "retweets": 0,
+      "replies": 0
+    },
+    "fetched_at": "2026-04-04T23:02:01.230Z"
   },
   {
     "tweet_id": "2039852692005093854",
@@ -1202,8 +1212,13 @@
     "theme": "ポートフォリオ戦略",
     "research_id": "r_1774334096397_g104",
     "posted_at": "2026-04-02T23:49:15.165Z",
-    "metrics": null,
-    "fetched_at": null
+    "metrics": {
+      "impressions": 9,
+      "likes": 1,
+      "retweets": 0,
+      "replies": 0
+    },
+    "fetched_at": "2026-04-04T23:02:03.360Z"
   },
   {
     "tweet_id": "2039860242779930880",
@@ -1228,8 +1243,13 @@
     "theme": "今日のバズニュース（国内）",
     "research_id": "r_1774334770119_h3ig",
     "posted_at": "2026-04-03T00:19:15.417Z",
-    "metrics": null,
-    "fetched_at": null
+    "metrics": {
+      "impressions": 2,
+      "likes": 1,
+      "retweets": 0,
+      "replies": 0
+    },
+    "fetched_at": "2026-04-04T23:02:05.462Z"
   },
   {
     "tweet_id": "2039867794133598539",
@@ -1254,8 +1274,13 @@
     "theme": "テーマ投資（半導体・AI・防衛・原子力・宇宙・Physical AI）",
     "research_id": "r_1774389937674_lgxx",
     "posted_at": "2026-04-03T00:49:15.793Z",
-    "metrics": null,
-    "fetched_at": null
+    "metrics": {
+      "impressions": 7,
+      "likes": 1,
+      "retweets": 0,
+      "replies": 0
+    },
+    "fetched_at": "2026-04-04T23:02:07.586Z"
   },
   {
     "tweet_id": "2039875345118077102",
@@ -1280,8 +1305,13 @@
     "theme": "今日のバズニュース（国内）",
     "research_id": "r_1774389937674_dddt",
     "posted_at": "2026-04-03T01:19:16.087Z",
-    "metrics": null,
-    "fetched_at": null
+    "metrics": {
+      "impressions": 5,
+      "likes": 1,
+      "retweets": 0,
+      "replies": 0
+    },
+    "fetched_at": "2026-04-04T23:02:09.715Z"
   },
   {
     "tweet_id": "2039973331026239995",
@@ -1306,8 +1336,13 @@
     "theme": "決算速報・決算レビュー",
     "research_id": "r_1775030800731_cgk7",
     "posted_at": "2026-04-03T07:48:37.760Z",
-    "metrics": null,
-    "fetched_at": null
+    "metrics": {
+      "impressions": 10,
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0
+    },
+    "fetched_at": "2026-04-04T23:02:11.832Z"
   },
   {
     "tweet_id": "2039980881951981587",
@@ -1332,8 +1367,13 @@
     "theme": "決算速報・決算レビュー",
     "research_id": "r_1775030800731_imii",
     "posted_at": "2026-04-03T08:18:38.033Z",
-    "metrics": null,
-    "fetched_at": null
+    "metrics": {
+      "impressions": 12,
+      "likes": 1,
+      "retweets": 0,
+      "replies": 0
+    },
+    "fetched_at": "2026-04-04T23:02:13.935Z"
   },
   {
     "tweet_id": "2040075644625723778",
@@ -1358,8 +1398,13 @@
     "theme": "米国株個別銘柄分析",
     "research_id": "r_1775030800731_64mq",
     "posted_at": "2026-04-03T14:35:11.217Z",
-    "metrics": null,
-    "fetched_at": null
+    "metrics": {
+      "impressions": 79,
+      "likes": 2,
+      "retweets": 0,
+      "replies": 0
+    },
+    "fetched_at": "2026-04-04T23:02:16.030Z"
   },
   {
     "tweet_id": "2040083195920625870",
@@ -1384,8 +1429,13 @@
     "theme": "マクロ経済・市場環境",
     "research_id": "r_1774389937674_gv4b",
     "posted_at": "2026-04-03T15:05:11.581Z",
-    "metrics": null,
-    "fetched_at": null
+    "metrics": {
+      "impressions": 8,
+      "likes": 1,
+      "retweets": 0,
+      "replies": 0
+    },
+    "fetched_at": "2026-04-04T23:02:18.145Z"
   },
   {
     "tweet_id": "2040206490938614037",
@@ -1572,6 +1622,58 @@
     "theme": "週間マーケット振り返り",
     "research_id": null,
     "posted_at": "2026-04-04T14:43:23.307Z",
+    "metrics": null,
+    "fetched_at": null
+  },
+  {
+    "tweet_id": "2040568066505949189",
+    "text": "💥4年ぶり物価2%割れキター！\n\n2月CPI（コア）1.6%で2022年3月以来の大幅鈍化🔥\n政府のエネルギー補助（-0.38Pt）が効きまくってます💪\n食料品も7ヵ月連続鈍化中📉\n\n✅実質賃金改善期待\n✅消費関連株にポジティブ\n✅日銀の追加利上げペース緩和も？\n\n#物価 #CPI #投資 #株式",
+    "type": "image",
+    "pattern_id": "P09",
+    "hook_id": null,
+    "theme": "日本の消費者物価指数、4年ぶりに2％を割り込む",
+    "research_id": "r_1774825563764_htwk",
+    "posted_at": "2026-04-04T23:11:53.872Z",
+    "metrics": null,
+    "fetched_at": null
+  },
+  {
+    "tweet_id": "2040568943904010668",
+    "text": "海外勢、4906億円の日本株売り越し。6カ月ぶりの大きさなんだよな。\n\n中東情勢の長期化で完全にリスクオフモード。日経平均1866円安の衝撃もあって、外国人がガンガン売ってきてる。\n\nただ、これだけ売られたら逆に買い場近いんじゃないか？需給最悪の時こそチャンス。",
+    "score": 8.2,
+    "theme": "外国人投資家売り越し分析",
+    "research_id": null,
+    "posted_at": "2026-04-04T23:15:22.904Z",
+    "metrics": null,
+    "fetched_at": null
+  },
+  {
+    "tweet_id": "2040576494829748580",
+    "text": "海外勢が4906億円の売り越し、6カ月ぶりの大きさ。\n\n中東情勢の長期化を嫌った外国人が一気に日本株を手放してる。これが日経1866円安の真因だろ。\n\n地政学リスク→原油高→インフレ懸念→利上げ前倒し観測のコンボが効きすぎ。\n\nただ、こういう時こそ仕込み場。需給悪化は一時的、ファンダは変わってない。",
+    "score": 8.2,
+    "theme": "海外投資家売り越しと市場調整",
+    "research_id": null,
+    "posted_at": "2026-04-04T23:45:23.208Z",
+    "metrics": null,
+    "fetched_at": null
+  },
+  {
+    "tweet_id": "2040584045940154510",
+    "text": "海外勢が4906億円の売り越し、6カ月ぶりの規模。\n\n日経平均-1866円の大幅安と連動してるが、これが底値圏なのかがポイントだな。中東情勢の長期化を織り込んでるなら、逆張り仕込みのチャンスかもしれん。\n\n外国人の売り圧力がピークアウトしたら、反転は早い。来週の動向次第だが、売られすぎ銘柄は要チェックだろ。",
+    "score": 8.2,
+    "theme": "外国人投資家動向分析",
+    "research_id": null,
+    "posted_at": "2026-04-05T00:15:23.542Z",
+    "metrics": null,
+    "fetched_at": null
+  },
+  {
+    "tweet_id": "2040591597000073279",
+    "text": "外国人投資家、4906億円の日本株売り越し。6カ月ぶりの大きさ。\n\n中東情勢悪化→地政学リスク→資金流出の典型パターン。日経平均も1866円の大幅安で5万3372円。\n\nただし、こういう時こそチャンス。海外勢の売りが一巡すれば反発余地は十分。特にAI・半導体関連は押し目買いのタイミングじゃないか？\n\n来週はどう動くかな。",
+    "score": 8.2,
+    "theme": "外国人投資家の大幅売り越しと市場調整",
+    "research_id": null,
+    "posted_at": "2026-04-05T00:45:23.845Z",
     "metrics": null,
     "fetched_at": null
   }

@@ -1,5 +1,117 @@
 [
   {
+    "username": "@akameneko31",
+    "followers": 7500,
+    "reason": "日本株の板読みや需給分析を中心としたデイトレ投稿が活発。トレード動画やマクロ分析ツールの開発情報も共有され、実践的な学びが多い。",
+    "investment_style": "デイトレード（板読み・短期売買）",
+    "priority": "high",
+    "selected_at": "2026-04-04T23:09:02.074Z"
+  },
+  {
+    "username": "@Investor_Gaku",
+    "followers": 6000,
+    "reason": "デイトレ歴10年以上の経験を基にしたアドバイスや無料相談会を実施。初心者向けのPDCAサイクル指導が役立つ。",
+    "investment_style": "デイトレード",
+    "priority": "high",
+    "selected_at": "2026-04-04T23:09:02.074Z"
+  },
+  {
+    "username": "@yoshizawa_04",
+    "followers": 5800,
+    "reason": "専業投資家による日本株チャート分析と推奨銘柄投稿。損切りルールやポートフォリオ管理のTipsが具体的。",
+    "investment_style": "デイトレード（日本株）",
+    "priority": "high",
+    "selected_at": "2026-04-04T23:09:02.074Z"
+  },
+  {
+    "username": "@kose_daytrader",
+    "followers": 5000,
+    "reason": "毎日デイトレ報告と週次収支公開。負けからの復活プロセスを共有し、メンタル面の参考になる。",
+    "investment_style": "デイトレード（株・FX・CFD）",
+    "priority": "high",
+    "selected_at": "2026-04-04T23:09:02.074Z"
+  },
+  {
+    "username": "@erekana16",
+    "followers": 5300,
+    "reason": "毎日デイトレ銘柄予想をブログ連動で投稿。勝つための具体的な戦略を学べる。",
+    "investment_style": "デイトレード予想",
+    "priority": "high",
+    "selected_at": "2026-04-04T23:09:02.074Z"
+  },
+  {
+    "username": "@okabu007",
+    "followers": 2100,
+    "reason": "スイングトレードの理論を深く解説。著書もあり、情報ノイズを避けた軸の重要性を説く投稿が秀逸。",
+    "investment_style": "スイングトレード",
+    "priority": "medium",
+    "selected_at": "2026-04-04T23:09:02.074Z"
+  },
+  {
+    "username": "@SHUKKIN30",
+    "followers": 14000,
+    "reason": "出勤前の30分デイトレに特化。サラリーマン兼業トレーダーの効率的な手法を参考にできる。",
+    "investment_style": "デイトレード（短時間）",
+    "priority": "high",
+    "selected_at": "2026-04-04T23:09:02.074Z"
+  },
+  {
+    "username": "@SE_ConciergeXYZ",
+    "followers": 2400,
+    "reason": "日本株スイングトレードとYoutube毎日配信。売買タイミングの考察が詳細。",
+    "investment_style": "スイングトレード",
+    "priority": "medium",
+    "selected_at": "2026-04-04T23:09:02.074Z"
+  },
+  {
+    "username": "@traderyui",
+    "followers": 5800,
+    "reason": "会社員からデイトレ専業へ。投資活動のリアルをYoutubeで配信、日本株中心。",
+    "investment_style": "デイトレード（日本株・FX）",
+    "priority": "high",
+    "selected_at": "2026-04-04T23:09:02.074Z"
+  },
+  {
+    "username": "@hokubuta30",
+    "followers": 13000,
+    "reason": "兼業デイトレーダーの損切り・資金効率論。サロン運営で実践知見豊富。",
+    "investment_style": "デイトレード",
+    "priority": "high",
+    "selected_at": "2026-04-04T23:09:02.074Z"
+  },
+  {
+    "username": "@G10KOZOU",
+    "followers": 4400,
+    "reason": "毎朝市況レポートを配信し、米国株を含む市場分析を日本語で。スイングトレード中心で実践的な情報が多く、地政学リスクや経済ニュースをタイムリーに共有。投資家同士の繋がりが活発。",
+    "investment_style": "スイングトレード中心の短期・中期運用",
+    "priority": "medium",
+    "selected_at": "2026-04-04T23:09:02.074Z"
+  },
+  {
+    "username": "@Pirosuke912658",
+    "followers": 1000,
+    "reason": "毎日投資報告を公開し、米国株・金・債券のバランス運用を実践。FIREを目指すサラリーマン投資家の視点でマクロ経済の影響を反映した資産推移が参考になる。堅実で信頼性高く交流価値あり。",
+    "investment_style": "インデックス・債券・ゴールドのバランス投資、FIRE志向",
+    "priority": "medium",
+    "selected_at": "2026-04-04T23:09:02.074Z"
+  },
+  {
+    "username": "@toresami",
+    "followers": 1800,
+    "reason": "株投資とマクロ経済分析を組み合わせ、ファンダメンタル・テクニカル・サイクルを日本語で発信。年利20%超の実績を基にした裁量取引のヒントが多く、投資家との議論が活発。",
+    "investment_style": "ファンダメンタル・テクニカル・トレンドフォロー",
+    "priority": "medium",
+    "selected_at": "2026-04-04T23:09:02.074Z"
+  },
+  {
+    "username": "@abc_z_news_",
+    "followers": 1600,
+    "reason": "マクロ経済・金融・投資・AIを基礎から資産形成まで日本語で解説。経済ニュースのまとめと分析が日常的に役立ち、中規模ながら質の高い情報源。詐欺系とは無縁の真摯な発信。",
+    "investment_style": "長期資産形成とマクロ経済学習重視",
+    "priority": "medium",
+    "selected_at": "2026-04-04T23:09:02.074Z"
+  },
+  {
     "username": "@ken_toushi_ts",
     "followers": 47000,
     "reason": "毎日株式投資や経済情報を日本語で発信し、有名投資家の考え方や話題株のまとめを分かりやすく提供。最新トレンドをキャッチしやすく、交流で実践的なインサイトを得られる。",

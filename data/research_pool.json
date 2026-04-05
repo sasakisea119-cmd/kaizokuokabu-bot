@@ -705,7 +705,7 @@
     "urgency": "medium",
     "source_type": "domestic",
     "created_at": "2026-03-29T23:06:03.764Z",
-    "used": false
+    "used": true
   },
   {
     "id": "r_1774825563764_0cax",
@@ -1523,6 +1523,81 @@
     "urgency": "medium",
     "source_type": "trending_x",
     "created_at": "2026-04-04T14:05:48.647Z",
+    "used": false
+  },
+  {
+    "id": "r_1775343844950_69fu",
+    "theme": "### 日本株相場トレンド（直近12時間：2026/4/4 夕方以降の最新情報）",
+    "title": "### 日本株相場トレンド（直近12時間：2026/4/4 夕方以降の最新情報）",
+    "published_date": "2026-04-05",
+    "summary": "### 日本株相場トレンド（直近12時間：2026/4/4 夕方以降の最新情報）",
+    "investment_angle": "",
+    "tickers": [],
+    "keywords": [],
+    "recommended_pattern": "P14",
+    "urgency": "medium",
+    "source_type": "trending_x",
+    "created_at": "2026-04-04T23:04:04.950Z",
+    "used": false
+  },
+  {
+    "id": "r_1775343844950_74a0",
+    "theme": "- 金曜（4/3）終値ベースで**日経平均 53,123円（+660円, +1.26%）**、**TOPIX 3,645",
+    "title": "- 金曜（4/3）終値ベースで**日経平均 53,123円（+660円, +1.26%）**、**TOPIX 3,645",
+    "published_date": "2026-04-05",
+    "summary": "- 金曜（4/3）終値ベースで**日経平均 53,123円（+660円, +1.26%）**、**TOPIX 3,645（+0.93%）**と急反発。AI・半導体株主導で個人投資家の逆張り買いが入り、中東情勢の緊迫化（原油高リスク）にもかかわらず底堅さを見せた。[[1]](https://x.com/i/status/2040472671344046500)[[2]](https://x.com/i/status/2040349048088215804)",
+    "investment_angle": "",
+    "tickers": [],
+    "keywords": [],
+    "recommended_pattern": "P14",
+    "urgency": "medium",
+    "source_type": "trending_x",
+    "created_at": "2026-04-04T23:04:04.950Z",
+    "used": false
+  },
+  {
+    "id": "r_1775343844950_li0k",
+    "theme": "- 直近12時間（土曜夕方）：**日経先物夜間 53,270円（+70円）**、**SGX日経先物 53,125円（+1",
+    "title": "- 直近12時間（土曜夕方）：**日経先物夜間 53,270円（+70円）**、**SGX日経先物 53,125円（+1",
+    "published_date": "2026-04-05",
+    "summary": "- 直近12時間（土曜夕方）：**日経先物夜間 53,270円（+70円）**、**SGX日経先物 53,125円（+125円）**と小幅上昇・ヨコヨコ推移。CME休場（グッドフライデー）の影響で静観ムード。来週SQ（4/10）で乱高下予想、地政学リスク（中東・イラン）・米CPI警戒で神経質。[[3]](https://x.com/i/status/2040562907885514852)[[4]](https://x.com/i/status/2040496289335726375)[[5]](https://x.com/i/status/2040565006199300485)",
+    "investment_angle": "",
+    "tickers": [],
+    "keywords": [],
+    "recommended_pattern": "P14",
+    "urgency": "medium",
+    "source_type": "trending_x",
+    "created_at": "2026-04-04T23:04:04.950Z",
+    "used": false
+  },
+  {
+    "id": "r_1775343844950_0suv",
+    "theme": "- 全体トレンド：短期強気継続も、高値圏（53,000-55,000円レンジ）で上値重く、調整リスクあり。円安（159円",
+    "title": "- 全体トレンド：短期強気継続も、高値圏（53,000-55,000円レンジ）で上値重く、調整リスクあり。円安（159円",
+    "published_date": "2026-04-05",
+    "summary": "- 全体トレンド：短期強気継続も、高値圏（53,000-55,000円レンジ）で上値重く、調整リスクあり。円安（159円台）支援。[[6]](https://x.com/i/status/2040244593867079845)",
+    "investment_angle": "",
+    "tickers": [],
+    "keywords": [],
+    "recommended_pattern": "P14",
+    "urgency": "medium",
+    "source_type": "trending_x",
+    "created_at": "2026-04-04T23:04:04.950Z",
+    "used": false
+  },
+  {
+    "id": "r_1775343844950_5plu",
+    "theme": "- 金曜：AI関連で爆発的（さくらインターネット売買代金195億円、NTT 1.16億株、ジャパンディスプレイ 1.48",
+    "title": "- 金曜：AI関連で爆発的（さくらインターネット売買代金195億円、NTT 1.16億株、ジャパンディスプレイ 1.48",
+    "published_date": "2026-04-05",
+    "summary": "- 金曜：AI関連で爆発的（さくらインターネット売買代金195億円、NTT 1.16億株、ジャパンディスプレイ 1.48億株など）。全体活況も、新興市場は低調（5週連続下落も追随買い）。[[7]](https://x.com/i/status/2040393625822241043)[[8]](https://x.com/i/status/2040560458839793675)",
+    "investment_angle": "",
+    "tickers": [],
+    "keywords": [],
+    "recommended_pattern": "P14",
+    "urgency": "medium",
+    "source_type": "trending_x",
+    "created_at": "2026-04-04T23:04:04.950Z",
     "used": false
   }
 ]
