@@ -1446,8 +1446,13 @@
     "theme": "2026年上場期待のIPO銘柄、ポケトークやスマートニュースが注目",
     "research_id": "r_1774825563764_mg7m",
     "posted_at": "2026-04-03T23:15:07.474Z",
-    "metrics": null,
-    "fetched_at": null
+    "metrics": {
+      "impressions": 4,
+      "likes": 1,
+      "retweets": 0,
+      "replies": 0
+    },
+    "fetched_at": "2026-04-05T23:04:10.558Z"
   },
   {
     "tweet_id": "2040207384849612991",
@@ -1472,8 +1477,13 @@
     "theme": "メタプラネット・ビットコイン関連（賛否両論あるネタとして積極的に取り上げる）",
     "research_id": "r_1774389937674_gifc",
     "posted_at": "2026-04-03T23:18:40.532Z",
-    "metrics": null,
-    "fetched_at": null
+    "metrics": {
+      "impressions": 6,
+      "likes": 1,
+      "retweets": 0,
+      "replies": 0
+    },
+    "fetched_at": "2026-04-05T23:04:12.687Z"
   },
   {
     "tweet_id": "2040214935905431562",
@@ -1498,8 +1508,13 @@
     "theme": "日本株個別銘柄分析",
     "research_id": "r_1774394913256_dtmg",
     "posted_at": "2026-04-03T23:48:40.844Z",
-    "metrics": null,
-    "fetched_at": null
+    "metrics": {
+      "impressions": 10,
+      "likes": 1,
+      "retweets": 0,
+      "replies": 0
+    },
+    "fetched_at": "2026-04-05T23:04:14.846Z"
   },
   {
     "tweet_id": "2040222486839652743",
@@ -1524,8 +1539,13 @@
     "theme": "今日のバズニュース（海外）",
     "research_id": "r_1774394913256_3ref",
     "posted_at": "2026-04-04T00:18:41.134Z",
-    "metrics": null,
-    "fetched_at": null
+    "metrics": {
+      "impressions": 6,
+      "likes": 1,
+      "retweets": 0,
+      "replies": 0
+    },
+    "fetched_at": "2026-04-05T23:04:17.092Z"
   },
   {
     "tweet_id": "2040230037824118833",
@@ -1550,8 +1570,13 @@
     "theme": "米国株個別銘柄分析",
     "research_id": "r_1774394913256_85gg",
     "posted_at": "2026-04-04T00:48:41.416Z",
-    "metrics": null,
-    "fetched_at": null
+    "metrics": {
+      "impressions": 7,
+      "likes": 2,
+      "retweets": 0,
+      "replies": 0
+    },
+    "fetched_at": "2026-04-05T23:04:19.225Z"
   },
   {
     "tweet_id": "2040319942688641224",
@@ -1576,8 +1601,13 @@
     "theme": "テーマ投資（半導体・AI・防衛・原子力・宇宙・Physical AI）",
     "research_id": "r_1774394913256_x8er",
     "posted_at": "2026-04-04T06:45:56.434Z",
-    "metrics": null,
-    "fetched_at": null
+    "metrics": {
+      "impressions": 9,
+      "likes": 1,
+      "retweets": 0,
+      "replies": 0
+    },
+    "fetched_at": "2026-04-05T23:04:21.362Z"
   },
   {
     "tweet_id": "2040327494679806322",
@@ -1602,8 +1632,13 @@
     "theme": "今日のバズニュース（海外）",
     "research_id": "r_1774394913256_s5ta",
     "posted_at": "2026-04-04T07:15:56.953Z",
-    "metrics": null,
-    "fetched_at": null
+    "metrics": {
+      "impressions": 13,
+      "likes": 1,
+      "retweets": 0,
+      "replies": 0
+    },
+    "fetched_at": "2026-04-05T23:04:23.490Z"
   },
   {
     "tweet_id": "2040432545763086454",
@@ -1612,8 +1647,13 @@
     "theme": "外国人投資家売り越し",
     "research_id": null,
     "posted_at": "2026-04-04T14:13:23.054Z",
-    "metrics": null,
-    "fetched_at": null
+    "metrics": {
+      "impressions": 18,
+      "likes": 1,
+      "retweets": 0,
+      "replies": 0
+    },
+    "fetched_at": "2026-04-05T23:04:25.644Z"
   },
   {
     "tweet_id": "2040440096487616866",
@@ -1622,8 +1662,13 @@
     "theme": "週間マーケット振り返り",
     "research_id": null,
     "posted_at": "2026-04-04T14:43:23.307Z",
-    "metrics": null,
-    "fetched_at": null
+    "metrics": {
+      "impressions": 9,
+      "likes": 1,
+      "retweets": 0,
+      "replies": 0
+    },
+    "fetched_at": "2026-04-05T23:04:27.775Z"
   },
   {
     "tweet_id": "2040568066505949189",
@@ -1714,6 +1759,58 @@
     "theme": "投資マインドセット",
     "research_id": null,
     "posted_at": "2026-04-05T14:45:04.626Z",
+    "metrics": null,
+    "fetched_at": null
+  },
+  {
+    "tweet_id": "2040930973785739675",
+    "text": "🔥春闘2026衝撃データ公開\n連合初回集計で賃上げ率5.26%、中小企業も5.05%の高水準維持💰 3年連続5%超は完全に賃上げ「新常態」へ！実質賃金プラス転換で個人消費拡大→内需株に追い風📈 労働集約型企業はコスト増要注意⚠️",
+    "type": "image",
+    "pattern_id": "P11",
+    "hook_id": null,
+    "theme": "2026年春闘、賃上げ率5.26%で前年を下回るも高水準維持",
+    "research_id": "r_1774825563764_0cax",
+    "posted_at": "2026-04-05T23:13:57.673Z",
+    "metrics": null,
+    "fetched_at": null
+  },
+  {
+    "tweet_id": "2040931854245662922",
+    "text": "1866円安の大暴落。これ、投資初心者には絶好の教材だろ。\n\n地政学リスク→原油高→インフレ懸念→利上げ観測→株安。この連鎖反応が理解できれば、なぜ暴落したかが見えてくる。\n\n外国人4906億円の売り越しも6カ月ぶりの規模。でも過去のデータ見ると、こういう時こそ仕込み場になることが多い。\n\n感情的に売るか、冷静に分析するか。ここで差がつくんだよな。",
+    "score": 8.2,
+    "theme": "投資マインドセット",
+    "research_id": null,
+    "posted_at": "2026-04-05T23:17:27.502Z",
+    "metrics": null,
+    "fetched_at": null
+  },
+  {
+    "tweet_id": "2040939405372789062",
+    "text": "日経平均1866円安。これ、初心者は怖がりすぎだろ。\n\n4906億円の海外売り越しって数字見て「終わった」って思ってる奴多いけど、これむしろチャンスなんだよな。地政学リスクの売りは一過性。ファンダメンタルズは変わってない。\n\n暴落時こそ優良銘柄を仕込むタイミング。みんなが怖がってる時に買えるかが、投資で勝てる人と負ける人の差。\n\nさて、今回もビビって売るか？",
+    "score": 8.2,
+    "theme": "投資マインドセット",
+    "research_id": null,
+    "posted_at": "2026-04-05T23:47:27.826Z",
+    "metrics": null,
+    "fetched_at": null
+  },
+  {
+    "tweet_id": "2040946956394954874",
+    "text": "1866円安って聞いて「株式投資終わった」って思った人、投資向いてないかも。\n\n過去のデータ見てみろよ。日経平均の日次変動率3.4%なんて年に数回はある。2020年3月は1日で2000円超の下落が3回。でもその後どうなった？\n\n大事なのは「なぜ下がったか」の理解だろ。中東情勢＋米利下げ観測後退。一時的要因なのか構造的問題なのか。そこ分からずに狼狽してるうちは勝てない。",
+    "score": 8.2,
+    "theme": "投資マインドセット",
+    "research_id": null,
+    "posted_at": "2026-04-06T00:17:28.134Z",
+    "metrics": null,
+    "fetched_at": null
+  },
+  {
+    "tweet_id": "2040954507434115270",
+    "text": "日経平均が1866円安。これ、投資初心者は慌てて売ってる？\n\n大暴落したら買い場だろ。外国人が4906億円も売り越してるってことは、逆に日本株が割安になってるってこと。\n\n地政学リスクで下がった株なんて、大体3ヶ月で戻る。過去のデータ見ればわかる話。\n\n慌てて損切りしてる奴、また高値掴みすることになるぞ。",
+    "score": 8.2,
+    "theme": "投資マインドセット",
+    "research_id": null,
+    "posted_at": "2026-04-06T00:47:28.444Z",
     "metrics": null,
     "fetched_at": null
   }

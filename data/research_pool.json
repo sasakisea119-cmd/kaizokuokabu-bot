@@ -717,7 +717,7 @@
     "urgency": "medium",
     "source_type": "domestic",
     "created_at": "2026-03-29T23:06:03.764Z",
-    "used": false
+    "used": true
   },
   {
     "id": "r_1774825563764_q5n4",
@@ -1673,6 +1673,81 @@
     "urgency": "medium",
     "source_type": "trending_x",
     "created_at": "2026-04-05T14:07:03.560Z",
+    "used": false
+  },
+  {
+    "id": "r_1775430383064_3z7n",
+    "theme": "### 日本株相場トレンド（直近12時間：2026/4/5 夕方以降のX投稿まとめ）",
+    "title": "### 日本株相場トレンド（直近12時間：2026/4/5 夕方以降のX投稿まとめ）",
+    "published_date": "2026-04-06",
+    "summary": "### 日本株相場トレンド（直近12時間：2026/4/5 夕方以降のX投稿まとめ）",
+    "investment_angle": "",
+    "tickers": [],
+    "keywords": [],
+    "recommended_pattern": "P14",
+    "urgency": "medium",
+    "source_type": "trending_x",
+    "created_at": "2026-04-05T23:06:23.064Z",
+    "used": false
+  },
+  {
+    "id": "r_1775430383064_mf5k",
+    "theme": "直近12時間（主に日本時間夕方〜深夜）のX投稿では、**市場は閉場中（日曜）**のため、主に**日経225先物・月曜（4",
+    "title": "直近12時間（主に日本時間夕方〜深夜）のX投稿では、**市場は閉場中（日曜）**のため、主に**日経225先物・月曜（4",
+    "published_date": "2026-04-06",
+    "summary": "直近12時間（主に日本時間夕方〜深夜）のX投稿では、**市場は閉場中（日曜）**のため、主に**日経225先物・月曜（4/6）オープンの予想**が中心。**中東情勢（イラン攻撃懸念）の不透明感と原油高（+11%、111ドル台）、円安（159円台）、米株反発**の綱引きが議論の焦点。全体的に**リスクオフ基調継続も、先物強含みで買い先行期待**の声が混在。[[1]](https://x.com/i/status/2040928537444851851)[[2]](https://x.com/i/status/2040928358599627044)[[3]](https://x.com/i/status/2040903164891947189)",
+    "investment_angle": "",
+    "tickers": [],
+    "keywords": [],
+    "recommended_pattern": "P14",
+    "urgency": "medium",
+    "source_type": "trending_x",
+    "created_at": "2026-04-05T23:06:23.064Z",
+    "used": false
+  },
+  {
+    "id": "r_1775430383064_j9s0",
+    "theme": "- **日経平均/TOPIX先物**: 53,000円台で推移、**+0.63%強含み**。米株高・円安メリットで**買",
+    "title": "- **日経平均/TOPIX先物**: 53,000円台で推移、**+0.63%強含み**。米株高・円安メリットで**買",
+    "published_date": "2026-04-06",
+    "summary": "- **日経平均/TOPIX先物**: 53,000円台で推移、**+0.63%強含み**。米株高・円安メリットで**買い先行スタート**予想だが、**イラン情勢の重荷**で上値重く、下げ警戒（戻り売り優勢）。想定レンジ: **52,500〜54,000円**。",
+    "investment_angle": "",
+    "tickers": [],
+    "keywords": [],
+    "recommended_pattern": "P14",
+    "urgency": "medium",
+    "source_type": "trending_x",
+    "created_at": "2026-04-05T23:06:23.064Z",
+    "used": false
+  },
+  {
+    "id": "r_1775430383064_4o0f",
+    "theme": "- **直近実績参考（4/3木曜）**: 日経 **53,123 (+1.26%, 高値53,426/安値52,915)",
+    "title": "- **直近実績参考（4/3木曜）**: 日経 **53,123 (+1.26%, 高値53,426/安値52,915)",
+    "published_date": "2026-04-06",
+    "summary": "- **直近実績参考（4/3木曜）**: 日経 **53,123 (+1.26%, 高値53,426/安値52,915)**、TOPIX **32,978 (+0.93%)**。先週急落後の反発基調も、**底打ち感なし**で様子見ムード。[[4]](https://x.com/i/status/2040592685199978779)[[5]](https://x.com/i/status/2040923928693211517)",
+    "investment_angle": "",
+    "tickers": [],
+    "keywords": [],
+    "recommended_pattern": "P14",
+    "urgency": "medium",
+    "source_type": "trending_x",
+    "created_at": "2026-04-05T23:06:23.064Z",
+    "used": false
+  },
+  {
+    "id": "r_1775430383064_ghbm",
+    "theme": "- **心理**: リスクオフ（地政学・米金利高）vs リスクオン（原油高・円安）。**短期ボラ高く、押し目買い/戻り売",
+    "title": "- **心理**: リスクオフ（地政学・米金利高）vs リスクオン（原油高・円安）。**短期ボラ高く、押し目買い/戻り売",
+    "published_date": "2026-04-06",
+    "summary": "- **心理**: リスクオフ（地政学・米金利高）vs リスクオン（原油高・円安）。**短期ボラ高く、押し目買い/戻り売り**推奨。[[6]](https://x.com/i/status/2040765225839009910)",
+    "investment_angle": "",
+    "tickers": [],
+    "keywords": [],
+    "recommended_pattern": "P14",
+    "urgency": "medium",
+    "source_type": "trending_x",
+    "created_at": "2026-04-05T23:06:23.064Z",
     "used": false
   }
 ]

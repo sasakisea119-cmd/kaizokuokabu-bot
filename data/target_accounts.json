@@ -1,5 +1,69 @@
 [
   {
+    "username": "@Nagoya_Tyouki",
+    "followers": 85000,
+    "reason": "超分散投資のポートフォリオを公開し、名証銘柄やクソ株ウォッチがユニーク。長期視点の安定運用を学べ、分散投資の参考になる。",
+    "investment_style": "超分散型長期投資、インカムゲイン重視",
+    "priority": "low",
+    "selected_at": "2026-04-05T23:11:12.339Z"
+  },
+  {
+    "username": "@kabu_care",
+    "followers": 72000,
+    "reason": "高配当株のブログ更新を定期的に共有し、低所得世帯の資産形成事例が励みになる。実直な長期投資姿勢から学べる。",
+    "investment_style": "高配当株の長期積立投資",
+    "priority": "low",
+    "selected_at": "2026-04-05T23:11:12.339Z"
+  },
+  {
+    "username": "@jin_walletplus1",
+    "followers": 98000,
+    "reason": "配当・優待株中心の資産形成を詳細報告。年間配当実績公開でモチベーション維持に役立つ。",
+    "investment_style": "増配・優待銘柄中心の配当投資",
+    "priority": "low",
+    "selected_at": "2026-04-05T23:11:12.339Z"
+  },
+  {
+    "username": "@eyasu2008_0131",
+    "followers": 6600,
+    "reason": "米国株の決算を520銘柄規模で詳細に観察・分析し、日本語でマクロ経済の文脈も交えて発信。アクティブに投稿しており、長期投資家として信頼できる洞察を提供。",
+    "investment_style": "長期集中投資",
+    "priority": "high",
+    "selected_at": "2026-04-05T23:11:12.339Z"
+  },
+  {
+    "username": "@Gataro2",
+    "followers": 8800,
+    "reason": "米国株を中心に個別銘柄の保有ポートフォリオを公開し、分析を発信。マクロ経済の影響も考慮した実践的な投稿が多く、中規模ながら質の高い情報源。",
+    "investment_style": "ディフェンシブ・バリュー株中心（GS, PG, JNJなど）",
+    "priority": "high",
+    "selected_at": "2026-04-05T23:11:12.339Z"
+  },
+  {
+    "username": "@520gritman",
+    "followers": 5600,
+    "reason": "米国株・ETFを中心に毎日投資関連情報を発信。資産形成のコツやマクロ経済の話題を交え、初心者から中級者向けのアクティブアカウント。",
+    "investment_style": "インデックス・ETF分散投資",
+    "priority": "high",
+    "selected_at": "2026-04-05T23:11:12.339Z"
+  },
+  {
+    "username": "@RamTky",
+    "followers": 19000,
+    "reason": "米国株投資で億超えの実績を持ち、毎日米国市場情報をブログとXで発信。マクロ経済の動向を踏まえたFIRE達成者の視点が交流価値高く。",
+    "investment_style": "成長株・長期投資",
+    "priority": "high",
+    "selected_at": "2026-04-05T23:11:12.339Z"
+  },
+  {
+    "username": "@tomatous2020",
+    "followers": 26000,
+    "reason": "米国株投資家としてマクロ経済や資源関連の分析を日本語で投稿。政策・経済トレンドを絡めた独自視点で、アクティブに情報提供。",
+    "investment_style": "テーマ投資（資源・政策関連株）",
+    "priority": "high",
+    "selected_at": "2026-04-05T23:11:12.339Z"
+  },
+  {
     "username": "@akameneko31",
     "followers": 7500,
     "reason": "日本株の板読みや需給分析を中心としたデイトレ投稿が活発。トレード動画やマクロ分析ツールの開発情報も共有され、実践的な学びが多い。",
