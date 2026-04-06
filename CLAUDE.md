@@ -24,7 +24,7 @@
 - 1行目フック: config/hook-patterns.md を必ず参照
 - わかりやすさ: config/brand-voice.md の言い換えリストを厳守
 - 検索最適化: 銘柄名+証券コードを本文に含める
-- CTA: Noteへの誘導に一本化（LINE誘導は停止中）
+- CTA: 自動ポストにはNote誘導を入れない。社長がNote投稿後に依頼した時だけCTA投稿を作成（LINE誘導は停止中）
 
 ## ディレクトリ構成
 ```
