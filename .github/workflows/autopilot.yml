@@ -1,22 +1,22 @@
-name: kaizokuokabu autopilot
+name: kaizokuokabu IPO autopilot
 
 on:
   schedule:
     # 朝7時 JST = UTC 22:00（プライマリ＋バックアップ）
     - cron: '0 22 * * *'
     - cron: '20 22 * * *'
-    # 昼12時半 JST = UTC 03:30（プライマリ＋バックアップ）
-    - cron: '30 3 * * *'
-    - cron: '50 3 * * *'
+    # 昼12時 JST = UTC 03:00
+    - cron: '0 3 * * *'
+    - cron: '20 3 * * *'
     # 夜21時 JST = UTC 12:00（プライマリ＋バックアップ）
     - cron: '0 12 * * *'
     - cron: '20 12 * * *'
   workflow_dispatch:
     inputs:
       mode:
-        description: '実行モード (morning/noon/evening/full)'
+        description: '実行モード (morning/noon/evening)'
         required: false
-        default: 'full'
+        default: 'morning'
 
 jobs:
   autopilot:
@@ -42,22 +42,73 @@ jobs:
             echo "skip=false" >> $GITHUB_OUTPUT
           fi
 
+      - name: Determine mode from schedule
+        if: steps.dedup.outputs.skip != 'true'
+        id: mode
+        run: |
+          if [ -n "${{ github.event.inputs.mode }}" ]; then
+            echo "mode=${{ github.event.inputs.mode }}" >> $GITHUB_OUTPUT
+          else
+            HOUR=$(date -u +%H)
+            if [ "$HOUR" -ge 21 ] || [ "$HOUR" -le 1 ]; then
+              echo "mode=morning" >> $GITHUB_OUTPUT
+            elif [ "$HOUR" -ge 2 ] && [ "$HOUR" -le 5 ]; then
+              echo "mode=noon" >> $GITHUB_OUTPUT
+            else
+              echo "mode=evening" >> $GITHUB_OUTPUT
+            fi
+          fi
+
       - name: Setup Node.js
         if: steps.dedup.outputs.skip != 'true'
         uses: actions/setup-node@v4
         with:
           node-version: '18'
 
+      - name: Setup Python
+        if: steps.dedup.outputs.skip != 'true'
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install Python dependencies
+        if: steps.dedup.outputs.skip != 'true'
+        run: pip install requests PyMuPDF
+
       - name: Install Japanese fonts
         if: steps.dedup.outputs.skip != 'true'
         run: sudo apt-get install -y fonts-noto-cjk fonts-noto-cjk-extra
 
-      - name: Install dependencies
+      - name: Install Node dependencies
         if: steps.dedup.outputs.skip != 'true'
         run: npm install
 
-      - name: Run autopilot
+      - name: Setup Claude CLI
         if: steps.dedup.outputs.skip != 'true'
+        run: |
+          npm install -g @anthropic-ai/claude-code || true
+          echo "Claude CLI setup attempted"
+
+      - name: Run morning tasks
+        if: steps.dedup.outputs.skip != 'true' && steps.mode.outputs.mode == 'morning'
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          XAI_API_KEY: ${{ secrets.XAI_API_KEY }}
+          EDINET_API_KEY: ${{ secrets.EDINET_API_KEY }}
+          X_API_KEY: ${{ secrets.X_API_KEY }}
+          X_API_SECRET: ${{ secrets.X_API_SECRET }}
+          X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
+          X_ACCESS_TOKEN_SECRET: ${{ secrets.X_ACCESS_TOKEN_SECRET }}
+        run: |
+          echo "=== Morning Mode ==="
+          # Step 0: 目論見書自動取得
+          python scripts/fetch-prospectus.py || echo "EDINET取得スキップ"
+
+          # Step 1: 既存autopilot（コアエージェント）で投稿生成・実行
+          node scripts/autopilot.js --morning
+
+      - name: Run noon tasks
+        if: steps.dedup.outputs.skip != 'true' && steps.mode.outputs.mode == 'noon'
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           XAI_API_KEY: ${{ secrets.XAI_API_KEY }}
@@ -66,12 +117,21 @@ jobs:
           X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
           X_ACCESS_TOKEN_SECRET: ${{ secrets.X_ACCESS_TOKEN_SECRET }}
         run: |
-          MODE="${{ github.event.inputs.mode }}"
-          if [ -n "$MODE" ]; then
-            node scripts/autopilot.js --$MODE
-          else
-            node scripts/autopilot.js
-          fi
+          echo "=== Noon Mode ==="
+          node scripts/autopilot.js --noon
+
+      - name: Run evening tasks
+        if: steps.dedup.outputs.skip != 'true' && steps.mode.outputs.mode == 'evening'
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          XAI_API_KEY: ${{ secrets.XAI_API_KEY }}
+          X_API_KEY: ${{ secrets.X_API_KEY }}
+          X_API_SECRET: ${{ secrets.X_API_SECRET }}
+          X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
+          X_ACCESS_TOKEN_SECRET: ${{ secrets.X_ACCESS_TOKEN_SECRET }}
+        run: |
+          echo "=== Evening Mode ==="
+          node scripts/autopilot.js --evening
 
       - name: Commit updated data files
         if: steps.dedup.outputs.skip != 'true'
@@ -79,6 +139,6 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git pull --rebase origin master || true
-          git add data/
+          git add data/ employees/logs/ employees/data/ config/ipo-calendar.md config/edinet-watchlist.md
           git diff --staged --quiet || git commit -m "chore: update data files [autopilot $(date -u +%Y-%m-%dT%H:%M)]"
           git push
