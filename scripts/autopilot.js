@@ -151,6 +151,17 @@ async function main() {
 
   // === 昼モード（12時半）: 投稿＋引用RT＋交流 ===
   else if (mode === 'noon') {
+    // 画像投稿フォールバック（朝に未実施なら昼に実行）
+    console.log('\n--- Image Poster: 画像投稿フォールバック ---');
+    try {
+      const imagePoster = require('../agents/image-poster');
+      await imagePoster.run();
+    } catch (err) {
+      console.error(`[autopilot] image-poster エラー: ${err.message}`);
+    }
+
+    await sleep(30000);
+
     console.log('\n--- Researcher: バズツイート候補収集 ---');
     const researcher = require('../agents/researcher');
     await researcher.runBuzzOnly();
@@ -194,6 +205,17 @@ async function main() {
 
   // === 夜モード（21時）: リサーチ＋投稿＋交流 ===
   else if (mode === 'evening') {
+    // 画像投稿フォールバック（朝・昼に未実施なら夜に実行）
+    console.log('\n--- Image Poster: 画像投稿フォールバック ---');
+    try {
+      const imagePoster = require('../agents/image-poster');
+      await imagePoster.run();
+    } catch (err) {
+      console.error(`[autopilot] image-poster エラー: ${err.message}`);
+    }
+
+    await sleep(30000);
+
     console.log('\n--- Researcher: 夜間ニュース収集 ---');
     const researcher = require('../agents/researcher');
     await researcher.run();
