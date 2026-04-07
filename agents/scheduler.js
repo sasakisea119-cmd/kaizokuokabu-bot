@@ -12,12 +12,12 @@ function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
 }
 
-const MIN_INTERVAL = 1800; // 最低30分（1800秒）
+const MIN_INTERVAL = 1200; // 最低20分（1200秒）
 
 async function run(count = 5, interval = 5400) {
-  // 最低30分間隔を強制
+  // 最低20分間隔を強制
   if (interval < MIN_INTERVAL) {
-    console.log(`[scheduler] 間隔${interval}秒は短すぎるため${MIN_INTERVAL}秒（30分）に補正`);
+    console.log(`[scheduler] 間隔${interval}秒は短すぎるため${MIN_INTERVAL}秒（20分）に補正`);
     interval = MIN_INTERVAL;
   }
   console.log(`[scheduler] スケジュール投稿開始: ${count}本 / ${Math.round(interval / 60)}分間隔`);

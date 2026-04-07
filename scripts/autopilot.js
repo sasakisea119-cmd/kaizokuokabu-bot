@@ -94,16 +94,16 @@ async function main() {
     await sleep(10000);
 
     // --- 社員5: コンテンツ生成（writerの代わり） ---
-    // 月500枠管理: 朝5本生成→キュー、4本投稿
-    console.log('\n--- 社員5: content-poster（5本生成） ---');
+    // 月500枠管理: 朝6本生成→キュー、5本投稿
+    console.log('\n--- 社員5: content-poster（6本生成） ---');
     try {
       const contentPoster = require('../employees/content-poster');
-      await contentPoster.run(5);
+      await contentPoster.run(6);
     } catch (err) {
       console.error(`[autopilot] content-poster エラー: ${err.message}`);
-      console.log('\n--- Writer（フォールバック）: 投稿生成（5本） ---');
+      console.log('\n--- Writer（フォールバック）: 投稿生成（6本） ---');
       const writer = require('../agents/writer');
-      await writer.run(5);
+      await writer.run(6);
     }
 
     await sleep(90000);
@@ -143,10 +143,10 @@ async function main() {
       console.error(`[autopilot] reply-worker エラー: ${err.message}`);
     }
 
-    // 朝: オリジナル4本投稿（30分間隔）
-    console.log('\n--- Scheduler: 投稿（4本、30分間隔） ---');
+    // 朝: オリジナル4本投稿（20分間隔）
+    console.log('\n--- Scheduler: 投稿（4本、20分間隔） ---');
     const scheduler = require('../agents/scheduler');
-    await scheduler.run(4, 1800);
+    await scheduler.run(4, 1200);
   }
 
   // === 昼モード（12時半）: 投稿＋引用RT＋交流 ===
@@ -186,10 +186,10 @@ async function main() {
       console.error(`[autopilot] reply-worker エラー: ${err.message}`);
     }
 
-    // 昼: オリジナル2本投稿（30分間隔）
-    console.log('\n--- Scheduler: 投稿（2本、30分間隔） ---');
+    // 昼: オリジナル3本投稿（20分間隔）
+    console.log('\n--- Scheduler: 投稿（3本、20分間隔） ---');
     const scheduler = require('../agents/scheduler');
-    await scheduler.run(2, 1800);
+    await scheduler.run(3, 1200);
   }
 
   // === 夜モード（21時）: リサーチ＋投稿＋交流 ===
@@ -201,14 +201,14 @@ async function main() {
     await sleep(90000);
 
     // --- 社員5: コンテンツ生成 ---
-    console.log('\n--- 社員5: content-poster（3本生成） ---');
+    console.log('\n--- 社員5: content-poster（4本生成） ---');
     try {
       const contentPoster = require('../employees/content-poster');
-      await contentPoster.run(3);
+      await contentPoster.run(4);
     } catch (err) {
       console.error(`[autopilot] content-poster エラー: ${err.message}`);
       const writer = require('../agents/writer');
-      await writer.run(3);
+      await writer.run(4);
     }
 
     await sleep(60000);
@@ -242,10 +242,10 @@ async function main() {
       console.error(`[autopilot] reply-worker エラー: ${err.message}`);
     }
 
-    // 夜: オリジナル2本投稿（30分間隔）
-    console.log('\n--- Scheduler: 投稿（2本、30分間隔） ---');
+    // 夜: オリジナル3本投稿（20分間隔）
+    console.log('\n--- Scheduler: 投稿（3本、20分間隔） ---');
     const scheduler = require('../agents/scheduler');
-    await scheduler.run(2, 1800);
+    await scheduler.run(3, 1200);
   }
 
   console.log('\n========================================');
