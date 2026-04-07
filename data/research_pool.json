@@ -1749,5 +1749,121 @@
     "source_type": "trending_x",
     "created_at": "2026-04-05T23:06:23.064Z",
     "used": false
+  },
+  {
+    "id": "r_1775522832794_g40z",
+    "theme": "X（旧Twitter）での仮想通貨取引機能開始予告",
+    "title": "X（旧Twitter）での仮想通貨取引機能開始予告",
+    "published_date": "2026-04-07",
+    "summary": "X（旧Twitter）が仮想通貨取引機能を数週間以内に開始すると発表。スマート・キャッシュタグ機能拡張により、タイムライン上で直接売買が可能に",
+    "investment_angle": "SNS×金融の融合によるユーザーエクスペリエンス革新",
+    "tickers": [
+      "BTC",
+      "ETH",
+      "DOGE"
+    ],
+    "keywords": [
+      "X",
+      "仮想通貨",
+      "決済",
+      "Everything App"
+    ],
+    "recommended_pattern": "P11",
+    "urgency": "high",
+    "source_type": "trending",
+    "created_at": "2026-04-07T00:47:12.794Z",
+    "used": false
+  },
+  {
+    "id": "r_1775522832794_6v7j",
+    "theme": "ビットコイン価格動向と市場心理",
+    "title": "ビットコイン価格動向と市場心理",
+    "published_date": "2026-04-07",
+    "summary": "BTCの価格変動と恐怖・強欲指数の動きが投資家の注目を集める。地政学的リスクと市場不安定性が継続",
+    "investment_angle": "暗号資産の価格ボラティリティを活用した短期トレード機会",
+    "tickers": [
+      "BTC",
+      "ETH",
+      "BCH"
+    ],
+    "keywords": [
+      "ビットコイン",
+      "暗号資産",
+      "価格変動",
+      "市場心理"
+    ],
+    "recommended_pattern": "P11",
+    "urgency": "medium",
+    "source_type": "trending",
+    "created_at": "2026-04-07T00:47:12.794Z",
+    "used": false
+  },
+  {
+    "id": "r_1775522832794_6ka4",
+    "theme": "日本株式市場の決算シーズン動向",
+    "title": "日本株式市場の決算シーズン動向",
+    "published_date": "2026-04-07",
+    "summary": "決算発表を控えた銘柄への注目が高まる。投資家は業績予想と実績のギャップに着目",
+    "investment_angle": "決算サプライズを狙った個別株投資戦略",
+    "tickers": [
+      "7203",
+      "6758",
+      "9984"
+    ],
+    "keywords": [
+      "決算",
+      "日本株",
+      "業績",
+      "サプライズ"
+    ],
+    "recommended_pattern": "P11",
+    "urgency": "medium",
+    "source_type": "trending",
+    "created_at": "2026-04-07T00:47:12.794Z",
+    "used": false
+  },
+  {
+    "id": "r_1775522832794_me6b",
+    "theme": "FX自動売買システムの話題",
+    "title": "FX自動売買システムの話題",
+    "published_date": "2026-04-07",
+    "summary": "高耐久EA（Expert Advisor）システムの宣伝投稿が投資クラスタで拡散。月利○○%を謳う商材への注意喚起も",
+    "investment_angle": "自動売買システムのリスクと収益性の検証",
+    "tickers": [
+      "USDJPY",
+      "EURJPY",
+      "GOLD"
+    ],
+    "keywords": [
+      "FX",
+      "自動売買",
+      "EA",
+      "システムトレード"
+    ],
+    "recommended_pattern": "P11",
+    "urgency": "low",
+    "source_type": "trending",
+    "created_at": "2026-04-07T00:47:12.794Z",
+    "used": false
+  },
+  {
+    "id": "r_1775522832794_3yg6",
+    "theme": "投資系インフルエンサーの収益報告",
+    "title": "投資系インフルエンサーの収益報告",
+    "published_date": "2026-04-07",
+    "summary": "著名投資家による運用成績の公開や投資手法の解説が話題に。フォロワーからの質問と回答のやり取りが活発化",
+    "investment_angle": "成功投資家の手法分析と再現可能性の検討",
+    "tickers": [],
+    "keywords": [
+      "投資家",
+      "運用成績",
+      "投資手法",
+      "インフルエンサー"
+    ],
+    "recommended_pattern": "P11",
+    "urgency": "low",
+    "source_type": "trending",
+    "created_at": "2026-04-07T00:47:12.794Z",
+    "used": false
   }
 ]
