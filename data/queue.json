@@ -1,5 +1,77 @@
 [
   {
+    "id": "q_1775500000001_cta_timee",
+    "text": "タイミー（215A）、IPO初値1,850円 → 今1,311円。\n\n「終わった銘柄」だと思ってる人、多すぎないか？\n\n・メルカリ参入で競争激化\n・でもPEGレシオ0.87は割安水準\n・成長率+28%が維持できるかが全て\n\n目論見書から読み解いた"3つの死角"、¥300でまとめた↓\nhttps://note.com/kaizokuokabu/n/nbb3599fdf722",
+    "score": {
+      "scores": {
+        "buzz": 8,
+        "hook": 9,
+        "value": 8,
+        "data": 8,
+        "unique": 8,
+        "discussion": 7,
+        "bookmark": 8,
+        "tempo": 8,
+        "persona": 9,
+        "ng_check": 10
+      },
+      "average": 8.3
+    },
+    "pattern_id": "CTA",
+    "hook_id": "H01",
+    "theme": "Note CTA — タイミー（215A）",
+    "tweet_type": "note_cta",
+    "created_at": "2026-04-06T12:00:00.000Z"
+  },
+  {
+    "id": "q_1775500000002_cta_seiwa",
+    "text": "セイワHD（523A）、公募割れIPOからの逆襲が始まってる。\n\n初値1,220円 → 今1,391円。上場2週間で+14%。\n\n注目すべきは営業利益率。9% → 24%に跳ね上がってる。\n\n「町工場ロールアップ」って何？なぜ利益が爆発してるのか？\n全部数字付きで書いた↓\nhttps://note.com/kaizokuokabu/n/n41679dc3e15c",
+    "score": {
+      "scores": {
+        "buzz": 8,
+        "hook": 8,
+        "value": 9,
+        "data": 9,
+        "unique": 8,
+        "discussion": 7,
+        "bookmark": 8,
+        "tempo": 8,
+        "persona": 9,
+        "ng_check": 10
+      },
+      "average": 8.4
+    },
+    "pattern_id": "CTA",
+    "hook_id": "H03",
+    "theme": "Note CTA — セイワHD（523A）",
+    "tweet_type": "note_cta",
+    "created_at": "2026-04-06T12:01:00.000Z"
+  },
+  {
+    "id": "q_1775500000003_cta_fanuc",
+    "text": "ファナック（6954）PER39倍。\n\nCNC世界シェア50%、ロボット世界首位。「日本最強の製造業」と言われるこの会社、今買って大丈夫なのか？\n\n・中国売上比率23%の怖さ\n・トランプ関税の具体的な影響\n・5,000円以下なら買いになる理由\n\nフィジカルAI時代の本命を丸裸にした↓\nhttps://note.com/kaizokuokabu/n/n31fa7114ba48",
+    "score": {
+      "scores": {
+        "buzz": 8,
+        "hook": 9,
+        "value": 9,
+        "data": 8,
+        "unique": 8,
+        "discussion": 8,
+        "bookmark": 9,
+        "tempo": 8,
+        "persona": 9,
+        "ng_check": 10
+      },
+      "average": 8.6
+    },
+    "pattern_id": "CTA",
+    "hook_id": "H01",
+    "theme": "Note CTA — ファナック（6954）",
+    "tweet_type": "note_cta",
+    "created_at": "2026-04-06T12:02:00.000Z"
+  },
+  {
     "id": "q_1775005189893_gsowih",
     "text": "「IPOは宝くじ」って本当？\n\n今年のIPO市場、具体的な大型案件発表は限定的。でも実は、上場後のセカンダリー投資の方が狙い目かも。\n\n理由：\n・情報が増えて分析しやすい\n・初値の熱狂が冷めた後の方が適正価格\n・四半期決算で成長確認できる\n\nIPOより「上場後の成長企業」に注目してる人、どれくらいいる？",
     "score": {

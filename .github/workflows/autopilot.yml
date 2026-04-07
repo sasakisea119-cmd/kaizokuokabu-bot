@@ -138,7 +138,15 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          # まずすべての変更をステージング（unstaged changes解消）
+          git add data/ config/ipo-calendar.md config/edinet-watchlist.md
+          git add employees/logs/ employees/data/ 2>/dev/null || true
+          # ステージング後にrebase（競合回避）
+          git stash --include-untracked || true
           git pull --rebase origin master || true
-          git add data/ employees/logs/ employees/data/ config/ipo-calendar.md config/edinet-watchlist.md
+          git stash pop || true
+          # 再度addしてcommit
+          git add data/ config/ipo-calendar.md config/edinet-watchlist.md
+          git add employees/logs/ employees/data/ 2>/dev/null || true
           git diff --staged --quiet || git commit -m "chore: update data files [autopilot $(date -u +%Y-%m-%dT%H:%M)]"
-          git push
+          git push || echo "Push failed, will retry next run"
