@@ -789,7 +789,7 @@
     "urgency": "medium",
     "source_type": "international",
     "created_at": "2026-03-29T23:11:37.040Z",
-    "used": false
+    "used": true
   },
   {
     "id": "r_1774825897040_3qmj",
@@ -801,7 +801,7 @@
     "urgency": "medium",
     "source_type": "international",
     "created_at": "2026-03-29T23:11:37.040Z",
-    "used": false
+    "used": true
   },
   {
     "id": "r_1774825897040_5jzc",
@@ -813,7 +813,7 @@
     "urgency": "medium",
     "source_type": "international",
     "created_at": "2026-03-29T23:11:37.040Z",
-    "used": false
+    "used": true
   },
   {
     "id": "r_1774826361210_u1hs",
@@ -837,7 +837,7 @@
     "urgency": "medium",
     "source_type": "trending",
     "created_at": "2026-03-29T23:19:21.210Z",
-    "used": false
+    "used": true
   },
   {
     "id": "r_1774826361210_abic",
@@ -1939,6 +1939,81 @@
     "urgency": "medium",
     "source_type": "trending_x",
     "created_at": "2026-04-07T01:25:51.634Z",
+    "used": false
+  },
+  {
+    "id": "r_1775548992317_zgxs",
+    "theme": "### 日本株相場トレンド（2026/4/7 直近12時間：後場大引け中心）",
+    "title": "### 日本株相場トレンド（2026/4/7 直近12時間：後場大引け中心）",
+    "published_date": "2026-04-07",
+    "summary": "### 日本株相場トレンド（2026/4/7 直近12時間：後場大引け中心）",
+    "investment_angle": "",
+    "tickers": [],
+    "keywords": [],
+    "recommended_pattern": "P14",
+    "urgency": "medium",
+    "source_type": "trending_x",
+    "created_at": "2026-04-07T08:03:12.317Z",
+    "used": false
+  },
+  {
+    "id": "r_1775548992317_bsfw",
+    "theme": "- **日経平均株価**: 大引け時点で**53,429円（前日比+15円、+0.03%）**と小幅高で3日続伸。朝方は",
+    "title": "- **日経平均株価**: 大引け時点で**53,429円（前日比+15円、+0.03%）**と小幅高で3日続伸。朝方は",
+    "published_date": "2026-04-07",
+    "summary": "- **日経平均株価**: 大引け時点で**53,429円（前日比+15円、+0.03%）**と小幅高で3日続伸。朝方は米国株高を受けて上げ幅を拡大したものの、トランプ米大統領のイラン攻撃停止声明（8日午前9時まで）で上値が重く、後場に一時250円超の下げを記録する不安定な値動き。一方で買い戻しが入り上昇を維持。[[1]](https://x.com/i/status/2041426448020537478)[[2]](https://x.com/i/status/2041410737906778468)",
+    "investment_angle": "",
+    "tickers": [],
+    "keywords": [],
+    "recommended_pattern": "P14",
+    "urgency": "medium",
+    "source_type": "trending_x",
+    "created_at": "2026-04-07T08:03:12.317Z",
+    "used": false
+  },
+  {
+    "id": "r_1775548992317_51aj",
+    "theme": "- **TOPIX**: **3,654.02（前日比+9.22ポイント、+0.25%）**と反発。日経との乖離が見られ",
+    "title": "- **TOPIX**: **3,654.02（前日比+9.22ポイント、+0.25%）**と反発。日経との乖離が見られ",
+    "published_date": "2026-04-07",
+    "summary": "- **TOPIX**: **3,654.02（前日比+9.22ポイント、+0.25%）**と反発。日経との乖離が見られ、内需バリュー中心の底堅い推移。リスクオン期待（米イラン停戦進展）で小幅プラス圏を維持したが、非鉄などの下落が重し。[[1]](https://x.com/i/status/2041426448020537478)[[3]](https://x.com/i/status/2041359750290694268)",
+    "investment_angle": "",
+    "tickers": [],
+    "keywords": [],
+    "recommended_pattern": "P14",
+    "urgency": "medium",
+    "source_type": "trending_x",
+    "created_at": "2026-04-07T08:03:12.317Z",
+    "used": false
+  },
+  {
+    "id": "r_1775548992317_ex9o",
+    "theme": "- **全体像**: 全面高には至らず「分裂相場」。値上がり1129銘柄 vs 値下がり411銘柄と上昇優位だが、グロー",
+    "title": "- **全体像**: 全面高には至らず「分裂相場」。値上がり1129銘柄 vs 値下がり411銘柄と上昇優位だが、グロー",
+    "published_date": "2026-04-07",
+    "summary": "- **全体像**: 全面高には至らず「分裂相場」。値上がり1129銘柄 vs 値下がり411銘柄と上昇優位だが、グロース売り・バリュー買いの二極化が進む。ドル円は159.8円台で推移。[[1]](https://x.com/i/status/2041426448020537478)",
+    "investment_angle": "",
+    "tickers": [],
+    "keywords": [],
+    "recommended_pattern": "P14",
+    "urgency": "medium",
+    "source_type": "trending_x",
+    "created_at": "2026-04-07T08:03:12.317Z",
+    "used": false
+  },
+  {
+    "id": "r_1775548992317_o6o8",
+    "theme": "- 具体的な総出来高数字の言及は少ないが、後場で資金フロー活発化。石油・不動産・銀行などのバリューセクターに買い集中、非",
+    "title": "- 具体的な総出来高数字の言及は少ないが、後場で資金フロー活発化。石油・不動産・銀行などのバリューセクターに買い集中、非",
+    "published_date": "2026-04-07",
+    "summary": "- 具体的な総出来高数字の言及は少ないが、後場で資金フロー活発化。石油・不動産・銀行などのバリューセクターに買い集中、非鉄・通信に売り圧力。東証プライム市場全体で上昇銘柄優位、個別ではビーマップ(+31%)やブイキューブ(+28%)など小型株で出来高急増事例あり。全体として中東リスク意識しつつリスクオン寄り。[[4]](https://x.com/i/status/2041423030363254833)[[3]](https://x.com/i/status/2041359750290694268)",
+    "investment_angle": "",
+    "tickers": [],
+    "keywords": [],
+    "recommended_pattern": "P14",
+    "urgency": "medium",
+    "source_type": "trending_x",
+    "created_at": "2026-04-07T08:03:12.317Z",
     "used": false
   }
 ]
