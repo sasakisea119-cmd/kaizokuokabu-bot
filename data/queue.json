@@ -1,22 +1,36 @@
 [
   {
+<<<<<<< Updated upstream
     "id": "q_1775549405580_7r7sju",
     "text": "ビットコイン$BTCの制度化が本格化。\n\n機関投資家の73%が今年暗号資産保有拡大を計画してるのに、米助言資産の暗号資産配分はまだ0.5%未満。\n\nSEC・CFTCが16の暗号通貨を商品に分類したことで制度的不確実性が大幅軽減。7万ドル台で推移する今、従来金融システムとの融合が加速してる。\n\n配分0.5%が5%になるだけで10倍のマネーが流入する計算。これ、まだ序章だよね。",
+=======
+    "id": "q_1775555153702_gyw37v",
+    "text": "正直に言うと、ビットコインが7万ドル台でウロウロしてる今が一番怖い。\n\n機関投資家の73%が暗号資産増やす予定らしいけど、みんなまだ「怪しい」って思ってない？この温度差、どう思う？",
+>>>>>>> Stashed changes
     "score": {
       "scores": {
         "buzz": 8,
         "hook": 9,
+<<<<<<< Updated upstream
         "value": 9,
         "data": 9,
         "unique": 8,
         "discussion": 8,
         "bookmark": 8,
+=======
+        "value": 7,
+        "data": 8,
+        "unique": 8,
+        "discussion": 9,
+        "bookmark": 6,
+>>>>>>> Stashed changes
         "tempo": 8,
         "persona": 8,
         "ng_check": 10
       },
       "average": 8.5
     },
+<<<<<<< Updated upstream
     "pattern_id": "P14",
     "hook_id": "H04",
     "theme": "今日のバズニュース（国内）",
@@ -27,19 +41,40 @@
   {
     "id": "q_1775549405580_r3ctw7",
     "text": "新興国投資が「穴場」と言われてるけど、本当にそう？\n\n先進国の高ボラティリティ下で確かに分散効果はある。でも韓国・台湾・中国は貿易関税リスクが重い。半導体・AI関連が堅調でも、地政学リスクでいつ吹っ飛ぶか分からん。\n\nサウジは外国人投資制限緩和で100億ドル流入期待だけど、ESG投資家は手を出せるの？\n\n結局、新興国投資って「リスク分散」じゃなくて「リスク集中」なんじゃない？",
+=======
+    "pattern_id": "P11",
+    "hook_id": "H21",
+    "theme": "物議を醸す投資トピック（逆張り・アンチテーゼ系で議論を生む）",
+    "tweet_type": "short_personal",
+    "research_id": "r_1774825897040_3qmj",
+    "created_at": "2026-04-07T09:45:53.702Z"
+  },
+  {
+    "id": "q_1775555153702_k9g1jz",
+    "text": "新興国株、2026年の投資魅力度が急上昇している。理由は3つ。\n\n①先進国の高ボラティリティ下での分散効果\n②堅調な成長と資本流入の継続\n③地政学的変化による相対的優位性\n\n特にサウジは外国人投資制限緩和で100億ドルの資金流入見込み。韓国・台湾は貿易関税リスクあるも、半導体・AI関連が下支え。\n\nこの流れ、まだ気づいてない人多くない？",
+>>>>>>> Stashed changes
     "score": {
       "scores": {
         "buzz": 8,
         "hook": 8,
+<<<<<<< Updated upstream
         "value": 7,
         "data": 8,
         "unique": 8,
         "discussion": 9,
         "bookmark": 6,
+=======
+        "value": 8,
+        "data": 9,
+        "unique": 8,
+        "discussion": 8,
+        "bookmark": 8,
+>>>>>>> Stashed changes
         "tempo": 8,
         "persona": 9,
         "ng_check": 10
       },
+<<<<<<< Updated upstream
       "average": 8.1
     },
     "pattern_id": "P16",
@@ -59,12 +94,34 @@
         "value": 8,
         "data": 9,
         "unique": 7,
+=======
+      "average": 8.4
+    },
+    "pattern_id": "P05",
+    "hook_id": "H07",
+    "theme": "米国株個別銘柄分析",
+    "tweet_type": "standard",
+    "research_id": "r_1774825897040_5jzc",
+    "created_at": "2026-04-07T09:45:53.702Z"
+  },
+  {
+    "id": "q_1775555153702_keynt7",
+    "text": "メガバンクばかり見てて地銀忘れてない？\n\n金利のある世界で一番恩恵受けるのは実は地方銀行。メガバンクのPBR平均0.7倍に対し、優良地銀は0.3-0.5倍のバリュー圏。配当利回り4-6%で業績も好調。\n\n「地銀は斜陽」って思い込み、そろそろ見直した方がいいかも。数字見れば答えは明確だよね。",
+    "score": {
+      "scores": {
+        "buzz": 8,
+        "hook": 9,
+        "value": 8,
+        "data": 9,
+        "unique": 8,
+>>>>>>> Stashed changes
         "discussion": 8,
         "bookmark": 7,
         "tempo": 8,
         "persona": 8,
         "ng_check": 9
       },
+<<<<<<< Updated upstream
       "average": 7.9
     },
     "pattern_id": "P06",
@@ -73,5 +130,15 @@
     "tweet_type": "standard",
     "research_id": "r_1774826361210_hcf8",
     "created_at": "2026-04-07T08:10:05.580Z"
+=======
+      "average": 8.2
+    },
+    "pattern_id": "P10",
+    "hook_id": "H12",
+    "theme": "今日のバズニュース（海外）",
+    "tweet_type": "standard",
+    "research_id": "r_1774826361210_hcf8",
+    "created_at": "2026-04-07T09:45:53.702Z"
+>>>>>>> Stashed changes
   }
 ]
