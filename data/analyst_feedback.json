@@ -1,17 +1,17 @@
 {
   "analyzed_at": "2026-04-06T12:00:00Z",
-  "total_posts_analyzed": 74,
+  "total_posts_analyzed": 75,
   "ab_test_results": {
     "tweet_type": {
       "standard": {
-        "count": 74,
+        "count": 75,
         "avg_impressions": 20,
         "avg_engagement": 1
       }
     },
     "post_length": {
       "medium": {
-        "count": 60,
+        "count": 61,
         "avg_impressions": 16,
         "avg_engagement": 1
       },
@@ -38,7 +38,7 @@
         "avg_engagement": 2
       },
       "morning": {
-        "count": 35,
+        "count": 36,
         "avg_impressions": 13,
         "avg_engagement": 1
       },
@@ -50,7 +50,7 @@
     },
     "has_cashtag": {
       "false": {
-        "count": 61,
+        "count": 62,
         "avg_impressions": 21,
         "avg_engagement": 1
       },
@@ -147,7 +147,7 @@
         "avg_engagement": 1
       },
       "unknown": {
-        "count": 13,
+        "count": 14,
         "avg_impressions": 11,
         "avg_engagement": 1
       }
@@ -299,7 +299,7 @@
         "avg_engagement": 2
       },
       "投資マインドセット": {
-        "count": 5,
+        "count": 6,
         "avg_impressions": 8,
         "avg_engagement": 1
       },
@@ -312,36 +312,36 @@
   },
   "top_patterns": [
     {
-      "pattern_id": "P01",
+      "id": "P01",
       "avg_impressions": 51,
       "count": 7
     },
     {
-      "pattern_id": "P07",
+      "id": "P07",
       "avg_impressions": 50,
       "count": 3
     },
     {
-      "pattern_id": "P16",
+      "id": "P16",
       "avg_impressions": 38,
       "count": 2
     }
   ],
   "top_themes": [
     {
-      "theme": "フィジカルAI関連銘柄に注目集まる",
+      "name": "フィジカルAI関連銘柄に注目集まる",
       "avg_impressions": 113,
       "count": 1
     },
     {
-      "theme": "テーマ投資（半導体・AI・防衛・原子力・宇宙・Physical AI）",
+      "name": "テーマ投資（半導体・AI・防衛・原子力・宇宙・Physical AI）",
       "avg_impressions": 54,
       "count": 6
     },
     {
-      "theme": "AI・半導体関連株が2026年も投資テーマの中心に",
-      "avg_impressions": 34,
-      "count": 1
+      "name": "IPO分析・セカンダリー",
+      "avg_impressions": 29,
+      "count": 6
     }
   ],
   "best_hours": [
@@ -366,39 +366,39 @@
     {
       "text": "フィジカルAI関連銘柄に注目集まる",
       "impressions": 113,
-      "theme": "フィジカルAI関連銘柄に注目集まる"
+      "theme": "フィジカルAI関連"
     },
     {
-      "text": "「原油高で石油株買い」って本当に正解？",
+      "text": "$原油高で石油株買い",
       "impressions": 79,
       "theme": "米国株個別銘柄分析"
     },
     {
-      "text": "テーマ投資（半導体・AI・防衛・原子力・宇宙・Physical AI）",
+      "text": "$テーマ投資AI・半導体",
       "impressions": 54,
-      "theme": "テーマ投資（半導体・AI・防衛・原子力・宇宙・Physical AI）"
+      "theme": "テーマ投資"
     }
   ],
   "recommendations": [
-    "長文投稿（long）を増やす - 平均インプレッション35vs16（中）vs20（短）",
-    "昼時間帯（noon）への投稿集中 - 平均31インプレッション、最も効果的",
-    "P01、P07、P16パターンを重点活用 - 高インプレッション実績",
-    "AI・半導体・Physical AIテーマを最優先 - 圧倒的なインプレッション獲得",
-    "キャッシュタグは使用控える - 無しの方が平均7インプレッション高い"
+    "テーマ投資系（AI・半導体・防衛）コンテンツを40%に増加",
+    "long形式の投稿（140-280文字）を30%に増加",
+    "noon時間帯（11-14時）の投稿を50%に集中",
+    "P01、P07、P16パターンを重点活用",
+    "キャッシュタグは控えめに（インプレッション14 vs 21）"
   ],
   "patterns_to_avoid": [
-    "P11（平均7インプレッション）",
-    "P13（平均9インプレッション）",
-    "P12（平均9インプレッション）",
-    "morning時間帯（平均13インプレッション）"
+    "P11（7インプレッション）",
+    "P13（9インプレッション）",
+    "P03（10インプレッション）",
+    "morning時間帯投稿（13インプレッション）"
   ],
   "tweet_type_ratio": {
-    "standard": 100,
-    "short_personal": 0,
-    "contrarian": 0,
-    "note_cta": 0
+    "standard": 85,
+    "short_personal": 5,
+    "contrarian": 5,
+    "note_cta": 5
   },
-  "buzz_insights": "Physical AI関連が突出した113インプレッションを記録。テーマ投資（AI・半導体・防衛等）も54インプレッションと高パフォーマンス。長文×昼時間×AI系テーマの組み合わせが最適解。キャッシュタグは逆効果なので除外推奨。",
+  "buzz_insights": "AI・Physical AI系テーマが圧倒的に高パフォーマンス。特に技術トレンド×投資分析の組み合わせが効果的。noon時間帯とlong形式の相性が良く、専門性の高いコンテンツほどインプレッション増加傾向",
   "ab_recommendations": [
     "投稿の長さ「long」が最もインプが高い（平均35）",
     "時間帯「noon」のインプが最高（平均31）。投稿をこの時間帯に集中させる",

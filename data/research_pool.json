@@ -609,7 +609,7 @@
     "urgency": "low",
     "source_type": "domestic",
     "created_at": "2026-03-24T23:28:33.256Z",
-    "used": false
+    "used": true
   },
   {
     "id": "r_1774825563763_pr06",
@@ -633,7 +633,7 @@
     "urgency": "low",
     "source_type": "domestic",
     "created_at": "2026-03-29T23:06:03.764Z",
-    "used": false
+    "used": true
   },
   {
     "id": "r_1774825563764_xzv9",
@@ -765,7 +765,7 @@
     "urgency": "medium",
     "source_type": "international",
     "created_at": "2026-03-29T23:11:37.040Z",
-    "used": false
+    "used": true
   },
   {
     "id": "r_1774825897040_x04v",
@@ -1350,7 +1350,7 @@
     "urgency": "high",
     "source_type": "domestic",
     "created_at": "2026-04-04T14:04:38.874Z",
-    "used": false
+    "used": true
   },
   {
     "id": "r_1775311478874_58ct",
@@ -1375,7 +1375,7 @@
     "urgency": "high",
     "source_type": "domestic",
     "created_at": "2026-04-04T14:04:38.874Z",
-    "used": false
+    "used": true
   },
   {
     "id": "r_1775311478874_yyfb",
@@ -1424,7 +1424,7 @@
     "urgency": "high",
     "source_type": "domestic",
     "created_at": "2026-04-04T14:04:38.874Z",
-    "used": false
+    "used": true
   },
   {
     "id": "r_1775311478874_ba9h",
@@ -1772,7 +1772,7 @@
     "urgency": "high",
     "source_type": "trending",
     "created_at": "2026-04-07T00:47:12.794Z",
-    "used": false
+    "used": true
   },
   {
     "id": "r_1775522832794_6v7j",
@@ -1864,6 +1864,81 @@
     "urgency": "low",
     "source_type": "trending",
     "created_at": "2026-04-07T00:47:12.794Z",
+    "used": false
+  },
+  {
+    "id": "r_1775525151634_yy2k",
+    "theme": "### 日本株相場トレンド（直近12時間：2026/4/7 JST朝時点）",
+    "title": "### 日本株相場トレンド（直近12時間：2026/4/7 JST朝時点）",
+    "published_date": "2026-04-07",
+    "summary": "### 日本株相場トレンド（直近12時間：2026/4/7 JST朝時点）",
+    "investment_angle": "",
+    "tickers": [],
+    "keywords": [],
+    "recommended_pattern": "P14",
+    "urgency": "medium",
+    "source_type": "trending_x",
+    "created_at": "2026-04-07T01:25:51.634Z",
+    "used": false
+  },
+  {
+    "id": "r_1775525151634_00kj",
+    "theme": "- **上昇基調で推移**：日経平均は昼前時点で+0.55%（約53,730円）と堅調に上昇。CME日経先物が+0.8%",
+    "title": "- **上昇基調で推移**：日経平均は昼前時点で+0.55%（約53,730円）と堅調に上昇。CME日経先物が+0.8%",
+    "published_date": "2026-04-07",
+    "summary": "- **上昇基調で推移**：日経平均は昼前時点で+0.55%（約53,730円）と堅調に上昇。CME日経先物が+0.8%と強含み、ドル円159.7〜160円手前の円安が輸出株を支援。中東地政学リスクと原油高（WTI114ドル超）が上値圧迫要因として警戒されているが、全体的に**上昇見込み**の声が強い。先物主導の急反発局面と見られる。[[1]](https://x.com/i/status/2041323589379805532)[[2]](https://x.com/i/status/2041326212715602377)[[3]](https://x.com/i/status/2041324116708598233)",
+    "investment_angle": "",
+    "tickers": [],
+    "keywords": [],
+    "recommended_pattern": "P14",
+    "urgency": "medium",
+    "source_type": "trending_x",
+    "created_at": "2026-04-07T01:25:51.634Z",
+    "used": false
+  },
+  {
+    "id": "r_1775525151634_vtkc",
+    "theme": "- 直近ポストでの具体的な言及は確認できず。全体的に活況を伴う上昇との記述は見当たらず、セクターごとの温度差が目立つ状況",
+    "title": "- 直近ポストでの具体的な言及は確認できず。全体的に活況を伴う上昇との記述は見当たらず、セクターごとの温度差が目立つ状況",
+    "published_date": "2026-04-07",
+    "summary": "- 直近ポストでの具体的な言及は確認できず。全体的に活況を伴う上昇との記述は見当たらず、セクターごとの温度差が目立つ状況。[[3]](https://x.com/i/status/2041324116708598233)",
+    "investment_angle": "",
+    "tickers": [],
+    "keywords": [],
+    "recommended_pattern": "P14",
+    "urgency": "medium",
+    "source_type": "trending_x",
+    "created_at": "2026-04-07T01:25:51.634Z",
+    "used": false
+  },
+  {
+    "id": "r_1775525151634_5bi6",
+    "theme": "- **エネルギー**：原油高でINPEX（1605）が独走モード。[[3]](https://x.com/i/st",
+    "title": "- **エネルギー**：原油高でINPEX（1605）が独走モード。[[3]](https://x.com/i/st",
+    "published_date": "2026-04-07",
+    "summary": "- **エネルギー**：原油高でINPEX（1605）が独走モード。[[3]](https://x.com/i/status/2041324116708598233)[[2]](https://x.com/i/status/2041326212715602377)",
+    "investment_angle": "",
+    "tickers": [],
+    "keywords": [],
+    "recommended_pattern": "P14",
+    "urgency": "medium",
+    "source_type": "trending_x",
+    "created_at": "2026-04-07T01:25:51.634Z",
+    "used": false
+  },
+  {
+    "id": "r_1775525151634_4vqn",
+    "theme": "- **海運**：日本郵船（9101）が注目。[[2]](https://x.com/i/status/204132",
+    "title": "- **海運**：日本郵船（9101）が注目。[[2]](https://x.com/i/status/204132",
+    "published_date": "2026-04-07",
+    "summary": "- **海運**：日本郵船（9101）が注目。[[2]](https://x.com/i/status/2041326212715602377)",
+    "investment_angle": "",
+    "tickers": [],
+    "keywords": [],
+    "recommended_pattern": "P14",
+    "urgency": "medium",
+    "source_type": "trending_x",
+    "created_at": "2026-04-07T01:25:51.634Z",
     "used": false
   }
 ]

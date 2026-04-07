@@ -1,31 +1,32 @@
 [
   {
-    "id": "q_1775500000001_cta_timee",
-    "text": "タイミー（215A）、IPO初値1,850円 → 今1,311円。\n\n「終わった銘柄」だと思ってる人、多すぎないか？\n\n・メルカリ参入で競争激化\n・でもPEGレシオ0.87は割安水準\n・成長率+28%が維持できるかが全て\n\n目論見書から読み解いた"3つの死角"、¥300でまとめた↓\nhttps://note.com/kaizokuokabu/n/nbb3599fdf722",
+    "id": "q_1775525715081_kx4vpq",
+    "text": "決算集中期が過ぎると「今は様子見」って言う人多いけど、実は今が一番おいしい時期なんだよね。\n\n理由：\n・材料少ない→実力勝負\n・半導体関連は決算より受注動向\n・AI投資は長期トレンドで短期材料関係なし\n・Physical AI企業なんて決算前からテーマ買い\n\n「材料待ち」してる間に置いてかれるパターン、何回見た？",
     "score": {
       "scores": {
         "buzz": 8,
         "hook": 9,
         "value": 8,
-        "data": 8,
+        "data": 6,
         "unique": 8,
-        "discussion": 7,
-        "bookmark": 8,
+        "discussion": 9,
+        "bookmark": 7,
         "tempo": 8,
         "persona": 9,
         "ng_check": 10
       },
-      "average": 8.3
+      "average": 8.2
     },
-    "pattern_id": "CTA",
-    "hook_id": "H01",
-    "theme": "Note CTA — タイミー（215A）",
-    "tweet_type": "note_cta",
-    "created_at": "2026-04-06T12:00:00.000Z"
+    "pattern_id": "P12",
+    "hook_id": "H07",
+    "theme": "テーマ投資（半導体・AI・防衛・原子力・宇宙・Physical AI）",
+    "tweet_type": "contrarian",
+    "research_id": "r_1774394913256_4p18",
+    "created_at": "2026-04-07T01:35:15.081Z"
   },
   {
-    "id": "q_1775500000002_cta_seiwa",
-    "text": "セイワHD（523A）、公募割れIPOからの逆襲が始まってる。\n\n初値1,220円 → 今1,391円。上場2週間で+14%。\n\n注目すべきは営業利益率。9% → 24%に跳ね上がってる。\n\n「町工場ロールアップ」って何？なぜ利益が爆発してるのか？\n全部数字付きで書いた↓\nhttps://note.com/kaizokuokabu/n/n41679dc3e15c",
+    "id": "q_1775525715081_tc9fx0",
+    "text": "メタプラネット（$3350）の株価とビットコイン、相関0.7超えてるのに気づいてる人少なすぎ。\n\n今日のTOPIX反発（+0.19%）の裏で、仮想通貨関連株は別の動き。メタプラはBTC保有約1,018BTC（時価72億円相当）。これ、純資産の約40%なんだよね。\n\nBTCが5%動けばメタプラは純資産ベースで2%インパクト。でも株価は10%動く謎。この乖離、いつまで続くと思う？",
     "score": {
       "scores": {
         "buzz": 8,
@@ -33,142 +34,19 @@
         "value": 9,
         "data": 9,
         "unique": 8,
-        "discussion": 7,
+        "discussion": 9,
         "bookmark": 8,
-        "tempo": 8,
-        "persona": 9,
-        "ng_check": 10
-      },
-      "average": 8.4
-    },
-    "pattern_id": "CTA",
-    "hook_id": "H03",
-    "theme": "Note CTA — セイワHD（523A）",
-    "tweet_type": "note_cta",
-    "created_at": "2026-04-06T12:01:00.000Z"
-  },
-  {
-    "id": "q_1775500000003_cta_fanuc",
-    "text": "ファナック（6954）PER39倍。\n\nCNC世界シェア50%、ロボット世界首位。「日本最強の製造業」と言われるこの会社、今買って大丈夫なのか？\n\n・中国売上比率23%の怖さ\n・トランプ関税の具体的な影響\n・5,000円以下なら買いになる理由\n\nフィジカルAI時代の本命を丸裸にした↓\nhttps://note.com/kaizokuokabu/n/n31fa7114ba48",
-    "score": {
-      "scores": {
-        "buzz": 8,
-        "hook": 9,
-        "value": 9,
-        "data": 8,
-        "unique": 8,
-        "discussion": 8,
-        "bookmark": 9,
         "tempo": 8,
         "persona": 9,
         "ng_check": 10
       },
       "average": 8.6
     },
-    "pattern_id": "CTA",
-    "hook_id": "H01",
-    "theme": "Note CTA — ファナック（6954）",
-    "tweet_type": "note_cta",
-    "created_at": "2026-04-06T12:02:00.000Z"
-  },
-  {
-    "id": "q_1775005189893_gsowih",
-    "text": "「IPOは宝くじ」って本当？\n\n今年のIPO市場、具体的な大型案件発表は限定的。でも実は、上場後のセカンダリー投資の方が狙い目かも。\n\n理由：\n・情報が増えて分析しやすい\n・初値の熱狂が冷めた後の方が適正価格\n・四半期決算で成長確認できる\n\nIPOより「上場後の成長企業」に注目してる人、どれくらいいる？",
-    "score": {
-      "scores": {
-        "buzz": 7,
-        "hook": 8,
-        "value": 7,
-        "data": 6,
-        "unique": 8,
-        "discussion": 8,
-        "bookmark": 6,
-        "tempo": 7,
-        "persona": 8,
-        "ng_check": 10
-      },
-      "average": 7.5
-    },
-    "pattern_id": "P06",
-    "hook_id": "H08",
-    "theme": "ポートフォリオ戦略",
-    "tweet_type": "contrarian",
-    "research_id": "r_1774334096397_g104",
-    "created_at": "2026-04-01T00:59:49.893Z"
-  },
-  {
-    "id": "q_1775005189893_bn1yn6",
-    "text": "3月24日の決算発表予定、たった1銘柄。\n\n3月決算企業の本格的な決算ラッシュは4月以降になるから、今は材料不足の期間なんだよね。\n\nこういう時こそ地政学リスクやマクロ指標に市場が敏感になる。個別銘柄の業績じゃなく、外部要因で株価が動きやすい局面。\n\n来月からの決算シーズンで、来期予想の修正がどうなるか。そこで今年の相場の方向性が見えてくる。",
-    "score": {
-      "scores": {
-        "buzz": 7,
-        "hook": 8,
-        "value": 8,
-        "data": 9,
-        "unique": 7,
-        "discussion": 6,
-        "bookmark": 7,
-        "tempo": 8,
-        "persona": 8,
-        "ng_check": 10
-      },
-      "average": 7.8
-    },
     "pattern_id": "P05",
-    "hook_id": "H03",
-    "theme": "今日のバズニュース（国内）",
+    "hook_id": "H11",
+    "theme": "メタプラネット・ビットコイン関連（賛否両論あるネタとして積極的に取り上げる）",
     "tweet_type": "standard",
-    "research_id": "r_1774334770119_h3ig",
-    "created_at": "2026-04-01T00:59:49.893Z"
-  },
-  {
-    "id": "q_1775005189893_005jgc",
-    "text": "中東リスク後退で日経平均394円高の反発🔥\n\nでも冷静に見てほしいデータがある。\n\n📊 セクター別騰落率\n• 防衛株: +2.8%（川重$7012、三菱重$7011）\n• 半導体: +1.9%（$8035、$6857）\n• 原子力: +2.1%（$9513、$1963）\n\n地政学材料で上がる銘柄って、材料消化も早いんだよね。Physical AI関連（$6758、$6861）は反発鈍い。\n\nこういう日こそ、テーマの持続力見極めるチャンスかも。",
-    "score": {
-      "scores": {
-        "buzz": 7,
-        "hook": 8,
-        "value": 8,
-        "data": 9,
-        "unique": 7,
-        "discussion": 7,
-        "bookmark": 8,
-        "tempo": 8,
-        "persona": 8,
-        "ng_check": 9
-      },
-      "average": 7.9
-    },
-    "pattern_id": "P14",
-    "hook_id": "H04",
-    "theme": "テーマ投資（半導体・AI・防衛・原子力・宇宙・Physical AI）",
-    "tweet_type": "standard",
-    "research_id": "r_1774389937674_lgxx",
-    "created_at": "2026-04-01T00:59:49.893Z"
-  },
-  {
-    "id": "q_1775005189893_s7owzi",
-    "text": "2月消費者物価指数1.3%で安定推移。\n\nこれが投資家にとって重要な理由：\n\n✓ 日銀の急激利上げ懸念が後退\n✓ 成長株には明確な追い風\n✓ ただし原油価格次第で3月以降は要警戒\n\nインフレ安定化＝金融緩和継続のシグナル。グロース株投資家は今のうちだと思う。問題は原油がどこまで上がるかだけど、みんなはどう見てる？",
-    "score": {
-      "scores": {
-        "buzz": 8,
-        "hook": 9,
-        "value": 8,
-        "data": 9,
-        "unique": 7,
-        "discussion": 8,
-        "bookmark": 7,
-        "tempo": 8,
-        "persona": 8,
-        "ng_check": 10
-      },
-      "average": 8.2
-    },
-    "pattern_id": "P04",
-    "hook_id": "H20",
-    "theme": "今日のバズニュース（国内）",
-    "tweet_type": "standard",
-    "research_id": "r_1774389937674_dddt",
-    "created_at": "2026-04-01T00:59:49.893Z"
+    "research_id": "r_1774825563764_vjv7",
+    "created_at": "2026-04-07T01:35:15.081Z"
   }
 ]

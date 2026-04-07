@@ -1876,8 +1876,13 @@
     "theme": "投資マインドセット",
     "research_id": null,
     "posted_at": "2026-04-06T00:47:28.444Z",
-    "metrics": null,
-    "fetched_at": null
+    "metrics": {
+      "impressions": 8,
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0
+    },
+    "fetched_at": "2026-04-07T01:23:58.648Z"
   },
   {
     "tweet_id": "2039904155893194824",
@@ -1940,5 +1945,122 @@
       "replies": 0
     },
     "fetched_at": "2026-04-07T00:45:32.629Z"
+  },
+  {
+    "tweet_id": "2041329381197684965",
+    "text": "🚀AI決算シーズン突入！収益性が問われる相場に\n\n情報技術セクター45%増益見通し、半導体95%成長予想も投資回収期間に注目集中📊\n\nビッグテック数千億ドルのAI投資、今度こそキャッシュフロー向上で証明なるか💰\n\n#IPO #AI決算 #FAANG #投資",
+    "type": "image",
+    "card_type": "market",
+    "pattern_id": "P03",
+    "hook_id": null,
+    "theme": "FAANG株決算シーズン開幕、AI投資収益性に市場の注目集まる",
+    "research_id": "r_1774825897040_1xuw",
+    "posted_at": "2026-04-07T01:37:05.437Z",
+    "metrics": null,
+    "fetched_at": null
+  },
+  {
+    "tweet_id": "2041329892202320227",
+    "text": "市場全体が249円安で反落する中、上場来高値更新した銘柄は33社。\n\n特に注目すべきは、この逆行高の質の高さ。INPEX（$1605）は原油高で当然として、ジェイ・エス・ビー（$3480）やイーグランド（$3294）のような内需系まで青天井。\n\n全体相場に左右されない真の成長株を見つける絶好のタイミングかも。あなたはこの33社、チェックした？",
+    "score": {
+      "scores": {
+        "buzz": 8,
+        "hook": 9,
+        "value": 8,
+        "data": 9,
+        "unique": 7,
+        "discussion": 8,
+        "bookmark": 7,
+        "tempo": 8,
+        "persona": 8,
+        "ng_check": 9
+      },
+      "average": 8.1
+    },
+    "pattern_id": "P09",
+    "hook_id": "H12",
+    "theme": "IPO分析・セカンダリー",
+    "research_id": "r_1775311478874_39dv",
+    "posted_at": "2026-04-07T01:39:07.129Z",
+    "metrics": null,
+    "fetched_at": null
+  },
+  {
+    "tweet_id": "2041334926621245938",
+    "text": "マイクロソフトが日本に1兆6000億円投資。これ、実質的に「日本のデータセンター争奪戦」の始まりだよね。\n\nAI処理能力の制約が投資の障壁になってた企業にとって、インフラ拡充は追い風。特にニッケイ（$9434）、日本電産（$6594）あたりのデータセンター関連は長期で恩恵受けそう。\n\n問題は、この投資効果が株価に反映されるまでのタイムラグ。3-4年スパンで見る必要がある。",
+    "score": {
+      "scores": {
+        "buzz": 8,
+        "hook": 9,
+        "value": 8,
+        "data": 9,
+        "unique": 8,
+        "discussion": 7,
+        "bookmark": 8,
+        "tempo": 8,
+        "persona": 9,
+        "ng_check": 10
+      },
+      "average": 8.4
+    },
+    "pattern_id": "P10",
+    "hook_id": "H24",
+    "theme": "今日のバズニュース（海外）",
+    "research_id": "r_1775311478874_58ct",
+    "posted_at": "2026-04-07T01:59:07.435Z",
+    "metrics": null,
+    "fetched_at": null
+  },
+  {
+    "tweet_id": "2041339961048510912",
+    "text": "$XOM、$CVX、$COP の12月業績見てみ。\n\n原油$80→$95で海運各社の燃料コスト15%増なのに、石油メジャー3社の粗利率は前年同期+3.2%改善してる。\n\nホルムズ海峡リスクで喜望峰回りになったら輸送日数2倍、コスト倍増。でも原油価格上昇で石油株の利益は確実に押し上げられる。\n\n$9101、$9104の海運は短期的にはコスト圧迫だけど、運賃値上げで最終的にはプラス転換するパターン。物流インフレの受益者を見極めろ。",
+    "score": {
+      "scores": {
+        "buzz": 8,
+        "hook": 9,
+        "value": 8,
+        "data": 9,
+        "unique": 8,
+        "discussion": 8,
+        "bookmark": 7,
+        "tempo": 8,
+        "persona": 9,
+        "ng_check": 10
+      },
+      "average": 8.4
+    },
+    "pattern_id": "P03",
+    "hook_id": "H30",
+    "theme": "米国株個別銘柄分析",
+    "research_id": "r_1775311478874_hbg7",
+    "posted_at": "2026-04-07T02:19:07.767Z",
+    "metrics": null,
+    "fetched_at": null
+  },
+  {
+    "tweet_id": "2041344995396071427",
+    "text": "Xの仮想通貨取引機能、数週間以内に開始。\n\n実はこれ、日本のFintech株にとって脅威かもしれない。マネーフォワード($3994)の個人向け決済、freee($4478)の中小企業向け金融サービス、どちらもユーザー体験で勝負してきた。\n\nでも月間3.5億人のX上で直接$BTCや$ETHが買えるようになったら？既存プレイヤーの優位性が一気に崩れる可能性。",
+    "score": {
+      "scores": {
+        "buzz": 8,
+        "hook": 9,
+        "value": 8,
+        "data": 7,
+        "unique": 8,
+        "discussion": 9,
+        "bookmark": 7,
+        "tempo": 8,
+        "persona": 9,
+        "ng_check": 10
+      },
+      "average": 8.3
+    },
+    "pattern_id": "P13",
+    "hook_id": "H16",
+    "theme": "日本株個別銘柄分析",
+    "research_id": "r_1775522832794_g40z",
+    "posted_at": "2026-04-07T02:39:08.020Z",
+    "metrics": null,
+    "fetched_at": null
   }
 ]
