@@ -1,11 +1,17 @@
 [
   {
+<<<<<<< Updated upstream
     "id": "q_1775665797983_10cs6k",
     "text": "日本人の9割が知らない「先物価格56,950円」の本当の意味。\n\n停戦ニュースで上昇してるけど、実は条件付き・時限的なんだよね。\n\n注目すべきデータ：\n・25日線から+5%の乖離\n・原油安が継続中\n・資金の現物への波及待ち\n\n過熱感が出てきたから、短期調整のリスクも考えておいた方がいい。この数字、どう読む？",
+=======
+    "id": "q_1775667063554_74ws7q",
+    "text": "日経VIが-13%超急落してるのに「暴落を警戒しろ」って言ってる人たち、何を見てるんだろう？\n\nボラティリティ指標：\n・日経VI：大幅低下（恐怖後退）\n・買い戻し・ショートカバー主導\n・クローズ後先物も+0.6%強含み\n\n停戦は「時限的」（10日協議予定）とはいえ、2週間規模のトレンド転換の可能性すら見えてる。\n\n今一番危険なのは、上昇相場で置いていかれることじゃない？",
+>>>>>>> Stashed changes
     "score": {
       "scores": {
         "buzz": 8,
         "hook": 9,
+<<<<<<< Updated upstream
         "value": 8,
         "data": 9,
         "unique": 7,
@@ -13,15 +19,33 @@
         "bookmark": 7,
         "tempo": 8,
         "persona": 8,
+=======
+        "value": 7,
+        "data": 9,
+        "unique": 8,
+        "discussion": 9,
+        "bookmark": 6,
+        "tempo": 7,
+        "persona": 9,
+>>>>>>> Stashed changes
         "ng_check": 10
       },
       "average": 8.2
     },
+<<<<<<< Updated upstream
     "pattern_id": "P17",
     "hook_id": "H09",
     "theme": "今日のバズニュース（海外）",
     "tweet_type": "standard",
     "research_id": "r_1775665395242_bgr5",
     "created_at": "2026-04-08T16:29:57.983Z"
+=======
+    "pattern_id": "P08",
+    "hook_id": "H09",
+    "theme": "物議を醸す投資トピック（逆張り・アンチテーゼ系で議論を生む）",
+    "tweet_type": "standard",
+    "research_id": "r_1775666640852_r9oq",
+    "created_at": "2026-04-08T16:51:03.554Z"
+>>>>>>> Stashed changes
   }
 ]
