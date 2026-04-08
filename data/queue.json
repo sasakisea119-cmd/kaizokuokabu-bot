@@ -1,13 +1,19 @@
 [
   {
+<<<<<<< Updated upstream
     "id": "q_1775606943417_24kcog",
     "text": "Physical AI関連株、年初来リターン+127%。\n\n従来のAI銘柄は+35%だから、約4倍のアウトパフォーマンス。ロボティクス・自動運転・製造業自動化の「身体を持つAI」への期待がヤバい。\n\n$6923（スタンレー電気）+89%\n$6770（アルプスアルパイン）+156%\n$7735（SCREENホールディングス）+203%\n\nまだ始まったばかりだと思う。",
+=======
+    "id": "q_1775607459145_nf714m",
+    "text": "米国成長株指数（ラッセルグロース250）が+17.88で760.79まで上昇。\n\n注目すべきは、この指数の構成銘柄TOP5：\n$NVDA 8.2%\n$AAPL 7.9% \n$MSFT 7.1%\n$AMZN 4.8%\n$GOOGL 4.2%\n\nAI関連が牽引してるのは明らかだけど、問題はバリュエーション。グロース株のPER平均が30倍超えてる現状、この上昇がどこまで続くかは疑問符つくよね。",
+>>>>>>> Stashed changes
     "score": {
       "scores": {
         "buzz": 8,
         "hook": 9,
         "value": 8,
         "data": 9,
+<<<<<<< Updated upstream
         "unique": 8,
         "discussion": 7,
         "bookmark": 8,
@@ -36,17 +42,56 @@
         "unique": 7,
         "discussion": 8,
         "bookmark": 6,
+=======
+        "unique": 7,
+        "discussion": 8,
+        "bookmark": 8,
+        "tempo": 7,
+        "persona": 8,
+        "ng_check": 10
+      },
+      "average": 8
+    },
+    "pattern_id": "P16",
+    "hook_id": "H05",
+    "theme": "米国株個別銘柄分析",
+    "tweet_type": "standard",
+    "research_id": "r_1775606883587_4bib",
+    "created_at": "2026-04-08T00:17:39.145Z"
+  },
+  {
+    "id": "q_1775607459145_93xr3m",
+    "text": "Physical AI市場、2030年に12.9兆円規模へ📈\n\n注目すべきは日本企業のポジション：\n• $6954 ファナック：工場自動化で世界シェア1位\n• $6501 日立：物流ロボで急成長\n• $7735 SCREENホール：半導体製造装置\n• $4088 エア・ウォーター：産業ガス×AI融合\n\nただし、Physical AIって結局「ロボット」の言い換えじゃね？新しい概念なのか、マーケティング用語なのか。\n\nここ、どう思う？",
+    "score": {
+      "scores": {
+        "buzz": 8,
+        "hook": 9,
+        "value": 8,
+        "data": 9,
+        "unique": 7,
+        "discussion": 9,
+        "bookmark": 8,
+>>>>>>> Stashed changes
         "tempo": 8,
-        "persona": 9,
+        "persona": 8,
         "ng_check": 10
       },
       "average": 8.1
     },
+<<<<<<< Updated upstream
     "pattern_id": "P09",
     "hook_id": "H06",
     "theme": "テーマ投資（半導体・AI・防衛・原子力・宇宙・Physical AI）",
     "tweet_type": "short_personal",
     "research_id": null,
     "created_at": "2026-04-08T00:09:03.417Z"
+=======
+    "pattern_id": "P03",
+    "hook_id": "H25",
+    "theme": "テーマ投資（半導体・AI・防衛・原子力・宇宙・Physical AI）",
+    "tweet_type": "standard",
+    "research_id": null,
+    "created_at": "2026-04-08T00:17:39.145Z"
+>>>>>>> Stashed changes
   }
 ]
