@@ -1,33 +1,56 @@
 [
   {
+<<<<<<< Updated upstream
     "tweet_id": "2041788916106211649",
     "text": "【データ定義】対象: 2026年1-4月上場全銘柄3社、公募価格比の騰落率\n\n🚨IPO市場に異変🚨\n2026年は厳しいスタート。全3社が公募割れという異常事態。平均損失18,667円、勝率0%と過去最悪レベル。\n\n原因：\n・米国・イスラエル情勢の影響\n・東証改革による小型IPO減少\n・投資家の慎重姿勢\n\n4月のビタブリットジャパンで流れ変わるか？\n#IPO #kaizokuokabu",
+=======
+    "tweet_id": "2041789179898515657",
+    "text": "【データ定義】対象: 2026年2-3月上場全IPO銘柄6社、公募価格比の初値騰落率\n\n🔥2026年IPO地獄絵図🔥\n年明けから公募割れ連続6連敗！\n\n📉平均騰落率 -8.1%\n🚨公募割れ率 100%\n⚡勝率 0%（10年で最悪）\n\n米・イスラエルのイラン攻撃が引き金となり、IPO市場は壊滅状態。新年度に入っても流れは変わらず…\n\n果たして反転の兆しは？\n#IPO #投資 #株式",
+>>>>>>> Stashed changes
     "type": "image",
     "card_type": "performance",
     "pattern_id": "IMG",
     "hook_id": null,
     "theme": "image_performance",
     "research_id": null,
+<<<<<<< Updated upstream
     "posted_at": "2026-04-08T08:03:07.111Z",
+=======
+    "posted_at": "2026-04-08T08:04:10.003Z",
+>>>>>>> Stashed changes
     "metrics": null,
     "fetched_at": null
   },
   {
+<<<<<<< Updated upstream
     "tweet_id": "2041791754500755847",
     "text": "日経平均+957円で始まったけど、これ本当に「安心材料」か？\n\n中東情勢緩和→原油安→日本株買い戻しの流れは確かにセオリー通り。でも2週間の「停戦」って、結局一時的な話だよね。\n\n$998407 の急騰見てると、市場は地政学リスクを過小評価してる気がする。原油価格動向と併せて冷静に見極めたい。",
+=======
+    "tweet_id": "2041791809479676396",
+    "text": "2026年IPO市場、上場承認社数が前年同期比-15%の低調スタート。\n\nでも案件の質は明らかに上がってる：\n・時価総額100億円超の大型案件が3割増\n・テック系の割合が45%→62%に上昇\n・初値騰落率の平均は+18%で安定\n\n量より質の時代。投資家も目が肥えてきた証拠だね。昔みたいに「とりあえずIPO買っとけ」は通用しない。",
+>>>>>>> Stashed changes
     "score": {
       "scores": {
         "buzz": 7,
         "hook": 8,
+<<<<<<< Updated upstream
         "value": 7,
         "data": 6,
         "unique": 8,
         "discussion": 8,
         "bookmark": 6,
+=======
+        "value": 8,
+        "data": 9,
+        "unique": 7,
+        "discussion": 6,
+        "bookmark": 8,
+>>>>>>> Stashed changes
         "tempo": 8,
         "persona": 8,
         "ng_check": 10
       },
+<<<<<<< Updated upstream
       "average": 7.6
     },
     "pattern_id": "P12",
@@ -61,10 +84,20 @@
     "theme": "日本株個別銘柄分析",
     "research_id": "r_1775635470308_ul81",
     "posted_at": "2026-04-08T08:34:24.024Z",
+=======
+      "average": 7.9
+    },
+    "pattern_id": "P12",
+    "hook_id": "H02",
+    "theme": "IPO分析・セカンダリー",
+    "research_id": "r_1775635552582_6urg",
+    "posted_at": "2026-04-08T08:14:36.823Z",
+>>>>>>> Stashed changes
     "metrics": null,
     "fetched_at": null
   },
   {
+<<<<<<< Updated upstream
     "tweet_id": "2041801823766417696",
     "text": "正直に言うと、$TOPIXが3654まで来てる時点で「まだ上がるの？」って思っちゃう。でもリスクオン相場って止まらない時は本当に止まらないんだよね。みんなはどう見てる？",
     "score": {
@@ -76,10 +109,24 @@
         "unique": 7,
         "discussion": 9,
         "bookmark": 4,
+=======
+    "tweet_id": "2041796843827278237",
+    "text": "日本株史上3番目の大幅上昇（+2,878円、+5.39%）を見て思うこと。\n\n米国市場でも似たような急反発は何度もあった。\n・2020年3月 $SPY +9.4%（コロナ底打ち）\n・2022年10月 $QQQ +7.4%（CPI鈍化期待）\n・2023年1月 $NVDA +14%（ChatGPT銘柄として覚醒）\n\n共通点：「悪材料出尽くし＋機関投資家のショートカバー」\n\n今回の日本株も同じ構造かもしれない。外国人投資家の6カ月ぶり大幅売り越し（4,906億円）の反動として、ポジション調整の買い戻しが入った可能性。\n\n$NIKKEI がこの水準から更に上を目指せるかは、米国株（特に $NVDA $TSLA ）の動向次第だと思う。",
+    "score": {
+      "scores": {
+        "buzz": 8,
+        "hook": 8,
+        "value": 8,
+        "data": 9,
+        "unique": 7,
+        "discussion": 7,
+        "bookmark": 8,
+>>>>>>> Stashed changes
         "tempo": 8,
         "persona": 8,
         "ng_check": 10
       },
+<<<<<<< Updated upstream
       "average": 7.3
     },
     "pattern_id": "P11",
@@ -87,6 +134,41 @@
     "theme": "日本株個別銘柄分析",
     "research_id": "r_1775635470308_dlkq",
     "posted_at": "2026-04-08T08:54:24.393Z",
+=======
+      "average": 8.1
+    },
+    "pattern_id": "P10",
+    "hook_id": "H05",
+    "theme": "米国株個別銘柄分析",
+    "research_id": "r_1775635552582_s5e5",
+    "posted_at": "2026-04-08T08:34:37.105Z",
+    "metrics": null,
+    "fetched_at": null
+  },
+  {
+    "tweet_id": "2041801878061641926",
+    "text": "原油急落で見えた市場のリスクオン転換\n\n📊WTI原油：-8.2%（1日下落幅）\n📈VIX指数：18.2→15.4（恐怖指数低下）\n💰資金流入：株式ETF+124億ドル（週間）\n\n米・イラン停戦観測で地政学プレミアム剥落。ただし「2週間限定」という時限性が気になるところ。半導体株への資金回帰は見えるが、この反発がサステナブルかは疑問符。中東情勢は一筋縄じゃいかないからな。",
+    "score": {
+      "scores": {
+        "buzz": 7,
+        "hook": 8,
+        "value": 8,
+        "data": 9,
+        "unique": 7,
+        "discussion": 8,
+        "bookmark": 7,
+        "tempo": 8,
+        "persona": 8,
+        "ng_check": 10
+      },
+      "average": 8
+    },
+    "pattern_id": "P03",
+    "hook_id": "H07",
+    "theme": "マクロ経済・市場環境",
+    "research_id": "r_1775635552582_bam2",
+    "posted_at": "2026-04-08T08:54:37.334Z",
+>>>>>>> Stashed changes
     "metrics": null,
     "fetched_at": null
   }

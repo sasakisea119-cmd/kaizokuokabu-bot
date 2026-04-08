@@ -1,17 +1,27 @@
 [
   {
+<<<<<<< Updated upstream
     "id": "q_1775635941984_njkb6s",
     "text": "日銀地域経済報告、全国9地域すべてで賃上げ基調維持って数字。2026年度も25年度並みの賃上げを見込む企業が多数。\n\n人手不足→賃上げ圧力→個人消費回復→内需株にプラス、この流れが数字で裏付けられた形。\n\nでも正直に言うと、賃上げ率5％でも実質賃金がプラスになるかは物価次第なんだよな。ここが投資判断の分かれ目。",
+=======
+    "id": "q_1775635953675_cfpsq6",
+    "text": "市場急上昇の裏側、出来高データがヤバい。\n\n信越化学（$4063）+92.99%\nスズキ（$7269）+89.84%\nキッコーマン（$2801）+78.91%\n\n出来高急増は本物の反発サイン？それとも一時的な仕掛け？\n\n売買代金全体も急増中。現物株への広がりと業種別の反応を見れば、この上昇が持続するか分かる。データは正直だよ。",
+>>>>>>> Stashed changes
     "score": {
       "scores": {
         "buzz": 7,
         "hook": 8,
         "value": 8,
+<<<<<<< Updated upstream
         "data": 9,
+=======
+        "data": 10,
+>>>>>>> Stashed changes
         "unique": 7,
         "discussion": 8,
         "bookmark": 7,
         "tempo": 8,
+<<<<<<< Updated upstream
         "persona": 8,
         "ng_check": 10
       },
@@ -23,5 +33,18 @@
     "tweet_type": "standard",
     "research_id": "r_1775635470308_iv8w",
     "created_at": "2026-04-08T08:12:21.984Z"
+=======
+        "persona": 9,
+        "ng_check": 10
+      },
+      "average": 8.4
+    },
+    "pattern_id": "P13",
+    "hook_id": "H16",
+    "theme": "決算速報・決算レビュー",
+    "tweet_type": "standard",
+    "research_id": "r_1775635552582_5sc9",
+    "created_at": "2026-04-08T08:12:33.675Z"
+>>>>>>> Stashed changes
   }
 ]
