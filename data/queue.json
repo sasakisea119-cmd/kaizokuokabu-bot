@@ -1,53 +1,52 @@
 [
   {
-<<<<<<< Updated upstream
-    "id": "q_1775579073989_w44rwe",
-    "text": "リスク回避ムードが12時間続いてる。\n\n停戦期待vs中東情勢・エネルギー警戒。\n市場は「攻めから守り」に完全シフト。\n\n興味深いのは下げ幅が拡大してないこと。\n横ばい基調 = 様子見の証拠。\n\nこういう時こそ、質の高い銘柄をリストアップしておくべき。嵐の後に必ず晴れ間は来る。",
+    "id": "q_1775606943417_24kcog",
+    "text": "Physical AI関連株、年初来リターン+127%。\n\n従来のAI銘柄は+35%だから、約4倍のアウトパフォーマンス。ロボティクス・自動運転・製造業自動化の「身体を持つAI」への期待がヤバい。\n\n$6923（スタンレー電気）+89%\n$6770（アルプスアルパイン）+156%\n$7735（SCREENホールディングス）+203%\n\nまだ始まったばかりだと思う。",
     "score": {
       "scores": {
-        "buzz": 7,
-        "hook": 8,
+        "buzz": 8,
+        "hook": 9,
         "value": 8,
-        "data": 7,
-        "unique": 7,
-        "discussion": 8,
-        "bookmark": 7,
+        "data": 9,
+        "unique": 8,
+        "discussion": 7,
+        "bookmark": 8,
         "tempo": 8,
         "persona": 8,
         "ng_check": 9
       },
-      "average": 7.7
+      "average": 8.2
     },
-    "pattern_id": "P17",
-    "hook_id": "H08",
-    "theme": "今日のバズニュース（海外）",
+    "pattern_id": "P05",
+    "hook_id": "H02",
+    "theme": "テーマ投資（半導体・AI・防衛・原子力・宇宙・Physical AI）",
     "tweet_type": "standard",
-    "research_id": "r_1775578654100_iedn",
-    "created_at": "2026-04-07T16:24:33.989Z"
-=======
-    "id": "q_1775579277668_py3lwz",
-    "text": "$SPXの25日線・75日線デッドクロスが現実味。\n\nTMA（三角移動平均線）で見ると、直近のデッドクロス後の平均下落幅は8.3%。2022年は-12.7%、2020年は-19.2%だった。\n\n問題は今回の日経VI（39.75）。過去データだと40超えで反転することが多いんだよね。\n\n様子見相場って言うけど、むしろここが仕込み時かも？",
+    "research_id": "r_1775606374409_r498",
+    "created_at": "2026-04-08T00:09:03.417Z"
+  },
+  {
+    "id": "q_1775606943417_9z4c8l",
+    "text": "正直に言うと、Physical AIって言葉が出始めた時「また新しい概念かよ」って思ってたけど、$NVDA決算でロボティクス売上が前年比+47%って数字見て考え変わった。これもう無視できないでしょ",
     "score": {
       "scores": {
         "buzz": 8,
-        "hook": 8,
-        "value": 9,
-        "data": 9,
+        "hook": 9,
+        "value": 8,
+        "data": 8,
         "unique": 7,
         "discussion": 8,
-        "bookmark": 8,
+        "bookmark": 6,
         "tempo": 8,
         "persona": 9,
         "ng_check": 10
       },
-      "average": 8.4
+      "average": 8.1
     },
-    "pattern_id": "P12",
-    "hook_id": "H05",
-    "theme": "米国株個別銘柄分析",
-    "tweet_type": "standard",
-    "research_id": "r_1775578836189_syg6",
-    "created_at": "2026-04-07T16:27:57.668Z"
->>>>>>> Stashed changes
+    "pattern_id": "P09",
+    "hook_id": "H06",
+    "theme": "テーマ投資（半導体・AI・防衛・原子力・宇宙・Physical AI）",
+    "tweet_type": "short_personal",
+    "research_id": null,
+    "created_at": "2026-04-08T00:09:03.417Z"
   }
 ]
