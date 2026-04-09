@@ -1,5 +1,6 @@
 [
   {
+<<<<<<< Updated upstream
     "id": "q_1775722619965_upz0s3",
     "text": "高値圏での調整相場、実は投資家の成長チャンスだったりする。\n\n上昇トレンド中の振り子調整は「洗浄段階」と呼ばれ、弱い資金が退場→強い資金が残る構図。この時期に学ぶべきは選別眼。\n\n全面高なら何買っても上がった。でも今は資源・防衛株に資金がシフト。テーマの流れを読む力が問われてる。\n\n相場が教えてくれる最高の教科書、君は読めてる？",
     "score": {
@@ -12,16 +13,39 @@
         "discussion": 9,
         "bookmark": 8,
         "tempo": 9,
+=======
+    "id": "q_1775722652370_p17tls",
+    "text": "正直に言う。今の相場で一番怖いのは暴落じゃなくて、上がってるのに持ってないこと。\n\n$TOPIX -0.90%の軟調な中、海外投資家は4906億円の売り越し。6カ月ぶりの大きさ。\n\nでも考えてみて？\n・企業業績は5年連続最高益\n・PBR1倍割れ銘柄には東証が圧力\n・配当利回りは依然魅力的\n\n外国人が売ってる時こそ、日本の個人投資家の出番なんだよね。データ見てから判断すべき。",
+    "score": {
+      "scores": {
+        "buzz": 8,
+        "hook": 9,
+        "value": 8,
+        "data": 8,
+        "unique": 7,
+        "discussion": 9,
+        "bookmark": 7,
+        "tempo": 8,
+>>>>>>> Stashed changes
         "persona": 9,
         "ng_check": 10
       },
       "average": 8.5
     },
+<<<<<<< Updated upstream
     "pattern_id": "P04",
     "hook_id": "H25",
     "theme": "投資の基礎知識・考え方",
     "tweet_type": "standard",
     "research_id": "r_1775722187901_iz4i",
     "created_at": "2026-04-09T08:16:59.965Z"
+=======
+    "pattern_id": "P09",
+    "hook_id": "H24",
+    "theme": "今日のバズニュース（海外）",
+    "tweet_type": "standard",
+    "research_id": "r_1775722234040_z32g",
+    "created_at": "2026-04-09T08:17:32.370Z"
+>>>>>>> Stashed changes
   }
 ]

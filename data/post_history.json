@@ -1,33 +1,108 @@
 [
   {
+<<<<<<< Updated upstream
     "tweet_id": "2042152445795577858",
     "text": "【データ定義】対象: 2026年1-4月上場全銘柄9社、公募価格比の騰落率\n\n🏴‍☠️2026年IPO大敗北🏴‍☠️\n\n4月8日時点で上場した9社すべてが公募割れという異例の事態に😱\n平均騰落率-6.9%、平均損失-1.1万円の大荒れ相場\n\n✅勝率0%（9社中0勝）\n✅最大下落はTOブックス-8.1%\n✅小型株への警戒感が影響\n\nIPO冬の時代到来か？新年度からの流れ変化に期待🙏",
+=======
+    "tweet_id": "2042152751535161841",
+    "text": "【データ定義】対象: 2026年1-4月上場全銘柄9社、公募価格比の初値騰落率\n\n🔥IPO氷河期突入か⁉️\n\n✅9社中7社が公募割れ（78%）\n✅7連続公募割れはコロナ禍以来\n✅キオクシア(-1.0%)も公募割れ\n✅中東情勢・AI銘柄選好が要因\n\n4月のARCHION（日野・三菱ふそう統合）に期待🚛\n\n#IPO #公募割れ #投資",
+>>>>>>> Stashed changes
     "type": "image",
     "card_type": "performance",
     "pattern_id": "IMG",
     "hook_id": null,
     "theme": "image_performance",
     "research_id": null,
+<<<<<<< Updated upstream
     "posted_at": "2026-04-09T08:07:39.262Z",
+=======
+    "posted_at": "2026-04-09T08:08:52.173Z",
+>>>>>>> Stashed changes
     "metrics": null,
     "fetched_at": null
   },
   {
+<<<<<<< Updated upstream
     "tweet_id": "2042155311927112023",
     "text": "【データで見る日本株の現在地】\n\n今日の市場終了時点で気になる数字：\n\n📊 TOPIX PER：15.2倍（過去10年平均13.8倍）\n📊 配当利回り：2.1%（米10年債4.8%との逆イールド継続）\n📊 PBR1倍割れ企業：約40%（東証プライム）\n\nバリュエーション的には割高圏だけど、企業の稼ぐ力は確実に上がってる。問題は金利環境だよな。\n\n米長期金利5%突破したら、日本株のマルチプル一気に圧縮される可能性高い。",
+=======
+    "tweet_id": "2042155461055590523",
+    "text": "みんなが「日本株は外国人頼み」って言うけど、これ完全に間違ってる。\n\n実際のデータ見ると、外国人の日本株保有比率は30%程度。残り70%は国内勢。つまり日本株の主役は最初から日本人なんだよね。\n\nでも、なんで「外国人頼み論」がこんなに浸透してるのか？\n\nこの答え、意外すぎて驚くと思う。詳しくはNoteに書きました（準備中）",
+    "score": {
+      "scores": {
+        "buzz": 8,
+        "hook": 9,
+        "value": 8,
+        "data": 8,
+        "unique": 9,
+        "discussion": 9,
+        "bookmark": 7,
+        "tempo": 8,
+        "persona": 9,
+        "ng_check": 10
+      },
+      "average": 8.5
+    },
+    "pattern_id": "P11",
+    "hook_id": "H25",
+    "theme": "物議を醸す投資トピック（逆張り・アンチテーゼ系で議論を生む）",
+    "research_id": "r_1775722234040_7mup",
+    "posted_at": "2026-04-09T08:19:38.097Z",
+    "metrics": null,
+    "fetched_at": null
+  },
+  {
+    "tweet_id": "2042160495512203420",
+    "text": "日経平均5日ぶり反落で-0.73%。\n\nでも、ポートフォリオ全体で見ると話は違う。相関係数0.7以下の資産を20%以上組み込んでいれば、単日の日本株下落はむしろノイズ。\n\n米国株、新興国、REITなど分散してる人は今日の下げをどう感じた？単一市場に集中してる人とは全然違うはず。",
+>>>>>>> Stashed changes
     "score": {
       "scores": {
         "buzz": 7,
         "hook": 8,
+<<<<<<< Updated upstream
         "value": 9,
         "data": 10,
         "unique": 7,
         "discussion": 8,
         "bookmark": 9,
+=======
+        "value": 8,
+        "data": 8,
+        "unique": 7,
+        "discussion": 8,
+        "bookmark": 7,
+        "tempo": 8,
+        "persona": 8,
+        "ng_check": 9
+      },
+      "average": 7.8
+    },
+    "pattern_id": "P08",
+    "hook_id": "H06",
+    "theme": "ポートフォリオ戦略",
+    "research_id": "r_1775722234040_0q0f",
+    "posted_at": "2026-04-09T08:39:38.473Z",
+    "metrics": null,
+    "fetched_at": null
+  },
+  {
+    "tweet_id": "2042165530497352110",
+    "text": "半導体株の反動売り、まだまだ序盤かもしれない。\n\n$東京エレクトロン（8035）前日比-2.8%、$アドバンテスト（6857）-3.1%、$レーザーテック（6920）-2.4%。下落率見ると、まだ調整初期段階。\n\n米国のイラン停戦合意消化で地政学リスク低下→半導体株売り材料の一つが解消。でも今日の下げは「前日の米株高を先取りしてた分の調整」。\n\n本格調整なら-5%は覚悟してる。",
+    "score": {
+      "scores": {
+        "buzz": 7,
+        "hook": 8,
+        "value": 8,
+        "data": 9,
+        "unique": 7,
+        "discussion": 8,
+        "bookmark": 7,
+>>>>>>> Stashed changes
         "tempo": 8,
         "persona": 8,
         "ng_check": 10
       },
+<<<<<<< Updated upstream
       "average": 8.4
     },
     "pattern_id": "P01",
@@ -87,6 +162,15 @@
     "theme": "決算速報・決算レビュー",
     "research_id": "r_1775722187901_gj94",
     "posted_at": "2026-04-09T08:59:03.097Z",
+=======
+      "average": 8
+    },
+    "pattern_id": "P06",
+    "hook_id": "H10",
+    "theme": "テーマ投資（半導体・AI・防衛・原子力・宇宙・Physical AI）",
+    "research_id": "r_1775722234040_5szl",
+    "posted_at": "2026-04-09T08:59:38.831Z",
+>>>>>>> Stashed changes
     "metrics": null,
     "fetched_at": null
   }
