@@ -1,51 +1,52 @@
 [
   {
-<<<<<<< Updated upstream
-    "id": "q_1775753927042_3423wx",
-    "text": "みんな「日経先物上昇で明日は上がる」って言うけど、本当か？\n\n夜間取引の動きは翌日の日中相場を保証しない。過去3ヶ月見ても、先物+0.6%で始まった日の勝率は52%程度。\n\nNYダウが反落スタートしてるのに、なんで日本だけ上がると思うの？むしろ寄り付き売りの絶好チャンスじゃない？",
-=======
-    "id": "q_1775754009690_u2bll4",
-    "text": "下落相場で一番やってはいけないのは「ナンピン買い」だと思ってる人、多すぎない？\n\n実は優秀な投資家ほど、下落時の買い増しルールを持ってる。ただし、普通のナンピンとは全く違う考え方。\n\n・資金配分の計算式\n・銘柄選定の3つの条件\n・損切りラインの設定方法\n\n健全な押し目調整の今こそ知っておきたい内容。詳しくはNoteに書きました（準備中）",
->>>>>>> Stashed changes
+    "id": "q_1775779743946_3wx9jz",
+    "text": "中東情勢の地政学リスクが再燃してるけど、過去20年のデータを見ると面白いことがわかる。\n\n地政学的緊張が高まると：\n・原油は平均15-20%上昇\n・金は5-10%上昇\n・VIX指数は30超えまで跳ねる\n・ただし株式市場の下落は平均2週間で底打ち\n\n今回も資源株（$1605国際石油開発帝石、$5020ENEOSなど）に資金流入してる。でも本当に怖いのは長期化リスクより、むしろ急速に収束した時の反動安だったりする。",
     "score": {
       "scores": {
         "buzz": 8,
-        "hook": 9,
-<<<<<<< Updated upstream
-        "value": 7,
-        "data": 8,
+        "hook": 7,
+        "value": 9,
+        "data": 9,
         "unique": 8,
-        "discussion": 9,
-        "bookmark": 6,
-        "tempo": 8,
-        "persona": 9,
-=======
-        "value": 8,
-        "data": 6,
-        "unique": 8,
-        "discussion": 9,
+        "discussion": 8,
         "bookmark": 8,
-        "tempo": 8,
+        "tempo": 7,
         "persona": 8,
->>>>>>> Stashed changes
         "ng_check": 10
       },
       "average": 8.2
     },
-<<<<<<< Updated upstream
-    "pattern_id": "P07",
-    "hook_id": "H21",
-    "theme": "マクロ経済・市場環境",
-    "tweet_type": "contrarian",
-    "research_id": "r_1775753503712_fqwu",
-    "created_at": "2026-04-09T16:58:47.042Z"
-=======
-    "pattern_id": "P16",
-    "hook_id": "H17",
-    "theme": "投資の基礎知識・考え方",
-    "tweet_type": "note_cta",
-    "research_id": "r_1775753589206_d57s",
-    "created_at": "2026-04-09T17:00:09.690Z"
->>>>>>> Stashed changes
+    "pattern_id": "P12",
+    "hook_id": "H08",
+    "theme": "今日のバズニュース（海外）",
+    "tweet_type": "standard",
+    "research_id": "r_1775779174989_cvad",
+    "created_at": "2026-04-10T00:09:03.946Z"
+  },
+  {
+    "id": "q_1775779743946_hbu72t",
+    "text": "2026年4月期決算シーズンがスタート。\n\n主要銘柄の進捗率を分析してみた：\n・半導体関連：進捗率85%（想定95%）\n・商社：92%（想定90%）\n・銀行：78%（想定85%）\n\n特に三菱商事（$8058）とソフトバンクG（$9984）が市場予想を10%以上上回る可能性。\n\n一方で半導体は東京エレクトロン（$8035）のガイダンス次第で業界全体の流れが変わりそう。\n\n今週の注目決算、どこ見てる？",
+    "score": {
+      "scores": {
+        "buzz": 7,
+        "hook": 8,
+        "value": 9,
+        "data": 9,
+        "unique": 8,
+        "discussion": 8,
+        "bookmark": 8,
+        "tempo": 8,
+        "persona": 8,
+        "ng_check": 10
+      },
+      "average": 8.3
+    },
+    "pattern_id": "P15",
+    "hook_id": "H15",
+    "theme": "決算速報・決算レビュー",
+    "tweet_type": "standard",
+    "research_id": null,
+    "created_at": "2026-04-10T00:09:03.946Z"
   }
 ]
