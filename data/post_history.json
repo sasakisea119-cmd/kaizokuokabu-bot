@@ -1,24 +1,39 @@
 [
   {
+<<<<<<< Updated upstream
     "tweet_id": "2042394857117716560",
     "text": "🚨日経平均が413円安で反落も、IPO市場は激アツ展開！\n\n📉インフキュリオンが公募割れで初値7連敗を記録、小型株への警戒感が台頭\n🚚一方でARCHION（日野×三菱ふそう統合）が4月1日にプライム上場決定\n📊中東情勢緊迫で市場は不安定も、大型IPO案件に期待\n\n#IPO #日経平均 #ARCHION",
+=======
+    "tweet_id": "2042397474783183304",
+    "text": "🚨中東情勢で株価500円安\n\n<cite index=\"6-2\">米国とイランの停戦合意後にイスラエルがレバノンへ大規模攻撃を行い、早くも和平協議に向けた期待に暗雲が漂いつつある</cite>。\n\n<cite index=\"11-3\">IPO初値7連敗</cite>が示すリスクオフムード。市場は慎重モードに転換中！\n\n#IPO #株式投資 #日経平均",
+>>>>>>> Stashed changes
     "type": "image",
     "card_type": "market",
     "pattern_id": "IMG",
     "hook_id": null,
     "theme": "image_market",
     "research_id": null,
+<<<<<<< Updated upstream
     "posted_at": "2026-04-10T00:10:54.748Z",
+=======
+    "posted_at": "2026-04-10T00:21:18.761Z",
+>>>>>>> Stashed changes
     "metrics": null,
     "fetched_at": null
   },
   {
+<<<<<<< Updated upstream
     "tweet_id": "2042395378071335160",
     "text": "日本株のポートフォリオ、95%の個人投資家が間違ってる。\n\n✓ 日経225構成銘柄だけで組む→業績好調でも流動性リスク\n✓ 時価総額トップ10だけ→セクター偏重で分散効果ゼロ\n✓ 配当利回り4%以上だけ→減配リスクを軽視\n\n本当の分散は「時価総額×セクター×配当性向×PER帯域」の4軸。大型株30%、中小型株20%、グロース30%、バリュー20%が理想比率。\n\nあなたのポートフォリオ、何軸で組んでる？",
+=======
+    "tweet_id": "2042397985888485512",
+    "text": "日経平均のPER、実は過去20年で最低レベル。\n\n現在13.2倍（2006年以来の低水準）\n米$SPX：26.4倍\n独DAX：14.8倍\n\n「日本株は割高」って言ってる人、データ見てる？海外勢が6カ月連続で売り越してるのも、PERベースで見ると完全に感情論。\n\n逆に聞くけど、これ以上何が下がれば「割安」なの？",
+>>>>>>> Stashed changes
     "score": {
       "scores": {
         "buzz": 8,
         "hook": 9,
+<<<<<<< Updated upstream
         "value": 9,
         "data": 9,
         "unique": 8,
@@ -35,10 +50,29 @@
     "theme": "ポートフォリオ戦略",
     "research_id": "r_1775779174989_zsru",
     "posted_at": "2026-04-10T00:12:58.766Z",
+=======
+        "value": 8,
+        "data": 9,
+        "unique": 8,
+        "discussion": 9,
+        "bookmark": 7,
+        "tempo": 8,
+        "persona": 9,
+        "ng_check": 10
+      },
+      "average": 8.5
+    },
+    "pattern_id": "P17",
+    "hook_id": "H14",
+    "theme": "物議を醸す投資トピック（逆張り・アンチテーゼ系で議論を生む）",
+    "research_id": "r_1775779779911_ot2n",
+    "posted_at": "2026-04-10T00:23:20.511Z",
+>>>>>>> Stashed changes
     "metrics": null,
     "fetched_at": null
   },
   {
+<<<<<<< Updated upstream
     "tweet_id": "2042400412368560415",
     "text": "昨日の取引終了後の投資家心理を数字で見る。\n\n米株高（$SPX +0.8%）+ 円安進行（159円台）で日本株への資金流入期待が高まってるが、原油4%超急騰が気になるところ。\n\nエネルギーコスト上昇は企業業績の重石になる一方、石油関連株には追い風。この二面性をどう読むか。\n\n明日の日経はギャップアップで始まりそうだが、持続性は微妙だな。",
     "score": {
@@ -76,17 +110,90 @@
         "unique": 7,
         "discussion": 8,
         "bookmark": 9,
+=======
+    "tweet_id": "2042403020189942175",
+    "text": "正直に言うと、寄り付きで+500円超えってこういう時が一番怖い。みんなどう思う？NYダウ上昇につられて買いが殺到してるけど、この勢いいつまで続くかな。",
+    "score": {
+      "scores": {
+        "buzz": 8,
+        "hook": 8,
+        "value": 7,
+        "data": 6,
+        "unique": 7,
+        "discussion": 9,
+        "bookmark": 5,
+>>>>>>> Stashed changes
         "tempo": 8,
         "persona": 9,
         "ng_check": 10
       },
       "average": 8.7
     },
+<<<<<<< Updated upstream
     "pattern_id": "P04",
     "hook_id": "H18",
     "theme": "日本株個別銘柄分析",
     "research_id": "r_1775779174989_rk8u",
     "posted_at": "2026-04-10T00:52:59.476Z",
+=======
+    "pattern_id": "P16",
+    "hook_id": "H22",
+    "theme": "今日のバズニュース（海外）",
+    "research_id": "r_1775779779911_1dmz",
+    "posted_at": "2026-04-10T00:43:20.756Z",
+    "metrics": null,
+    "fetched_at": null
+  },
+  {
+    "tweet_id": "2042408054604644812",
+    "text": "「日本株は底堅く推移してる」って言うけど、本当か？\n\nプライム市場の含み益銘柄が多いから押し目買いが入ってるだけで、これって実質的に「上がったから買う」の後追い相場だよね。\n\n海外リスク（中東情勢）は相変わらずなのに、なぜか楽観ムード。\n\nこの強気、いつまで続くと思う？",
+    "score": {
+      "scores": {
+        "buzz": 8,
+        "hook": 9,
+        "value": 7,
+        "data": 6,
+        "unique": 8,
+        "discussion": 9,
+        "bookmark": 5,
+        "tempo": 8,
+        "persona": 9,
+        "ng_check": 10
+      },
+      "average": 7.9
+    },
+    "pattern_id": "P13",
+    "hook_id": "H19",
+    "theme": "マクロ経済・市場環境",
+    "research_id": "r_1775779779911_t6xw",
+    "posted_at": "2026-04-10T01:03:21.334Z",
+    "metrics": null,
+    "fetched_at": null
+  },
+  {
+    "tweet_id": "2042413089967260037",
+    "text": "プライム市場への資金流入が鮮明になってる。\n\n含み益比率の高さから見ても、投資家心理は明らかに改善傾向。特に海外勢の4月買いアノマリーが意識され始めてる状況。\n\n銘柄選別の流れが強まる中、グロース株とバリュー株のパフォーマンス格差も注目。プライム上場企業の財務健全性が再評価されてるのかもね。\n\n地合メーターも底堅い推移を示してるし、この流れは継続しそう。",
+    "score": {
+      "scores": {
+        "buzz": 7,
+        "hook": 8,
+        "value": 8,
+        "data": 8,
+        "unique": 7,
+        "discussion": 7,
+        "bookmark": 8,
+        "tempo": 8,
+        "persona": 8,
+        "ng_check": 10
+      },
+      "average": 7.9
+    },
+    "pattern_id": "P01",
+    "hook_id": "H24",
+    "theme": "日本株個別銘柄分析",
+    "research_id": "r_1775779779911_y026",
+    "posted_at": "2026-04-10T01:23:21.811Z",
+>>>>>>> Stashed changes
     "metrics": null,
     "fetched_at": null
   }

@@ -1,5 +1,6 @@
 [
   {
+<<<<<<< Updated upstream
     "id": "q_1775779743946_3wx9jz",
     "text": "中東情勢の地政学リスクが再燃してるけど、過去20年のデータを見ると面白いことがわかる。\n\n地政学的緊張が高まると：\n・原油は平均15-20%上昇\n・金は5-10%上昇\n・VIX指数は30超えまで跳ねる\n・ただし株式市場の下落は平均2週間で底打ち\n\n今回も資源株（$1605国際石油開発帝石、$5020ENEOSなど）に資金流入してる。でも本当に怖いのは長期化リスクより、むしろ急速に収束した時の反動安だったりする。",
     "score": {
@@ -12,11 +13,26 @@
         "discussion": 8,
         "bookmark": 8,
         "tempo": 7,
+=======
+    "id": "q_1775780367555_w9vk1m",
+    "text": "日本の名目GDP、2025年はドイツに抜かれて世界5位転落の可能性が高まってる。\n\n📊 IMF予測（2025年）\n🇺🇸 米国：29.8兆ドル\n🇨🇳 中国：19.7兆ドル\n🇩🇪 ドイツ：4.6兆ドル\n🇯🇵 日本：4.1兆ドル\n\n円安が134円→150円で進んだ影響がデカい。ドル換算のGDPは為替に左右されるから、名目では負けても実質的な経済力は別の話なんだけどね。\n\n日本株投資家としては、この「弱い円」がどこまで企業業績の追い風になるかが焦点。$NIKKEI の上値も結局は円安頼みの部分が大きいし。",
+    "score": {
+      "scores": {
+        "buzz": 8,
+        "hook": 9,
+        "value": 8,
+        "data": 9,
+        "unique": 7,
+        "discussion": 8,
+        "bookmark": 7,
+        "tempo": 8,
+>>>>>>> Stashed changes
         "persona": 8,
         "ng_check": 10
       },
       "average": 8.2
     },
+<<<<<<< Updated upstream
     "pattern_id": "P12",
     "hook_id": "H08",
     "theme": "今日のバズニュース（海外）",
@@ -37,16 +53,47 @@
         "discussion": 8,
         "bookmark": 8,
         "tempo": 8,
+=======
+    "pattern_id": "P03",
+    "hook_id": "H09",
+    "theme": "マクロ経済・市場環境",
+    "tweet_type": "standard",
+    "research_id": "r_1775779779911_nhbz",
+    "created_at": "2026-04-10T00:19:27.555Z"
+  },
+  {
+    "id": "q_1775780367555_vastuq",
+    "text": "今日一番のニュース。政府がライドシェア全面解禁を検討へ。\n\n投資家的に見ると、タクシー大手株（$9629日本交通HD、$9728日本モビリティ）にとっては明らかに逆風。一方でIT系（$4385メルカリ、$3659ネクソン）には新市場として追い風。\n\n規制緩和でパイが奪われる業界vs新市場を得る業界。これ、株価にどう織り込まれるかが見もの。",
+    "score": {
+      "scores": {
+        "buzz": 8,
+        "hook": 9,
+        "value": 8,
+        "data": 9,
+        "unique": 7,
+        "discussion": 8,
+        "bookmark": 7,
+        "tempo": 9,
+>>>>>>> Stashed changes
         "persona": 8,
         "ng_check": 10
       },
       "average": 8.3
     },
+<<<<<<< Updated upstream
     "pattern_id": "P15",
     "hook_id": "H15",
     "theme": "決算速報・決算レビュー",
     "tweet_type": "standard",
     "research_id": null,
     "created_at": "2026-04-10T00:09:03.946Z"
+=======
+    "pattern_id": "P14",
+    "hook_id": "H20",
+    "theme": "今日のバズニュース（国内）",
+    "tweet_type": "standard",
+    "research_id": null,
+    "created_at": "2026-04-10T00:19:27.555Z"
+>>>>>>> Stashed changes
   }
 ]
