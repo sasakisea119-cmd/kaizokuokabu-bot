@@ -1,20 +1,86 @@
 [
   {
+<<<<<<< Updated upstream
     "tweet_id": "2042614268382617722",
     "text": "【データ定義】対象: 2026年1-4月上場全IPO銘柄9社、公募価格比の騰落率\n\n🚨IPO市場に激震！2026年は6連敗という異例のスタート💥\n\n⚡米・イスラエル攻撃による市場不安\n📉赤字バイオベンチャーの連続公募割れ\n🔥東証ルール変更で初値高騰抑制\n\nでも4月は反転の兆し！新年度から流れ変わるか？📈\n\n#IPO #株式投資 #kaizokuokabu",
+=======
+    "tweet_id": "2042621467976962371",
+    "text": "【データ定義】対象: 2026年1-4月上場全銘柄、公募価格比の騰落率\n\n📊2026年IPO市場は厳しいスタート\n\n✅ 上場9社中7社が公募割れ\n✅ 異例の初値7連敗を記録\n✅ 唯一の好調はソフトテックス（+64.9%）\n✅ 東証改革で小型IPO減少傾向\n\n💡スマートニュースやポケトークなど注目企業の上場予定で下半期に期待！中東情勢や金融政策の行方も要注目 #IPO #投資",
+>>>>>>> Stashed changes
     "type": "image",
     "card_type": "performance",
     "pattern_id": "IMG",
     "hook_id": null,
     "theme": "image_performance",
     "research_id": null,
+<<<<<<< Updated upstream
     "posted_at": "2026-04-10T14:42:46.385Z",
+=======
+    "posted_at": "2026-04-10T15:11:22.901Z",
+>>>>>>> Stashed changes
     "metrics": null,
     "fetched_at": null
   },
   {
+<<<<<<< Updated upstream
     "tweet_id": "2042617202222727444",
     "text": "正直に言う。今日1000円超の反発で「底打った！」って言ってるやつ、先週の暴落時にどこにいた？$NIKKEI地政学リスクで上がったり下がったりするのを「相場観」って呼ぶのやめろよ。結局ニュースに振り回されてるだけじゃん。",
+=======
+    "tweet_id": "2042624341167476965",
+    "text": "Physical AI市場、2030年に$1.5兆の巨大市場へ。\n\n日本企業で注目は：\n・ファナック（$6954）：工場AI化の最前線\n・安川電機（$6506）：ロボット制御でトップシェア\n・オムロン（$6645）：センサー技術で差別化\n・村田製作所（$6981）：AI用センサー部品\n\n半導体不足が解消されれば、これらの銘柄がPhysical AI普及の恩恵を最初に受ける。まだ時価総額に織り込まれてない感じがするんだよね。",
+    "score": {
+      "scores": {
+        "buzz": 8,
+        "hook": 8,
+        "value": 9,
+        "data": 9,
+        "unique": 8,
+        "discussion": 7,
+        "bookmark": 9,
+        "tempo": 8,
+        "persona": 8,
+        "ng_check": 10
+      },
+      "average": 8.4
+    },
+    "pattern_id": "P02",
+    "hook_id": "H20",
+    "theme": "テーマ投資（半導体・AI・防衛・原子力・宇宙・Physical AI）",
+    "research_id": "r_1775834009670_rupm",
+    "posted_at": "2026-04-10T15:22:47.836Z",
+    "metrics": null,
+    "fetched_at": null
+  },
+  {
+    "tweet_id": "2042629375540256845",
+    "text": "「日経平均1000円超の大幅反発」を手放しで喜んでるやつ、ちょっと待て。\n\n$NIKKEI 56,924円（+1.84%）\n・外国人売り越し継続中\n・出来高は低水準\n・VIXは依然高止まり\n\nこの上昇、国内勢の買い戻しがメイン。つまり外資が売った分を日本人が拾ってるだけ。\n\n本格回復なら外国人の買い転換が必要なのに、それがない限り戻りは限定的じゃない？",
+    "score": {
+      "scores": {
+        "buzz": 8,
+        "hook": 9,
+        "value": 8,
+        "data": 9,
+        "unique": 8,
+        "discussion": 9,
+        "bookmark": 7,
+        "tempo": 8,
+        "persona": 9,
+        "ng_check": 10
+      },
+      "average": 8.5
+    },
+    "pattern_id": "P12",
+    "hook_id": "H08",
+    "theme": "物議を醸す投資トピック（逆張り・アンチテーゼ系で議論を生む）",
+    "research_id": "r_1775834009670_wcr2",
+    "posted_at": "2026-04-10T15:42:48.113Z",
+    "metrics": null,
+    "fetched_at": null
+  },
+  {
+    "tweet_id": "2042634409858470257",
+    "text": "ファーストリテイリング（$9983）1銘柄で日経平均を500円押し上げ。\n\n上期営業利益+31.7%で7,000億円に上方修正、株価は+11.99%。問題は日経平均上位3銘柄だけで上昇幅の92%を占めてること。\n\nこれ、指数の歪み方がヤバすぎる。大型株頼みの相場って、崩れる時は一瞬だからな。",
+>>>>>>> Stashed changes
     "score": {
       "scores": {
         "buzz": 8,
@@ -48,12 +114,18 @@
         "value": 7,
         "data": 8,
         "unique": 7,
+<<<<<<< Updated upstream
         "discussion": 6,
         "bookmark": 8,
+=======
+        "discussion": 8,
+        "bookmark": 6,
+>>>>>>> Stashed changes
         "tempo": 8,
-        "persona": 8,
+        "persona": 9,
         "ng_check": 10
       },
+<<<<<<< Updated upstream
       "average": 7.9
     },
     "pattern_id": "P08",
@@ -87,6 +159,15 @@
     "theme": "メタプラネット・ビットコイン関連（賛否両論あるネタとして積極的に取り上げる）",
     "research_id": "r_1775832252476_w5ln",
     "posted_at": "2026-04-10T15:34:26.435Z",
+=======
+      "average": 8.2
+    },
+    "pattern_id": "P11",
+    "hook_id": "H02",
+    "theme": "マクロ経済・市場環境",
+    "research_id": "r_1775834009670_azyl",
+    "posted_at": "2026-04-10T16:02:48.381Z",
+>>>>>>> Stashed changes
     "metrics": null,
     "fetched_at": null
   }

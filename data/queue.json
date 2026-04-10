@@ -1,13 +1,23 @@
 [
   {
+<<<<<<< Updated upstream
     "id": "q_1775832740389_ejxvdy",
     "text": "アクセルスペース（$402A）がストップ高って、みんな「宇宙関連だから買い」って単純すぎない？\n\nみずほの目標1200円、でも現在の売上規模見た？衛星7機打ち上げは2026年。それまでの2年間、株価どうやって支える？防衛案件の獲得確率も未知数。\n\n宇宙ロマンと投資リターンは別物だよ。",
+=======
+    "id": "q_1775834427001_tr613q",
+    "text": "地政学リスク後退でナスダック続伸、みんな「AI株買いのチャンス」って言ってるけど、本当にそうか？\n\n中東情勢が落ち着くと、今度はFRBの利上げ観測が台頭するんだよね。金利上昇でグロース株は真っ先に売られる。\n\n地政学→AI株高の単純思考、危険じゃない？",
+>>>>>>> Stashed changes
     "score": {
       "scores": {
         "buzz": 8,
         "hook": 9,
+<<<<<<< Updated upstream
         "value": 8,
         "data": 7,
+=======
+        "value": 7,
+        "data": 6,
+>>>>>>> Stashed changes
         "unique": 8,
         "discussion": 9,
         "bookmark": 6,
@@ -15,6 +25,7 @@
         "persona": 9,
         "ng_check": 10
       },
+<<<<<<< Updated upstream
       "average": 8.2
     },
     "pattern_id": "P14",
@@ -23,5 +34,15 @@
     "tweet_type": "contrarian",
     "research_id": "r_1775832252476_95qr",
     "created_at": "2026-04-10T14:52:20.389Z"
+=======
+      "average": 8
+    },
+    "pattern_id": "P03",
+    "hook_id": "H11",
+    "theme": "今日のバズニュース（国内）",
+    "tweet_type": "contrarian",
+    "research_id": "r_1775834009670_mtpo",
+    "created_at": "2026-04-10T15:20:27.001Z"
+>>>>>>> Stashed changes
   }
 ]
