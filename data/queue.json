@@ -1,48 +1,52 @@
 [
   {
-<<<<<<< Updated upstream
-    "id": "q_1775832740389_ejxvdy",
-    "text": "アクセルスペース（$402A）がストップ高って、みんな「宇宙関連だから買い」って単純すぎない？\n\nみずほの目標1200円、でも現在の売上規模見た？衛星7機打ち上げは2026年。それまでの2年間、株価どうやって支える？防衛案件の獲得確率も未知数。\n\n宇宙ロマンと投資リターンは別物だよ。",
-=======
-    "id": "q_1775834427001_tr613q",
-    "text": "地政学リスク後退でナスダック続伸、みんな「AI株買いのチャンス」って言ってるけど、本当にそうか？\n\n中東情勢が落ち着くと、今度はFRBの利上げ観測が台頭するんだよね。金利上昇でグロース株は真っ先に売られる。\n\n地政学→AI株高の単純思考、危険じゃない？",
->>>>>>> Stashed changes
+    "id": "q_1775866251781_6rr9xx",
+    "text": "日経続伸予想300円って、みんな素直すぎない？\n\nNYダウ-269ドルの下落を無視して楽観視する理由が分からない。\n\n過去5回の類似パターン（前日反発→NY下落→翌日続伸予想）を調べたら、実際に上がったのは2回だけ。確率40%。\n\nリバウンド一巡後の続伸は統計的に厳しいのに、なぜか強気予想ばかり。\n\n冷静に見れば調整継続の方が自然じゃない？",
     "score": {
       "scores": {
         "buzz": 8,
         "hook": 9,
-<<<<<<< Updated upstream
         "value": 8,
-        "data": 7,
-=======
-        "value": 7,
-        "data": 6,
->>>>>>> Stashed changes
+        "data": 9,
         "unique": 8,
         "discussion": 9,
-        "bookmark": 6,
+        "bookmark": 7,
         "tempo": 8,
         "persona": 9,
         "ng_check": 10
       },
-<<<<<<< Updated upstream
-      "average": 8.2
+      "average": 8.5
     },
-    "pattern_id": "P14",
-    "hook_id": "H22",
-    "theme": "日本株個別銘柄分析",
-    "tweet_type": "contrarian",
-    "research_id": "r_1775832252476_95qr",
-    "created_at": "2026-04-10T14:52:20.389Z"
-=======
-      "average": 8
+    "pattern_id": "P02",
+    "hook_id": "H07",
+    "theme": "物議を醸す投資トピック（逆張り・アンチテーゼ系で議論を生む）",
+    "tweet_type": "standard",
+    "research_id": "r_1775865658436_fxd2",
+    "created_at": "2026-04-11T00:10:51.781Z"
+  },
+  {
+    "id": "q_1775866251781_sn56gi",
+    "text": "DCF法って結局何？5分でわかるように説明する。\n\nDCF = 未来のキャッシュフローを現在価値に割り戻す手法\n\n例：A社が毎年100億円稼ぐとして\n・1年後の100億円 = 現在の91億円（割引率10%）\n・2年後の100億円 = 現在の83億円\n・3年後の100億円 = 現在の75億円\n\nこれを10年分足すと「企業の本当の価値」が見える。\n\nでも実際は、未来なんて誰にもわからん。だからDCFは「精密な当てずっぽう」って言われるんだよね。",
+    "score": {
+      "scores": {
+        "buzz": 7,
+        "hook": 8,
+        "value": 9,
+        "data": 8,
+        "unique": 6,
+        "discussion": 7,
+        "bookmark": 8,
+        "tempo": 8,
+        "persona": 8,
+        "ng_check": 10
+      },
+      "average": 7.9
     },
-    "pattern_id": "P03",
-    "hook_id": "H11",
-    "theme": "今日のバズニュース（国内）",
-    "tweet_type": "contrarian",
-    "research_id": "r_1775834009670_mtpo",
-    "created_at": "2026-04-10T15:20:27.001Z"
->>>>>>> Stashed changes
+    "pattern_id": "P09",
+    "hook_id": "H15",
+    "theme": "投資の基礎知識・考え方",
+    "tweet_type": "standard",
+    "research_id": null,
+    "created_at": "2026-04-11T00:10:51.781Z"
   }
 ]
