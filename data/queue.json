@@ -1,5 +1,6 @@
 [
   {
+<<<<<<< Updated upstream
     "id": "q_1775916965432_7obs5i",
     "text": "日経平均が上がっても$TOPIXが横ばい。これ、めちゃくちゃ重要な現象です。\n\n日経：3万9,000円台で+0.2%\n$TOPIX：3,739.85でほぼ変わらず\n\nつまり大型株だけが上がって、中小型株は置いてきぼり。市場の「選別」が始まってるってことです。こういう時こそ、個別銘柄の決算と業績をしっかり見る。指数に惑わされちゃダメ。",
     "score": {
@@ -9,12 +10,24 @@
         "value": 9,
         "data": 8,
         "unique": 8,
+=======
+    "id": "q_1775917102496_pq6lsl",
+    "text": "今日の市場データ見て気づいた\n\n日経平均：-0.02%\nTOPIX：-0.04%\n\n一見同じような動きだが、詳細見ると全然違う。東証プライムで値上がり30%に対して値下がり67%。つまり大型株が相場を下支えしてる構図。\n\nこういう日は時価総額加重のTOPIXより日経の方が強くなりやすい。ポートフォリオ組む時、指数の性質理解してる？",
+    "score": {
+      "scores": {
+        "buzz": 7,
+        "hook": 8,
+        "value": 8,
+        "data": 9,
+        "unique": 7,
+>>>>>>> Stashed changes
         "discussion": 8,
         "bookmark": 7,
         "tempo": 8,
         "persona": 8,
         "ng_check": 10
       },
+<<<<<<< Updated upstream
       "average": 8.3
     },
     "pattern_id": "P11",
@@ -23,5 +36,15 @@
     "tweet_type": "standard",
     "research_id": "r_1775916515714_eah4",
     "created_at": "2026-04-11T14:16:05.432Z"
+=======
+      "average": 8
+    },
+    "pattern_id": "P13",
+    "hook_id": "H22",
+    "theme": "ポートフォリオ戦略",
+    "tweet_type": "standard",
+    "research_id": "r_1775916674506_rxcb",
+    "created_at": "2026-04-11T14:18:22.496Z"
+>>>>>>> Stashed changes
   }
 ]
