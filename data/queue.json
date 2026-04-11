@@ -1,20 +1,56 @@
 [
   {
+<<<<<<< Updated upstream
     "id": "q_1775866251781_6rr9xx",
     "text": "日経続伸予想300円って、みんな素直すぎない？\n\nNYダウ-269ドルの下落を無視して楽観視する理由が分からない。\n\n過去5回の類似パターン（前日反発→NY下落→翌日続伸予想）を調べたら、実際に上がったのは2回だけ。確率40%。\n\nリバウンド一巡後の続伸は統計的に厳しいのに、なぜか強気予想ばかり。\n\n冷静に見れば調整継続の方が自然じゃない？",
+=======
+    "id": "q_1775866615480_cwkja9",
+    "text": "ファストリ$9983が+11.99%も、TOPIX全体は-0.04%とほぼ横ばい。\n\n実はこれ、大型株偏重の「狭い物色」の典型例。TOPIXの時価総額加重平均では、上位10銘柄で全体の約3割を占める構造になってる。\n\nつまり一部の大型株が上がっても、中小型株が売られれば指数は動かない。個別株選びの時代って言われる理由がここにある。\n\n今の相場、指数だけ見てたら完全に騙される。",
+    "score": {
+      "scores": {
+        "buzz": 8,
+        "hook": 8,
+        "value": 9,
+        "data": 9,
+        "unique": 8,
+        "discussion": 8,
+        "bookmark": 7,
+        "tempo": 8,
+        "persona": 8,
+        "ng_check": 10
+      },
+      "average": 8.3
+    },
+    "pattern_id": "P15",
+    "hook_id": "H14",
+    "theme": "物議を醸す投資トピック（逆張り・アンチテーゼ系で議論を生む）",
+    "tweet_type": "standard",
+    "research_id": "r_1775866030453_uufc",
+    "created_at": "2026-04-11T00:16:55.480Z"
+  },
+  {
+    "id": "q_1775866615480_iugvx8",
+    "text": "$3350 メタプラネット、今月だけでBTC買い増し3回。\n\n累計保有量1,761.9BTC（約177億円相当）\n時価総額約900億円の会社が200億円近くビットコインって、どう考えてもおかしくない？\n\nしかも買い増しタイミングが絶妙すぎる件。\n\n投資判断の裏にある戦略と、なぜ今このタイミングなのか分析してみた。詳しくはNoteに書きました（準備中）",
+>>>>>>> Stashed changes
     "score": {
       "scores": {
         "buzz": 8,
         "hook": 9,
         "value": 8,
         "data": 9,
+<<<<<<< Updated upstream
         "unique": 8,
         "discussion": 9,
+=======
+        "unique": 7,
+        "discussion": 8,
+>>>>>>> Stashed changes
         "bookmark": 7,
         "tempo": 8,
-        "persona": 9,
+        "persona": 8,
         "ng_check": 10
       },
+<<<<<<< Updated upstream
       "average": 8.5
     },
     "pattern_id": "P02",
@@ -48,5 +84,15 @@
     "tweet_type": "standard",
     "research_id": null,
     "created_at": "2026-04-11T00:10:51.781Z"
+=======
+      "average": 8.2
+    },
+    "pattern_id": "P11",
+    "hook_id": "H23",
+    "theme": "メタプラネット・ビットコイン関連（賛否両論あるネタとして積極的に取り上げる）",
+    "tweet_type": "note_cta",
+    "research_id": null,
+    "created_at": "2026-04-11T00:16:55.480Z"
+>>>>>>> Stashed changes
   }
 ]
