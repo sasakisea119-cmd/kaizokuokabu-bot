@@ -1,18 +1,28 @@
 [
   {
+<<<<<<< Updated upstream
     "tweet_id": "2042849537157742816",
     "text": "🔥JX金属IPO、初値+2.8%も本番はこれから？\n\n✅世界シェア64%の半導体スパッタリングターゲット\n✅ENEOSから独立、非鉄→半導体転身\n✅売上53%減も利益16%増の事業再編効果\n✅初値843円から本格上昇待ち\n\n大型でも半導体は別格\nキオクシア2倍のパターン狙い👀\n\n#IPO #JX金属 #半導体",
+=======
+    "tweet_id": "2042856140434821557",
+    "text": "🔥これは爆上げIPOの教科書だった\n\nミライロ(335A)が公募270円→初値661円で+145%🚀\n✅万博・デフリンピック特需でDX加速\n✅導入事業者4094社、ユーザー43.5万人\n✅月間アクティブ15.6万人で利用拡大中\n\n小型株+低位株+テーマ性の三重奏💫\n障害者支援×DXの社会課題解決で応援したくなる銘柄\n\n#IPO #kaizokuokabu",
+>>>>>>> Stashed changes
     "type": "image",
     "card_type": "score",
     "pattern_id": "IMG",
     "hook_id": null,
     "theme": "image_score",
     "research_id": null,
+<<<<<<< Updated upstream
     "posted_at": "2026-04-11T06:17:38.799Z",
+=======
+    "posted_at": "2026-04-11T06:43:53.201Z",
+>>>>>>> Stashed changes
     "metrics": null,
     "fetched_at": null
   },
   {
+<<<<<<< Updated upstream
     "tweet_id": "2042852279465001128",
     "text": "みんな「日本株は割安」って言うけど、PBR1.2倍の現在値、実はリーマンショック前の1.6倍より30%も低い。\n\nでも問題はここから。ROEが8.9%→6.2%に落ちてるから、理論株価も下がってるんだよね。\n\n「割安だから買い」じゃなくて「ROE改善するから買い」が正解。PBRだけ見て投資してる人、大丈夫？\n\n数字は嘘つかない。",
     "score": {
@@ -24,36 +34,95 @@
         "unique": 8,
         "discussion": 9,
         "bookmark": 8,
+=======
+    "tweet_id": "2042858860457640435",
+    "text": "正直に言うと、今期の決算を見てて一番印象的だったのは利益率の格差。\n\n製造業：営業利益率8.2%（前年同期6.1%）\n非製造業：営業利益率12.7%（前年同期11.8%）\n\n円安の恩恵を受けたはずの製造業が、なぜサービス業に利益率で負けてるんだろう？原材料費の上昇がここまで響いてるとは。\n\nみんなはどの業界の決算に注目してる？",
+    "score": {
+      "scores": {
+        "buzz": 7,
+        "hook": 8,
+        "value": 8,
+        "data": 9,
+        "unique": 7,
+        "discussion": 8,
+        "bookmark": 6,
+        "tempo": 8,
+        "persona": 8,
+        "ng_check": 10
+      },
+      "average": 7.9
+    },
+    "pattern_id": "P16",
+    "hook_id": "H28",
+    "theme": "決算速報・決算レビュー",
+    "research_id": "r_1775889939839_vjtl",
+    "posted_at": "2026-04-11T06:54:41.570Z",
+    "metrics": null,
+    "fetched_at": null
+  },
+  {
+    "tweet_id": "2042863894738153771",
+    "text": "日経の900円高って派手だけど、ポートフォリオ視点だと意外と冷静。\n\n先物主導の上昇は翌日反動が出やすいデータがある。過去3年で先物+700円超の翌日勝率は47%。\n\n個人的には、こういう日に利確するか買い増しするかで投資家の「型」がわかる。あなたはどっち派？\n\n短期の値動きより、ポジションサイズの管理が全て。",
+    "score": {
+      "scores": {
+        "buzz": 8,
+        "hook": 7,
+        "value": 8,
+        "data": 9,
+        "unique": 7,
+        "discussion": 8,
+        "bookmark": 7,
+>>>>>>> Stashed changes
         "tempo": 8,
         "persona": 9,
         "ng_check": 9
       },
       "average": 8.6
     },
+<<<<<<< Updated upstream
     "pattern_id": "P10",
     "hook_id": "H08",
     "theme": "物議を醸す投資トピック（逆張り・アンチテーゼ系で議論を生む）",
     "research_id": "r_1775888355545_qh16",
     "posted_at": "2026-04-11T06:28:32.538Z",
+=======
+    "pattern_id": "P07",
+    "hook_id": "H30",
+    "theme": "ポートフォリオ戦略",
+    "research_id": "r_1775889939839_ld93",
+    "posted_at": "2026-04-11T07:14:41.841Z",
+>>>>>>> Stashed changes
     "metrics": null,
     "fetched_at": null
   },
   {
+<<<<<<< Updated upstream
     "tweet_id": "2042857314290642990",
     "text": "投資系ツイートを分析してたら面白いことに気づいた。\n\n「今買うべき」系の投稿ほど実はインプレッションが低い。データ見ると、直接的な売買推奨ツイートは平均1,200imp、一方で「なぜこの株が注目されないのか疑問」みたいな疑問形は平均3,800imp。\n\nつまり、売り込もうとするほど読まれない。\n\n投資クラスタって意外とリテラシー高いのかも。",
+=======
+    "tweet_id": "2042868929131839857",
+    "text": "米国市場の異常な構造が日本株にも波及してる。\n\n上昇469銘柄 vs 下落1,050銘柄\n→ 勝率31%という歪み\n\nファストリ（$9983）や半導体株の一極集中で日経平均は上がるが、TOPIXは+0.1%で停滞。NT倍率13.8倍の異常値がこの偏りを物語ってる。\n\n個人投資家には地獄相場だが、悪材料出尽くし＋安値切り上げのシグナルも。新サイクル入りなら分散投資が報われる時が来る。",
+>>>>>>> Stashed changes
     "score": {
       "scores": {
         "buzz": 8,
         "hook": 9,
         "value": 8,
+<<<<<<< Updated upstream
         "data": 8,
         "unique": 8,
         "discussion": 9,
+=======
+        "data": 10,
+        "unique": 8,
+        "discussion": 8,
+>>>>>>> Stashed changes
         "bookmark": 7,
         "tempo": 8,
         "persona": 9,
         "ng_check": 10
       },
+<<<<<<< Updated upstream
       "average": 8.4
     },
     "pattern_id": "P05",
@@ -61,6 +130,15 @@
     "theme": "物議を醸す投資トピック（逆張り・アンチテーゼ系で議論を生む）",
     "research_id": "r_1775888355545_jnbe",
     "posted_at": "2026-04-11T06:48:32.951Z",
+=======
+      "average": 8.5
+    },
+    "pattern_id": "P01",
+    "hook_id": "H13",
+    "theme": "米国株個別銘柄分析",
+    "research_id": "r_1775889939839_4wdc",
+    "posted_at": "2026-04-11T07:34:42.136Z",
+>>>>>>> Stashed changes
     "metrics": null,
     "fetched_at": null
   }
