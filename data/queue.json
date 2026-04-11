@@ -1,53 +1,27 @@
 [
   {
-<<<<<<< Updated upstream
-    "id": "q_1775888792273_779h7u",
-    "text": "IPOは上場後1年で70%が下落するって本当か？\n\nみんな「IPOは危険」って言うけど、実はこれ、思考停止じゃない？\n\n確かに2021-2022年のIPOバブル時は酷かった。でも今は？\n\n・公開価格は適正化\n・機関投資家の選別眼も厳しい\n・セカンダリー勢は逆に慎重すぎ\n\n「IPO=危険」の固定観念、そろそろ見直す時期では？",
-    "score": {
-      "scores": {
-        "buzz": 7,
-        "hook": 8,
-        "value": 6,
-        "data": 7,
-        "unique": 8,
-        "discussion": 9,
-        "bookmark": 6,
-        "tempo": 8,
-        "persona": 8,
-        "ng_check": 9
-      },
-      "average": 7.6
-    },
-    "pattern_id": "P09",
-    "hook_id": "H16",
-    "theme": "IPO分析・セカンダリー",
-    "tweet_type": "contrarian",
-    "research_id": "r_1775888355545_tw1y",
-    "created_at": "2026-04-11T06:26:32.273Z"
-=======
-    "id": "q_1775890361944_jhn9d5",
-    "text": "年初来で日経平均+13.86%、TOPIX+10.75%。\n\n「日本株独走」って言ってるけど、これS&P500の+28%、QQQ+32%と比べたら全然だからね。\n\n海外投資家が6カ月連続で売り越してる中でこの数字。国内勢だけで支えてるって、むしろヤバくない？\n\n円安効果を除いたドルベースだと日経平均の実質リターンはほぼゼロ。「独走」の正体、見えてきた？",
+    "id": "q_1775916965432_7obs5i",
+    "text": "日経平均が上がっても$TOPIXが横ばい。これ、めちゃくちゃ重要な現象です。\n\n日経：3万9,000円台で+0.2%\n$TOPIX：3,739.85でほぼ変わらず\n\nつまり大型株だけが上がって、中小型株は置いてきぼり。市場の「選別」が始まってるってことです。こういう時こそ、個別銘柄の決算と業績をしっかり見る。指数に惑わされちゃダメ。",
     "score": {
       "scores": {
         "buzz": 8,
         "hook": 9,
-        "value": 8,
-        "data": 9,
+        "value": 9,
+        "data": 8,
         "unique": 8,
-        "discussion": 9,
+        "discussion": 8,
         "bookmark": 7,
         "tempo": 8,
-        "persona": 9,
+        "persona": 8,
         "ng_check": 10
       },
-      "average": 8.5
+      "average": 8.3
     },
-    "pattern_id": "P13",
-    "hook_id": "H27",
-    "theme": "物議を醸す投資トピック（逆張り・アンチテーゼ系で議論を生む）",
+    "pattern_id": "P11",
+    "hook_id": "H03",
+    "theme": "投資の基礎知識・考え方",
     "tweet_type": "standard",
-    "research_id": "r_1775889939839_o7b3",
-    "created_at": "2026-04-11T06:52:41.944Z"
->>>>>>> Stashed changes
+    "research_id": "r_1775916515714_eah4",
+    "created_at": "2026-04-11T14:16:05.432Z"
   }
 ]
