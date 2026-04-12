@@ -1,22 +1,61 @@
 [
   {
+<<<<<<< Updated upstream
     "id": "q_1775949570031_7a9f1z",
     "text": "ドル円159円で「円安やばい」って騒いでるけど、実は今が日本株の絶好調期間だって気づいてる？\n\n過去データ見ると、ドル円150円超えの期間は外国人投資家の日本株買いが加速する傾向。円安＝日本企業の海外売上増＝業績上振れ期待。\n\n原油安も追い風。エネルギーコスト削減で製造業の利益率改善。\n\nみんなが円安を恐れてる時こそ、冷静にデータ見よう。",
+=======
+    "id": "q_1775952706756_2ixjzl",
+    "text": "東証プライム売買代金、平均の1.5倍〜3倍超え。\n\n3.2兆円〜9.6兆円という異常な大商い。機関投資家が4週ぶりに買い越し転換、海外マネーが戻ってきた証拠だよね。\n\n先物主導とはいえ現物も堅調。ただし勢い鈍化の兆しも見える。\n\n今の相場、量が質を物語ってる。$NIKKEI",
+>>>>>>> Stashed changes
     "score": {
       "scores": {
         "buzz": 8,
         "hook": 9,
         "value": 8,
+<<<<<<< Updated upstream
         "data": 7,
         "unique": 8,
         "discussion": 9,
         "bookmark": 7,
         "tempo": 8,
+=======
+        "data": 9,
+        "unique": 7,
+        "discussion": 8,
+        "bookmark": 7,
+        "tempo": 8,
+        "persona": 9,
+        "ng_check": 10
+      },
+      "average": 8.3
+    },
+    "pattern_id": "P13",
+    "hook_id": "H12",
+    "theme": "マクロ経済・市場環境",
+    "tweet_type": "standard",
+    "research_id": "r_1775952120697_6yz1",
+    "created_at": "2026-04-12T00:11:46.756Z"
+  },
+  {
+    "id": "q_1775952706756_i4qx2i",
+    "text": "日産自動車（$7201）のROE、2024年3月期は0.8%まで低下。\n\n同業他社との比較\n・トヨタ：9.2%\n・ホンダ：7.8%  \n・マツダ：4.1%\n・スバル：11.4%\n\n資本効率の悪化が止まらない。特に営業利益率1.5%は深刻で、グローバル競争で後塵を拝してる状況が数字に表れてる。株主還元も配当性向100%超えで持続性に疑問符。\n\n完全復活にはまだ時間かかりそう。",
+    "score": {
+      "scores": {
+        "buzz": 7,
+        "hook": 8,
+        "value": 9,
+        "data": 10,
+        "unique": 6,
+        "discussion": 7,
+        "bookmark": 8,
+        "tempo": 9,
+>>>>>>> Stashed changes
         "persona": 8,
         "ng_check": 10
       },
       "average": 8.2
     },
+<<<<<<< Updated upstream
     "pattern_id": "P13",
     "hook_id": "H09",
     "theme": "今日のバズニュース（海外）",
@@ -48,5 +87,13 @@
     "tweet_type": "standard",
     "research_id": null,
     "created_at": "2026-04-11T23:19:30.031Z"
+=======
+    "pattern_id": "P06",
+    "hook_id": "H13",
+    "theme": "日本株個別銘柄分析",
+    "tweet_type": "standard",
+    "research_id": null,
+    "created_at": "2026-04-12T00:11:46.756Z"
+>>>>>>> Stashed changes
   }
 ]
