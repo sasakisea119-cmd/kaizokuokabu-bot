@@ -1,33 +1,55 @@
 [
   {
+<<<<<<< Updated upstream
     "tweet_id": "2043331130846277919",
     "text": "【データ定義】対象: 2026年1-4月上場全銘柄10社、公募価格比の騰落率\n\n🔥IPO春のブレイク期待🔥\n\n年初来の厳しい環境もARCHION(543A)の大型上場で流れ変化の兆し！日野×三菱ふそう統合の注目銘柄が+7.8%で初値形成。4月は5社上場予定で新年度相場に期待💪\n\n勝率30%と苦戦続きも、大型統合案件で投資家の目線が変わるか？\n\n#IPO #ARCHION #新規上場",
+=======
+    "tweet_id": "2043335844564713771",
+    "text": "【データ定義】対象: 2026年1-4月の全IPO銘柄9社、公募価格比初値ベース騰落率\n\n2026年IPO市場は史上稀に見る厳しいスタート⚡公募割れ率69%、平均騰落率-5.2%と低迷。一方でソフトテックスは+64.9%の大幅上昇を見せ、市場の二極化が鮮明に🔥\n\nイラン情勢、小型株警戒、赤字ベンチャーの相次ぐ上場が重なり投資家の慎重姿勢が顕著。4月からの巻き返しなるか？\n\n#IPO #kaizokuokabu",
+>>>>>>> Stashed changes
     "type": "image",
     "card_type": "performance",
     "pattern_id": "IMG",
     "hook_id": null,
     "theme": "image_performance",
     "research_id": null,
+<<<<<<< Updated upstream
     "posted_at": "2026-04-12T14:11:19.694Z",
+=======
+    "posted_at": "2026-04-12T14:30:03.592Z",
+>>>>>>> Stashed changes
     "metrics": null,
     "fetched_at": null
   },
   {
+<<<<<<< Updated upstream
     "tweet_id": "2043333971254055190",
     "text": "正直に言うと、投資始めて5年目で初めて気づいたことがある。\n\n「損切りできない理由」って、お金の問題じゃなくて「間違いを認めたくない」プライドの問題だったんだよね。\n\nみんなはどう？損切りで一番きついのって何？",
+=======
+    "tweet_id": "2043338587165569205",
+    "text": "2026年4月12日の投資家心理、面白い傾向が出てる。\n\n朝6時台の投稿では日経平均への慎重論が6割占めてたのに、昼12時台になると買い場探しのツイートが4割まで増加。\n\n特に「押し目待ち」のワードが前日比+280%で急増。投資家の感情が12時間でここまで変わるのは、結構珍しい現象。\n\nリアルタイム心理分析、案外バカにできない指標かも。",
+>>>>>>> Stashed changes
     "score": {
       "scores": {
         "buzz": 8,
         "hook": 9,
         "value": 8,
+<<<<<<< Updated upstream
         "data": 3,
         "unique": 7,
         "discussion": 9,
         "bookmark": 6,
+=======
+        "data": 9,
+        "unique": 8,
+        "discussion": 7,
+        "bookmark": 8,
+>>>>>>> Stashed changes
         "tempo": 8,
         "persona": 9,
         "ng_check": 10
       },
+<<<<<<< Updated upstream
       "average": 7.7
     },
     "pattern_id": "P05",
@@ -35,12 +57,26 @@
     "theme": "投資の基礎知識・考え方",
     "research_id": "r_1776003210698_uzz6",
     "posted_at": "2026-04-12T14:22:36.792Z",
+=======
+      "average": 8.2
+    },
+    "pattern_id": "P15",
+    "hook_id": "H28",
+    "theme": "マクロ経済・市場環境",
+    "research_id": "r_1776004312676_4sw4",
+    "posted_at": "2026-04-12T14:40:57.340Z",
+>>>>>>> Stashed changes
     "metrics": null,
     "fetched_at": null
   },
   {
+<<<<<<< Updated upstream
     "tweet_id": "2043339005689757947",
     "text": "日経平均+1,052円の裏で何が起きてた？\n\n金曜の$NIKKEI大幅続伸、でも実態は歪んでる。\n\n・日経平均：+1.88%\n・TOPIX：+2.5%（日経を下回る）\n・プライム市場6割超が下落\n・ファーストリテイリング1社で+650円押し上げ\n\n指数は上がってるのに個別株は死屍累々。これ典型的な「見せかけの強さ」なんだよね。米・イラン停戦期待で上がったけど、実際のポートフォリオはマイナスの人多そう。",
+=======
+    "tweet_id": "2043343621773250898",
+    "text": "日経+3,800円の「偽装上昇」に騙されるな\n\n今週の日経爆上げ、実はファストリ1銘柄で+650円。つまり他は実質+3,150円。\n\n数字で見ると：\n・ファストリ寄与度：17%\n・実質的な市場上昇：83%\n\nこれを「市場全体が強い」と解釈してる人、ちょっと危険かも。1銘柄に依存した上昇って、調整時も同じく1銘柄に引っ張られるってこと。\n\n$NIKKEI の57,000円突破、本当に持続可能？",
+>>>>>>> Stashed changes
     "score": {
       "scores": {
         "buzz": 8,
@@ -48,6 +84,7 @@
         "value": 8,
         "data": 9,
         "unique": 8,
+<<<<<<< Updated upstream
         "discussion": 8,
         "bookmark": 7,
         "tempo": 8,
@@ -61,10 +98,26 @@
     "theme": "今日のバズニュース（海外）",
     "research_id": "r_1776003210698_rdsy",
     "posted_at": "2026-04-12T14:42:37.123Z",
+=======
+        "discussion": 9,
+        "bookmark": 7,
+        "tempo": 8,
+        "persona": 8,
+        "ng_check": 9
+      },
+      "average": 8.3
+    },
+    "pattern_id": "P07",
+    "hook_id": "H04",
+    "theme": "物議を醸す投資トピック（逆張り・アンチテーゼ系で議論を生む）",
+    "research_id": "r_1776004312676_6u3a",
+    "posted_at": "2026-04-12T15:00:57.761Z",
+>>>>>>> Stashed changes
     "metrics": null,
     "fetched_at": null
   },
   {
+<<<<<<< Updated upstream
     "tweet_id": "2043344040406475124",
     "text": "日経先物の上げ基調、実は危険なサイン？\n\n出来高が薄いまま上昇している現状に、プロトレーダーから「弱い上昇」との声が続出。月曜の地政学リスクでどう反応するかが試金石。\n\nイラン情勢悪化でホルムズ海峡封鎖懸念→原油高→日本株下落のシナリオと、押し目買い狙いが綱引き。\n\n薄商いの上昇、過去データだとその後の下落率は通常の1.3倍。今の相場、本当に健全？",
     "score": {
@@ -76,10 +129,24 @@
         "unique": 7,
         "discussion": 9,
         "bookmark": 7,
+=======
+    "tweet_id": "2043348656359887005",
+    "text": "日経平均とTOPIXの乖離、今週も続いてる。\n\n日経：週間+1.2%\n$TOPIX：週間+2.5%\n\nでも実態は逆。TOPIXの方が弱い。\n\n理由：日経は225銘柄の「株価加重平均」だから、ファストリテイリング($9983)1社の影響がデカすぎる。TOPIXは時価総額加重だから市場全体を正確に反映。\n\n投資判断するなら、TOPIXの動きの方が重要だよ。",
+    "score": {
+      "scores": {
+        "buzz": 7,
+        "hook": 8,
+        "value": 8,
+        "data": 9,
+        "unique": 7,
+        "discussion": 7,
+        "bookmark": 8,
+>>>>>>> Stashed changes
         "tempo": 8,
         "persona": 8,
         "ng_check": 10
       },
+<<<<<<< Updated upstream
       "average": 8.2
     },
     "pattern_id": "P16",
@@ -87,6 +154,15 @@
     "theme": "今日のバズニュース（海外）",
     "research_id": "r_1776003210698_aiq8",
     "posted_at": "2026-04-12T15:02:37.536Z",
+=======
+      "average": 8
+    },
+    "pattern_id": "P10",
+    "hook_id": "H15",
+    "theme": "投資の基礎知識・考え方",
+    "research_id": "r_1776004312676_rdz6",
+    "posted_at": "2026-04-12T15:20:58.062Z",
+>>>>>>> Stashed changes
     "metrics": null,
     "fetched_at": null
   }
