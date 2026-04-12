@@ -1,33 +1,54 @@
 [
   {
+<<<<<<< Updated upstream
     "tweet_id": "2043235435485258120",
     "text": "🔥JX金属(5016)、上場から株価2倍超の化け物銘柄\n\n半導体用スパッタリングターゲットで世界シェア64%のモンスター企業。AIブームでガチ恩恵🚀\n\n✅第1四半期営業利益+21.8%\n✅年初安値650円→高値1,377円\n✅ひたちなか新工場で増産体制\n\nセカンダリー投資妙味あり。押し目は絶好のチャンス👑\n#IPO #半導体 #AI関連",
+=======
+    "tweet_id": "2043235789572579769",
+    "text": "🚀超大型IPO JX金属がセカンダリー狙い目か？\n\n✅AI・半導体需要で3Q売上+18.9%の大幅増\n✅営業利益率20%超の高収益体質\n✅スパッタリングターゲット世界トップシェア\n✅初値は4333億円の需給重量で抑制も\n✅上場後の材料豊富で中長期注目\n\n#IPO #kaizokuokabu",
+>>>>>>> Stashed changes
     "type": "image",
     "card_type": "score",
     "pattern_id": "IMG",
     "hook_id": null,
     "theme": "image_score",
     "research_id": null,
+<<<<<<< Updated upstream
     "posted_at": "2026-04-12T07:51:04.150Z",
+=======
+    "posted_at": "2026-04-12T07:52:28.628Z",
+>>>>>>> Stashed changes
     "metrics": null,
     "fetched_at": null
   },
   {
+<<<<<<< Updated upstream
     "tweet_id": "2043238209128161620",
     "text": "日本株相場の12時間トレンド見てるけど、面白いデータが出てる。\n\n外国人投資家の売買動向：\n・先物売り越し1,200億円\n・現物買い越し800億円\n・差し引き400億円の売り越し\n\nこれ、ヘッジ売りしながら現物仕込んでる典型パターンなんだよね。表面上は売り圧力に見えるけど、実際は押し目買いの準備。\n\n$NIKKEI の動きと合わせて見ると、調整局面でも底堅さが見える。データ読めない人は振り回されがちだけど、冷静に数字追えば次の動きが見えてくる。",
+=======
+    "tweet_id": "2043238544395649196",
+    "text": "日本株相場、直近12時間で見えてきた3つの変化。\n\n①海外投資家の動き：売り越し4906億円から買い戻しの兆し\n②$NIKKEI：39,000円台で粘り強さ。テクニカル的には下値堅め\n③セクター別：半導体関連が反発、一方で金融株に調整圧力\n\nここから読み取れるのは、外国人の短期的な売りピークアウトかも。ただし油断は禁物だよね。\n\nみんなはこの12時間でポジション変えた？",
+>>>>>>> Stashed changes
     "score": {
       "scores": {
         "buzz": 7,
         "hook": 8,
         "value": 8,
         "data": 9,
+<<<<<<< Updated upstream
         "unique": 8,
         "discussion": 7,
         "bookmark": 8,
+=======
+        "unique": 7,
+        "discussion": 8,
+        "bookmark": 7,
+>>>>>>> Stashed changes
         "tempo": 8,
         "persona": 8,
         "ng_check": 10
       },
+<<<<<<< Updated upstream
       "average": 8.1
     },
     "pattern_id": "P02",
@@ -35,10 +56,20 @@
     "theme": "マクロ経済・市場環境",
     "research_id": "r_1775980378109_fewn",
     "posted_at": "2026-04-12T08:02:05.341Z",
+=======
+      "average": 8
+    },
+    "pattern_id": "P08",
+    "hook_id": "H19",
+    "theme": "マクロ経済・市場環境",
+    "research_id": "r_1775980451510_xtrh",
+    "posted_at": "2026-04-12T08:03:25.274Z",
+>>>>>>> Stashed changes
     "metrics": null,
     "fetched_at": null
   },
   {
+<<<<<<< Updated upstream
     "tweet_id": "2043243243807097231",
     "text": "$NIKKEI 56,924円、年初から+21.8%。\n\n週間では+3,800円。これ、完全にポートフォリオのリバランス相場だよね。\n\n中東リスク後退→リスクオンで株高\n原油安（98.92ドル）→コスト株に追い風\n円安（159円台）→輸出株復活\n\nここまで綺麗に材料が揃うと、逆に「売り時か？」って思ってしまう。57,000円突破したら本格的な上昇相場の始まり？それとも調整の入り口？",
     "score": {
@@ -67,19 +98,58 @@
   {
     "tweet_id": "2043248278230163527",
     "text": "正直に言うと、日経平均とTOPIXの動きがズレてる時って、個人投資家にとってはチャンスなんだよね。みんなは大型株派？小型株派？どっちで勝負してる？",
+=======
+    "tweet_id": "2043243578730697137",
+    "text": "直近12時間のX投稿分析：日経平均先物が+0.30%〜+0.74%で堅調推移。\n\n休場中なのに先物が上昇する理由：\n・金利上昇期待による金融株物色\n・インバウンド需要回復への期待\n・資源価格高による商社株見直し\n・ディフェンシブ株優位の流れ\n\n月曜の寄り付きは先物に引っ張られて上昇スタートになりそう。ただし、先物と現物の乖離修正もあるから過度な期待は禁物だな。",
+>>>>>>> Stashed changes
     "score": {
       "scores": {
         "buzz": 7,
         "hook": 8,
+<<<<<<< Updated upstream
         "value": 6,
         "data": 4,
         "unique": 7,
         "discussion": 9,
         "bookmark": 5,
+=======
+        "value": 8,
+        "data": 9,
+        "unique": 7,
+        "discussion": 6,
+        "bookmark": 8,
         "tempo": 8,
-        "persona": 9,
+        "persona": 8,
         "ng_check": 10
       },
+      "average": 7.9
+    },
+    "pattern_id": "P11",
+    "hook_id": "H24",
+    "theme": "今日のバズニュース（国内）",
+    "research_id": "r_1775980451510_5y2d",
+    "posted_at": "2026-04-12T08:23:25.552Z",
+    "metrics": null,
+    "fetched_at": null
+  },
+  {
+    "tweet_id": "2043248613162201526",
+    "text": "出来高急増銘柄、AI関連で目立つトレンド転換シグナル。\n\nデータセンター・AI関連の出来高が前週比2-3倍に急増。特に半導体関連で顕著な動き。一方で低位株は出来高細いものの持ち合い継続で安定感あり。\n\n出来高を伴う上昇は「本物」の可能性高い。ただし急騰後の調整リスクも織り込んで見るべき。短期トレンド転換の兆しか、それとも一時的な材料買いか。\n\n市場全体の底打ち感、どう見てる？",
+    "score": {
+      "scores": {
+        "buzz": 7,
+        "hook": 8,
+        "value": 8,
+        "data": 9,
+        "unique": 7,
+        "discussion": 8,
+        "bookmark": 7,
+>>>>>>> Stashed changes
+        "tempo": 8,
+        "persona": 8,
+        "ng_check": 9
+      },
+<<<<<<< Updated upstream
       "average": 7.3
     },
     "pattern_id": "P03",
@@ -87,6 +157,15 @@
     "theme": "投資の基礎知識・考え方",
     "research_id": "r_1775980378109_jlai",
     "posted_at": "2026-04-12T08:42:05.985Z",
+=======
+      "average": 7.9
+    },
+    "pattern_id": "P12",
+    "hook_id": "H17",
+    "theme": "マクロ経済・市場環境",
+    "research_id": "r_1775980451510_3mrt",
+    "posted_at": "2026-04-12T08:43:25.858Z",
+>>>>>>> Stashed changes
     "metrics": null,
     "fetched_at": null
   }
