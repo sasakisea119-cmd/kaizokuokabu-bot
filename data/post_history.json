@@ -147,7 +147,11 @@
     "posted_at": "2026-04-13T13:48:03.643Z"
   },
   {
+<<<<<<< Updated upstream
     "tweet_id": "2043728792003211359",
+=======
+    "tweet_id": "2043771520728612930",
+>>>>>>> Stashed changes
     "text": "東京エレクトロン（8035）の決算、みんなどう見てる？\n\n売上高2.7兆円（+30%）は予想上回ったけど、営業利益率が26.8%→22.4%に低下してるんだよね。\n\n半導体装置って利益率高いイメージだったから、この4.4ポイント下落は気になる。原材料費上昇の影響かな？\n\nでも来期ガイダンスは強気維持。AI需要がまだ続くってことだと思うけど、株価は既に織り込み済み感もあるし...\n\n半導体株持ってる人、どう判断する？",
     "score": {
       "average": 7.9
@@ -155,12 +159,20 @@
     "pattern_id": "P01",
     "theme": "日本株個別銘柄分析",
     "research_id": null,
+<<<<<<< Updated upstream
     "posted_at": "2026-04-13T16:31:29.432Z",
+=======
+    "posted_at": "2026-04-13T19:21:16.763Z",
+>>>>>>> Stashed changes
     "metrics": null,
     "fetched_at": null
   },
   {
+<<<<<<< Updated upstream
     "tweet_id": "2043733826187235678",
+=======
+    "tweet_id": "2043776555051069733",
+>>>>>>> Stashed changes
     "text": "ポートフォリオに投機枠って作ってる？\n\n僕は資産の10%を「失っても諦めつく枠」にしてて、ここでIPO、仮想通貨、話題株を触ってる。\n\n核心部分（90%）は安定成長株とETFで守り、投機枠で攻める。この10%が心の余裕を作るんだよね。\n\n全額安全運用だと物足りないし、全額投機だと夜眠れない。\n\nみんなの投機枠比率、どのくらい？",
     "score": {
       "average": 8
@@ -168,12 +180,20 @@
     "pattern_id": "P02",
     "theme": "ポートフォリオ戦略",
     "research_id": null,
+<<<<<<< Updated upstream
     "posted_at": "2026-04-13T16:51:29.657Z",
+=======
+    "posted_at": "2026-04-13T19:41:17.022Z",
+>>>>>>> Stashed changes
     "metrics": null,
     "fetched_at": null
   },
   {
+<<<<<<< Updated upstream
     "tweet_id": "2043738860677460180",
+=======
+    "tweet_id": "2043781589604200942",
+>>>>>>> Stashed changes
     "text": "決算で売上高が2桁成長してるのに株価が下がる銘柄、最近多くない？\n\n特に小型株で目立つんだけど、理由は単純。機関投資家が「ガイダンス保守的すぎ」って判断してるから。\n\n例えば今週発表のA社、売上高+15%なのに通期予想が市場予想を5%下回った途端に-8%。でもこれ、逆に仕込み時かもしれない。\n\n決算後の株価と業績、どっちを信じる？",
     "score": {
       "average": 8.3
@@ -181,6 +201,7 @@
     "pattern_id": "P08",
     "theme": "決算速報・決算レビュー",
     "research_id": null,
+<<<<<<< Updated upstream
     "posted_at": "2026-04-13T17:11:29.998Z",
     "metrics": null,
     "fetched_at": null
@@ -195,6 +216,9 @@
     "theme": "IPO銘柄分析_バトンズ",
     "research_id": null,
     "posted_at": "2026-04-13T17:31:30.253Z",
+=======
+    "posted_at": "2026-04-13T20:01:17.360Z",
+>>>>>>> Stashed changes
     "metrics": null,
     "fetched_at": null
   }
