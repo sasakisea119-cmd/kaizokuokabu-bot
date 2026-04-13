@@ -143,10 +143,10 @@ async function main() {
       console.error(`[autopilot] reply-worker エラー: ${err.message}`);
     }
 
-    // 朝: オリジナル4本投稿（20分間隔）
-    console.log('\n--- Scheduler: 投稿（4本、20分間隔） ---');
+    // 朝: オリジナル3本投稿（20分間隔）
+    console.log('\n--- Scheduler: 投稿（3本、20分間隔） ---');
     const scheduler = require('../agents/scheduler');
-    await scheduler.run(4, 1200);
+    await scheduler.run(3, 1200);
   }
 
   // === 昼モード（12時半）: 投稿＋引用RT＋交流 ===
@@ -264,10 +264,10 @@ async function main() {
       console.error(`[autopilot] reply-worker エラー: ${err.message}`);
     }
 
-    // 夜: オリジナル3本投稿（20分間隔）
-    console.log('\n--- Scheduler: 投稿（3本、20分間隔） ---');
+    // 夜: オリジナル4本投稿（20分間隔）— 夜がインプ最高のため重点配分
+    console.log('\n--- Scheduler: 投稿（4本、20分間隔） ---');
     const scheduler = require('../agents/scheduler');
-    await scheduler.run(3, 1200);
+    await scheduler.run(4, 1200);
   }
 
   console.log('\n========================================');
