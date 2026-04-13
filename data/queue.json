@@ -1,47 +1,52 @@
 [
   {
-<<<<<<< Updated upstream
-    "id": "q_1776003634604_8qmkw1",
-    "text": "資金の流れが変わってる。\n\nここ1週間で資源株から半導体株への資金シフトが鮮明に。原油高で一時的に石油株が買われたものの、投資家は早々と利確。円安159円台でも輸出株より半導体グロースに向かってる。\n\n$8035（東京エレクトロン）+3.2%\n$6758（ソニーG）+2.8%\n$6857（アドバンテスト）+2.1%\n\nこの資金移動、Physical AI需要への期待が背景にありそう。",
+    "id": "q_1776038855781_avg3t1",
+    "text": "正直に言うと、NY空売り急増のニュース見てパニック売りしてる人、完全にカモにされてる。\n\nプロが仕掛けてる時って、素人がビビって投げたタイミングで拾うのが定石なんだよね。\n\nみんなはどう？今回も同じパターンだと思う？",
     "score": {
       "scores": {
         "buzz": 7,
         "hook": 8,
-=======
-    "id": "q_1776004732082_zoqcba",
-    "text": "中東リスクで原油価格急騰（WTI 98.92ドル +1.07%）\n\nこういう時に強いのは防衛・エネルギー関連株。三菱重工（$7011）、IHI（$7013）、国際石油開発（$1605）あたりは地政学リスクに連動しやすい。\n\n一方で半導体は逆風。TSMCやマイクロンの中東工場ないけど、リスクオフムードで売られがち。\n\n明日の東京市場、どのテーマが勝つかな？",
+        "value": 6,
+        "data": 4,
+        "unique": 7,
+        "discussion": 9,
+        "bookmark": 5,
+        "tempo": 8,
+        "persona": 9,
+        "ng_check": 10
+      },
+      "average": 7.3
+    },
+    "pattern_id": "P16",
+    "hook_id": "H06",
+    "theme": "物議を醸す投資トピック（逆張り・アンチテーゼ系で議論を生む）",
+    "tweet_type": "short_personal",
+    "research_id": "r_1776038297790_u28c",
+    "created_at": "2026-04-13T00:07:35.781Z"
+  },
+  {
+    "id": "q_1776038855781_8nur3b",
+    "text": "日本のハイテク株、実は米国株より優秀な指標がある。\n\n例えば$6857（アドバンテスト）のフリーキャッシュフロー利益率は18.2%で$TSMの12.8%を上回る。$8035（東京エレクトロン）の研究開発費率も売上の9.1%と$ASMLの15.7%に迫る水準。\n\nでもみんな見落としてる指標がもう一つ。これ知ってる人だけが勝ってる。詳しい分析とその指標の使い方、Noteに書きました（準備中）",
     "score": {
       "scores": {
         "buzz": 8,
         "hook": 9,
->>>>>>> Stashed changes
         "value": 8,
         "data": 9,
-        "unique": 7,
-        "discussion": 6,
-        "bookmark": 7,
-        "tempo": 7,
+        "unique": 8,
+        "discussion": 7,
+        "bookmark": 9,
+        "tempo": 8,
         "persona": 8,
         "ng_check": 10
       },
-<<<<<<< Updated upstream
-      "average": 7.7
+      "average": 8.4
     },
-    "pattern_id": "P11",
-    "hook_id": "H18",
-    "theme": "テーマ投資（半導体・AI・防衛・原子力・宇宙・Physical AI）",
-    "tweet_type": "standard",
-    "research_id": "r_1776003210698_yotr",
-    "created_at": "2026-04-12T14:20:34.604Z"
-=======
-      "average": 8.1
-    },
-    "pattern_id": "P16",
-    "hook_id": "H12",
-    "theme": "テーマ投資（半導体・AI・防衛・原子力・宇宙・Physical AI）",
-    "tweet_type": "standard",
-    "research_id": "r_1776004312676_pul8",
-    "created_at": "2026-04-12T14:38:52.082Z"
->>>>>>> Stashed changes
+    "pattern_id": "P15",
+    "hook_id": "H15",
+    "theme": "日本株個別銘柄分析",
+    "tweet_type": "note_cta",
+    "research_id": null,
+    "created_at": "2026-04-13T00:07:35.781Z"
   }
 ]
