@@ -1,96 +1,158 @@
 [
   {
-<<<<<<< Updated upstream
-    "id": "q_1776038855781_avg3t1",
-    "text": "正直に言うと、NY空売り急増のニュース見てパニック売りしてる人、完全にカモにされてる。\n\nプロが仕掛けてる時って、素人がビビって投げたタイミングで拾うのが定石なんだよね。\n\nみんなはどう？今回も同じパターンだと思う？",
+    "id": "q_1776044665643_kuraof",
+    "text": "東京エレクトロン（8035）の決算、みんなどう見てる？\n\n売上高2.7兆円（+30%）は予想上回ったけど、営業利益率が26.8%→22.4%に低下してるんだよね。\n\n半導体装置って利益率高いイメージだったから、この4.4ポイント下落は気になる。原材料費上昇の影響かな？\n\nでも来期ガイダンスは強気維持。AI需要がまだ続くってことだと思うけど、株価は既に織り込み済み感もあるし...\n\n半導体株持ってる人、どう判断する？",
     "score": {
       "scores": {
         "buzz": 7,
         "hook": 8,
-        "value": 6,
-        "data": 4,
-        "unique": 7,
-        "discussion": 9,
-        "bookmark": 5,
-        "tempo": 8,
-        "persona": 9,
-        "ng_check": 10
-      },
-      "average": 7.3
-    },
-    "pattern_id": "P16",
-    "hook_id": "H06",
-    "theme": "物議を醸す投資トピック（逆張り・アンチテーゼ系で議論を生む）",
-    "tweet_type": "short_personal",
-    "research_id": "r_1776038297790_u28c",
-    "created_at": "2026-04-13T00:07:35.781Z"
-  },
-  {
-    "id": "q_1776038855781_8nur3b",
-    "text": "日本のハイテク株、実は米国株より優秀な指標がある。\n\n例えば$6857（アドバンテスト）のフリーキャッシュフロー利益率は18.2%で$TSMの12.8%を上回る。$8035（東京エレクトロン）の研究開発費率も売上の9.1%と$ASMLの15.7%に迫る水準。\n\nでもみんな見落としてる指標がもう一つ。これ知ってる人だけが勝ってる。詳しい分析とその指標の使い方、Noteに書きました（準備中）",
-=======
-    "id": "q_1776039444160_5u8p7y",
-    "text": "東証で通貨・貴金属先物の新商品が取引開始。\n\n証拠金相殺でポートフォリオ戦略が一気に変わる。例えば：\n📊 $NIKKEI 先物 + $8697 通貨先物のクロスヘッジ\n💰 株式100万円 + 金先物50万円で分散効果アップ\n🔄 円安リスクをドル先物で中和\n\nデリバティブ使える人と使えない人の差、これから露骨に開く。個人でもプロ並みのリスク管理が可能になった時代。",
->>>>>>> Stashed changes
-    "score": {
-      "scores": {
-        "buzz": 8,
-        "hook": 9,
-<<<<<<< Updated upstream
         "value": 8,
         "data": 9,
-=======
-        "value": 9,
-        "data": 8,
->>>>>>> Stashed changes
-        "unique": 8,
-        "discussion": 7,
-        "bookmark": 9,
+        "unique": 6,
+        "discussion": 8,
+        "bookmark": 7,
         "tempo": 8,
         "persona": 8,
         "ng_check": 10
       },
-      "average": 8.4
+      "average": 7.9
     },
-<<<<<<< Updated upstream
-    "pattern_id": "P15",
-    "hook_id": "H15",
+    "pattern_id": "P01",
+    "hook_id": "H03",
     "theme": "日本株個別銘柄分析",
-    "tweet_type": "note_cta",
-    "research_id": null,
-    "created_at": "2026-04-13T00:07:35.781Z"
-=======
-    "pattern_id": "P03",
-    "hook_id": "H19",
-    "theme": "ポートフォリオ戦略",
     "tweet_type": "standard",
-    "research_id": "r_1776038775623_shrs",
-    "created_at": "2026-04-13T00:17:24.160Z"
+    "research_id": null,
+    "created_at": "2026-04-13T01:44:25.643Z"
   },
   {
-    "id": "q_1776039444160_qa67m8",
-    "text": "Physical AI関連、マジでヤバい局面来てる。\n\n製造業×AI融合で日本企業が世界をリードできる数少ないチャンス。でもほとんどの投資家が見落としてる「あの指標」がある。\n\nファナック($6954)、安川電機($6506)、川崎重工($7012)の決算を深堀りして見えた共通点。これ知ってるかどうかで今後5年の投資成果が変わる。\n\n詳しい分析をNoteにまとめてます（準備中）",
+    "id": "q_1776044665643_0gzmc5",
+    "text": "ポートフォリオに投機枠って作ってる？\n\n僕は資産の10%を「失っても諦めつく枠」にしてて、ここでIPO、仮想通貨、話題株を触ってる。\n\n核心部分（90%）は安定成長株とETFで守り、投機枠で攻める。この10%が心の余裕を作るんだよね。\n\n全額安全運用だと物足りないし、全額投機だと夜眠れない。\n\nみんなの投機枠比率、どのくらい？",
+    "score": {
+      "scores": {
+        "buzz": 7,
+        "hook": 8,
+        "value": 8,
+        "data": 7,
+        "unique": 8,
+        "discussion": 9,
+        "bookmark": 7,
+        "tempo": 8,
+        "persona": 8,
+        "ng_check": 10
+      },
+      "average": 8
+    },
+    "pattern_id": "P02",
+    "hook_id": "H10",
+    "theme": "ポートフォリオ戦略",
+    "tweet_type": "standard",
+    "research_id": null,
+    "created_at": "2026-04-13T01:44:25.643Z"
+  },
+  {
+    "id": "q_1776044665643_pl0bai",
+    "text": "決算で売上高が2桁成長してるのに株価が下がる銘柄、最近多くない？\n\n特に小型株で目立つんだけど、理由は単純。機関投資家が「ガイダンス保守的すぎ」って判断してるから。\n\n例えば今週発表のA社、売上高+15%なのに通期予想が市場予想を5%下回った途端に-8%。でもこれ、逆に仕込み時かもしれない。\n\n決算後の株価と業績、どっちを信じる？",
     "score": {
       "scores": {
         "buzz": 8,
         "hook": 9,
         "value": 8,
-        "data": 7,
-        "unique": 8,
-        "discussion": 7,
-        "bookmark": 9,
+        "data": 9,
+        "unique": 7,
+        "discussion": 9,
+        "bookmark": 7,
         "tempo": 8,
-        "persona": 9,
+        "persona": 8,
         "ng_check": 10
       },
       "average": 8.3
     },
-    "pattern_id": "P01",
-    "hook_id": "H13",
-    "theme": "テーマ投資（半導体・AI・防衛・原子力・宇宙・Physical AI）",
-    "tweet_type": "note_cta",
-    "research_id": "r_1776038848181_gnt9",
-    "created_at": "2026-04-13T00:17:24.160Z"
->>>>>>> Stashed changes
+    "pattern_id": "P08",
+    "hook_id": "H23",
+    "theme": "決算速報・決算レビュー",
+    "tweet_type": "standard",
+    "research_id": null,
+    "created_at": "2026-04-13T01:44:25.643Z"
+  },
+  {
+    "id": "cta_batonz_554A_01",
+    "text": "来週4/21上場のバトンズ（554A）、正直めちゃくちゃ面白い。\n\n吸収たった5億円。予想PER11.7倍。\nスモールM&Aで5年連続シェアNo.1。\n\nでも実績PERは69倍で、親子上場リスクもある。\n\n初値で飛びつくべきか？セカンダリーで待つべきか？\n目論見書と競合データを全部ひっくり返して分析したよ👇\nhttps://note.com/kaizokuokabu/n/batonz554a",
+    "score": { "average": 8.5 },
+    "pattern_id": "CTA",
+    "theme": "IPO銘柄分析_バトンズ",
+    "tweet_type": "cta_note",
+    "created_at": "2026-04-13T15:00:00.000Z"
+  },
+  {
+    "id": "cta_batonz_554A_02",
+    "text": "後継者がいなくて廃業する会社、年間5万社。\n\nこの問題をビジネスにしてるのがバトンズ（554A）。\n買い手登録30万人、成約3,315件。\n\n4/21上場。吸収5億円の超小型IPO。\n庶民のIPOはA評価、IPO基礎はC。評価が割れてるのも気になる。\n\n詳細分析はこちら👇\nhttps://note.com/kaizokuokabu/n/batonz554a",
+    "score": { "average": 8.2 },
+    "pattern_id": "CTA",
+    "theme": "IPO銘柄分析_バトンズ",
+    "tweet_type": "cta_note",
+    "created_at": "2026-04-13T15:00:00.000Z"
+  },
+  {
+    "id": "cta_squeeze_558A_01",
+    "text": "SQUEEZE（558A）、売上4年で12倍はヤバい。\n\nでも吸収40億＋VC売出95%。\n2026年IPO市場は7社連続公募割れ。\n\n結論：初値では手を出さない。公募割れしたら拾う。\n\nGOPマージン70%超の宿泊DX企業、詳しく分析した👇\nhttps://note.com/kaizokuokabu/n/squeeze558a",
+    "score": { "average": 8.3 },
+    "pattern_id": "CTA",
+    "theme": "IPO銘柄分析_SQUEEZE",
+    "tweet_type": "cta_note",
+    "created_at": "2026-04-13T15:00:00.000Z"
+  },
+  {
+    "id": "cta_squeeze_558A_02",
+    "text": "4/22上場のSQUEEZE（558A）。\n\nホテル運営を丸ごとDXする会社。\nカンボジアからの遠隔コンシェルジュで人件費圧縮、GOPマージン70%超。\n\nインバウンド爆発の追い風もあるけど、需給が重すぎる。\n\n初値で勝てるか？値動き予想を4つの時間軸で書いた👇\nhttps://note.com/kaizokuokabu/n/squeeze558a",
+    "score": { "average": 8.0 },
+    "pattern_id": "CTA",
+    "theme": "IPO銘柄分析_SQUEEZE",
+    "tweet_type": "cta_note",
+    "created_at": "2026-04-13T15:00:00.000Z"
+  },
+  {
+    "id": "cta_inuneko_556A_01",
+    "text": "犬猫生活（556A）、定期購入率95%。自社EC比率91%。\n\n数字だけ見たら最強のD2C。\nでもPER37倍、前澤ファンドが44%保有。\n\n結論：初値では買わない。1ヶ月後の押し目を狙う。\n\nその理由を全部書いた👇\nhttps://note.com/kaizokuokabu/n/inuneko556a",
+    "score": { "average": 8.4 },
+    "pattern_id": "CTA",
+    "theme": "IPO銘柄分析_犬猫生活",
+    "tweet_type": "cta_note",
+    "created_at": "2026-04-13T15:00:00.000Z"
+  },
+  {
+    "id": "cta_inuneko_556A_02",
+    "text": "前澤ファンドが44%持ってるIPO銘柄、気になるよね。\n\n犬猫生活（556A）。ペットフードのD2C。\n累計3,500万食。売上5年で25倍。\n\nでも10月のロックアップ解除後が怖い。\n\n初値予想から1年後の値動きまで、全シナリオ分析した👇\nhttps://note.com/kaizokuokabu/n/inuneko556a",
+    "score": { "average": 8.1 },
+    "pattern_id": "CTA",
+    "theme": "IPO銘柄分析_犬猫生活",
+    "tweet_type": "cta_note",
+    "created_at": "2026-04-13T15:00:00.000Z"
+  },
+  {
+    "id": "cta_umenoyado_559A_01",
+    "text": "「あらごし」のリキュール、飲んだことある人多いと思う。\n\nその梅乃宿酒造（559A）が4/24上場。\n創業133年。国産リキュールシェア16.7%。\n\nでもこのIPO、公募ゼロでVC保有45%。\n完全にPE EXITの構造なんだよね。\n\n買うべきか？詳しく分析した👇\nhttps://note.com/kaizokuokabu/n/umenoyado559a",
+    "score": { "average": 8.3 },
+    "pattern_id": "CTA",
+    "theme": "IPO銘柄分析_梅乃宿酒造",
+    "tweet_type": "cta_note",
+    "created_at": "2026-04-13T15:00:00.000Z"
+  },
+  {
+    "id": "cta_umenoyado_559A_02",
+    "text": "来週IPO4社の中で一番「知名度」があるのは梅乃宿酒造（559A）かもしれない。\n\nあらごしシリーズ、海外売上比率18%、EC売上半年で10倍。\n\nPER11倍は食品メーカーとしては割安。\nでもVC出口案件で利益率は低下中。\n\n初値で買うか、半年待つか？分析はこちら👇\nhttps://note.com/kaizokuokabu/n/umenoyado559a",
+    "score": { "average": 8.0 },
+    "pattern_id": "CTA",
+    "theme": "IPO銘柄分析_梅乃宿酒造",
+    "tweet_type": "cta_note",
+    "created_at": "2026-04-13T15:00:00.000Z"
+  },
+  {
+    "id": "cta_4companies_summary",
+    "text": "来週、IPO4社が一気に上場する。\n\n4/21 バトンズ（554A）吸収5億 PER11.7倍\n4/22 SQUEEZE（558A）吸収40億 売上4年12倍\n4/23 犬猫生活（556A）定期購入率95% PER37倍\n4/24 梅乃宿酒造（559A）あらごし シェア16.7%\n\n全社分の初値予想＋値動きシナリオ、note書いた。\nIPO投資してる人は参考にしてみて👇\nhttps://note.com/kaizokuokabu",
+    "score": { "average": 8.7 },
+    "pattern_id": "CTA",
+    "theme": "IPO4社まとめ",
+    "tweet_type": "cta_note",
+    "created_at": "2026-04-13T15:00:00.000Z"
   }
 ]
