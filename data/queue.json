@@ -1,92 +1,10 @@
 [
   {
-    "id": "q_1776044665643_kuraof",
-    "text": "東京エレクトロン（8035）の決算、みんなどう見てる？\n\n売上高2.7兆円（+30%）は予想上回ったけど、営業利益率が26.8%→22.4%に低下してるんだよね。\n\n半導体装置って利益率高いイメージだったから、この4.4ポイント下落は気になる。原材料費上昇の影響かな？\n\nでも来期ガイダンスは強気維持。AI需要がまだ続くってことだと思うけど、株価は既に織り込み済み感もあるし...\n\n半導体株持ってる人、どう判断する？",
-    "score": {
-      "scores": {
-        "buzz": 7,
-        "hook": 8,
-        "value": 8,
-        "data": 9,
-        "unique": 6,
-        "discussion": 8,
-        "bookmark": 7,
-        "tempo": 8,
-        "persona": 8,
-        "ng_check": 10
-      },
-      "average": 7.9
-    },
-    "pattern_id": "P01",
-    "hook_id": "H03",
-    "theme": "日本株個別銘柄分析",
-    "tweet_type": "standard",
-    "research_id": null,
-    "created_at": "2026-04-13T01:44:25.643Z"
-  },
-  {
-    "id": "q_1776044665643_0gzmc5",
-    "text": "ポートフォリオに投機枠って作ってる？\n\n僕は資産の10%を「失っても諦めつく枠」にしてて、ここでIPO、仮想通貨、話題株を触ってる。\n\n核心部分（90%）は安定成長株とETFで守り、投機枠で攻める。この10%が心の余裕を作るんだよね。\n\n全額安全運用だと物足りないし、全額投機だと夜眠れない。\n\nみんなの投機枠比率、どのくらい？",
-    "score": {
-      "scores": {
-        "buzz": 7,
-        "hook": 8,
-        "value": 8,
-        "data": 7,
-        "unique": 8,
-        "discussion": 9,
-        "bookmark": 7,
-        "tempo": 8,
-        "persona": 8,
-        "ng_check": 10
-      },
-      "average": 8
-    },
-    "pattern_id": "P02",
-    "hook_id": "H10",
-    "theme": "ポートフォリオ戦略",
-    "tweet_type": "standard",
-    "research_id": null,
-    "created_at": "2026-04-13T01:44:25.643Z"
-  },
-  {
-    "id": "q_1776044665643_pl0bai",
-    "text": "決算で売上高が2桁成長してるのに株価が下がる銘柄、最近多くない？\n\n特に小型株で目立つんだけど、理由は単純。機関投資家が「ガイダンス保守的すぎ」って判断してるから。\n\n例えば今週発表のA社、売上高+15%なのに通期予想が市場予想を5%下回った途端に-8%。でもこれ、逆に仕込み時かもしれない。\n\n決算後の株価と業績、どっちを信じる？",
-    "score": {
-      "scores": {
-        "buzz": 8,
-        "hook": 9,
-        "value": 8,
-        "data": 9,
-        "unique": 7,
-        "discussion": 9,
-        "bookmark": 7,
-        "tempo": 8,
-        "persona": 8,
-        "ng_check": 10
-      },
-      "average": 8.3
-    },
-    "pattern_id": "P08",
-    "hook_id": "H23",
-    "theme": "決算速報・決算レビュー",
-    "tweet_type": "standard",
-    "research_id": null,
-    "created_at": "2026-04-13T01:44:25.643Z"
-  },
-  {
-    "id": "cta_batonz_554A_01",
-    "text": "来週4/21上場のバトンズ（554A）、正直めちゃくちゃ面白い。\n\n吸収たった5億円。予想PER11.7倍。\nスモールM&Aで5年連続シェアNo.1。\n\nでも実績PERは69倍で、親子上場リスクもある。\n\n初値で飛びつくべきか？セカンダリーで待つべきか？\n目論見書と競合データを全部ひっくり返して分析したよ👇\nhttps://note.com/kaizokuokabu/n/batonz554a",
-    "score": { "average": 8.5 },
-    "pattern_id": "CTA",
-    "theme": "IPO銘柄分析_バトンズ",
-    "tweet_type": "cta_note",
-    "created_at": "2026-04-13T15:00:00.000Z"
-  },
-  {
     "id": "cta_batonz_554A_02",
     "text": "後継者がいなくて廃業する会社、年間5万社。\n\nこの問題をビジネスにしてるのがバトンズ（554A）。\n買い手登録30万人、成約3,315件。\n\n4/21上場。吸収5億円の超小型IPO。\n庶民のIPOはA評価、IPO基礎はC。評価が割れてるのも気になる。\n\n詳細分析はこちら👇\nhttps://note.com/kaizokuokabu/n/batonz554a",
-    "score": { "average": 8.2 },
+    "score": {
+      "average": 8.2
+    },
     "pattern_id": "CTA",
     "theme": "IPO銘柄分析_バトンズ",
     "tweet_type": "cta_note",
@@ -95,7 +13,9 @@
   {
     "id": "cta_squeeze_558A_01",
     "text": "SQUEEZE（558A）、売上4年で12倍はヤバい。\n\nでも吸収40億＋VC売出95%。\n2026年IPO市場は7社連続公募割れ。\n\n結論：初値では手を出さない。公募割れしたら拾う。\n\nGOPマージン70%超の宿泊DX企業、詳しく分析した👇\nhttps://note.com/kaizokuokabu/n/squeeze558a",
-    "score": { "average": 8.3 },
+    "score": {
+      "average": 8.3
+    },
     "pattern_id": "CTA",
     "theme": "IPO銘柄分析_SQUEEZE",
     "tweet_type": "cta_note",
@@ -104,7 +24,9 @@
   {
     "id": "cta_squeeze_558A_02",
     "text": "4/22上場のSQUEEZE（558A）。\n\nホテル運営を丸ごとDXする会社。\nカンボジアからの遠隔コンシェルジュで人件費圧縮、GOPマージン70%超。\n\nインバウンド爆発の追い風もあるけど、需給が重すぎる。\n\n初値で勝てるか？値動き予想を4つの時間軸で書いた👇\nhttps://note.com/kaizokuokabu/n/squeeze558a",
-    "score": { "average": 8.0 },
+    "score": {
+      "average": 8
+    },
     "pattern_id": "CTA",
     "theme": "IPO銘柄分析_SQUEEZE",
     "tweet_type": "cta_note",
@@ -113,7 +35,9 @@
   {
     "id": "cta_inuneko_556A_01",
     "text": "犬猫生活（556A）、定期購入率95%。自社EC比率91%。\n\n数字だけ見たら最強のD2C。\nでもPER37倍、前澤ファンドが44%保有。\n\n結論：初値では買わない。1ヶ月後の押し目を狙う。\n\nその理由を全部書いた👇\nhttps://note.com/kaizokuokabu/n/inuneko556a",
-    "score": { "average": 8.4 },
+    "score": {
+      "average": 8.4
+    },
     "pattern_id": "CTA",
     "theme": "IPO銘柄分析_犬猫生活",
     "tweet_type": "cta_note",
@@ -122,7 +46,9 @@
   {
     "id": "cta_inuneko_556A_02",
     "text": "前澤ファンドが44%持ってるIPO銘柄、気になるよね。\n\n犬猫生活（556A）。ペットフードのD2C。\n累計3,500万食。売上5年で25倍。\n\nでも10月のロックアップ解除後が怖い。\n\n初値予想から1年後の値動きまで、全シナリオ分析した👇\nhttps://note.com/kaizokuokabu/n/inuneko556a",
-    "score": { "average": 8.1 },
+    "score": {
+      "average": 8.1
+    },
     "pattern_id": "CTA",
     "theme": "IPO銘柄分析_犬猫生活",
     "tweet_type": "cta_note",
@@ -131,7 +57,9 @@
   {
     "id": "cta_umenoyado_559A_01",
     "text": "「あらごし」のリキュール、飲んだことある人多いと思う。\n\nその梅乃宿酒造（559A）が4/24上場。\n創業133年。国産リキュールシェア16.7%。\n\nでもこのIPO、公募ゼロでVC保有45%。\n完全にPE EXITの構造なんだよね。\n\n買うべきか？詳しく分析した👇\nhttps://note.com/kaizokuokabu/n/umenoyado559a",
-    "score": { "average": 8.3 },
+    "score": {
+      "average": 8.3
+    },
     "pattern_id": "CTA",
     "theme": "IPO銘柄分析_梅乃宿酒造",
     "tweet_type": "cta_note",
@@ -140,7 +68,9 @@
   {
     "id": "cta_umenoyado_559A_02",
     "text": "来週IPO4社の中で一番「知名度」があるのは梅乃宿酒造（559A）かもしれない。\n\nあらごしシリーズ、海外売上比率18%、EC売上半年で10倍。\n\nPER11倍は食品メーカーとしては割安。\nでもVC出口案件で利益率は低下中。\n\n初値で買うか、半年待つか？分析はこちら👇\nhttps://note.com/kaizokuokabu/n/umenoyado559a",
-    "score": { "average": 8.0 },
+    "score": {
+      "average": 8
+    },
     "pattern_id": "CTA",
     "theme": "IPO銘柄分析_梅乃宿酒造",
     "tweet_type": "cta_note",
@@ -149,10 +79,112 @@
   {
     "id": "cta_4companies_summary",
     "text": "来週、IPO4社が一気に上場する。\n\n4/21 バトンズ（554A）吸収5億 PER11.7倍\n4/22 SQUEEZE（558A）吸収40億 売上4年12倍\n4/23 犬猫生活（556A）定期購入率95% PER37倍\n4/24 梅乃宿酒造（559A）あらごし シェア16.7%\n\n全社分の初値予想＋値動きシナリオ、note書いた。\nIPO投資してる人は参考にしてみて👇\nhttps://note.com/kaizokuokabu",
-    "score": { "average": 8.7 },
+    "score": {
+      "average": 8.7
+    },
     "pattern_id": "CTA",
     "theme": "IPO4社まとめ",
     "tweet_type": "cta_note",
     "created_at": "2026-04-13T15:00:00.000Z"
+  },
+  {
+    "id": "q_1776072665277_yvxckw",
+    "text": "ポートフォリオ見直しのタイミング、みんなどう考えてる？\n\n日本株相場の直近12時間の動き見てると、やっぱり分散の重要性を痛感するよね。\n\n個人的には：\n・日本株50% 米国株30% 現金20%が基本\n・でもボラが大きい時は現金比率を30%まで上げる\n・リバランスは四半期に1回、機械的に実行\n\n感情で売買するより、ルールベースの方が結果良いことが多い。\n\nみんなの現金比率ってどのくらい？",
+    "score": {
+      "scores": {
+        "buzz": 7,
+        "hook": 8,
+        "value": 9,
+        "data": 8,
+        "unique": 6,
+        "discussion": 9,
+        "bookmark": 8,
+        "tempo": 8,
+        "persona": 9,
+        "ng_check": 10
+      },
+      "average": 8.2
+    },
+    "pattern_id": "P15",
+    "hook_id": "H10",
+    "theme": "ポートフォリオ戦略",
+    "tweet_type": "standard",
+    "research_id": "r_1776072254868_u4o0",
+    "created_at": "2026-04-13T09:31:05.277Z"
+  },
+  {
+    "id": "q_1776072665277_3qd54q",
+    "text": "日経平均56,502円で引け、一時600円超下落も結局-421円で踏みとどまったね。\n\n気になるのは、ここまで下がっても買い手が入らなかったこと。普通なら「押し目買い」が入るタイミングなんだけど、今回は様子見が多かった印象。\n\n年度末控えて、みんな慎重になってるのかな？それとも他に理由があるのか...この相場環境、どう読んでる？",
+    "score": {
+      "scores": {
+        "buzz": 7,
+        "hook": 8,
+        "value": 8,
+        "data": 9,
+        "unique": 7,
+        "discussion": 8,
+        "bookmark": 6,
+        "tempo": 8,
+        "persona": 8,
+        "ng_check": 10
+      },
+      "average": 7.9
+    },
+    "pattern_id": "P11",
+    "hook_id": "H28",
+    "theme": "決算速報・決算レビュー",
+    "tweet_type": "standard",
+    "research_id": "r_1776072254868_4638",
+    "created_at": "2026-04-13T09:31:05.277Z"
+  },
+  {
+    "id": "q_1776072665277_is3pk5",
+    "text": "市場が下落する日に株を買う人の心理、実は非常に合理的。\n\n今日もTOPIX-0.67%で1,166銘柄下落。みんなが売ってる時こそチャンス？それとも愚かな行為？\n\n統計とドルコスト平均法の真実、行動ファイナンスの罠について詳しく分析しました。\n\n続きはNoteに書きます（準備中）\n\n#投資心理 #逆張り",
+    "score": {
+      "scores": {
+        "buzz": 8,
+        "hook": 9,
+        "value": 8,
+        "data": 9,
+        "unique": 8,
+        "discussion": 9,
+        "bookmark": 8,
+        "tempo": 8,
+        "persona": 8,
+        "ng_check": 10
+      },
+      "average": 8.5
+    },
+    "pattern_id": "P09",
+    "hook_id": "H14",
+    "theme": "物議を醸す投資トピック（逆張り・アンチテーゼ系で議論を生む）",
+    "tweet_type": "note_cta",
+    "research_id": "r_1776072254869_i29j",
+    "created_at": "2026-04-13T09:31:05.277Z"
+  },
+  {
+    "id": "q_1776072665277_eg42gi",
+    "text": "原油が105ドル超えてるけど、みんな気づいてる？\n\nWTI原油の100ドル突破って、実は日本株には二面性があるんだよね。\n\n✅ エネルギー株は直接恩恵\n❌ 輸送・製造業はコスト増で利益圧迫\n\nでも一番怖いのは、原油高→インフレ再燃→利上げ圧力のコンボ。\n\nドル円159円の今、輸入コスト上昇が企業業績に与えるインパクト、想像以上にでかいと思う。\n\nこういう時こそ、自分のポートフォリオがエネルギー価格にどう影響されるか把握しておくべきだよね。",
+    "score": {
+      "scores": {
+        "buzz": 8,
+        "hook": 8,
+        "value": 9,
+        "data": 9,
+        "unique": 7,
+        "discussion": 8,
+        "bookmark": 8,
+        "tempo": 8,
+        "persona": 9,
+        "ng_check": 10
+      },
+      "average": 8.4
+    },
+    "pattern_id": "P16",
+    "hook_id": "H30",
+    "theme": "投資の基礎知識・考え方",
+    "tweet_type": "standard",
+    "research_id": "r_1776072254869_6lr5",
+    "created_at": "2026-04-13T09:31:05.277Z"
   }
 ]
