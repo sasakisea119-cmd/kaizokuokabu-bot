@@ -1,279 +1,167 @@
 [
   {
-    "id": "cta_batonz_554A_02",
-    "text": "後継者がいなくて廃業する会社、年間5万社。\n\nこの問題をビジネスにしてるのがバトンズ（554A）。\n買い手登録30万人、成約3,315件。\n\n4/21上場。吸収5億円の超小型IPO。\n庶民のIPOはA評価、IPO基礎はC。評価が割れてるのも気になる。\n\n詳細分析はこちら👇\nhttps://note.com/kaizokuokabu/n/batonz554a",
+    "id": "q_1776044665643_kuraof",
+    "text": "東京エレクトロン（8035）の決算、みんなどう見てる？\n\n売上高2.7兆円（+30%）は予想上回ったけど、営業利益率が26.8%→22.4%に低下してるんだよね。\n\n半導体装置って利益率高いイメージだったから、この4.4ポイント下落は気になる。原材料費上昇の影響かな？\n\nでも来期ガイダンスは強気維持。AI需要がまだ続くってことだと思うけど、株価は既に織り込み済み感もあるし...\n\n半導体株持ってる人、どう判断する？",
     "score": {
-      "average": 8.2
+      "average": 7.9
+    },
+    "pattern_id": "P01",
+    "theme": "日本株個別銘柄分析",
+    "tweet_type": "standard",
+    "created_at": "2026-04-13T01:44:25.643Z"
+  },
+  {
+    "id": "q_1776044665643_0gzmc5",
+    "text": "ポートフォリオに投機枠って作ってる？\n\n僕は資産の10%を「失っても諦めつく枠」にしてて、ここでIPO、仮想通貨、話題株を触ってる。\n\n核心部分（90%）は安定成長株とETFで守り、投機枠で攻める。この10%が心の余裕を作るんだよね。\n\n全額安全運用だと物足りないし、全額投機だと夜眠れない。\n\nみんなの投機枠比率、どのくらい？",
+    "score": {
+      "average": 8
+    },
+    "pattern_id": "P02",
+    "theme": "ポートフォリオ戦略",
+    "tweet_type": "standard",
+    "created_at": "2026-04-13T01:44:25.643Z"
+  },
+  {
+    "id": "q_1776044665643_pl0bai",
+    "text": "決算で売上高が2桁成長してるのに株価が下がる銘柄、最近多くない？\n\n特に小型株で目立つんだけど、理由は単純。機関投資家が「ガイダンス保守的すぎ」って判断してるから。\n\n例えば今週発表のA社、売上高+15%なのに通期予想が市場予想を5%下回った途端に-8%。でもこれ、逆に仕込み時かもしれない。\n\n決算後の株価と業績、どっちを信じる？",
+    "score": {
+      "average": 8.3
+    },
+    "pattern_id": "P08",
+    "theme": "決算速報・決算レビュー",
+    "tweet_type": "standard",
+    "created_at": "2026-04-13T01:44:25.643Z"
+  },
+  {
+    "id": "cta_batonz_02",
+    "text": "バトンズ（554A）、吸収5億の超小型IPO。\n\n過去の傾向だと、吸収5億以下のIPOは初値+50%以上になることが多い。\n\n当選してるなら、これ読んでから判断しても遅くないよ👇\nhttps://note.com/kaizokuokabu/n/n0e1d2ce60397",
+    "score": {
+      "average": 8.5
     },
     "pattern_id": "CTA",
     "theme": "IPO銘柄分析_バトンズ",
     "tweet_type": "cta_note",
-    "created_at": "2026-04-13T15:00:00.000Z"
+    "created_at": "2026-04-13T18:30:00.000Z"
   },
   {
-    "id": "cta_squeeze_558A_01",
-    "text": "SQUEEZE（558A）、売上4年で12倍はヤバい。\n\nでも吸収40億＋VC売出95%。\n2026年IPO市場は7社連続公募割れ。\n\n結論：初値では手を出さない。公募割れしたら拾う。\n\nGOPマージン70%超の宿泊DX企業、詳しく分析した👇\nhttps://note.com/kaizokuokabu/n/squeeze558a",
+    "id": "cta_batonz_03",
+    "text": "バトンズ（554A）の購入申込、明日4/14から。\n\n「当たったけど買うか迷ってる」って人、結構いると思う。\n\n結論だけ言うと、僕は買い。理由はシンプルで吸収5億+PER11倍。\n\nただしリスクもある。全部書いた👇\nhttps://note.com/kaizokuokabu/n/n0e1d2ce60397",
+    "score": {
+      "average": 8.7
+    },
+    "pattern_id": "CTA",
+    "theme": "IPO銘柄分析_バトンズ",
+    "tweet_type": "cta_note",
+    "created_at": "2026-04-13T19:00:00.000Z"
+  },
+  {
+    "id": "cta_batonz_04",
+    "text": "660円で当選して、初値900〜1,100円。\n利益3〜5万円。\n\nバトンズ（554A）、数字だけ見たらIPO参加一択。\nでも親子上場と利益の波が気になるんだよね。\n\n申込む前に5分だけ読んでみて👇\nhttps://note.com/kaizokuokabu/n/n0e1d2ce60397",
+    "score": {
+      "average": 8.6
+    },
+    "pattern_id": "CTA",
+    "theme": "IPO銘柄分析_バトンズ",
+    "tweet_type": "cta_note",
+    "created_at": "2026-04-13T20:00:00.000Z"
+  },
+  {
+    "id": "cta_squeeze_02",
+    "text": "SQUEEZE（558A）、公募割れ確率50%って言ったら怒られるかな。\n\nでもデータ見たら分かる。\n吸収40億、VC売出95%、仮条件は引き下げ方向。\n\n当選者は「辞退」も選択肢に入れた方がいい。\n\nその根拠を全部書いた👇\nhttps://note.com/kaizokuokabu/n/n2c9603773690",
+    "score": {
+      "average": 8.7
+    },
+    "pattern_id": "CTA",
+    "theme": "IPO銘柄分析_SQUEEZE",
+    "tweet_type": "cta_note",
+    "created_at": "2026-04-13T19:00:00.000Z"
+  },
+  {
+    "id": "cta_squeeze_03",
+    "text": "宿泊DXで売上4年12倍のSQUEEZE（558A）。\n\n「インバウンドの波に乗る本物」か\n「VCの出口に使われるだけ」か。\n\nIPO当選者が判断に使えるデータ、全部まとめた👇\nhttps://note.com/kaizokuokabu/n/n2c9603773690",
     "score": {
       "average": 8.3
     },
     "pattern_id": "CTA",
     "theme": "IPO銘柄分析_SQUEEZE",
     "tweet_type": "cta_note",
-    "created_at": "2026-04-13T15:00:00.000Z"
+    "created_at": "2026-04-13T20:00:00.000Z"
   },
   {
-    "id": "cta_squeeze_558A_02",
-    "text": "4/22上場のSQUEEZE（558A）。\n\nホテル運営を丸ごとDXする会社。\nカンボジアからの遠隔コンシェルジュで人件費圧縮、GOPマージン70%超。\n\nインバウンド爆発の追い風もあるけど、需給が重すぎる。\n\n初値で勝てるか？値動き予想を4つの時間軸で書いた👇\nhttps://note.com/kaizokuokabu/n/squeeze558a",
-    "score": {
-      "average": 8
-    },
-    "pattern_id": "CTA",
-    "theme": "IPO銘柄分析_SQUEEZE",
-    "tweet_type": "cta_note",
-    "created_at": "2026-04-13T15:00:00.000Z"
-  },
-  {
-    "id": "cta_inuneko_556A_01",
-    "text": "犬猫生活（556A）、定期購入率95%。自社EC比率91%。\n\n数字だけ見たら最強のD2C。\nでもPER37倍、前澤ファンドが44%保有。\n\n結論：初値では買わない。1ヶ月後の押し目を狙う。\n\nその理由を全部書いた👇\nhttps://note.com/kaizokuokabu/n/inuneko556a",
+    "id": "cta_squeeze_04",
+    "text": "SQUEEZE（558A）に31万円突っ込むかどうか。\n\n値嵩株でIPO投資額としてはデカい。\nしかも公募割れしたら-3万円。\n\n「当選＝買い」じゃないんだよね。\n初値予想と4つの時間軸で値動き分析した👇\nhttps://note.com/kaizokuokabu/n/n2c9603773690",
     "score": {
       "average": 8.4
     },
     "pattern_id": "CTA",
-    "theme": "IPO銘柄分析_犬猫生活",
+    "theme": "IPO銘柄分析_SQUEEZE",
     "tweet_type": "cta_note",
-    "created_at": "2026-04-13T15:00:00.000Z"
+    "created_at": "2026-04-13T21:00:00.000Z"
   },
   {
-    "id": "cta_inuneko_556A_02",
-    "text": "前澤ファンドが44%持ってるIPO銘柄、気になるよね。\n\n犬猫生活（556A）。ペットフードのD2C。\n累計3,500万食。売上5年で25倍。\n\nでも10月のロックアップ解除後が怖い。\n\n初値予想から1年後の値動きまで、全シナリオ分析した👇\nhttps://note.com/kaizokuokabu/n/inuneko556a",
+    "id": "cta_inuneko_03",
+    "text": "犬猫生活（556A）、結論から言うと「初値では買わない」。\n\nでもセカンダリーでは狙う。\n\nその分岐点は2,500円。\nPER23倍まで下がったら仕込む価値あり。\n\n根拠と全シナリオはこちら👇\nhttps://note.com/kaizokuokabu/n/n8959e9910f20",
     "score": {
-      "average": 8.1
+      "average": 8.5
     },
     "pattern_id": "CTA",
     "theme": "IPO銘柄分析_犬猫生活",
     "tweet_type": "cta_note",
-    "created_at": "2026-04-13T15:00:00.000Z"
+    "created_at": "2026-04-13T20:00:00.000Z"
   },
   {
-    "id": "cta_umenoyado_559A_01",
-    "text": "「あらごし」のリキュール、飲んだことある人多いと思う。\n\nその梅乃宿酒造（559A）が4/24上場。\n創業133年。国産リキュールシェア16.7%。\n\nでもこのIPO、公募ゼロでVC保有45%。\n完全にPE EXITの構造なんだよね。\n\n買うべきか？詳しく分析した👇\nhttps://note.com/kaizokuokabu/n/umenoyado559a",
+    "id": "cta_inuneko_04",
+    "text": "ペットフードで売上5年25倍、定期購入率95%。\n\n犬猫生活（556A）のビジネスモデルは正直すごい。\nSaaS並みのストック収益構造。\n\nでもPER37倍で買うのは…\n「いくらなら買うか」を具体的に書いた👇\nhttps://note.com/kaizokuokabu/n/n8959e9910f20",
     "score": {
       "average": 8.3
     },
     "pattern_id": "CTA",
-    "theme": "IPO銘柄分析_梅乃宿酒造",
+    "theme": "IPO銘柄分析_犬猫生活",
     "tweet_type": "cta_note",
-    "created_at": "2026-04-13T15:00:00.000Z"
+    "created_at": "2026-04-13T21:00:00.000Z"
   },
   {
-    "id": "cta_umenoyado_559A_02",
-    "text": "来週IPO4社の中で一番「知名度」があるのは梅乃宿酒造（559A）かもしれない。\n\nあらごしシリーズ、海外売上比率18%、EC売上半年で10倍。\n\nPER11倍は食品メーカーとしては割安。\nでもVC出口案件で利益率は低下中。\n\n初値で買うか、半年待つか？分析はこちら👇\nhttps://note.com/kaizokuokabu/n/umenoyado559a",
+    "id": "cta_summary_02",
+    "text": "IPO当選したけど購入迷ってる人、多いよね。\n\n今週の4社、全部「買い」じゃない。\nむしろ辞退した方がいい銘柄もある。\n\n初値予想・値動きシナリオ・買い条件を全部noteに書いた。\n申込期限までに読んでおいて損はないよ👇\nhttps://note.com/kaizokuokabu",
     "score": {
-      "average": 8
+      "average": 8.8
     },
     "pattern_id": "CTA",
-    "theme": "IPO銘柄分析_梅乃宿酒造",
+    "theme": "IPO4社まとめ",
     "tweet_type": "cta_note",
-    "created_at": "2026-04-13T15:00:00.000Z"
+    "created_at": "2026-04-13T19:00:00.000Z"
   },
   {
-    "id": "cta_4companies_summary",
-    "text": "来週、IPO4社が一気に上場する。\n\n4/21 バトンズ（554A）吸収5億 PER11.7倍\n4/22 SQUEEZE（558A）吸収40億 売上4年12倍\n4/23 犬猫生活（556A）定期購入率95% PER37倍\n4/24 梅乃宿酒造（559A）あらごし シェア16.7%\n\n全社分の初値予想＋値動きシナリオ、note書いた。\nIPO投資してる人は参考にしてみて👇\nhttps://note.com/kaizokuokabu",
+    "id": "cta_urgency_01",
+    "text": "バトンズ（554A）購入申込は4/14〜4/17。\nSQUEEZE（558A）は4/15〜4/20。\n犬猫生活（556A）は4/16〜4/21。\n\n当選してる人、あと数日で判断しなきゃいけない。\n\n「とりあえず全部買う」は今年のIPO市場では危険。\n判断材料、全部まとめた👇\nhttps://note.com/kaizokuokabu",
+    "score": {
+      "average": 8.9
+    },
+    "pattern_id": "CTA",
+    "theme": "IPO4社まとめ",
+    "tweet_type": "cta_note",
+    "created_at": "2026-04-13T21:00:00.000Z"
+  },
+  {
+    "id": "cta_morning_batonz",
+    "text": "おはようございます。\n\nバトンズ（554A）の購入申込、今日からです。\n\n吸収5億の超小型。僕は「買い」判定にしてるけど、理由とリスクをnoteに全部書いた。\n\n申込む前にサクッと読めるよ👇\nhttps://note.com/kaizokuokabu/n/n0e1d2ce60397",
+    "score": {
+      "average": 8.5
+    },
+    "pattern_id": "CTA",
+    "theme": "IPO銘柄分析_バトンズ",
+    "tweet_type": "cta_note",
+    "created_at": "2026-04-14T07:00:00.000Z"
+  },
+  {
+    "id": "cta_data_01",
+    "text": "IPO4社の比較、数字で見ると面白い。\n\nバトンズ：吸収5億/PER11倍 → 需給◎\nSQUEEZE：吸収40億/PER19倍 → 需給×\n犬猫生活：吸収20億/PER37倍 → バリュエーション×\n梅乃宿：吸収13億/PER11倍 → VC EXIT×\n\n勝てるのは1社だけかも。詳細👇\nhttps://note.com/kaizokuokabu",
     "score": {
       "average": 8.7
     },
     "pattern_id": "CTA",
     "theme": "IPO4社まとめ",
     "tweet_type": "cta_note",
-    "created_at": "2026-04-13T15:00:00.000Z"
-  },
-  {
-<<<<<<< Updated upstream
-    "id": "q_1776072665277_yvxckw",
-    "text": "ポートフォリオ見直しのタイミング、みんなどう考えてる？\n\n日本株相場の直近12時間の動き見てると、やっぱり分散の重要性を痛感するよね。\n\n個人的には：\n・日本株50% 米国株30% 現金20%が基本\n・でもボラが大きい時は現金比率を30%まで上げる\n・リバランスは四半期に1回、機械的に実行\n\n感情で売買するより、ルールベースの方が結果良いことが多い。\n\nみんなの現金比率ってどのくらい？",
-    "score": {
-      "scores": {
-        "buzz": 7,
-        "hook": 8,
-        "value": 9,
-        "data": 8,
-        "unique": 6,
-        "discussion": 9,
-        "bookmark": 8,
-=======
-    "id": "q_1776072729004_y0dezz",
-    "text": "先月「AI半導体はもう天井」って言われてた時に仕込んだ3銘柄、全部2桁上昇してる。\n\n東京エレクトロン（8035）：+18%\nディスコ（6146）：+22%\nアドバンテスト（6857）：+15%\n\n逆張りのタイミングで買えた人、おめでとう。みんなはどのタイミングで仕込んだ？暴落時に買う勇気って結果的に一番リターン大きいよね。",
-    "score": {
-      "scores": {
-        "buzz": 8,
-        "hook": 9,
-        "value": 7,
-        "data": 9,
-        "unique": 8,
-        "discussion": 8,
-        "bookmark": 6,
->>>>>>> Stashed changes
-        "tempo": 8,
-        "persona": 9,
-        "ng_check": 10
-      },
-      "average": 8.2
-    },
-<<<<<<< Updated upstream
-    "pattern_id": "P15",
-    "hook_id": "H10",
-    "theme": "ポートフォリオ戦略",
-    "tweet_type": "standard",
-    "research_id": "r_1776072254868_u4o0",
-    "created_at": "2026-04-13T09:31:05.277Z"
-  },
-  {
-    "id": "q_1776072665277_3qd54q",
-    "text": "日経平均56,502円で引け、一時600円超下落も結局-421円で踏みとどまったね。\n\n気になるのは、ここまで下がっても買い手が入らなかったこと。普通なら「押し目買い」が入るタイミングなんだけど、今回は様子見が多かった印象。\n\n年度末控えて、みんな慎重になってるのかな？それとも他に理由があるのか...この相場環境、どう読んでる？",
-=======
-    "pattern_id": "P07",
-    "hook_id": "H01",
-    "theme": "テーマ投資（半導体・AI・防衛・原子力・宇宙・Physical AI）",
-    "tweet_type": "contrarian",
-    "research_id": "r_1776072291717_b71n",
-    "created_at": "2026-04-13T09:32:09.004Z"
-  },
-  {
-    "id": "q_1776072729004_us9vdl",
-    "text": "日経平均が400円超下落した日に、逆張りで買った人たちを見てて思うんだが。\n\n「みんなが恐怖してる時に買え」って格言を真に受けすぎじゃない？\n\n確かに先月の日経53,000円で仕込んだ人は今日でも+6%だけど、問題は「なぜ下がってるか」を理解してない買い方。\n\n米イラン情勢と原油高インフレ。これ長期化したらどうなる？逆張りにもタイミングがある。みんなはどう判断してる？",
->>>>>>> Stashed changes
-    "score": {
-      "scores": {
-        "buzz": 7,
-        "hook": 8,
-<<<<<<< Updated upstream
-        "value": 8,
-=======
-        "value": 7,
-        "data": 8,
-        "unique": 7,
-        "discussion": 8,
-        "bookmark": 6,
-        "tempo": 7,
-        "persona": 8,
-        "ng_check": 8
-      },
-      "average": 7.3
-    },
-    "pattern_id": "P03",
-    "hook_id": "H27",
-    "theme": "物議を醸す投資トピック（逆張り・アンチテーゼ系で議論を生む）",
-    "tweet_type": "contrarian",
-    "research_id": "r_1776072291717_ag1i",
-    "created_at": "2026-04-13T09:32:09.004Z"
-  },
-  {
-    "id": "q_1776072729004_1feck1",
-    "text": "TOPIX -0.45%で値下がり1,058銘柄 vs 値上がり469銘柄\n\nこの比率2.25：1って、結構厳しい数字だよね。日本株がこんな状況の時に米国株はどうなってるかって話なんだけど\n\n・ナスダック +0.2%\n・S&P500 -0.1%\n・ダウ +0.3%\n\n日本株の下落を横目に米国株は堅調キープ。この温度差、どう見てる？\n\n為替も影響してるけど、やっぱり企業の基礎体力の差が出てる感じがする",
-    "score": {
-      "scores": {
-        "buzz": 8,
-        "hook": 8,
-        "value": 7,
->>>>>>> Stashed changes
-        "data": 9,
-        "unique": 7,
-        "discussion": 8,
-        "bookmark": 6,
-        "tempo": 8,
-        "persona": 8,
-        "ng_check": 10
-      },
-      "average": 7.9
-    },
-<<<<<<< Updated upstream
-    "pattern_id": "P11",
-    "hook_id": "H28",
-    "theme": "決算速報・決算レビュー",
-    "tweet_type": "standard",
-    "research_id": "r_1776072254868_4638",
-    "created_at": "2026-04-13T09:31:05.277Z"
-  },
-  {
-    "id": "q_1776072665277_is3pk5",
-    "text": "市場が下落する日に株を買う人の心理、実は非常に合理的。\n\n今日もTOPIX-0.67%で1,166銘柄下落。みんなが売ってる時こそチャンス？それとも愚かな行為？\n\n統計とドルコスト平均法の真実、行動ファイナンスの罠について詳しく分析しました。\n\n続きはNoteに書きます（準備中）\n\n#投資心理 #逆張り",
-    "score": {
-      "scores": {
-        "buzz": 8,
-        "hook": 9,
-        "value": 8,
-        "data": 9,
-        "unique": 8,
-        "discussion": 9,
-        "bookmark": 8,
-=======
-    "pattern_id": "P04",
-    "hook_id": "H08",
-    "theme": "米国株個別銘柄分析",
-    "tweet_type": "standard",
-    "research_id": "r_1776072291717_owr1",
-    "created_at": "2026-04-13T09:32:09.004Z"
-  },
-  {
-    "id": "q_1776072729004_2ncoxi",
-    "text": "出来高20億株→24億株で-16%...東証プライムの閑散商況が気になってる人多いと思う🤔\n\nパッシブ需要低下の背景、実は半導体・AI株の調整局面と連動してるんじゃない？\n\n売買代金7.2兆円でも「様子見ムード」って、みんな次のテーマ株探してる証拠かも。Physical AIとか原子力関連とか、新しい材料待ちの投資家心理が透けて見える。\n\nこういう時こそ仕込み時期だよね、どう思う？",
-    "score": {
-      "scores": {
-        "buzz": 7,
-        "hook": 8,
-        "value": 7,
-        "data": 9,
-        "unique": 6,
-        "discussion": 8,
-        "bookmark": 6,
->>>>>>> Stashed changes
-        "tempo": 8,
-        "persona": 8,
-        "ng_check": 10
-      },
-<<<<<<< Updated upstream
-      "average": 8.5
-    },
-    "pattern_id": "P09",
-    "hook_id": "H14",
-    "theme": "物議を醸す投資トピック（逆張り・アンチテーゼ系で議論を生む）",
-    "tweet_type": "note_cta",
-    "research_id": "r_1776072254869_i29j",
-    "created_at": "2026-04-13T09:31:05.277Z"
-  },
-  {
-    "id": "q_1776072665277_eg42gi",
-    "text": "原油が105ドル超えてるけど、みんな気づいてる？\n\nWTI原油の100ドル突破って、実は日本株には二面性があるんだよね。\n\n✅ エネルギー株は直接恩恵\n❌ 輸送・製造業はコスト増で利益圧迫\n\nでも一番怖いのは、原油高→インフレ再燃→利上げ圧力のコンボ。\n\nドル円159円の今、輸入コスト上昇が企業業績に与えるインパクト、想像以上にでかいと思う。\n\nこういう時こそ、自分のポートフォリオがエネルギー価格にどう影響されるか把握しておくべきだよね。",
-    "score": {
-      "scores": {
-        "buzz": 8,
-        "hook": 8,
-        "value": 9,
-        "data": 9,
-        "unique": 7,
-        "discussion": 8,
-        "bookmark": 8,
-        "tempo": 8,
-        "persona": 9,
-        "ng_check": 10
-      },
-      "average": 8.4
-    },
-    "pattern_id": "P16",
-    "hook_id": "H30",
-    "theme": "投資の基礎知識・考え方",
-    "tweet_type": "standard",
-    "research_id": "r_1776072254869_6lr5",
-    "created_at": "2026-04-13T09:31:05.277Z"
-=======
-      "average": 7.7
-    },
-    "pattern_id": "P14",
-    "hook_id": "H25",
-    "theme": "テーマ投資（半導体・AI・防衛・原子力・宇宙・Physical AI）",
-    "tweet_type": "standard",
-    "research_id": "r_1776072291717_org6",
-    "created_at": "2026-04-13T09:32:09.004Z"
->>>>>>> Stashed changes
+    "created_at": "2026-04-14T12:00:00.000Z"
   }
 ]
