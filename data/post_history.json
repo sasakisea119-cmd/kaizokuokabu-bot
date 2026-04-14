@@ -1,224 +1,40 @@
 [
   {
-    "tweet_id": "2043506016139321404",
-    "text": "🚨中東戦争再燃で日経平均500円安の大幅反落！\n\n📊今日の市況(4/13)\n日経平均: 56,421円(-502円)\nイラン停戦協議決裂でリスクオフ加速\nホルムズ海峡封鎖懸念で原油急騰\n\n🔥IPO市場は冷え込み必至\n梅乃宿酒造(559A): BB開始も注目度B\n犬猫生活(556A): ペット関連で話題性\n\n地政学リスクが投資家心理を直撃！今週は乱高下必至💥",
-    "type": "image",
-    "card_type": "market",
-    "pattern_id": "IMG",
-    "hook_id": null,
-    "theme": "image_market",
-    "research_id": null,
-    "posted_at": "2026-04-13T01:46:20.789Z",
-    "metrics": null,
-    "fetched_at": null
-  },
-  {
-    "tweet_id": "2043506540574044160",
-    "text": "Physical AI関連株、本格的にヤバくない？\n\n🤖 ソフトバンクG（9984）：ロボティクス投資2兆円規模\n🏭 安川電機（6506）：産業用ロボ売上33%増\n🚗 デンソー（6902）：自動運転AI開発費1,200億円\n\nみんな「まだ先の話でしょ」って言ってるけど、決算見ると既に動いてるよね。特に製造業×AIの組み合わせ、もう無視できないレベル。\n\n正直、半導体バブルの次はここだと思うんだけど、どう？",
+    "tweet_id": "2043847574407246182",
+    "text": "バトンズ（554A）の購入申込、明日4/14から。\n\n「当たったけど買うか迷ってる」って人、結構いると思う。\n\n結論だけ言うと、僕は買い。理由はシンプルで吸収5億+PER11倍。\n\nただしリスクもある。全部書いた👇\nhttps://note.com/kaizokuokabu/n/n0e1d2ce60397",
     "score": {
-      "scores": {
-        "buzz": 8,
-        "hook": 9,
-        "value": 8,
-        "data": 9,
-        "unique": 8,
-        "discussion": 9,
-        "bookmark": 8,
-        "tempo": 8,
-        "persona": 9,
-        "ng_check": 10
-      },
-      "average": 8.6
-    },
-    "pattern_id": "P03",
-    "hook_id": "H21",
-    "theme": "テーマ投資（半導体・AI・防衛・原子力・宇宙・Physical AI）",
-    "research_id": null,
-    "posted_at": "2026-04-13T01:48:25.716Z",
-    "metrics": null,
-    "fetched_at": null
-  },
-  {
-    "tweet_id": "2043511575483715802",
-    "text": "Netflix（NFLX）の広告売上、気になってる人多いと思うけど、実は四半期で10億ドル突破してるんだよね。\n\n広告付きプランの会員数が7000万人を超えて、ARPU（ユーザー単価）も前年比15%アップ。でもここからが本当の勝負。\n\nディズニーやアマゾンも広告強化してるし、競争激化は避けられない。Netflixの広告ビジネス、みんなはどこまで伸びると思う？",
-    "score": {
-      "scores": {
-        "buzz": 7,
-        "hook": 8,
-        "value": 8,
-        "data": 9,
-        "unique": 7,
-        "discussion": 8,
-        "bookmark": 7,
-        "tempo": 8,
-        "persona": 8,
-        "ng_check": 10
-      },
-      "average": 8
-    },
-    "pattern_id": "P09",
-    "hook_id": "H04",
-    "theme": "米国株個別銘柄分析",
-    "research_id": null,
-    "posted_at": "2026-04-13T02:08:26.042Z",
-    "metrics": null,
-    "fetched_at": null
-  },
-  {
-    "tweet_id": "2043516610099736954",
-    "text": "エヌビディア（NVDA）の売上構成、みんな知ってる？\n\nデータセンター向けが全体の87%を占めてるんだよね。つまりAI需要が冷えたら一気に減速するリスクがある。\n\nゲーミング向けは13%しかないから、昔のように個人向けGPUで支えるのはもう無理。\n\n投資家が今一番気にしてるのは「AI投資の持続性」だと思うけど、みんなはどう見てる？",
-    "score": {
-      "scores": {
-        "buzz": 8,
-        "hook": 8,
-        "value": 9,
-        "data": 9,
-        "unique": 7,
-        "discussion": 8,
-        "bookmark": 8,
-        "tempo": 8,
-        "persona": 8,
-        "ng_check": 10
-      },
-      "average": 8.3
-    },
-    "pattern_id": "P05",
-    "hook_id": "H15",
-    "theme": "米国株個別銘柄分析",
-    "research_id": null,
-    "posted_at": "2026-04-13T02:28:26.504Z",
-    "metrics": null,
-    "fetched_at": null
-  },
-  {
-    "id": "cta_summary_01",
-    "tweet_id": "2043595610201436308",
-    "text": "来週IPO4社、全部分析した。\n\n結論👇\n✅ バトンズ：買い（吸収5億、初値+50%期待）\n⚠️ SQUEEZE：辞退検討（吸収40億重い）\n⚠️ 犬猫生活：見送り→押し目（PER37高い）\n⚠️ 梅乃宿：微妙（VC EXIT案件）\n\n各社の詳細分析noteはこちら👇\nhttps://note.com/kaizokuokabu",
-    "theme": "IPO4社まとめ",
-    "tweet_type": "cta_note",
-    "posted_at": "2026-04-13T13:48:03.642Z"
-  },
-  {
-    "id": "cta_batonz_01",
-    "tweet_id": "2043686272552820841",
-    "text": "バトンズ（554A）当選した人、購入するか迷ってない？\n\n吸収たった5億円。予想PER11.7倍。\n庶民のIPO・カブスルはA評価。\n\nでも実績PERは69倍で、親子上場リスクもある。\n\n「初値売りで勝てるか？」を目論見書ベースで判定した👇\nhttps://note.com/kaizokuokabu/n/n0e1d2ce60397",
-    "theme": "IPO銘柄分析_バトンズ",
-    "tweet_type": "cta_note",
-    "posted_at": "2026-04-13T13:48:03.643Z"
-  },
-  {
-    "id": "cta_squeeze_01",
-    "tweet_id": "2043687273309544655",
-    "text": "SQUEEZE（558A）当選したけど、正直これは迷う。\n\n売上4年で12倍、GOPマージン70%超。\nビジネスは文句なしに良い。\n\nでも吸収40億＋VC売出95%。\n7社連続公募割れの環境で、これはキツくない？\n\n買うか辞退するか、判断材料はこちら👇\nhttps://note.com/kaizokuokabu/n/n2c9603773690",
-    "theme": "IPO銘柄分析_SQUEEZE",
-    "tweet_type": "cta_note",
-    "posted_at": "2026-04-13T13:48:03.643Z"
-  },
-  {
-    "id": "cta_inuneko_01",
-    "tweet_id": "2043687403219755292",
-    "text": "犬猫生活（556A）当選した人、おめでとう。\n\nでも「買うかどうか」はちゃんと考えた方がいい。\n\nPER37倍。前澤ファンド44%保有。\n定期購入率95%は魅力的だけど、バリュエーションが微妙。\n\n初値で勝てるか？分析したよ👇\nhttps://note.com/kaizokuokabu/n/n8959e9910f20",
-    "theme": "IPO銘柄分析_犬猫生活",
-    "tweet_type": "cta_note",
-    "posted_at": "2026-04-13T13:48:03.643Z"
-  },
-  {
-    "id": "cta_fear_01",
-    "tweet_id": "2043687446177862143",
-    "text": "2026年IPO、7社連続公募割れって知ってた？\n\n来週4社上場するけど、全部買ったら4社中2〜3社は公募割れするかもしれない。\n\n「どれを買ってどれを辞退するか」が今年のIPOで一番大事。\n\n4社の勝率を分析したよ👇\nhttps://note.com/kaizokuokabu",
-    "theme": "IPO4社まとめ",
-    "tweet_type": "cta_note",
-    "posted_at": "2026-04-13T13:48:03.643Z"
-  },
-  {
-    "id": "cta_summary_03",
-    "tweet_id": "2043687516956700993",
-    "text": "来週のIPO4社、当選した人へ。\n\n「とりあえず買う」は一番危険。\n7社連続公募割れの環境だからね。\n\n4社の需給・バリュエーション・VC構成を全部比較して、買い/辞退の判断基準を書いた。300円で後悔を防げるなら安いと思う👇\nhttps://note.com/kaizokuokabu",
-    "theme": "IPO4社まとめ",
-    "tweet_type": "cta_note",
-    "posted_at": "2026-04-13T13:48:03.643Z"
-  },
-  {
-    "id": "cta_inuneko_02",
-    "tweet_id": "2043687565673594959",
-    "text": "前澤ファンドが44%持ってるIPO、犬猫生活（556A）。\n\n「前澤銘柄だから買う」は危険。\n\n10月にロックアップ解除。\nそこで前澤が売ったら株価は一気に崩れる。\n\n初値〜1年後の値動き、全シナリオ書いた。\n当選者は申込前に読んで👇\nhttps://note.com/kaizokuokabu/n/n8959e9910f20",
-    "theme": "IPO銘柄分析_犬猫生活",
-    "tweet_type": "cta_note",
-    "posted_at": "2026-04-13T13:48:03.643Z"
-  },
-  {
-<<<<<<< Updated upstream
-    "tweet_id": "2043728792003211359",
-=======
-    "tweet_id": "2043771520728612930",
->>>>>>> Stashed changes
-    "text": "東京エレクトロン（8035）の決算、みんなどう見てる？\n\n売上高2.7兆円（+30%）は予想上回ったけど、営業利益率が26.8%→22.4%に低下してるんだよね。\n\n半導体装置って利益率高いイメージだったから、この4.4ポイント下落は気になる。原材料費上昇の影響かな？\n\nでも来期ガイダンスは強気維持。AI需要がまだ続くってことだと思うけど、株価は既に織り込み済み感もあるし...\n\n半導体株持ってる人、どう判断する？",
-    "score": {
-      "average": 7.9
-    },
-    "pattern_id": "P01",
-    "theme": "日本株個別銘柄分析",
-    "research_id": null,
-<<<<<<< Updated upstream
-    "posted_at": "2026-04-13T16:31:29.432Z",
-=======
-    "posted_at": "2026-04-13T19:21:16.763Z",
->>>>>>> Stashed changes
-    "metrics": null,
-    "fetched_at": null
-  },
-  {
-<<<<<<< Updated upstream
-    "tweet_id": "2043733826187235678",
-=======
-    "tweet_id": "2043776555051069733",
->>>>>>> Stashed changes
-    "text": "ポートフォリオに投機枠って作ってる？\n\n僕は資産の10%を「失っても諦めつく枠」にしてて、ここでIPO、仮想通貨、話題株を触ってる。\n\n核心部分（90%）は安定成長株とETFで守り、投機枠で攻める。この10%が心の余裕を作るんだよね。\n\n全額安全運用だと物足りないし、全額投機だと夜眠れない。\n\nみんなの投機枠比率、どのくらい？",
-    "score": {
-      "average": 8
-    },
-    "pattern_id": "P02",
-    "theme": "ポートフォリオ戦略",
-    "research_id": null,
-<<<<<<< Updated upstream
-    "posted_at": "2026-04-13T16:51:29.657Z",
-=======
-    "posted_at": "2026-04-13T19:41:17.022Z",
->>>>>>> Stashed changes
-    "metrics": null,
-    "fetched_at": null
-  },
-  {
-<<<<<<< Updated upstream
-    "tweet_id": "2043738860677460180",
-=======
-    "tweet_id": "2043781589604200942",
->>>>>>> Stashed changes
-    "text": "決算で売上高が2桁成長してるのに株価が下がる銘柄、最近多くない？\n\n特に小型株で目立つんだけど、理由は単純。機関投資家が「ガイダンス保守的すぎ」って判断してるから。\n\n例えば今週発表のA社、売上高+15%なのに通期予想が市場予想を5%下回った途端に-8%。でもこれ、逆に仕込み時かもしれない。\n\n決算後の株価と業績、どっちを信じる？",
-    "score": {
-      "average": 8.3
-    },
-    "pattern_id": "P08",
-    "theme": "決算速報・決算レビュー",
-    "research_id": null,
-<<<<<<< Updated upstream
-    "posted_at": "2026-04-13T17:11:29.998Z",
-    "metrics": null,
-    "fetched_at": null
-  },
-  {
-    "tweet_id": "2043743894983082395",
-    "text": "バトンズ（554A）、吸収5億の超小型IPO。\n\n過去の傾向だと、吸収5億以下のIPOは初値+50%以上になることが多い。\n\n当選してるなら、これ読んでから判断しても遅くないよ👇\nhttps://note.com/kaizokuokabu/n/n0e1d2ce60397",
-    "score": {
-      "average": 8.5
+      "average": 8.7
     },
     "pattern_id": "CTA",
     "theme": "IPO銘柄分析_バトンズ",
     "research_id": null,
-    "posted_at": "2026-04-13T17:31:30.253Z",
-=======
-    "posted_at": "2026-04-13T20:01:17.360Z",
->>>>>>> Stashed changes
+    "posted_at": "2026-04-14T00:23:29.349Z",
+    "metrics": null,
+    "fetched_at": null
+  },
+  {
+    "tweet_id": "2043852608419373289",
+    "text": "660円で当選して、初値900〜1,100円。\n利益3〜5万円。\n\nバトンズ（554A）、数字だけ見たらIPO参加一択。\nでも親子上場と利益の波が気になるんだよね。\n\n申込む前に5分だけ読んでみて👇\nhttps://note.com/kaizokuokabu/n/n0e1d2ce60397",
+    "score": {
+      "average": 8.6
+    },
+    "pattern_id": "CTA",
+    "theme": "IPO銘柄分析_バトンズ",
+    "research_id": null,
+    "posted_at": "2026-04-14T00:43:29.539Z",
+    "metrics": null,
+    "fetched_at": null
+  },
+  {
+    "tweet_id": "2043857642565533849",
+    "text": "SQUEEZE（558A）、公募割れ確率50%って言ったら怒られるかな。\n\nでもデータ見たら分かる。\n吸収40億、VC売出95%、仮条件は引き下げ方向。\n\n当選者は「辞退」も選択肢に入れた方がいい。\n\nその根拠を全部書いた👇\nhttps://note.com/kaizokuokabu/n/n2c9603773690",
+    "score": {
+      "average": 8.7
+    },
+    "pattern_id": "CTA",
+    "theme": "IPO銘柄分析_SQUEEZE",
+    "research_id": null,
+    "posted_at": "2026-04-14T01:03:29.809Z",
     "metrics": null,
     "fetched_at": null
   }
