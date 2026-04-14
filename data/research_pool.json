@@ -27,7 +27,7 @@
     "urgency": "medium",
     "source_type": "trending_x",
     "created_at": "2026-04-14T00:11:30.694Z",
-    "used": false
+    "used": true
   },
   {
     "id": "r_1776125490694_jglz",
@@ -42,7 +42,7 @@
     "urgency": "medium",
     "source_type": "trending_x",
     "created_at": "2026-04-14T00:11:30.694Z",
-    "used": false
+    "used": true
   },
   {
     "id": "r_1776125490694_0ine",
@@ -57,7 +57,7 @@
     "urgency": "medium",
     "source_type": "trending_x",
     "created_at": "2026-04-14T00:11:30.694Z",
-    "used": false
+    "used": true
   },
   {
     "id": "r_1776125490694_b5ta",
@@ -72,6 +72,81 @@
     "urgency": "medium",
     "source_type": "trending_x",
     "created_at": "2026-04-14T00:11:30.694Z",
+    "used": false
+  },
+  {
+    "id": "r_1776154750320_4b5v",
+    "theme": "### 日本株相場トレンド（2026年4月14日、直近12時間：主に本日取引終了後まとめ）",
+    "title": "### 日本株相場トレンド（2026年4月14日、直近12時間：主に本日取引終了後まとめ）",
+    "published_date": "2026-04-14",
+    "summary": "### 日本株相場トレンド（2026年4月14日、直近12時間：主に本日取引終了後まとめ）",
+    "investment_angle": "",
+    "tickers": [],
+    "keywords": [],
+    "recommended_pattern": "P14",
+    "urgency": "medium",
+    "source_type": "trending_x",
+    "created_at": "2026-04-14T08:19:10.320Z",
+    "used": false
+  },
+  {
+    "id": "r_1776154750320_k1b5",
+    "theme": "- **日経平均株価**: 大幅反発で終値 **57,877円（前日比+1,374円、+2.4%）**。高値圏推移で最高",
+    "title": "- **日経平均株価**: 大幅反発で終値 **57,877円（前日比+1,374円、+2.4%）**。高値圏推移で最高",
+    "published_date": "2026-04-14",
+    "summary": "- **日経平均株価**: 大幅反発で終値 **57,877円（前日比+1,374円、+2.4%）**。高値圏推移で最高値更新まであと1.7%と、上昇トレンドが明確に継続。米株高（SOX指数9連騰など）の波及、中東情勢の安定化（和平協議歩み寄りによる原油安）、円安（159円台）進行が買いを後押し。[[1]](https://x.com/i/status/2043947391087521974)[[2]](https://x.com/i/status/2043967046212563406)",
+    "investment_angle": "",
+    "tickers": [],
+    "keywords": [],
+    "recommended_pattern": "P14",
+    "urgency": "medium",
+    "source_type": "trending_x",
+    "created_at": "2026-04-14T08:19:10.320Z",
+    "used": false
+  },
+  {
+    "id": "r_1776154750320_xh9x",
+    "theme": "- **TOPIX**: **3,755（前日比+32、+0.9%）**。日経のハイテク主導上昇に対しやや抑制された動き",
+    "title": "- **TOPIX**: **3,755（前日比+32、+0.9%）**。日経のハイテク主導上昇に対しやや抑制された動き",
+    "published_date": "2026-04-14",
+    "summary": "- **TOPIX**: **3,755（前日比+32、+0.9%）**。日経のハイテク主導上昇に対しやや抑制された動きだが、全体的に投資家心理改善が継続。[[1]](https://x.com/i/status/2043947391087521974)",
+    "investment_angle": "",
+    "tickers": [],
+    "keywords": [],
+    "recommended_pattern": "P14",
+    "urgency": "medium",
+    "source_type": "trending_x",
+    "created_at": "2026-04-14T08:19:10.320Z",
+    "used": false
+  },
+  {
+    "id": "r_1776154750320_wyy9",
+    "theme": "- **全体トレンド**: 寄り付きから高値圏で推移、前引け時も堅調。短期過熱感あるが、半導体主導の強さが構造的に支持。",
+    "title": "- **全体トレンド**: 寄り付きから高値圏で推移、前引け時も堅調。短期過熱感あるが、半導体主導の強さが構造的に支持。",
+    "published_date": "2026-04-14",
+    "summary": "- **全体トレンド**: 寄り付きから高値圏で推移、前引け時も堅調。短期過熱感あるが、半導体主導の強さが構造的に支持。午後調整含みも下値支持線57,000円台。[[3]](https://x.com/i/status/2043847400004170206)[[4]](https://x.com/i/status/2043886998671503583)[[5]](https://x.com/i/status/2043879471519019028)",
+    "investment_angle": "",
+    "tickers": [],
+    "keywords": [],
+    "recommended_pattern": "P14",
+    "urgency": "medium",
+    "source_type": "trending_x",
+    "created_at": "2026-04-14T08:19:10.320Z",
+    "used": false
+  },
+  {
+    "id": "r_1776154750320_umny",
+    "theme": "- 全体的に活発、特に半導体関連（キオクシアなど）で売買代金が大幅に膨張。金融・物流セクターも板情報・資金流入が観測され",
+    "title": "- 全体的に活発、特に半導体関連（キオクシアなど）で売買代金が大幅に膨張。金融・物流セクターも板情報・資金流入が観測され",
+    "published_date": "2026-04-14",
+    "summary": "- 全体的に活発、特に半導体関連（キオクシアなど）で売買代金が大幅に膨張。金融・物流セクターも板情報・資金流入が観測され、短期資金の回転が速い。資源セクターの急落も出来高伴い、ハイテク回帰のローテーションが顕著。[[6]](https://x.com/i/status/2043967211799490888)[[7]](https://x.com/i/status/2043874942824161432)",
+    "investment_angle": "",
+    "tickers": [],
+    "keywords": [],
+    "recommended_pattern": "P14",
+    "urgency": "medium",
+    "source_type": "trending_x",
+    "created_at": "2026-04-14T08:19:10.320Z",
     "used": false
   }
 ]
