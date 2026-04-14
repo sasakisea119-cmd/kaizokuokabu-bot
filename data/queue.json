@@ -11,21 +11,35 @@
     "created_at": "2026-04-14T12:00:00.000Z"
   },
   {
+<<<<<<< Updated upstream
     "id": "q_1776155145843_0gts6p",
     "text": "日経+812円で始まったけど、こういう大幅高の日って「もう遅いかも」って思う人多いよね。\n\nでも過去データ見ると、800円超の大幅高スタート後、3日以内にさらに上昇する確率は67%。地政学リスク後の買い戻し相場って意外と継続するんだよ。\n\nみんなこういう日、どうしてる？様子見？それとも乗っかる？",
+=======
+    "id": "q_1776158108882_t2uiuv",
+    "text": "先週金曜の暴落時に仕込んだ銘柄たち、今日の+812円でほぼ全部プラ転してる。\n\n地政学リスクで売られた時こそチャンス。イラン情勢で一時的に下げただけなのに、みんなパニックしすぎだったよね。\n\n米株高（ダウ+301、ナスダック+280）にも助けられたけど、結局は「安い時に買って高い時に売る」これが全て。\n\n金曜に震えながら買った人、おめでとう。",
+>>>>>>> Stashed changes
     "score": {
       "scores": {
         "buzz": 8,
         "hook": 9,
+<<<<<<< Updated upstream
         "value": 8,
         "data": 9,
         "unique": 7,
         "discussion": 9,
         "bookmark": 7,
+=======
+        "value": 7,
+        "data": 9,
+        "unique": 7,
+        "discussion": 8,
+        "bookmark": 6,
+>>>>>>> Stashed changes
         "tempo": 8,
         "persona": 9,
         "ng_check": 10
       },
+<<<<<<< Updated upstream
       "average": 8.4
     },
     "pattern_id": "P08",
@@ -63,19 +77,41 @@
   {
     "id": "q_1776155145843_tf44cl",
     "text": "今朝の米国市場、寄り付き直後の出来高が異常に多い。\n\nプリマーケットで何か大きな動きがあったっぽい。機関投資家の大口取引か、それとも個人の大量売買か。\n\n正直、こういう時って後から見ると「あの時が転換点だった」ってなるパターン多いんだよね。\n\n詳しい分析と過去の類似パターン、Noteにまとめてます（準備中）",
+=======
+      "average": 8.1
+    },
+    "pattern_id": "P13",
+    "hook_id": "H29",
+    "theme": "日本株個別銘柄分析",
+    "tweet_type": "contrarian",
+    "research_id": "r_1776125490694_otj2",
+    "created_at": "2026-04-14T09:15:08.882Z"
+  },
+  {
+    "id": "q_1776158108882_hy0tmy",
+    "text": "ドル円159.3円、原油96.6ドル。\n\n気になってる人多いと思うけど、この水準って実は絶妙なポジションなんだよね。\n\n・ドル円160円の壁で止まってる\n・原油100ドル手前で一服\n・リスクオンなのに商品が下落\n\nこれ、市場が「インフレ第2波」を警戒してるサインかも。FRBの次の一手、みんなはどう読んでる？",
+>>>>>>> Stashed changes
     "score": {
       "scores": {
         "buzz": 7,
         "hook": 8,
         "value": 7,
+<<<<<<< Updated upstream
         "data": 6,
         "unique": 7,
         "discussion": 8,
         "bookmark": 8,
+=======
+        "data": 9,
+        "unique": 7,
+        "discussion": 8,
+        "bookmark": 6,
+>>>>>>> Stashed changes
         "tempo": 8,
         "persona": 8,
         "ng_check": 10
       },
+<<<<<<< Updated upstream
       "average": 7.7
     },
     "pattern_id": "P17",
@@ -84,5 +120,65 @@
     "tweet_type": "note_cta",
     "research_id": "r_1776125490694_0ine",
     "created_at": "2026-04-14T08:25:45.843Z"
+=======
+      "average": 7.8
+    },
+    "pattern_id": "P15",
+    "hook_id": "H03",
+    "theme": "マクロ経済・市場環境",
+    "tweet_type": "standard",
+    "research_id": "r_1776125490694_jglz",
+    "created_at": "2026-04-14T09:15:08.882Z"
+  },
+  {
+    "id": "q_1776158108882_8wdoti",
+    "text": "寄り付きの活況見てると、みんな投資は買うタイミングだけが大事だと思ってるよね。でも本当に差がつくのは「いつ売るか」。これ分かってる人、10%もいない。",
+    "score": {
+      "scores": {
+        "buzz": 7,
+        "hook": 8,
+        "value": 8,
+        "data": 7,
+        "unique": 7,
+        "discussion": 8,
+        "bookmark": 7,
+        "tempo": 8,
+        "persona": 9,
+        "ng_check": 9
+      },
+      "average": 7.8
+    },
+    "pattern_id": "P05",
+    "hook_id": "H13",
+    "theme": "投資の基礎知識・考え方",
+    "tweet_type": "short_personal",
+    "research_id": "r_1776125490694_0ine",
+    "created_at": "2026-04-14T09:15:08.882Z"
+  },
+  {
+    "id": "q_1776158108882_c2hq4j",
+    "text": "正直に言う。今の相場で一番怖いのは暴落じゃなくて、上がってるのに持ってないこと。\n\nキオクシア4日連続で出来高1兆円超え、NVIDIA9連騰。半導体ポートフォリオ組んでた人、今頃笑いが止まらないでしょ。\n\n俺も先月「半導体は終わった」って言ってた人たちの逆張りで仕込んでおいて本当に良かった。SOX指数見てみ？これが答えだよ。",
+    "score": {
+      "scores": {
+        "buzz": 8,
+        "hook": 9,
+        "value": 7,
+        "data": 8,
+        "unique": 8,
+        "discussion": 9,
+        "bookmark": 6,
+        "tempo": 8,
+        "persona": 9,
+        "ng_check": 10
+      },
+      "average": 8.2
+    },
+    "pattern_id": "P07",
+    "hook_id": "H24",
+    "theme": "ポートフォリオ戦略",
+    "tweet_type": "contrarian",
+    "research_id": "r_1776125490694_b5ta",
+    "created_at": "2026-04-14T09:15:08.882Z"
+>>>>>>> Stashed changes
   }
 ]
