@@ -37,5 +37,57 @@
     "posted_at": "2026-04-14T01:03:29.809Z",
     "metrics": null,
     "fetched_at": null
+  },
+  {
+    "tweet_id": "2043930969275805902",
+    "text": "🍺話題騒然！オリオンビールのIPO分析スコアカード公開🔥\n\n✅ 沖縄ブランドで観光需要独占\n✅ 営業利益率13.1%は同業他社を圧倒\n✅ セカンダリー投資で波に乗れ！\n\n初値850円→1863円の爆上げも、PER15.3倍の割安は健在。観光回復とインバウンドで中長期も期待大📈\n\n#IPO #オリオンビール #409A",
+    "type": "image",
+    "card_type": "score",
+    "pattern_id": "P14",
+    "hook_id": null,
+    "theme": "### 日本株相場トレンド（直近12時間：2026/4/14 朝9時寄り付き時点）",
+    "research_id": "r_1776125490694_00xo",
+    "posted_at": "2026-04-14T05:54:52.296Z",
+    "metrics": null,
+    "fetched_at": null
+  },
+  {
+    "tweet_id": "2043931779678232659",
+    "text": "宿泊DXで売上4年12倍のSQUEEZE（558A）。\n\n「インバウンドの波に乗る本物」か\n「VCの出口に使われるだけ」か。\n\nIPO当選者が判断に使えるデータ、全部まとめた👇\nhttps://note.com/kaizokuokabu/n/n2c9603773690",
+    "score": {
+      "average": 8.3
+    },
+    "pattern_id": "CTA",
+    "theme": "IPO銘柄分析_SQUEEZE",
+    "research_id": null,
+    "posted_at": "2026-04-14T05:58:05.482Z",
+    "metrics": null,
+    "fetched_at": null
+  },
+  {
+    "tweet_id": "2043936813958738429",
+    "text": "SQUEEZE（558A）に31万円突っ込むかどうか。\n\n値嵩株でIPO投資額としてはデカい。\nしかも公募割れしたら-3万円。\n\n「当選＝買い」じゃないんだよね。\n初値予想と4つの時間軸で値動き分析した👇\nhttps://note.com/kaizokuokabu/n/n2c9603773690",
+    "score": {
+      "average": 8.4
+    },
+    "pattern_id": "CTA",
+    "theme": "IPO銘柄分析_SQUEEZE",
+    "research_id": null,
+    "posted_at": "2026-04-14T06:18:05.707Z",
+    "metrics": null,
+    "fetched_at": null
+  },
+  {
+    "tweet_id": "2043941848377635252",
+    "text": "犬猫生活（556A）、結論から言うと「初値では買わない」。\n\nでもセカンダリーでは狙う。\n\nその分岐点は2,500円。\nPER23倍まで下がったら仕込む価値あり。\n\n根拠と全シナリオはこちら👇\nhttps://note.com/kaizokuokabu/n/n8959e9910f20",
+    "score": {
+      "average": 8.5
+    },
+    "pattern_id": "CTA",
+    "theme": "IPO銘柄分析_犬猫生活",
+    "research_id": null,
+    "posted_at": "2026-04-14T06:38:06.022Z",
+    "metrics": null,
+    "fetched_at": null
   }
 ]
