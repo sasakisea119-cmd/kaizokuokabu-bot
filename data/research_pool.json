@@ -87,7 +87,7 @@
     "urgency": "medium",
     "source_type": "trending_x",
     "created_at": "2026-04-14T09:07:50.504Z",
-    "used": false
+    "used": true
   },
   {
     "id": "r_1776157670504_xpie",
@@ -102,7 +102,7 @@
     "urgency": "medium",
     "source_type": "trending_x",
     "created_at": "2026-04-14T09:07:50.504Z",
-    "used": false
+    "used": true
   },
   {
     "id": "r_1776157670504_lesp",
@@ -117,7 +117,7 @@
     "urgency": "medium",
     "source_type": "trending_x",
     "created_at": "2026-04-14T09:07:50.504Z",
-    "used": false
+    "used": true
   },
   {
     "id": "r_1776157670504_lm5z",
@@ -222,6 +222,81 @@
     "urgency": "medium",
     "source_type": "trending_x",
     "created_at": "2026-04-14T08:19:10.320Z",
+    "used": false
+  },
+  {
+    "id": "r_1776182344775_qelu",
+    "theme": "### 日本株相場トレンド（直近12時間：2026年4月14日時点）",
+    "title": "### 日本株相場トレンド（直近12時間：2026年4月14日時点）",
+    "published_date": "2026-04-15",
+    "summary": "### 日本株相場トレンド（直近12時間：2026年4月14日時点）",
+    "investment_angle": "",
+    "tickers": [],
+    "keywords": [],
+    "recommended_pattern": "P14",
+    "urgency": "medium",
+    "source_type": "trending_x",
+    "created_at": "2026-04-14T15:59:04.775Z",
+    "used": false
+  },
+  {
+    "id": "r_1776182344775_6uni",
+    "theme": "- 日経平均は堅調な上昇トレンドを継続中。ダブルインバースETF（1357）が-4.61%と大幅下落した一方で、日経平均",
+    "title": "- 日経平均は堅調な上昇トレンドを継続中。ダブルインバースETF（1357）が-4.61%と大幅下落した一方で、日経平均",
+    "published_date": "2026-04-15",
+    "summary": "- 日経平均は堅調な上昇トレンドを継続中。ダブルインバースETF（1357）が-4.61%と大幅下落した一方で、日経平均自体はAI・半導体関連銘柄の牽引により強含みで推移。[[1]](https://x.com/i/status/2044063469822165120)[[2]](https://x.com/i/status/2044020403564359763)",
+    "investment_angle": "",
+    "tickers": [],
+    "keywords": [],
+    "recommended_pattern": "P14",
+    "urgency": "medium",
+    "source_type": "trending_x",
+    "created_at": "2026-04-14T15:59:04.775Z",
+    "used": false
+  },
+  {
+    "id": "r_1776182344775_gymv",
+    "theme": "- 先物も+0.58%の上昇を示し、円安メリットが輸出関連を後押しする形でポジティブなムード。全体としてテーマ相場色が強",
+    "title": "- 先物も+0.58%の上昇を示し、円安メリットが輸出関連を後押しする形でポジティブなムード。全体としてテーマ相場色が強",
+    "published_date": "2026-04-15",
+    "summary": "- 先物も+0.58%の上昇を示し、円安メリットが輸出関連を後押しする形でポジティブなムード。全体としてテーマ相場色が強く、上昇基調が支配的。[[3]](https://x.com/i/status/2044079153054658858)",
+    "investment_angle": "",
+    "tickers": [],
+    "keywords": [],
+    "recommended_pattern": "P14",
+    "urgency": "medium",
+    "source_type": "trending_x",
+    "created_at": "2026-04-14T15:59:04.775Z",
+    "used": false
+  },
+  {
+    "id": "r_1776182344775_g01k",
+    "theme": "- 全体出来高の明確な言及は少ないが、個別株レベルでストップ高銘柄（京進4735、津田駒工業6217）にて急増（例: 津",
+    "title": "- 全体出来高の明確な言及は少ないが、個別株レベルでストップ高銘柄（京進4735、津田駒工業6217）にて急増（例: 津",
+    "published_date": "2026-04-15",
+    "summary": "- 全体出来高の明確な言及は少ないが、個別株レベルでストップ高銘柄（京進4735、津田駒工業6217）にて急増（例: 津田駒約108.9万株）。一方、インバースETFでは出来高減少（878万株、5日平均下回る）が見られ、買い手減退の兆しも。[[1]](https://x.com/i/status/2044063469822165120)[[4]](https://x.com/i/status/2044029731096707582)[[5]](https://x.com/i/status/2044028409807024229)",
+    "investment_angle": "",
+    "tickers": [],
+    "keywords": [],
+    "recommended_pattern": "P14",
+    "urgency": "medium",
+    "source_type": "trending_x",
+    "created_at": "2026-04-14T15:59:04.775Z",
+    "used": false
+  },
+  {
+    "id": "r_1776182344775_zbak",
+    "theme": "- 市場全体では需給バランスがやや悪化の懸念ありつつ、テーマ株中心に活況。",
+    "title": "- 市場全体では需給バランスがやや悪化の懸念ありつつ、テーマ株中心に活況。",
+    "published_date": "2026-04-15",
+    "summary": "- 市場全体では需給バランスがやや悪化の懸念ありつつ、テーマ株中心に活況。",
+    "investment_angle": "",
+    "tickers": [],
+    "keywords": [],
+    "recommended_pattern": "P14",
+    "urgency": "medium",
+    "source_type": "trending_x",
+    "created_at": "2026-04-14T15:59:04.775Z",
     "used": false
   }
 ]

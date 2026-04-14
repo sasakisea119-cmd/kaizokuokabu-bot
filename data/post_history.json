@@ -141,5 +141,83 @@
     "posted_at": "2026-04-14T09:27:55.535Z",
     "metrics": null,
     "fetched_at": null
+  },
+  {
+    "tweet_id": "2044085299194548681",
+    "text": "「円安で日本株上がる」って言ってた人たち、今どんな気持ち？\n\nドル円150円超えても日経平均は横ばい。むしろTOPIXは-2.3%。\n\nデータ見ると：\n・輸出株の業績改善 vs 輸入コスト増\n・外国人投資家の売り圧力継続\n・内需株の業績下押し懸念拡大\n\n結局、円安=株高の単純な図式はもう通用しないのかも。みんなどう思う？",
+    "score": {
+      "scores": {
+        "buzz": 8,
+        "hook": 9,
+        "value": 7,
+        "data": 8,
+        "unique": 8,
+        "discussion": 9,
+        "bookmark": 6,
+        "tempo": 8,
+        "persona": 9,
+        "ng_check": 10
+      },
+      "average": 8.2
+    },
+    "pattern_id": "P13",
+    "hook_id": "H30",
+    "theme": "物議を醸す投資トピック（逆張り・アンチテーゼ系で議論を生む）",
+    "research_id": "r_1776157670504_l7p2",
+    "posted_at": "2026-04-14T16:08:07.365Z",
+    "metrics": null,
+    "fetched_at": null
+  },
+  {
+    "tweet_id": "2044090333911232941",
+    "text": "日経平均が+2.4%の大幅高で57,877円。あと1.7%で史上最高値更新なんだよね。\n\nここで気になるのが、今回の上昇でテーマ株がどう動いたか。特に半導体・AI関連は昨日の売られ過ぎから一気に反発してる銘柄多い。\n\n東京エレクトロン（8035）、レーザーテック（6920）、アドバンテスト（6857）あたりは要チェック。明日の寄り付きでさらに上抜けするかどうかで、テーマ投資の流れが決まりそう。\n\nみんなは今回の反発、どう見てる？",
+    "score": {
+      "scores": {
+        "buzz": 7,
+        "hook": 8,
+        "value": 8,
+        "data": 9,
+        "unique": 6,
+        "discussion": 8,
+        "bookmark": 7,
+        "tempo": 8,
+        "persona": 8,
+        "ng_check": 10
+      },
+      "average": 7.9
+    },
+    "pattern_id": "P04",
+    "hook_id": "H07",
+    "theme": "テーマ投資（半導体・AI・防衛・原子力・宇宙・Physical AI）",
+    "research_id": "r_1776157670504_xpie",
+    "posted_at": "2026-04-14T16:28:07.729Z",
+    "metrics": null,
+    "fetched_at": null
+  },
+  {
+    "tweet_id": "2044095368590233769",
+    "text": "TOPIXが上昇トレンド継続してるけど、個人投資家の皆さんのポートフォリオ、どんな配分になってる？\n\n最近気になるのが、日本株比率の考え方。\n・国内株50%、海外株50%\n・国内株70%、海外株30%\n・テーマ株集中投資\n\nどのパターンが多いんだろう？\n\n正解はないけど、TOPIXみたいな指数全体が上がってる時こそ、自分の戦略見直すタイミングかも。分散効いてる人ほど安定してる印象あるよね。\n\nみんなの配分、教えて！",
+    "score": {
+      "scores": {
+        "buzz": 7,
+        "hook": 8,
+        "value": 7,
+        "data": 6,
+        "unique": 6,
+        "discussion": 9,
+        "bookmark": 6,
+        "tempo": 8,
+        "persona": 8,
+        "ng_check": 10
+      },
+      "average": 7.5
+    },
+    "pattern_id": "P10",
+    "hook_id": "H05",
+    "theme": "ポートフォリオ戦略",
+    "research_id": "r_1776157670504_lesp",
+    "posted_at": "2026-04-14T16:48:08.093Z",
+    "metrics": null,
+    "fetched_at": null
   }
 ]
