@@ -169,14 +169,98 @@
     "fetched_at": null
   },
   {
+<<<<<<< Updated upstream
     "tweet_id": "2044332511464214783",
     "text": "ポートフォリオって結局バランスが9割だと思うんだよね。\n\n日本株70%、米国株20%、債券10%みたいな教科書通りじゃなくて、自分のリスク許容度に合わせた配分が大事。\n\n例えば30代なら株式比重80%でもいいし、50代なら債券30%入れてもいい。年齢×債券比率の法則もあるけど、これも絶対じゃない。\n\n大切なのは「なぜその配分にしたか」を説明できること。\n\nみんなの株式比率ってどれくらい？",
+=======
+    "tweet_id": "2044344377896775847",
+    "text": "【Physical AI】エヌビディアが次に賭ける領域。\n\n単なるチャットボットじゃなくて、ロボットが現実世界で動く技術だよね。市場規模は2030年に12兆円予想。\n\n日本だとファナック（6954）、安川電機（6506）、THK（6481）あたりが関連株として注目されてる。ただ、まだ黎明期だからボラティリティは覚悟が必要。\n\nみんなはPhysical AI、どのタイミングで仕込む？",
+    "score": {
+      "scores": {
+        "buzz": 8,
+        "hook": 9,
+        "value": 8,
+        "data": 9,
+        "unique": 8,
+        "discussion": 9,
+        "bookmark": 9,
+        "tempo": 8,
+        "persona": 9,
+        "ng_check": 10
+      },
+      "average": 8.7
+    },
+    "pattern_id": "P04",
+    "hook_id": "H16",
+    "theme": "テーマ投資（半導体・AI・防衛・原子力・宇宙・Physical AI）",
+    "research_id": "r_1776244098196_zk8m",
+    "posted_at": "2026-04-15T09:17:36.536Z",
+    "metrics": null,
+    "fetched_at": null
+  },
+  {
+    "tweet_id": "2044349412265406589",
+    "text": "日経平均+257円で5万8千円台回復、みんなどう見てる？\n\n前日比+0.5%の上昇で、先物も+0.5〜0.8%の伸び。堅調な上昇トレンド継続してるけど、これって一時的な戻りなのか、それとも本格的な上昇相場の始まりなのか気になるよね。\n\n個人的には58,000円台キープできるかがカギだと思ってる。ここを安定して超えられれば、次は60,000円が見えてくる展開かも。\n\nこの上昇、どう思う？",
+    "score": {
+      "scores": {
+        "buzz": 7,
+        "hook": 8,
+        "value": 7,
+        "data": 8,
+        "unique": 6,
+        "discussion": 8,
+        "bookmark": 6,
+        "tempo": 8,
+        "persona": 8,
+        "ng_check": 9
+      },
+      "average": 7.5
+    },
+    "pattern_id": "P17",
+    "hook_id": "H18",
+    "theme": "今日のバズニュース（海外）",
+    "research_id": "r_1776244098196_vmu6",
+    "posted_at": "2026-04-15T09:37:36.814Z",
+    "metrics": null,
+    "fetched_at": null
+  },
+  {
+    "tweet_id": "2044354446327771342",
+    "text": "キオクシア急騰で+11.93%。一時+17.9%って、上場来高値更新かな？\n\n東証プライム全体も上昇銘柄67〜70%で買い優勢。この流れでIPO市場も活気づきそう。\n\n今年上場予定のメルカリ系とかドコモ系の子会社、タイミング見極めが重要になってきたね。初値予想難しいけど、みんなIPOって参加してる？",
+    "score": {
+      "scores": {
+        "buzz": 7,
+        "hook": 8,
+        "value": 7,
+        "data": 8,
+        "unique": 6,
+        "discussion": 8,
+        "bookmark": 6,
+        "tempo": 8,
+        "persona": 8,
+        "ng_check": 9
+      },
+      "average": 7.5
+    },
+    "pattern_id": "P02",
+    "hook_id": "H20",
+    "theme": "IPO分析・セカンダリー",
+    "research_id": "r_1776244098196_ilee",
+    "posted_at": "2026-04-15T09:57:37.035Z",
+    "metrics": null,
+    "fetched_at": null
+  },
+  {
+    "tweet_id": "2044359480398487802",
+    "text": "大型株と中小型株の値動きが分かれてるのが気になる人多いよね。\n\n今の相場環境：\n・AI需要拡大が追い風\n・円安メリット継続\n・米イラン緊張緩和で地政学リスク低下\n\nでも中小型株は個別の業績次第で明暗くっきり。大型株についていけてない銘柄も多い。\n\n全体方向感は上向きでも、個別株選択の重要性が増してる局面だと思う。みんなのポートフォリオはどう？",
+>>>>>>> Stashed changes
     "score": {
       "scores": {
         "buzz": 7,
         "hook": 8,
         "value": 8,
         "data": 7,
+<<<<<<< Updated upstream
         "unique": 7,
         "discussion": 9,
         "bookmark": 7,
@@ -206,12 +290,18 @@
         "unique": 6,
         "discussion": 8,
         "bookmark": 6,
+=======
+        "unique": 6,
+        "discussion": 8,
+        "bookmark": 7,
+>>>>>>> Stashed changes
         "tempo": 8,
         "persona": 8,
         "ng_check": 10
       },
       "average": 7.7
     },
+<<<<<<< Updated upstream
     "pattern_id": "P06",
     "hook_id": "H10",
     "theme": "日本株個別銘柄分析",
@@ -269,6 +359,13 @@
     "theme": "今日のバズニュース（海外）",
     "research_id": "r_1776241303628_9kc5",
     "posted_at": "2026-04-15T09:30:28.137Z",
+=======
+    "pattern_id": "P05",
+    "hook_id": "H04",
+    "theme": "投資の基礎知識・考え方",
+    "research_id": "r_1776244098196_l4kp",
+    "posted_at": "2026-04-15T10:17:37.247Z",
+>>>>>>> Stashed changes
     "metrics": null,
     "fetched_at": null
   }

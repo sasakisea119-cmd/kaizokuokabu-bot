@@ -75,6 +75,7 @@
     "used": true
   },
   {
+<<<<<<< Updated upstream
     "id": "r_1776241249894_c5pk",
     "theme": "domestic",
     "title": "",
@@ -95,12 +96,20 @@
     "title": "### 日本株相場トレンド（直近12時間：2026/4/15 午後～夕方時点）",
     "published_date": "2026-04-15",
     "summary": "### 日本株相場トレンド（直近12時間：2026/4/15 午後～夕方時点）",
+=======
+    "id": "r_1776244098196_zk8m",
+    "theme": "### 日本株相場トレンド（直近12時間：2026年4月15日時点）",
+    "title": "### 日本株相場トレンド（直近12時間：2026年4月15日時点）",
+    "published_date": "2026-04-15",
+    "summary": "### 日本株相場トレンド（直近12時間：2026年4月15日時点）",
+>>>>>>> Stashed changes
     "investment_angle": "",
     "tickers": [],
     "keywords": [],
     "recommended_pattern": "P14",
     "urgency": "medium",
     "source_type": "trending_x",
+<<<<<<< Updated upstream
     "created_at": "2026-04-15T08:21:43.628Z",
     "used": true
   },
@@ -110,12 +119,24 @@
     "title": "直近12時間（主に本日後場大引け後～17時頃のX投稿ベース）の日本株情報では、**市場全体は続伸基調を維持しつつ上値の重",
     "published_date": "2026-04-15",
     "summary": "直近12時間（主に本日後場大引け後～17時頃のX投稿ベース）の日本株情報では、**市場全体は続伸基調を維持しつつ上値の重さが目立つ調整ムード**。日経平均は朝方から米株高・中東情勢緩和期待（イラン協議再開示唆）で700円超上昇も、利益確定売り優勢で失速。終値で**5万8000円台回復（約1.5ヶ月ぶり）**したが、過熱感や原油安の影響で勢いは鈍化。[[1]](https://x.com/i/status/2044325255637082280)[[2]](https://x.com/i/status/2044326934734418176)[[3]](https://x.com/i/status/2044325807078945093)",
+=======
+    "created_at": "2026-04-15T09:08:18.196Z",
+    "used": true
+  },
+  {
+    "id": "r_1776244098196_vmu6",
+    "theme": "- 日経平均株価は堅調な上昇トレンドを維持。直近の速報では前日比+257円（約0.5%上昇）で5万8千円台を回復する動き",
+    "title": "- 日経平均株価は堅調な上昇トレンドを維持。直近の速報では前日比+257円（約0.5%上昇）で5万8千円台を回復する動き",
+    "published_date": "2026-04-15",
+    "summary": "- 日経平均株価は堅調な上昇トレンドを維持。直近の速報では前日比+257円（約0.5%上昇）で5万8千円台を回復する動きが見られ、先物も+0.5〜0.8%程度の上昇。[[1]](https://x.com/i/status/2044338182880428540)[[2]](https://x.com/i/status/2044331129667477679)[[3]](https://x.com/i/status/2044331022347833759)",
+>>>>>>> Stashed changes
     "investment_angle": "",
     "tickers": [],
     "keywords": [],
     "recommended_pattern": "P14",
     "urgency": "medium",
     "source_type": "trending_x",
+<<<<<<< Updated upstream
     "created_at": "2026-04-15T08:21:43.628Z",
     "used": true
   },
@@ -125,12 +146,24 @@
     "title": "- **日経平均**：終値 **58,134円（+256円、+0.44%）**。始値58,265円、高値58,585円、",
     "published_date": "2026-04-15",
     "summary": "- **日経平均**：終値 **58,134円（+256円、+0.44%）**。始値58,265円、高値58,585円、安値58,117円。一時勢いづくも14時以降下げ止まりで小幅続伸。年初来高値（59,332円）まであと1,200円圏。[[1]](https://x.com/i/status/2044325255637082280)[[4]](https://x.com/i/status/2044246622239109526)",
+=======
+    "created_at": "2026-04-15T09:08:18.196Z",
+    "used": true
+  },
+  {
+    "id": "r_1776244098196_ilee",
+    "theme": "- 東証プライム市場では上昇銘柄が67〜70%を占め、全体的に買い優勢。キオクシア株の急騰（+11.93%、一時+17.",
+    "title": "- 東証プライム市場では上昇銘柄が67〜70%を占め、全体的に買い優勢。キオクシア株の急騰（+11.93%、一時+17.",
+    "published_date": "2026-04-15",
+    "summary": "- 東証プライム市場では上昇銘柄が67〜70%を占め、全体的に買い優勢。キオクシア株の急騰（+11.93%、一時+17.9%）が日経平均を+1,374円押し上げる要因に。[[4]](https://x.com/i/status/2044338441002037753)[[2]](https://x.com/i/status/2044331129667477679)",
+>>>>>>> Stashed changes
     "investment_angle": "",
     "tickers": [],
     "keywords": [],
     "recommended_pattern": "P14",
     "urgency": "medium",
     "source_type": "trending_x",
+<<<<<<< Updated upstream
     "created_at": "2026-04-15T08:21:43.628Z",
     "used": true
   },
@@ -140,12 +173,24 @@
     "title": "- **TOPIX**：**3,770.33（+15.06、+0.51%）**。NT倍率15.46倍で大型グロース優位。",
     "published_date": "2026-04-15",
     "summary": "- **TOPIX**：**3,770.33（+15.06、+0.51%）**。NT倍率15.46倍で大型グロース優位。[[1]](https://x.com/i/status/2044325255637082280)[[5]](https://x.com/i/status/2044272816472850507)",
+=======
+    "created_at": "2026-04-15T09:08:18.196Z",
+    "used": true
+  },
+  {
+    "id": "r_1776244098196_l4kp",
+    "theme": "- 外部要因として、AI需要拡大、円安メリット、米イラン緊張緩和などが追い風。中小型株や個別株の分岐が見られるが、全体方",
+    "title": "- 外部要因として、AI需要拡大、円安メリット、米イラン緊張緩和などが追い風。中小型株や個別株の分岐が見られるが、全体方",
+    "published_date": "2026-04-15",
+    "summary": "- 外部要因として、AI需要拡大、円安メリット、米イラン緊張緩和などが追い風。中小型株や個別株の分岐が見られるが、全体方向感は上向き。[[5]](https://x.com/i/status/2044338861728583927)[[4]](https://x.com/i/status/2044338441002037753)",
+>>>>>>> Stashed changes
     "investment_angle": "",
     "tickers": [],
     "keywords": [],
     "recommended_pattern": "P14",
     "urgency": "medium",
     "source_type": "trending_x",
+<<<<<<< Updated upstream
     "created_at": "2026-04-15T08:21:43.628Z",
     "used": false
   },
@@ -162,6 +207,24 @@
     "urgency": "medium",
     "source_type": "trending_x",
     "created_at": "2026-04-15T08:21:43.628Z",
+=======
+    "created_at": "2026-04-15T09:08:18.196Z",
+    "used": true
+  },
+  {
+    "id": "r_1776244098196_7lcf",
+    "theme": "- 市場全体の出来高は過去最高を記録する活況。キオクシア関連で需給逼迫が顕著。[[4]](https://x.com/i",
+    "title": "- 市場全体の出来高は過去最高を記録する活況。キオクシア関連で需給逼迫が顕著。[[4]](https://x.com/i",
+    "published_date": "2026-04-15",
+    "summary": "- 市場全体の出来高は過去最高を記録する活況。キオクシア関連で需給逼迫が顕著。[[4]](https://x.com/i/status/2044338441002037753)",
+    "investment_angle": "",
+    "tickers": [],
+    "keywords": [],
+    "recommended_pattern": "P14",
+    "urgency": "medium",
+    "source_type": "trending_x",
+    "created_at": "2026-04-15T09:08:18.196Z",
+>>>>>>> Stashed changes
     "used": false
   }
 ]
