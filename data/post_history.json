@@ -1,371 +1,118 @@
 [
   {
-    "tweet_id": "2044210316855115861",
-    "text": "🔴緊急警報🔴IPO投資家よ、これが現実だ！\n\n中東情勢の激化で日経平均は約421円の大幅安😱米イラン軍事衝突の影響でリスクオフ加速\n\n🏴‍☠️IPO戦況報告🏴‍☠️\n・2026年IPOは驚愕の6連敗💀\n・商用車統合のARCHION上場も市場冷え込み\n・前澤ファンドの犬猫生活が最後の希望⭐\n\n#IPO #kaizokuokabu #ARCHION #犬猫生活",
+    "tweet_id": "2044444302567219516",
+    "text": "【データ定義】対象: 2026年1-4月上場全IPO銘柄10社、公募価格比初値\n\n🔥緊急事態🔥\nIPO市場がヤバすぎる…\n\n✅今年のIPO成績\n・全10社中6連敗\n・平均騰落率-8.2%\n・まさかの全勝0社\n\n📊唯一の光は\nソフトテックス +64.95%\n\n💡投資家の皆さん\n・中東情勢の影響？\n・IPOルール変更の副作用？\n・それとも単なる偶然？\n\n次のIPOに期待しましょう\n#IPO #新規上場 #株式投資",
     "type": "image",
-    "card_type": "market",
+    "card_type": "performance",
     "pattern_id": "IMG",
     "hook_id": null,
-    "theme": "image_market",
+    "theme": "image_performance",
     "research_id": null,
-    "posted_at": "2026-04-15T00:24:53.965Z",
+    "posted_at": "2026-04-15T15:54:40.515Z",
     "metrics": null,
     "fetched_at": null
   },
   {
-    "tweet_id": "2044210829713641662",
-    "text": "日経平均が39,500円台で推移してるけど、実はPER15.2倍って意外と割安だよね。\n\n米国のS&P500（PER22倍）と比べると、まだ日本株に割安感がある。特に配当利回り2.1%は魅力的。\n\nただ外国人投資家の売り越しが続いてるのが気になるところ。個人的には今の水準なら長期保有前提で少しずつ買い増ししてもいいと思うんだけど、みんなはどう見てる？",
+    "tweet_id": "2044446947566592187",
+    "text": "ポートフォリオの銘柄数、気になるよね。\n\n日本の個人投資家の平均保有銘柄数は約8銘柄。でも実際は3-5銘柄に集中投資してる人が一番多い。\n\n分散投資の教科書だと「20-30銘柄」って言うけど、管理しきれないし結局パフォーマンス悪化する。\n\n10銘柄以下で集中投資 vs 20銘柄超で分散投資\n\nみんなはどっち派？理由も教えて。",
     "score": {
       "scores": {
         "buzz": 7,
         "hook": 8,
         "value": 8,
         "data": 9,
-        "unique": 6,
-        "discussion": 8,
+        "unique": 7,
+        "discussion": 9,
         "bookmark": 7,
         "tempo": 8,
         "persona": 8,
         "ng_check": 10
       },
-      "average": 7.9
-    },
-    "pattern_id": "P15",
-    "hook_id": "H25",
-    "theme": "日本株個別銘柄分析",
-    "research_id": "r_1776212000058_omaw",
-    "posted_at": "2026-04-15T00:26:56.159Z",
-    "metrics": null,
-    "fetched_at": null
-  },
-  {
-    "tweet_id": "2044215863738261915",
-    "text": "日経+574円で大騒ぎしてるけど、これって本当に素直に喜んでいいのかな？\n\n日銀利上げ観測後退→円安加速→輸出株だけ上昇って構図、去年も見たよね。で、結果的に内需株は取り残されて二極化が進んだ。\n\n今回も半導体・自動車は爆上げだけど、小売・不動産は微増。この格差相場、持続可能だと思う？\n\nみんなどう見てるか気になる。",
-    "score": {
-      "scores": {
-        "buzz": 8,
-        "hook": 9,
-        "value": 7,
-        "data": 8,
-        "unique": 8,
-        "discussion": 9,
-        "bookmark": 6,
-        "tempo": 8,
-        "persona": 8,
-        "ng_check": 10
-      },
       "average": 8.1
     },
-    "pattern_id": "P08",
-    "hook_id": "H06",
-    "theme": "物議を醸す投資トピック（逆張り・アンチテーゼ系で議論を生む）",
-    "research_id": "r_1776212000058_kog1",
-    "posted_at": "2026-04-15T00:46:56.368Z",
-    "metrics": null,
-    "fetched_at": null
-  },
-  {
-    "tweet_id": "2044220898220143066",
-    "text": "日経平均が最高値目前まで来てるけど、これ気になるよね。\n\n米イラン緊張緩和で地政学リスクが後退したのは確実にプラス。原油価格も安定してるし、海外マネーが日本株に戻ってきてる感じがする。\n\nただ、ここまで上がると「調整はいつ来るの？」って思う人も多いはず。PER見ると割高感もあるし。\n\nみんなはこの局面、どう見てる？慎重派？それとも強気継続？",
-    "score": {
-      "scores": {
-        "buzz": 7,
-        "hook": 8,
-        "value": 8,
-        "data": 7,
-        "unique": 6,
-        "discussion": 9,
-        "bookmark": 6,
-        "tempo": 8,
-        "persona": 9,
-        "ng_check": 10
-      },
-      "average": 7.8
-    },
-    "pattern_id": "P12",
-    "hook_id": "H23",
-    "theme": "マクロ経済・市場環境",
-    "research_id": "r_1776212000058_yhty",
-    "posted_at": "2026-04-15T01:06:56.675Z",
-    "metrics": null,
-    "fetched_at": null
-  },
-  {
-    "tweet_id": "2044293954053751098",
-    "text": "メタプラネット（3350）、最近の出来高が異常じゃない？\n\n通常30-50万株/日のところ、ここ1週間は200万株超えが連発。今日も過去最高水準の活況相場に乗って朝から大商い。\n\nビットコイン価格との相関は0.8超えだけど、実際のBTC保有は時価総額の15%程度なんだよね。\n\nこの乖離、みんなどう見てる？投機なのか、それとも先行指標なのか。",
-    "score": {
-      "scores": {
-        "buzz": 8,
-        "hook": 8,
-        "value": 7,
-        "data": 9,
-        "unique": 7,
-        "discussion": 9,
-        "bookmark": 6,
-        "tempo": 8,
-        "persona": 8,
-        "ng_check": 10
-      },
-      "average": 8
-    },
-    "pattern_id": "P16",
-    "hook_id": "H13",
-    "theme": "メタプラネット・ビットコイン関連（賛否両論あるネタとして積極的に取り上げる）",
-    "research_id": "r_1776212000058_veuj",
-    "posted_at": "2026-04-15T05:57:14.566Z",
-    "metrics": null,
-    "fetched_at": null
-  },
-  {
-    "tweet_id": "2044298988778860636",
-    "text": "キオクシア（5781）、一時+17.9%で時価総額20兆円突破した時に「高すぎる」って言ってた人たち、今どんな気持ち？\n\n先月「生成AI需要は一時的」って分析してた某証券アナリストさん、息してる？\n\nNEXON（3659）+18.84%、ベイカレント（6532）+12.52%も絶好調。\n\n結局、テクノロジー革命を信じた人が勝つんだよね。",
-    "score": {
-      "scores": {
-        "buzz": 8,
-        "hook": 9,
-        "value": 7,
-        "data": 9,
-        "unique": 8,
-        "discussion": 9,
-        "bookmark": 6,
-        "tempo": 8,
-        "persona": 9,
-        "ng_check": 10
-      },
-      "average": 8.3
-    },
-    "pattern_id": "P01",
-    "hook_id": "H07",
-    "theme": "今日のバズニュース（国内）",
-    "research_id": "r_1776212000058_p5r2",
-    "posted_at": "2026-04-15T06:17:14.931Z",
-    "metrics": null,
-    "fetched_at": null
-  },
-  {
-    "tweet_id": "2044304023260672296",
-    "text": "メタプラネット（3350）、また550BTC買い増し発表。累計保有量が4,144BTCになったって。\n\n時価総額360億円の会社が、208億円分のビットコイン持ってる状況。これもう事実上のETFみたいなもんだよね。\n\nビットコイン1,300万円突破で含み益も膨らんでるけど、逆に下落リスクも同じだけデカい。\n\nこの戦略、アリだと思う？ナシだと思う？",
-    "score": {
-      "scores": {
-        "buzz": 8,
-        "hook": 7,
-        "value": 8,
-        "data": 9,
-        "unique": 8,
-        "discussion": 9,
-        "bookmark": 6,
-        "tempo": 8,
-        "persona": 8,
-        "ng_check": 10
-      },
-      "average": 8.1
-    },
-    "pattern_id": "P08",
+    "pattern_id": "P06",
     "hook_id": "H17",
-    "theme": "メタプラネット・ビットコイン関連（賛否両論あるネタとして積極的に取り上げる）",
-    "research_id": null,
-    "posted_at": "2026-04-15T06:37:15.239Z",
-    "metrics": null,
-    "fetched_at": null
-  },
-  {
-<<<<<<< Updated upstream
-    "tweet_id": "2044332511464214783",
-    "text": "ポートフォリオって結局バランスが9割だと思うんだよね。\n\n日本株70%、米国株20%、債券10%みたいな教科書通りじゃなくて、自分のリスク許容度に合わせた配分が大事。\n\n例えば30代なら株式比重80%でもいいし、50代なら債券30%入れてもいい。年齢×債券比率の法則もあるけど、これも絶対じゃない。\n\n大切なのは「なぜその配分にしたか」を説明できること。\n\nみんなの株式比率ってどれくらい？",
-=======
-    "tweet_id": "2044344377896775847",
-    "text": "【Physical AI】エヌビディアが次に賭ける領域。\n\n単なるチャットボットじゃなくて、ロボットが現実世界で動く技術だよね。市場規模は2030年に12兆円予想。\n\n日本だとファナック（6954）、安川電機（6506）、THK（6481）あたりが関連株として注目されてる。ただ、まだ黎明期だからボラティリティは覚悟が必要。\n\nみんなはPhysical AI、どのタイミングで仕込む？",
-    "score": {
-      "scores": {
-        "buzz": 8,
-        "hook": 9,
-        "value": 8,
-        "data": 9,
-        "unique": 8,
-        "discussion": 9,
-        "bookmark": 9,
-        "tempo": 8,
-        "persona": 9,
-        "ng_check": 10
-      },
-      "average": 8.7
-    },
-    "pattern_id": "P04",
-    "hook_id": "H16",
-    "theme": "テーマ投資（半導体・AI・防衛・原子力・宇宙・Physical AI）",
-    "research_id": "r_1776244098196_zk8m",
-    "posted_at": "2026-04-15T09:17:36.536Z",
-    "metrics": null,
-    "fetched_at": null
-  },
-  {
-    "tweet_id": "2044349412265406589",
-    "text": "日経平均+257円で5万8千円台回復、みんなどう見てる？\n\n前日比+0.5%の上昇で、先物も+0.5〜0.8%の伸び。堅調な上昇トレンド継続してるけど、これって一時的な戻りなのか、それとも本格的な上昇相場の始まりなのか気になるよね。\n\n個人的には58,000円台キープできるかがカギだと思ってる。ここを安定して超えられれば、次は60,000円が見えてくる展開かも。\n\nこの上昇、どう思う？",
-    "score": {
-      "scores": {
-        "buzz": 7,
-        "hook": 8,
-        "value": 7,
-        "data": 8,
-        "unique": 6,
-        "discussion": 8,
-        "bookmark": 6,
-        "tempo": 8,
-        "persona": 8,
-        "ng_check": 9
-      },
-      "average": 7.5
-    },
-    "pattern_id": "P17",
-    "hook_id": "H18",
-    "theme": "今日のバズニュース（海外）",
-    "research_id": "r_1776244098196_vmu6",
-    "posted_at": "2026-04-15T09:37:36.814Z",
-    "metrics": null,
-    "fetched_at": null
-  },
-  {
-    "tweet_id": "2044354446327771342",
-    "text": "キオクシア急騰で+11.93%。一時+17.9%って、上場来高値更新かな？\n\n東証プライム全体も上昇銘柄67〜70%で買い優勢。この流れでIPO市場も活気づきそう。\n\n今年上場予定のメルカリ系とかドコモ系の子会社、タイミング見極めが重要になってきたね。初値予想難しいけど、みんなIPOって参加してる？",
-    "score": {
-      "scores": {
-        "buzz": 7,
-        "hook": 8,
-        "value": 7,
-        "data": 8,
-        "unique": 6,
-        "discussion": 8,
-        "bookmark": 6,
-        "tempo": 8,
-        "persona": 8,
-        "ng_check": 9
-      },
-      "average": 7.5
-    },
-    "pattern_id": "P02",
-    "hook_id": "H20",
-    "theme": "IPO分析・セカンダリー",
-    "research_id": "r_1776244098196_ilee",
-    "posted_at": "2026-04-15T09:57:37.035Z",
-    "metrics": null,
-    "fetched_at": null
-  },
-  {
-    "tweet_id": "2044359480398487802",
-    "text": "大型株と中小型株の値動きが分かれてるのが気になる人多いよね。\n\n今の相場環境：\n・AI需要拡大が追い風\n・円安メリット継続\n・米イラン緊張緩和で地政学リスク低下\n\nでも中小型株は個別の業績次第で明暗くっきり。大型株についていけてない銘柄も多い。\n\n全体方向感は上向きでも、個別株選択の重要性が増してる局面だと思う。みんなのポートフォリオはどう？",
->>>>>>> Stashed changes
-    "score": {
-      "scores": {
-        "buzz": 7,
-        "hook": 8,
-        "value": 8,
-        "data": 7,
-<<<<<<< Updated upstream
-        "unique": 7,
-        "discussion": 9,
-        "bookmark": 7,
-        "tempo": 8,
-        "persona": 8,
-        "ng_check": 10
-      },
-      "average": 7.9
-    },
-    "pattern_id": "P15",
-    "hook_id": "H16",
     "theme": "ポートフォリオ戦略",
-    "research_id": "r_1776241249894_c5pk",
-    "posted_at": "2026-04-15T08:30:27.344Z",
+    "research_id": "r_1776268576241_6uby",
+    "posted_at": "2026-04-15T16:05:11.062Z",
     "metrics": null,
     "fetched_at": null
   },
   {
-    "tweet_id": "2044337545778274560",
-    "text": "日経平均4万円台、でも実際にパフォーマンス良かった個別株って何だっけ？\n\nこの3ヶ月で見ると\n・ソニーG（6758）+18%\n・信越化学（4063）+15%\n・KDDI（9433）+12%\n\n意外と地味株が強いんだよね。派手なAI銘柄より、しっかり稼いでる老舗が買われてる。\n\nみんなの持ち株、指数に勝ててる？",
+    "tweet_id": "2044451982144926061",
+    "text": "日経平均、寄り付きで+680円超の上昇から後場で上げ幅縮小。\n\n朝イチで+1.18%まで行ったのに、引けは+0.77%。この300円分の利確圧力、気になるよね。\n\n58,500円台をキープしてるから基調は悪くないけど、こういう日の後って翌日どうなることが多いと思う？\n\n個人的にはここからの動きで、今の上昇トレンドの持続力が見えてくる気がしてる。",
     "score": {
       "scores": {
         "buzz": 7,
         "hook": 8,
         "value": 7,
         "data": 9,
-        "unique": 6,
+        "unique": 7,
         "discussion": 8,
         "bookmark": 6,
-=======
-        "unique": 6,
-        "discussion": 8,
-        "bookmark": 7,
->>>>>>> Stashed changes
         "tempo": 8,
         "persona": 8,
-        "ng_check": 10
+        "ng_check": 9
       },
       "average": 7.7
     },
-<<<<<<< Updated upstream
-    "pattern_id": "P06",
+    "pattern_id": "P11",
     "hook_id": "H10",
-    "theme": "日本株個別銘柄分析",
-    "research_id": "r_1776241303628_eyjv",
-    "posted_at": "2026-04-15T08:50:27.617Z",
+    "theme": "決算速報・決算レビュー",
+    "research_id": "r_1776268576241_6idc",
+    "posted_at": "2026-04-15T16:25:11.394Z",
     "metrics": null,
     "fetched_at": null
   },
   {
-    "tweet_id": "2044342580113182860",
-    "text": "半導体株のPER見てて思うんだけど、みんなバブル崩壊とか言ってる割に意外と割安なんだよね。\n\nTSM：17倍\nNVDA：32倍\nSKハイニックス：14倍\n東京エレクトロン（8035）：20倍\n\n日経平均が5万8000円台回復した今、半導体の調整は絶好の仕込み場じゃない？特にメモリ系は来年のAI需要拡大で化ける予感。\n\nこの水準、どう思う？",
-    "score": {
-      "scores": {
-        "buzz": 8,
-        "hook": 8,
-        "value": 9,
-        "data": 9,
-        "unique": 7,
-        "discussion": 9,
-        "bookmark": 8,
-        "tempo": 8,
-        "persona": 9,
-        "ng_check": 10
-      },
-      "average": 8.5
-    },
-    "pattern_id": "P16",
-    "hook_id": "H25",
-    "theme": "テーマ投資（半導体・AI・防衛・原子力・宇宙・Physical AI）",
-    "research_id": "r_1776241303628_jbo7",
-    "posted_at": "2026-04-15T09:10:27.899Z",
-    "metrics": null,
-    "fetched_at": null
-  },
-  {
-    "tweet_id": "2044347614356025545",
-    "text": "日経平均+256円。年初来高値まであと1,200円って、みんな気づいてる？",
+    "tweet_id": "2044457016597336186",
+    "text": "米国株、モメンタム相場って聞くとワクワクするけど、10時頃の利確売りで4時間足が調整入りしてるのが気になる。\n\n押し目が浅いのは買い優勢の証拠だけど、短期過熱警戒も同時に出てきてる。\n\nこういう時って、FOMO（乗り遅れ恐怖）で追っかけ買いしちゃう人多いよね。でも冷静に考えると、調整入りのタイミングで一旦様子見も大事かも。\n\nみんなはこの相場、どう見てる？",
     "score": {
       "scores": {
         "buzz": 7,
         "hook": 8,
-        "value": 6,
+        "value": 8,
+        "data": 7,
+        "unique": 7,
+        "discussion": 9,
+        "bookmark": 6,
+        "tempo": 8,
+        "persona": 9,
+        "ng_check": 10
+      },
+      "average": 7.9
+    },
+    "pattern_id": "P07",
+    "hook_id": "H02",
+    "theme": "今日のバズニュース（海外）",
+    "research_id": "r_1776268576241_v5u9",
+    "posted_at": "2026-04-15T16:45:11.690Z",
+    "metrics": null,
+    "fetched_at": null
+  },
+  {
+    "tweet_id": "2044462050898759798",
+    "text": "売買代金1兆円規模の個別株が目立ってる今日の相場。\n\nキオクシア見てると分かるけど、RVOL1.5超の「お祭り銘柄」がめちゃくちゃ増えてる。金融・ハイテク中心にボリューム集中してるし、寄り付きから後場まで活況続いてるよね。\n\nこういう全体活況の時って、個人投資家も機関投資家も同じ銘柄に群がる傾向強いから、出来高急増銘柄のウォッチは大事。\n\nみんなは今日どの銘柄の動きが気になった？",
+    "score": {
+      "scores": {
+        "buzz": 8,
+        "hook": 8,
+        "value": 7,
         "data": 8,
-        "unique": 5,
-        "discussion": 7,
-        "bookmark": 4,
-        "tempo": 9,
+        "unique": 7,
+        "discussion": 9,
+        "bookmark": 6,
+        "tempo": 8,
         "persona": 8,
         "ng_check": 10
       },
-      "average": 7.2
+      "average": 7.9
     },
-    "pattern_id": "P13",
-    "hook_id": "H22",
-    "theme": "今日のバズニュース（海外）",
-    "research_id": "r_1776241303628_9kc5",
-    "posted_at": "2026-04-15T09:30:28.137Z",
-=======
-    "pattern_id": "P05",
-    "hook_id": "H04",
-    "theme": "投資の基礎知識・考え方",
-    "research_id": "r_1776244098196_l4kp",
-    "posted_at": "2026-04-15T10:17:37.247Z",
->>>>>>> Stashed changes
+    "pattern_id": "P12",
+    "hook_id": "H29",
+    "theme": "今日のバズニュース（国内）",
+    "research_id": "r_1776268576241_0tki",
+    "posted_at": "2026-04-15T17:05:12.015Z",
     "metrics": null,
     "fetched_at": null
   }
