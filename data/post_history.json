@@ -89,5 +89,83 @@
     "posted_at": "2026-04-15T01:06:56.675Z",
     "metrics": null,
     "fetched_at": null
+  },
+  {
+    "tweet_id": "2044293954053751098",
+    "text": "メタプラネット（3350）、最近の出来高が異常じゃない？\n\n通常30-50万株/日のところ、ここ1週間は200万株超えが連発。今日も過去最高水準の活況相場に乗って朝から大商い。\n\nビットコイン価格との相関は0.8超えだけど、実際のBTC保有は時価総額の15%程度なんだよね。\n\nこの乖離、みんなどう見てる？投機なのか、それとも先行指標なのか。",
+    "score": {
+      "scores": {
+        "buzz": 8,
+        "hook": 8,
+        "value": 7,
+        "data": 9,
+        "unique": 7,
+        "discussion": 9,
+        "bookmark": 6,
+        "tempo": 8,
+        "persona": 8,
+        "ng_check": 10
+      },
+      "average": 8
+    },
+    "pattern_id": "P16",
+    "hook_id": "H13",
+    "theme": "メタプラネット・ビットコイン関連（賛否両論あるネタとして積極的に取り上げる）",
+    "research_id": "r_1776212000058_veuj",
+    "posted_at": "2026-04-15T05:57:14.566Z",
+    "metrics": null,
+    "fetched_at": null
+  },
+  {
+    "tweet_id": "2044298988778860636",
+    "text": "キオクシア（5781）、一時+17.9%で時価総額20兆円突破した時に「高すぎる」って言ってた人たち、今どんな気持ち？\n\n先月「生成AI需要は一時的」って分析してた某証券アナリストさん、息してる？\n\nNEXON（3659）+18.84%、ベイカレント（6532）+12.52%も絶好調。\n\n結局、テクノロジー革命を信じた人が勝つんだよね。",
+    "score": {
+      "scores": {
+        "buzz": 8,
+        "hook": 9,
+        "value": 7,
+        "data": 9,
+        "unique": 8,
+        "discussion": 9,
+        "bookmark": 6,
+        "tempo": 8,
+        "persona": 9,
+        "ng_check": 10
+      },
+      "average": 8.3
+    },
+    "pattern_id": "P01",
+    "hook_id": "H07",
+    "theme": "今日のバズニュース（国内）",
+    "research_id": "r_1776212000058_p5r2",
+    "posted_at": "2026-04-15T06:17:14.931Z",
+    "metrics": null,
+    "fetched_at": null
+  },
+  {
+    "tweet_id": "2044304023260672296",
+    "text": "メタプラネット（3350）、また550BTC買い増し発表。累計保有量が4,144BTCになったって。\n\n時価総額360億円の会社が、208億円分のビットコイン持ってる状況。これもう事実上のETFみたいなもんだよね。\n\nビットコイン1,300万円突破で含み益も膨らんでるけど、逆に下落リスクも同じだけデカい。\n\nこの戦略、アリだと思う？ナシだと思う？",
+    "score": {
+      "scores": {
+        "buzz": 8,
+        "hook": 7,
+        "value": 8,
+        "data": 9,
+        "unique": 8,
+        "discussion": 9,
+        "bookmark": 6,
+        "tempo": 8,
+        "persona": 8,
+        "ng_check": 10
+      },
+      "average": 8.1
+    },
+    "pattern_id": "P08",
+    "hook_id": "H17",
+    "theme": "メタプラネット・ビットコイン関連（賛否両論あるネタとして積極的に取り上げる）",
+    "research_id": null,
+    "posted_at": "2026-04-15T06:37:15.239Z",
+    "metrics": null,
+    "fetched_at": null
   }
 ]
