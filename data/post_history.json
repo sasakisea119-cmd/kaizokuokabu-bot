@@ -167,5 +167,109 @@
     "posted_at": "2026-04-15T06:37:15.239Z",
     "metrics": null,
     "fetched_at": null
+  },
+  {
+    "tweet_id": "2044332511464214783",
+    "text": "ポートフォリオって結局バランスが9割だと思うんだよね。\n\n日本株70%、米国株20%、債券10%みたいな教科書通りじゃなくて、自分のリスク許容度に合わせた配分が大事。\n\n例えば30代なら株式比重80%でもいいし、50代なら債券30%入れてもいい。年齢×債券比率の法則もあるけど、これも絶対じゃない。\n\n大切なのは「なぜその配分にしたか」を説明できること。\n\nみんなの株式比率ってどれくらい？",
+    "score": {
+      "scores": {
+        "buzz": 7,
+        "hook": 8,
+        "value": 8,
+        "data": 7,
+        "unique": 7,
+        "discussion": 9,
+        "bookmark": 7,
+        "tempo": 8,
+        "persona": 8,
+        "ng_check": 10
+      },
+      "average": 7.9
+    },
+    "pattern_id": "P15",
+    "hook_id": "H16",
+    "theme": "ポートフォリオ戦略",
+    "research_id": "r_1776241249894_c5pk",
+    "posted_at": "2026-04-15T08:30:27.344Z",
+    "metrics": null,
+    "fetched_at": null
+  },
+  {
+    "tweet_id": "2044337545778274560",
+    "text": "日経平均4万円台、でも実際にパフォーマンス良かった個別株って何だっけ？\n\nこの3ヶ月で見ると\n・ソニーG（6758）+18%\n・信越化学（4063）+15%\n・KDDI（9433）+12%\n\n意外と地味株が強いんだよね。派手なAI銘柄より、しっかり稼いでる老舗が買われてる。\n\nみんなの持ち株、指数に勝ててる？",
+    "score": {
+      "scores": {
+        "buzz": 7,
+        "hook": 8,
+        "value": 7,
+        "data": 9,
+        "unique": 6,
+        "discussion": 8,
+        "bookmark": 6,
+        "tempo": 8,
+        "persona": 8,
+        "ng_check": 10
+      },
+      "average": 7.7
+    },
+    "pattern_id": "P06",
+    "hook_id": "H10",
+    "theme": "日本株個別銘柄分析",
+    "research_id": "r_1776241303628_eyjv",
+    "posted_at": "2026-04-15T08:50:27.617Z",
+    "metrics": null,
+    "fetched_at": null
+  },
+  {
+    "tweet_id": "2044342580113182860",
+    "text": "半導体株のPER見てて思うんだけど、みんなバブル崩壊とか言ってる割に意外と割安なんだよね。\n\nTSM：17倍\nNVDA：32倍\nSKハイニックス：14倍\n東京エレクトロン（8035）：20倍\n\n日経平均が5万8000円台回復した今、半導体の調整は絶好の仕込み場じゃない？特にメモリ系は来年のAI需要拡大で化ける予感。\n\nこの水準、どう思う？",
+    "score": {
+      "scores": {
+        "buzz": 8,
+        "hook": 8,
+        "value": 9,
+        "data": 9,
+        "unique": 7,
+        "discussion": 9,
+        "bookmark": 8,
+        "tempo": 8,
+        "persona": 9,
+        "ng_check": 10
+      },
+      "average": 8.5
+    },
+    "pattern_id": "P16",
+    "hook_id": "H25",
+    "theme": "テーマ投資（半導体・AI・防衛・原子力・宇宙・Physical AI）",
+    "research_id": "r_1776241303628_jbo7",
+    "posted_at": "2026-04-15T09:10:27.899Z",
+    "metrics": null,
+    "fetched_at": null
+  },
+  {
+    "tweet_id": "2044347614356025545",
+    "text": "日経平均+256円。年初来高値まであと1,200円って、みんな気づいてる？",
+    "score": {
+      "scores": {
+        "buzz": 7,
+        "hook": 8,
+        "value": 6,
+        "data": 8,
+        "unique": 5,
+        "discussion": 7,
+        "bookmark": 4,
+        "tempo": 9,
+        "persona": 8,
+        "ng_check": 10
+      },
+      "average": 7.2
+    },
+    "pattern_id": "P13",
+    "hook_id": "H22",
+    "theme": "今日のバズニュース（海外）",
+    "research_id": "r_1776241303628_9kc5",
+    "posted_at": "2026-04-15T09:30:28.137Z",
+    "metrics": null,
+    "fetched_at": null
   }
 ]
