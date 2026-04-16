@@ -159,7 +159,7 @@
     "urgency": "medium",
     "source_type": "trending_x",
     "created_at": "2026-04-16T06:14:10.972Z",
-    "used": false
+    "used": true
   },
   {
     "id": "r_1776320050972_y9yb",
@@ -219,6 +219,193 @@
     "urgency": "medium",
     "source_type": "trending_x",
     "created_at": "2026-04-16T06:14:10.972Z",
+    "used": false
+  },
+  {
+    "id": "r_1776330434147_9frc",
+    "theme": "日経平均続伸で最高値更新、米イラン和平期待で59000円台",
+    "title": "日経平均続伸で最高値更新、米イラン和平期待で59000円台",
+    "published_date": "2026-04-16",
+    "summary": "日経平均株価は前日比1415円高の59549円で前引けし、2月27日の最高値58850円を上回り史上最高値を更新。アドテスト(6857)やソフトバンクG(9984)など半導体関連株が大幅上昇。米国とイランの停戦延長観測が投資家心理を改善",
+    "investment_angle": "米イラン和平協議継続期待による地政学リスク緩和、半導体関連株の上値追い局面",
+    "tickers": [
+      "6857",
+      "9984",
+      "285A"
+    ],
+    "keywords": [
+      "日経平均",
+      "史上最高値",
+      "半導体関連",
+      "地政学リスク"
+    ],
+    "recommended_pattern": "P01",
+    "urgency": "high",
+    "source_type": "domestic",
+    "created_at": "2026-04-16T09:07:14.147Z",
+    "used": true
+  },
+  {
+    "id": "r_1776330434147_3p6e",
+    "theme": "TOPIX続伸で年初来高値圏、外国人投機筋の先物買いが継続",
+    "title": "TOPIX続伸で年初来高値圏、外国人投機筋の先物買いが継続",
+    "published_date": "2026-04-16",
+    "summary": "TOPIX（東証株価指数）も続伸し、年初来高値3938.68に接近。海外投機筋による日経225先物の断続的な買いが指数を押し上げ。非鉄金属、情報通信業、電気機器セクターが上昇率上位",
+    "investment_angle": "海外勢の日本株見直し買い、構造的な上昇トレンド継続",
+    "tickers": [
+      "998405"
+    ],
+    "keywords": [
+      "TOPIX",
+      "年初来高値",
+      "海外投機筋",
+      "先物買い"
+    ],
+    "recommended_pattern": "P01",
+    "urgency": "medium",
+    "source_type": "domestic",
+    "created_at": "2026-04-16T09:07:14.147Z",
+    "used": false
+  },
+  {
+    "id": "r_1776330434147_jeek",
+    "theme": "キオクシアHD急伸、米サンディスク株高で時価総額20兆円超",
+    "title": "キオクシアHD急伸、米サンディスク株高で時価総額20兆円超",
+    "published_date": "2026-04-16",
+    "summary": "キオクシアHD(285A)が17.9%高の36870円まで急伸し上場来高値更新。米サンディスクの株価上昇継続が材料。半導体メモリー需要拡大期待でボラティリティ高い展開継続",
+    "investment_angle": "AI需要拡大によるメモリー半導体の構造的需要増、価格上昇局面入り",
+    "tickers": [
+      "285A"
+    ],
+    "keywords": [
+      "キオクシアHD",
+      "半導体メモリー",
+      "AI需要",
+      "上場来高値"
+    ],
+    "recommended_pattern": "P01",
+    "urgency": "high",
+    "source_type": "domestic",
+    "created_at": "2026-04-16T09:07:14.147Z",
+    "used": true
+  },
+  {
+    "id": "r_1776330434147_docj",
+    "theme": "アドバンテスト大幅続伸、メモリーテスター需要で27000円台",
+    "title": "アドバンテスト大幅続伸、メモリーテスター需要で27000円台",
+    "published_date": "2026-04-16",
+    "summary": "アドバンテスト(6857)が前日比2120円高の27000円まで上昇。米メモリー関連株の上昇を受けて半導体検査装置の需要拡大期待。日経平均寄与度で大きく指数押し上げに貢献",
+    "investment_angle": "半導体製造装置・検査装置の需要サイクル回復、AI投資拡大の恩恵株",
+    "tickers": [
+      "6857"
+    ],
+    "keywords": [
+      "アドバンテスト",
+      "半導体検査装置",
+      "メモリー需要",
+      "日経寄与度"
+    ],
+    "recommended_pattern": "P01",
+    "urgency": "high",
+    "source_type": "domestic",
+    "created_at": "2026-04-16T09:07:14.147Z",
+    "used": true
+  },
+  {
+    "id": "r_1776330434147_ge99",
+    "theme": "ソフトバンクG続伸、ARM株高で4282円・投資事業好調",
+    "title": "ソフトバンクG続伸、ARM株高で4282円・投資事業好調",
+    "published_date": "2026-04-16",
+    "summary": "ソフトバンクG(9984)が前日比478円高の4282円で続伸。米半導体株高でARM株も大幅上昇し、投資ポートフォリオ価値向上。AI関連投資案件の含み益拡大が業績押し上げ要因",
+    "investment_angle": "AI・半導体投資ファンドとしてのポジション、ARM IPO後の価値向上局面",
+    "tickers": [
+      "9984"
+    ],
+    "keywords": [
+      "ソフトバンクG",
+      "ARM",
+      "AI投資",
+      "投資ファンド"
+    ],
+    "recommended_pattern": "P01",
+    "urgency": "medium",
+    "source_type": "domestic",
+    "created_at": "2026-04-16T09:07:14.147Z",
+    "used": false
+  },
+  {
+    "id": "r_1776330478526_npma",
+    "theme": "### 日本株相場トレンド（直近12時間：2026年4月16日取引日）",
+    "title": "### 日本株相場トレンド（直近12時間：2026年4月16日取引日）",
+    "published_date": "2026-04-16",
+    "summary": "### 日本株相場トレンド（直近12時間：2026年4月16日取引日）",
+    "investment_angle": "",
+    "tickers": [],
+    "keywords": [],
+    "recommended_pattern": "P14",
+    "urgency": "medium",
+    "source_type": "trending_x",
+    "created_at": "2026-04-16T09:07:58.526Z",
+    "used": false
+  },
+  {
+    "id": "r_1776330478526_en3j",
+    "theme": "- **日経平均株価**：大引け59,518円（前日比+1,384円、+2.4%）で3日続伸、史上最高値更新。[[1]]",
+    "title": "- **日経平均株価**：大引け59,518円（前日比+1,384円、+2.4%）で3日続伸、史上最高値更新。[[1]]",
+    "published_date": "2026-04-16",
+    "summary": "- **日経平均株価**：大引け59,518円（前日比+1,384円、+2.4%）で3日続伸、史上最高値更新。[[1]](https://x.com/i/status/2044703940680565001)[[2]](https://x.com/i/status/2044672167284240879)",
+    "investment_angle": "",
+    "tickers": [],
+    "keywords": [],
+    "recommended_pattern": "P14",
+    "urgency": "medium",
+    "source_type": "trending_x",
+    "created_at": "2026-04-16T09:07:58.526Z",
+    "used": false
+  },
+  {
+    "id": "r_1776330478526_70tx",
+    "theme": "- **TOPIX**：大引け3,814（前日比+44、+1.2%）。前引け時点で日経平均59,549円（+1,415円",
+    "title": "- **TOPIX**：大引け3,814（前日比+44、+1.2%）。前引け時点で日経平均59,549円（+1,415円",
+    "published_date": "2026-04-16",
+    "summary": "- **TOPIX**：大引け3,814（前日比+44、+1.2%）。前引け時点で日経平均59,549円（+1,415円、+2.4%）、TOPIX 3,820（+50、+1.3%）と午後も堅調に推移。[[3]](https://x.com/i/status/2044611769155666349)[[2]](https://x.com/i/status/2044672167284240879)",
+    "investment_angle": "",
+    "tickers": [],
+    "keywords": [],
+    "recommended_pattern": "P14",
+    "urgency": "medium",
+    "source_type": "trending_x",
+    "created_at": "2026-04-16T09:07:58.526Z",
+    "used": false
+  },
+  {
+    "id": "r_1776330478526_ogss",
+    "theme": "- **全体トレンド**：AI半導体株の高騰と中東停戦期待が後押しし、買い先行で幅広い上昇。地政学リスク後退と円安（ドル",
+    "title": "- **全体トレンド**：AI半導体株の高騰と中東停戦期待が後押しし、買い先行で幅広い上昇。地政学リスク後退と円安（ドル",
+    "published_date": "2026-04-16",
+    "summary": "- **全体トレンド**：AI半導体株の高騰と中東停戦期待が後押しし、買い先行で幅広い上昇。地政学リスク後退と円安（ドル円158円台後半）が追い風。短期過熱感はあるが、出来高を伴った上昇で信頼性が高く、6万円超え期待も浮上。[[4]](https://x.com/i/status/2044642934252011530)[[1]](https://x.com/i/status/2044703940680565001)",
+    "investment_angle": "",
+    "tickers": [],
+    "keywords": [],
+    "recommended_pattern": "P14",
+    "urgency": "medium",
+    "source_type": "trending_x",
+    "created_at": "2026-04-16T09:07:58.526Z",
+    "used": false
+  },
+  {
+    "id": "r_1776330478526_ezdp",
+    "theme": "- 東証プライム市場：出来高23億3,769万株、売買代金8.67兆円と最近の高水準。特にキオクシアが単独で約1.52兆",
+    "title": "- 東証プライム市場：出来高23億3,769万株、売買代金8.67兆円と最近の高水準。特にキオクシアが単独で約1.52兆",
+    "published_date": "2026-04-16",
+    "summary": "- 東証プライム市場：出来高23億3,769万株、売買代金8.67兆円と最近の高水準。特にキオクシアが単独で約1.52兆円を占め、市場をけん引。出来高増加が上昇の信頼性を裏付け。[[1]](https://x.com/i/status/2044703940680565001)",
+    "investment_angle": "",
+    "tickers": [],
+    "keywords": [],
+    "recommended_pattern": "P14",
+    "urgency": "medium",
+    "source_type": "trending_x",
+    "created_at": "2026-04-16T09:07:58.526Z",
     "used": false
   }
 ]
