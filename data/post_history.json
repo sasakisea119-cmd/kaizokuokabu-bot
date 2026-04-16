@@ -297,5 +297,109 @@
     "posted_at": "2026-04-16T10:16:45.262Z",
     "metrics": null,
     "fetched_at": null
+  },
+  {
+    "tweet_id": "2044824937035096351",
+    "text": "みんなのポートフォリオに半導体株って何％入ってる？\n\nアドバンテスト（6857）が2120円高で27000円台、日経寄与度トップクラス。メモリー需要回復で検査装置が爆上げ。\n\n個人的には半導体関連が全体の2〜3割占めてるんだけど、これって偏りすぎかな？AI投資拡大の恩恵受けやすいから減らしたくないんだよね。\n\nでも集中リスクも怖い。バランス型の人、どんな配分にしてる？",
+    "score": {
+      "scores": {
+        "buzz": 8,
+        "hook": 9,
+        "value": 8,
+        "data": 9,
+        "unique": 7,
+        "discussion": 9,
+        "bookmark": 7,
+        "tempo": 8,
+        "persona": 9,
+        "ng_check": 10
+      },
+      "average": 8.4
+    },
+    "pattern_id": "P09",
+    "hook_id": "H27",
+    "theme": "ポートフォリオ戦略",
+    "research_id": "r_1776330434147_docj",
+    "posted_at": "2026-04-16T17:07:10.756Z",
+    "metrics": null,
+    "fetched_at": null
+  },
+  {
+    "tweet_id": "2044829971697242464",
+    "text": "IPOセカンダリーで勝てる人と負ける人の差、気になってる人多いと思う。\n\n勝ってる人の共通点見つけた：\n・初値から3日以内は絶対触らない\n・出来高が初日の1/5以下になるまで待つ\n・決算1回通るまで様子見\n\nこれ、データで見ると納得なんだよね。初値から1ヶ月で株価半減するIPO、実は6割もある。\n\nみんなどのタイミングで入ってる？",
+    "score": {
+      "scores": {
+        "buzz": 8,
+        "hook": 8,
+        "value": 9,
+        "data": 8,
+        "unique": 7,
+        "discussion": 8,
+        "bookmark": 8,
+        "tempo": 8,
+        "persona": 9,
+        "ng_check": 10
+      },
+      "average": 8.3
+    },
+    "pattern_id": "P05",
+    "hook_id": "H12",
+    "theme": "IPO分析・セカンダリー",
+    "research_id": "r_1776320050972_zw87",
+    "posted_at": "2026-04-16T17:27:11.127Z",
+    "metrics": null,
+    "fetched_at": null
+  },
+  {
+    "tweet_id": "2044835006040740124",
+    "text": "日経平均+1,514円の大幅高。この局面でメタプラネット（3350）の動きが気になるよね。\n\nビットコイン連動銘柄として注目されてるけど、今日みたいな日本株全面高の時って、BTC価格との相関どうなるんだろう？\n\n株価は日本株相場に引っ張られるのか、それともビットコイン次第なのか。メタプラ持ってる人、今日の値動きどう見てる？",
+    "score": {
+      "scores": {
+        "buzz": 7,
+        "hook": 8,
+        "value": 6,
+        "data": 7,
+        "unique": 8,
+        "discussion": 8,
+        "bookmark": 5,
+        "tempo": 8,
+        "persona": 8,
+        "ng_check": 10
+      },
+      "average": 7.5
+    },
+    "pattern_id": "P13",
+    "hook_id": "H26",
+    "theme": "メタプラネット・ビットコイン関連（賛否両論あるネタとして積極的に取り上げる）",
+    "research_id": "r_1776320050972_y9yb",
+    "posted_at": "2026-04-16T17:47:11.414Z",
+    "metrics": null,
+    "fetched_at": null
+  },
+  {
+    "tweet_id": "2044840040107286937",
+    "text": "日経平均、前日比2.6%上昇で約59,300円か。気になるのは2月26日高値（59,332円）のライン。ここを抜けるかどうかで相場の流れ変わりそうだよね。\n\n個人的には上値抵抗線って意外と効くから、ここで一度止まる可能性の方が高いと思ってる。みんなはどう見てる？このライン抜けると思う？",
+    "score": {
+      "scores": {
+        "buzz": 7,
+        "hook": 8,
+        "value": 7,
+        "data": 9,
+        "unique": 6,
+        "discussion": 8,
+        "bookmark": 6,
+        "tempo": 8,
+        "persona": 8,
+        "ng_check": 9
+      },
+      "average": 7.6
+    },
+    "pattern_id": "P01",
+    "hook_id": "H20",
+    "theme": "決算速報・決算レビュー",
+    "research_id": "r_1776320050972_w712",
+    "posted_at": "2026-04-16T18:07:11.611Z",
+    "metrics": null,
+    "fetched_at": null
   }
 ]

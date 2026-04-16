@@ -174,7 +174,7 @@
     "urgency": "medium",
     "source_type": "trending_x",
     "created_at": "2026-04-16T06:14:10.972Z",
-    "used": false
+    "used": true
   },
   {
     "id": "r_1776320050972_w712",
@@ -189,7 +189,7 @@
     "urgency": "medium",
     "source_type": "trending_x",
     "created_at": "2026-04-16T06:14:10.972Z",
-    "used": false
+    "used": true
   },
   {
     "id": "r_1776320050972_ysas",
@@ -204,7 +204,7 @@
     "urgency": "medium",
     "source_type": "trending_x",
     "created_at": "2026-04-16T06:14:10.972Z",
-    "used": false
+    "used": true
   },
   {
     "id": "r_1776320050972_qgpq",
@@ -219,7 +219,7 @@
     "urgency": "medium",
     "source_type": "trending_x",
     "created_at": "2026-04-16T06:14:10.972Z",
-    "used": false
+    "used": true
   },
   {
     "id": "r_1776330434147_9frc",
@@ -406,6 +406,81 @@
     "urgency": "medium",
     "source_type": "trending_x",
     "created_at": "2026-04-16T09:07:58.526Z",
+    "used": false
+  },
+  {
+    "id": "r_1776358720045_6ypx",
+    "theme": "### 日本株相場トレンド（2026年4月16日 直近12時間まとめ）",
+    "title": "### 日本株相場トレンド（2026年4月16日 直近12時間まとめ）",
+    "published_date": "2026-04-17",
+    "summary": "### 日本株相場トレンド（2026年4月16日 直近12時間まとめ）",
+    "investment_angle": "",
+    "tickers": [],
+    "keywords": [],
+    "recommended_pattern": "P14",
+    "urgency": "medium",
+    "source_type": "trending_x",
+    "created_at": "2026-04-16T16:58:40.045Z",
+    "used": false
+  },
+  {
+    "id": "r_1776358720046_vj76",
+    "theme": "- **日経平均株価**: 終値 **59,518円**（前日比 +1,384円、+2.38%）。最高値更新、3日続伸。",
+    "title": "- **日経平均株価**: 終値 **59,518円**（前日比 +1,384円、+2.38%）。最高値更新、3日続伸。",
+    "published_date": "2026-04-17",
+    "summary": "- **日経平均株価**: 終値 **59,518円**（前日比 +1,384円、+2.38%）。最高値更新、3日続伸。米NASDAQ・S&P500の最高値更新とTSMCの好決算に追従し、半導体関連の強い買いが主導。年初来 +18.23%。上昇トレンド継続中だが、全面高ではなく歪な需給相場。[[1]](https://x.com/i/status/2044818202996437112)[[2]](https://x.com/i/status/2044811984420614193)[[3]](https://x.com/i/status/2044771740199645238)[[4]](https://x.com/i/status/2044772083243405783)[[5]](https://x.com/i/status/2044672167284240879)[[6]](https://x.com/i/status/2044719990486802552)",
+    "investment_angle": "",
+    "tickers": [],
+    "keywords": [],
+    "recommended_pattern": "P14",
+    "urgency": "medium",
+    "source_type": "trending_x",
+    "created_at": "2026-04-16T16:58:40.046Z",
+    "used": false
+  },
+  {
+    "id": "r_1776358720046_oshk",
+    "theme": "- **TOPIX**: 終値 **3,814円**（前日比 +44円、+1.17%、年初来 +11.89%）。日経同様",
+    "title": "- **TOPIX**: 終値 **3,814円**（前日比 +44円、+1.17%、年初来 +11.89%）。日経同様",
+    "published_date": "2026-04-17",
+    "summary": "- **TOPIX**: 終値 **3,814円**（前日比 +44円、+1.17%、年初来 +11.89%）。日経同様上昇もやや控えめ。[[3]](https://x.com/i/status/2044771740199645238)[[5]](https://x.com/i/status/2044672167284240879)[[7]](https://x.com/i/status/2044669781526315284)",
+    "investment_angle": "",
+    "tickers": [],
+    "keywords": [],
+    "recommended_pattern": "P14",
+    "urgency": "medium",
+    "source_type": "trending_x",
+    "created_at": "2026-04-16T16:58:40.046Z",
+    "used": false
+  },
+  {
+    "id": "r_1776358720046_li4u",
+    "theme": "- **全体傾向**: 値上がり銘柄約57-61%、下落38%。上昇株優勢も半導体集中型で、グロース250 +1.90%",
+    "title": "- **全体傾向**: 値上がり銘柄約57-61%、下落38%。上昇株優勢も半導体集中型で、グロース250 +1.90%",
+    "published_date": "2026-04-17",
+    "summary": "- **全体傾向**: 値上がり銘柄約57-61%、下落38%。上昇株優勢も半導体集中型で、グロース250 +1.90%、プライム +1.17%。日経VI 28-31とボラティリティ上昇気味。先物も夜間堅調。[[8]](https://x.com/i/status/2044763466674892881)[[9]](https://x.com/i/status/2044759030787449114)[[10]](https://x.com/i/status/2044668460710727937)",
+    "investment_angle": "",
+    "tickers": [],
+    "keywords": [],
+    "recommended_pattern": "P14",
+    "urgency": "medium",
+    "source_type": "trending_x",
+    "created_at": "2026-04-16T16:58:40.046Z",
+    "used": false
+  },
+  {
+    "id": "r_1776358720046_80kr",
+    "theme": "- **東証プライム**: 売買代金 **8.6兆円**（前日比やや減少も活況水準）。スタンダード 2,486億円、グロ",
+    "title": "- **東証プライム**: 売買代金 **8.6兆円**（前日比やや減少も活況水準）。スタンダード 2,486億円、グロ",
+    "published_date": "2026-04-17",
+    "summary": "- **東証プライム**: 売買代金 **8.6兆円**（前日比やや減少も活況水準）。スタンダード 2,486億円、グロース 1,991億円。全市場合計約9.1兆円と大商い。[[3]](https://x.com/i/status/2044771740199645238)[[9]](https://x.com/i/status/2044759030787449114)[[10]](https://x.com/i/status/2044668460710727937)[[11]](https://x.com/i/status/2044671590185767055)",
+    "investment_angle": "",
+    "tickers": [],
+    "keywords": [],
+    "recommended_pattern": "P14",
+    "urgency": "medium",
+    "source_type": "trending_x",
+    "created_at": "2026-04-16T16:58:40.046Z",
     "used": false
   }
 ]
