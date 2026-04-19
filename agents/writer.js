@@ -1,6 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 const { createWithRetry } = require('../lib/anthropic-client');
+const { buildFreshnessContext, filterFreshResearch } = require('../lib/freshness');
 const DATA_DIR = path.join(__dirname, '..', 'data');
 const KNOWLEDGE_DIR = path.join(__dirname, '..', 'knowledge');
 
@@ -74,9 +75,15 @@ async function generatePost(persona, patterns, hooks, buzzRef, history, feedback
   const selectedTheme = selectTheme(themes, history);
   const tweetType = selectTweetType(postIndex, history, feedback);
 
-  const unused = researchPool.filter(r => !r.used);
+  // === 鮮度フィルタ：直近7日以内のネタだけ使う（古いネタで日付ズレを防止） ===
+  const freshPool = filterFreshResearch(researchPool, { maxAgeDays: 7 });
+  const unused = freshPool.filter(r => !r.used);
   const highUrgency = unused.filter(r => r.urgency === 'high');
   const researchItem = highUrgency.length > 0 ? highUrgency[0] : (unused.length > 0 ? unused[0] : null);
+
+  if (researchPool.length > 0 && freshPool.length === 0) {
+    console.warn(`[writer] research_poolに鮮度7日以内のネタなし（全${researchPool.length}件）。新規news取得を推奨`);
+  }
 
   // ペルソナのキーポイントのみ抽出（プロンプト圧縮）
   const personaSummary = {
@@ -99,6 +106,8 @@ async function generatePost(persona, patterns, hooks, buzzRef, history, feedback
 
   // 生成＋採点を1回のAPIコールで実行（コスト50%削減）
   const systemPrompt = `あなたはX投資アカウント「kaizokuokabu」の投稿AIです。
+
+${buildFreshnessContext()}
 
 ## ペルソナ要約
 ${JSON.stringify(personaSummary, null, 2)}
