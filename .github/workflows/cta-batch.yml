@@ -1,0 +1,53 @@
+name: cta-batch
+
+on:
+  schedule:
+    # 10:00 JST = 01:00 UTC
+    - cron: '0 1 * * *'
+    # 15:00 JST = 06:00 UTC
+    - cron: '0 6 * * *'
+    # 19:30 JST = 10:30 UTC
+    - cron: '30 10 * * *'
+  workflow_dispatch:
+
+jobs:
+  cta:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install Japanese fonts
+        run: sudo apt-get install -y fonts-noto-cjk fonts-noto-cjk-extra
+
+      - name: Install dependencies
+        run: npm install --no-audit --no-fund
+
+      - name: Run cta-batch (1 post)
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          X_API_KEY: ${{ secrets.X_API_KEY }}
+          X_API_SECRET: ${{ secrets.X_API_SECRET }}
+          X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
+          X_ACCESS_TOKEN_SECRET: ${{ secrets.X_ACCESS_TOKEN_SECRET }}
+        run: node scripts/post-cta-batch.js next 1
+
+      - name: Commit state changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git stash --include-untracked || true
+          git pull --rebase origin master || true
+          git stash pop || true
+          git add data/queue.json data/post_history.json
+          git diff --staged --quiet || git commit -m "chore: cta-batch [$(date -u +%H:%M)]"
+          git push || echo "push failed, will retry"

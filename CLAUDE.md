@@ -97,3 +97,41 @@ config/weekly-theme.md を更新すること。"
 - 社長レビュー:   bash scripts/run-afternoon-review.sh
 - 夜の自動:       bash scripts/run-evening.sh
 - 目論見書取得:   python scripts/fetch-prospectus.py
+
+## バズ強化スクリプト（2026-04追加）
+
+### スレッド連投投稿（滞在時間とリプ率を上げる）
+```
+node scripts/post-thread.js --theme "テーマ" --source 元ネタ.md --cta URL --count 6 [--dry-run]
+```
+- 6連投のスレッドを生成・自動連鎖投稿
+- Note記事から抜粋してスレ化するときは --source で指定
+- Claude Opusでフック→本論→CTA構造を自動設計
+- 連投間隔は3秒（X仕様でスレッドとして認識される）
+
+### インターセプトBot（リプ欄上位を狙う）
+```
+node scripts/intercept-bot.js [--dry-run] [--max 5] [--resolve-ids]
+```
+- config/intercept-targets.md の大手アカ30を5分間隔で監視
+- ツイート後3〜120分のものに自動でリプを打ち込む
+- 1日上限12リプ / 同一アカウント1日2リプ / ランダム遅延
+- SKIP判定あり（投資無関係/センシティブ/短すぎる等はスキップ）
+- 初回実行前に `--resolve-ids` でユーザー名→IDの解決キャッシュを作る
+
+### 画像カード生成ライブラリ
+```js
+const { buildStockCard, renderSvgToBase64 } = require('./lib/card-gen');
+const svg = buildStockCard({ code, company, headline, price, bullets, theme: 'bull|bear|neutral' });
+const base64 = renderSvgToBase64(svg);
+// x-api.uploadMedia(base64) でそのままアップ可能
+```
+- 1280×670px（Xタイムライン最適サイズ）
+- 銘柄カード / 比較カード の2テンプレ
+- 画像付き投稿はテキストのみの2-3倍リーチが見込める
+
+### CTAバッチ投稿（既存）
+```
+node scripts/post-cta-batch.js first3|next N|all
+```
+- queue.json の cta_note ツイートを20分間隔で投稿

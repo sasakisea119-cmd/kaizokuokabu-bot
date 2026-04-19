@@ -3,6 +3,7 @@ const path = require('path');
 const { Resvg } = require('@resvg/resvg-js');
 const { createWithRetry } = require('../lib/anthropic-client');
 const { uploadMedia, postTweetWithMedia } = require('../lib/x-api');
+const { findDuplicate } = require('../lib/dedup');
 const DATA_DIR = path.join(__dirname, '..', 'data');
 
 function readJSON(filePath, fallback = []) {
@@ -371,6 +372,14 @@ async function run() {
 
     // 画像付きツイート投稿
     const tweetText = data.tweet_text || data.title || data.company;
+
+    // 重複防止ガード（直近48hの類似投稿チェック）
+    const dup = findDuplicate(tweetText, history, { hours: 48 });
+    if (dup.isDuplicate) {
+      console.warn(`[image-poster] 重複検出 → 投稿スキップ (${dup.reason})`);
+      return;
+    }
+
     const result = await postTweetWithMedia(tweetText, mediaId);
 
     if (result) {

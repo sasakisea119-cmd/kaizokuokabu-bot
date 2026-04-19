@@ -1,0 +1,47 @@
+[
+  {
+    "target_username": "yukimamax",
+    "target_tweet_id": "2044201232332664919",
+    "dry_run": true,
+    "liked_at": "2026-04-15T07:02:37.968Z"
+  },
+  {
+    "target_username": "alljon12",
+    "target_tweet_id": "2044218951534887174",
+    "dry_run": true,
+    "liked_at": "2026-04-15T07:02:37.968Z"
+  },
+  {
+    "target_username": "alljon12",
+    "target_tweet_id": "2044156993036787944",
+    "dry_run": true,
+    "liked_at": "2026-04-15T07:02:37.968Z"
+  },
+  {
+    "target_username": "kabu_st0ck",
+    "target_tweet_id": "2044204048405148036",
+    "dry_run": true,
+    "liked_at": "2026-04-15T07:02:37.968Z"
+  },
+  {
+    "target_username": "tadakabu",
+    "target_tweet_id": "2044152765363171685",
+    "dry_run": true,
+    "liked_at": "2026-04-15T07:02:37.968Z"
+  },
+  {
+    "target_username": "alljon12",
+    "target_tweet_id": "2044682139049001319",
+    "liked_at": "2026-04-16T14:40:17.304Z"
+  },
+  {
+    "target_username": "tadakabu",
+    "target_tweet_id": "2044616393145065949",
+    "liked_at": "2026-04-16T14:40:33.170Z"
+  },
+  {
+    "target_username": "traderyamamoto",
+    "target_tweet_id": "2044655755564105902",
+    "liked_at": "2026-04-16T14:40:49.048Z"
+  }
+]

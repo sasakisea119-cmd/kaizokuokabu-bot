@@ -16,3 +16,8 @@ Thumbs.db
 
 # Temp files
 *.tmp
+data/tmp/
+data/*.backup.json
+
+# Local thumbnails (binary, regenerable)
+employees/logs/note-articles/thumbnails/

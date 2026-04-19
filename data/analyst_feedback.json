@@ -1,407 +1,280 @@
 {
-  "analyzed_at": "2026-04-06T12:00:00Z",
-  "total_posts_analyzed": 75,
+  "analyzed_at": "2026-04-15T00:00:00Z",
+  "total_posts_analyzed": 30,
   "ab_test_results": {
     "tweet_type": {
       "standard": {
-        "count": 75,
-        "avg_impressions": 20,
+        "count": 11,
+        "avg_impressions": 19,
         "avg_engagement": 1
+      },
+      "cta_note": {
+        "count": 19,
+        "avg_impressions": 23,
+        "avg_engagement": 2
       }
     },
     "post_length": {
       "medium": {
-        "count": 61,
-        "avg_impressions": 16,
-        "avg_engagement": 1
+        "count": 25,
+        "avg_impressions": 20,
+        "avg_engagement": 2
       },
       "long": {
-        "count": 13,
-        "avg_impressions": 35,
+        "count": 2,
+        "avg_impressions": 11,
         "avg_engagement": 2
       },
       "short": {
-        "count": 1,
-        "avg_impressions": 20,
+        "count": 3,
+        "avg_impressions": 40,
         "avg_engagement": 1
       }
     },
     "hour_bucket": {
+      "morning": {
+        "count": 8,
+        "avg_impressions": 21,
+        "avg_engagement": 1
+      },
       "noon": {
-        "count": 25,
-        "avg_impressions": 31,
-        "avg_engagement": 2
+        "count": 5,
+        "avg_impressions": 16,
+        "avg_engagement": 1
       },
       "evening": {
-        "count": 6,
-        "avg_impressions": 14,
+        "count": 7,
+        "avg_impressions": 18,
         "avg_engagement": 2
       },
-      "morning": {
-        "count": 36,
-        "avg_impressions": 13,
-        "avg_engagement": 1
-      },
       "night": {
-        "count": 8,
-        "avg_impressions": 19,
-        "avg_engagement": 1
+        "count": 10,
+        "avg_impressions": 26,
+        "avg_engagement": 2
       }
     },
     "has_cashtag": {
       "false": {
-        "count": 62,
+        "count": 30,
         "avg_impressions": 21,
-        "avg_engagement": 1
-      },
-      "true": {
-        "count": 13,
-        "avg_impressions": 14,
-        "avg_engagement": 1
+        "avg_engagement": 2
       }
     },
     "pattern_id": {
-      "P14": {
+      "IMG": {
         "count": 2,
-        "avg_impressions": 15,
+        "avg_impressions": 29,
         "avg_engagement": 2
       },
+      "P03": {
+        "count": 1,
+        "avg_impressions": 12,
+        "avg_engagement": 2
+      },
+      "P09": {
+        "count": 1,
+        "avg_impressions": 7,
+        "avg_engagement": 0
+      },
       "P05": {
-        "count": 5,
-        "avg_impressions": 22,
+        "count": 1,
+        "avg_impressions": 8,
+        "avg_engagement": 2
+      },
+      "unknown": {
+        "count": 19,
+        "avg_impressions": 23,
         "avg_engagement": 2
       },
       "P01": {
-        "count": 7,
-        "avg_impressions": 51,
-        "avg_engagement": 2
-      },
-      "P13": {
-        "count": 3,
-        "avg_impressions": 9,
-        "avg_engagement": 1
-      },
-      "P03": {
-        "count": 4,
+        "count": 1,
         "avg_impressions": 10,
         "avg_engagement": 1
       },
-      "P12": {
-        "count": 6,
-        "avg_impressions": 9,
-        "avg_engagement": 1
-      },
-      "P17": {
-        "count": 3,
-        "avg_impressions": 31,
-        "avg_engagement": 2
-      },
-      "P04": {
-        "count": 5,
-        "avg_impressions": 11,
+      "P02": {
+        "count": 1,
+        "avg_impressions": 15,
         "avg_engagement": 1
       },
       "P08": {
-        "count": 6,
-        "avg_impressions": 18,
-        "avg_engagement": 1
-      },
-      "P16": {
-        "count": 2,
-        "avg_impressions": 38,
-        "avg_engagement": 2
-      },
-      "P02": {
-        "count": 4,
-        "avg_impressions": 16,
-        "avg_engagement": 1
-      },
-      "P09": {
-        "count": 2,
-        "avg_impressions": 15,
-        "avg_engagement": 1
-      },
-      "P07": {
-        "count": 3,
-        "avg_impressions": 50,
+        "count": 1,
+        "avg_impressions": 22,
         "avg_engagement": 3
       },
-      "P10": {
-        "count": 1,
-        "avg_impressions": 15,
-        "avg_engagement": 2
-      },
-      "P11": {
+      "CTA": {
         "count": 3,
-        "avg_impressions": 7,
-        "avg_engagement": 1
-      },
-      "P06": {
-        "count": 3,
-        "avg_impressions": 23,
-        "avg_engagement": 1
-      },
-      "P15": {
-        "count": 2,
-        "avg_impressions": 14,
-        "avg_engagement": 1
-      },
-      "unknown": {
-        "count": 14,
-        "avg_impressions": 11,
+        "avg_impressions": 24,
         "avg_engagement": 1
       }
     },
     "theme": {
-      "ポートフォリオ戦略": {
-        "count": 5,
-        "avg_impressions": 15,
+      "image_market": {
+        "count": 2,
+        "avg_impressions": 29,
         "avg_engagement": 2
       },
       "テーマ投資（半導体・AI・防衛・原子力・宇宙・Physical AI）": {
-        "count": 6,
-        "avg_impressions": 54,
-        "avg_engagement": 2
-      },
-      "IPO分析・セカンダリー": {
-        "count": 6,
-        "avg_impressions": 29,
-        "avg_engagement": 1
-      },
-      "日本株個別銘柄分析": {
-        "count": 5,
-        "avg_impressions": 13,
-        "avg_engagement": 2
-      },
-      "海外勢が4906億円の日本株売り越し、6カ月ぶりの大きさ": {
         "count": 1,
-        "avg_impressions": 10,
-        "avg_engagement": 1
-      },
-      "今日のバズニュース（海外）": {
-        "count": 3,
-        "avg_impressions": 9,
-        "avg_engagement": 1
-      },
-      "上場企業5年連続最高益、2026年3月期は前期比1%増に転換": {
-        "count": 1,
-        "avg_impressions": 10,
-        "avg_engagement": 1
-      },
-      "物議を醸す投資トピック（逆張り・アンチテーゼ系で議論を生む）": {
-        "count": 3,
-        "avg_impressions": 26,
-        "avg_engagement": 2
-      },
-      "今日のバズニュース（国内）": {
-        "count": 5,
-        "avg_impressions": 17,
-        "avg_engagement": 1
-      },
-      "投資の基礎知識・考え方": {
-        "count": 3,
-        "avg_impressions": 14,
-        "avg_engagement": 2
-      },
-      "メタプラネット・ビットコイン関連（賛否両論あるネタとして積極的に取り上げる）": {
-        "count": 4,
         "avg_impressions": 12,
         "avg_engagement": 2
       },
-      "フィジカルAI関連銘柄に注目集まる": {
-        "count": 1,
-        "avg_impressions": 113,
-        "avg_engagement": 4
-      },
-      "決算速報・決算レビュー": {
-        "count": 5,
-        "avg_impressions": 14,
+      "米国株個別銘柄分析": {
+        "count": 2,
+        "avg_impressions": 8,
         "avg_engagement": 1
       },
-      "日銀金融政策決定会合結果 - 3月19日政策金利据え置き": {
-        "count": 1,
-        "avg_impressions": 16,
+      "IPO4社まとめ": {
+        "count": 3,
+        "avg_impressions": 9,
         "avg_engagement": 2
       },
-      "日銀、3月会合で政策金利0.75%据え置き決定": {
-        "count": 1,
-        "avg_impressions": 5,
-        "avg_engagement": 1
-      },
-      "AI・半導体関連株が2026年も投資テーマの中心に": {
-        "count": 1,
+      "IPO銘柄分析_バトンズ": {
+        "count": 2,
         "avg_impressions": 34,
         "avg_engagement": 1
       },
-      "防衛・宇宙関連予算拡大で関連株に注目": {
+      "IPO銘柄分析_SQUEEZE": {
         "count": 1,
-        "avg_impressions": 4,
+        "avg_impressions": 43,
         "avg_engagement": 1
       },
-      "日経平均続落、半導体関連に売り圧力も配当狙いが下支え": {
-        "count": 1,
-        "avg_impressions": 11,
-        "avg_engagement": 1
-      },
-      "米国株個別銘柄分析": {
-        "count": 4,
-        "avg_impressions": 27,
-        "avg_engagement": 2
-      },
-      "マクロ経済・市場環境": {
-        "count": 1,
-        "avg_impressions": 8,
-        "avg_engagement": 1
-      },
-      "2026年上場期待のIPO銘柄、ポケトークやスマートニュースが注目": {
-        "count": 1,
-        "avg_impressions": 4,
-        "avg_engagement": 1
-      },
-      "外国人投資家売り越し": {
-        "count": 1,
-        "avg_impressions": 18,
-        "avg_engagement": 1
-      },
-      "週間マーケット振り返り": {
+      "IPO銘柄分析_犬猫生活": {
         "count": 2,
+        "avg_impressions": 10,
+        "avg_engagement": 3
+      },
+      "IPO銘柄分析_梅乃宿酒造": {
+        "count": 3,
+        "avg_impressions": 40,
+        "avg_engagement": 1
+      },
+      "日本株個別銘柄分析": {
+        "count": 1,
+        "avg_impressions": 10,
+        "avg_engagement": 1
+      },
+      "ポートフォリオ戦略": {
+        "count": 1,
         "avg_impressions": 15,
         "avg_engagement": 1
       },
-      "日本の消費者物価指数、4年ぶりに2％を割り込む": {
+      "決算速報・決算レビュー": {
         "count": 1,
-        "avg_impressions": 9,
-        "avg_engagement": 0
+        "avg_impressions": 22,
+        "avg_engagement": 3
       },
-      "外国人投資家売り越し分析": {
-        "count": 1,
-        "avg_impressions": 9,
+      "注目株_KOKUSAI": {
+        "count": 3,
+        "avg_impressions": 21,
         "avg_engagement": 1
       },
-      "海外投資家売り越しと市場調整": {
-        "count": 1,
-        "avg_impressions": 13,
+      "注目株_キオクシア": {
+        "count": 3,
+        "avg_impressions": 20,
         "avg_engagement": 2
       },
-      "外国人投資家動向分析": {
-        "count": 1,
-        "avg_impressions": 9,
-        "avg_engagement": 2
+      "注目株_古河電気": {
+        "count": 3,
+        "avg_impressions": 29,
+        "avg_engagement": 3
       },
-      "外国人投資家の大幅売り越しと市場調整": {
-        "count": 1,
-        "avg_impressions": 11,
-        "avg_engagement": 2
-      },
-      "日本株大幅下落への逆張り視点": {
-        "count": 1,
-        "avg_impressions": 19,
-        "avg_engagement": 2
-      },
-      "投資マインドセット": {
-        "count": 6,
-        "avg_impressions": 8,
-        "avg_engagement": 1
-      },
-      "2026年春闘、賃上げ率5.26%で前年を下回るも高水準維持": {
-        "count": 1,
-        "avg_impressions": 7,
+      "注目株3社まとめ": {
+        "count": 2,
+        "avg_impressions": 10,
         "avg_engagement": 1
       }
     }
   },
   "top_patterns": [
     {
-      "id": "P01",
-      "avg_impressions": 51,
-      "count": 7
+      "pattern": "unknown",
+      "avg_impressions": 23,
+      "posts": 19
     },
     {
-      "id": "P07",
-      "avg_impressions": 50,
-      "count": 3
+      "pattern": "IMG",
+      "avg_impressions": 29,
+      "posts": 2
     },
     {
-      "id": "P16",
-      "avg_impressions": 38,
-      "count": 2
+      "pattern": "CTA",
+      "avg_impressions": 24,
+      "posts": 3
     }
   ],
   "top_themes": [
     {
-      "name": "フィジカルAI関連銘柄に注目集まる",
-      "avg_impressions": 113,
-      "count": 1
+      "theme": "IPO銘柄分析_SQUEEZE",
+      "avg_impressions": 43,
+      "posts": 1
     },
     {
-      "name": "テーマ投資（半導体・AI・防衛・原子力・宇宙・Physical AI）",
-      "avg_impressions": 54,
-      "count": 6
+      "theme": "IPO銘柄分析_梅乃宿酒造",
+      "avg_impressions": 40,
+      "posts": 3
     },
     {
-      "name": "IPO分析・セカンダリー",
+      "theme": "IPO銘柄分析_バトンズ",
+      "avg_impressions": 34,
+      "posts": 2
+    },
+    {
+      "theme": "注目株_古河電気",
       "avg_impressions": 29,
-      "count": 6
+      "posts": 3
+    },
+    {
+      "theme": "image_market",
+      "avg_impressions": 29,
+      "posts": 2
     }
   ],
   "best_hours": [
-    {
-      "hour": "noon",
-      "avg_impressions": 31,
-      "count": 25
-    },
-    {
-      "hour": "night",
-      "avg_impressions": 19,
-      "count": 8
-    },
-    {
-      "hour": "evening",
-      "avg_impressions": 14,
-      "count": 6
-    }
+    "night",
+    "morning",
+    "evening"
   ],
-  "avg_impressions": 20,
+  "avg_impressions": 21,
   "top3_posts": [
     {
-      "text": "フィジカルAI関連銘柄に注目集まる",
-      "impressions": 113,
-      "theme": "フィジカルAI関連"
+      "text": "「あらごし」のリキュール〜",
+      "impressions": 56,
+      "theme": "IPO銘柄分析_梅乃宿酒造"
     },
     {
-      "text": "$原油高で石油株買い",
-      "impressions": 79,
-      "theme": "米国株個別銘柄分析"
+      "text": "SQUEEZE（558A）当選したけど、正直これは迷う。",
+      "impressions": 43,
+      "theme": "IPO銘柄分析_SQUEEZE"
     },
     {
-      "text": "$テーマ投資AI・半導体",
-      "impressions": 54,
-      "theme": "テーマ投資"
+      "text": "バトンズ（554A）当選した人、購入するか迷ってない？",
+      "impressions": 39,
+      "theme": "IPO銘柄分析_バトンズ"
     }
   ],
   "recommendations": [
-    "テーマ投資系（AI・半導体・防衛）コンテンツを40%に増加",
-    "long形式の投稿（140-280文字）を30%に増加",
-    "noon時間帯（11-14時）の投稿を50%に集中",
-    "P01、P07、P16パターンを重点活用",
-    "キャッシュタグは控えめに（インプレッション14 vs 21）"
+    "IPO銘柄分析コンテンツを最優先で強化（特にバトンズ、SQUEEZE、梅乃宿は高インプレッション）",
+    "注目株分析（古河電気、キオクシア、KOKUSAI）の継続投稿",
+    "画像付き市況サマリーの定期化",
+    "短文投稿の大幅増量（平均インプレッション40と最高パフォーマンス）",
+    "夜間投稿（21-24時）の投稿頻度を2倍に増加",
+    "CTA付きnote誘導投稿の比率を現在の63%から75%に引き上げ"
   ],
   "patterns_to_avoid": [
-    "P11（7インプレッション）",
-    "P13（9インプレッション）",
-    "P03（10インプレッション）",
-    "morning時間帯投稿（13インプレッション）"
+    "長文投稿（平均インプレッション11と低調）",
+    "P09パターン（インプレッション7と低迷）",
+    "昼間投稿（12-15時、平均インプレッション16と低調）"
   ],
   "tweet_type_ratio": {
-    "standard": 85,
-    "short_personal": 5,
-    "contrarian": 5,
-    "note_cta": 5
+    "standard": 25,
+    "short_personal": 15,
+    "contrarian": 10,
+    "note_cta": 50
   },
-  "buzz_insights": "AI・Physical AI系テーマが圧倒的に高パフォーマンス。特に技術トレンド×投資分析の組み合わせが効果的。noon時間帯とlong形式の相性が良く、専門性の高いコンテンツほどインプレッション増加傾向",
+  "buzz_insights": "IPO銘柄分析が圧倒的高パフォーマンス。特に個別銘柄深掘り分析（SQUEEZE 43imp、梅乃宿40imp、バトンズ34imp）が強い。注目株3社（古河電気、キオクシア、KOKUSAI）も安定した需要。短文×CTA×夜間投稿の組み合わせが最適解。",
   "ab_recommendations": [
-    "投稿の長さ「long」が最もインプが高い（平均35）",
-    "時間帯「noon」のインプが最高（平均31）。投稿をこの時間帯に集中させる",
-    "キャッシュタグの効果は限定的（差-7）。自然な使い方を心がける"
+    "ツイートタイプ「cta_note」が最高インプ（平均23）。「standard」は低調（平均19）→ cta_noteの比率を上げる",
+    "投稿の長さ「short」が最もインプが高い（平均40）",
+    "時間帯「night」のインプが最高（平均26）。投稿をこの時間帯に集中させる"
   ]
 }
