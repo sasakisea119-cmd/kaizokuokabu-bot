@@ -16,5 +16,44 @@
     "posted_at": "2026-04-19T12:16:36.283Z",
     "metrics": null,
     "fetched_at": null
+  },
+  {
+    "tweet_id": "2045868009546478042",
+    "text": "【データ定義】対象: 2026年1-4月上場全銘柄10社、公募価格比初値騰落率\n\n🚨2026年IPO市場 緊急レポート🚨\n年初から6連敗という史上稀に見る不調も、ソフトテックスが+64.9%で連敗ストップ！\n\n要因:\n✅米イラン軍事衝突でボラティリティ急拡大\n✅赤字上場企業の多さ\n✅IPOルール変更の影響\n\n4月から流れが変わるか注目📊",
+    "type": "image",
+    "card_type": "performance",
+    "pattern_id": "IMG",
+    "hook_id": null,
+    "theme": "image_performance",
+    "research_id": null,
+    "posted_at": "2026-04-19T14:11:58.762Z",
+    "metrics": null,
+    "fetched_at": null
+  },
+  {
+    "tweet_id": "2045870688985325965",
+    "text": "メタプラネット（3350）のBTC買い増し、また始まったね。\n\n金曜のクローズ後もビットコインは堅調だったけど、週明けの動きが気になる人多いと思う📊\n\n仮想通貨連動株って結局「BTC上がれば株も上がる、下がれば一緒に沈む」の単純構造。でもそのボラティリティが魅力でもある🎯\n\nビットコイン相場と日本株の相関、みんなはどう見てる？\n\n#ビットコイン #メタプラネット",
+    "score": {
+      "scores": {
+        "buzz": 8,
+        "hook": 7,
+        "value": 7,
+        "data": 6,
+        "unique": 7,
+        "discussion": 8,
+        "bookmark": 6,
+        "tempo": 8,
+        "persona": 8,
+        "ng_check": 9
+      },
+      "average": 7.4
+    },
+    "pattern_id": "P14",
+    "hook_id": "H22",
+    "theme": "メタプラネット・ビットコイン関連（賛否両論あるネタとして積極的に取り上げる）",
+    "research_id": "r_1776608014976_9a5z",
+    "posted_at": "2026-04-19T14:22:37.479Z",
+    "metrics": null,
+    "fetched_at": null
   }
 ]
