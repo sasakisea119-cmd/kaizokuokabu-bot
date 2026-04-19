@@ -1,20 +1,58 @@
 [
   {
+<<<<<<< Updated upstream
     "id": "q_1776585835102_bssqeq",
     "text": "海外機関投資家が日本株の「出来高変化」を重視し始めてる。\n\n寄り付き後30分の急増パターンを見て、セクター回転の前兆を読むらしい 📊\n\nMA5/MA25との連動分析も含めて、具体的な見極め方法をNoteにまとめてます（準備中）\n\n出来高で先回りできれば、個人投資家でも機関の動きに乗れるかも。\n\nみんなは出来高どこまで見てる？ #日本株 #投資手法",
+=======
+    "id": "q_1776585985026_bwftqy",
+    "text": "ビットコイン、また7万ドル突破。\n\nメタプラネット（3350）は？\n\n上がってない。\n\nこれが現実。\n\n#ビットコイン #メタプラネット",
+    "score": {
+      "scores": {
+        "buzz": 8,
+        "hook": 9,
+        "value": 7,
+        "data": 8,
+        "unique": 8,
+        "discussion": 9,
+        "bookmark": 6,
+        "tempo": 9,
+        "persona": 9,
+        "ng_check": 10
+      },
+      "average": 8.3
+    },
+    "pattern_id": "P08",
+    "hook_id": "H29",
+    "theme": "メタプラネット・ビットコイン関連（賛否両論あるネタとして積極的に取り上げる）",
+    "tweet_type": "short_personal",
+    "research_id": "r_1776585565617_9dki",
+    "created_at": "2026-04-19T08:06:25.026Z"
+  },
+  {
+    "id": "q_1776585985026_3colnq",
+    "text": "月曜の米国株、実はアノマリー的に弱いって知ってる？\n\n📊 過去10年のデータを調べたら、月曜日のS&P500上昇率は他の曜日より3-5%低い。特に地政学リスクがあった週末明けは顕著。\n\n今週も中東・北朝鮮情勢を受けて注意が必要かも。\n\n🎯 曜日別のパフォーマンス分析と、リスクオフ時の米国株セクター動向について詳しくNoteにまとめてます（準備中）\n\n#米国株 #アノマリー",
+>>>>>>> Stashed changes
     "score": {
       "scores": {
         "buzz": 7,
         "hook": 8,
         "value": 8,
+<<<<<<< Updated upstream
         "data": 7,
         "unique": 8,
         "discussion": 7,
         "bookmark": 9,
+=======
+        "data": 9,
+        "unique": 8,
+        "discussion": 7,
+        "bookmark": 8,
+>>>>>>> Stashed changes
         "tempo": 8,
         "persona": 8,
         "ng_check": 10
       },
+<<<<<<< Updated upstream
       "average": 8
     },
     "pattern_id": "P09",
@@ -48,5 +86,15 @@
     "tweet_type": "standard",
     "research_id": "r_1776585429611_r561",
     "created_at": "2026-04-19T08:03:55.102Z"
+=======
+      "average": 8.1
+    },
+    "pattern_id": "P09",
+    "hook_id": "H24",
+    "theme": "米国株個別銘柄分析",
+    "tweet_type": "note_cta",
+    "research_id": "r_1776585565617_5abi",
+    "created_at": "2026-04-19T08:06:25.026Z"
+>>>>>>> Stashed changes
   }
 ]
