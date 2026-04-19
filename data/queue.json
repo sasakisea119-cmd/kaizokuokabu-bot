@@ -1,1 +1,52 @@
-[]
+[
+  {
+    "id": "q_1776585835102_bssqeq",
+    "text": "海外機関投資家が日本株の「出来高変化」を重視し始めてる。\n\n寄り付き後30分の急増パターンを見て、セクター回転の前兆を読むらしい 📊\n\nMA5/MA25との連動分析も含めて、具体的な見極め方法をNoteにまとめてます（準備中）\n\n出来高で先回りできれば、個人投資家でも機関の動きに乗れるかも。\n\nみんなは出来高どこまで見てる？ #日本株 #投資手法",
+    "score": {
+      "scores": {
+        "buzz": 7,
+        "hook": 8,
+        "value": 8,
+        "data": 7,
+        "unique": 8,
+        "discussion": 7,
+        "bookmark": 9,
+        "tempo": 8,
+        "persona": 8,
+        "ng_check": 10
+      },
+      "average": 8
+    },
+    "pattern_id": "P09",
+    "hook_id": "H24",
+    "theme": "今日のバズニュース（海外）",
+    "tweet_type": "note_cta",
+    "research_id": "r_1776585429611_nx1t",
+    "created_at": "2026-04-19T08:03:55.102Z"
+  },
+  {
+    "id": "q_1776585835102_birrck",
+    "text": "IPO市場が冷え込んでる中で、医薬品株がこの異常さ 📊\n\n第一三共（4568）+173%\n大塚HD（4578）+135%\n\nこの出来高爆増、新薬期待なのか、それとも単純にIPO資金の避難先なのか気になるよね。\n\n新規上場が減ると、既存の成長株に資金が集中するパターン。今年のIPO低調が続けば、この流れはまだ続きそう。\n\nみんなどう見てる？ #IPO #医薬品株",
+    "score": {
+      "scores": {
+        "buzz": 7,
+        "hook": 8,
+        "value": 7,
+        "data": 9,
+        "unique": 7,
+        "discussion": 8,
+        "bookmark": 6,
+        "tempo": 8,
+        "persona": 8,
+        "ng_check": 10
+      },
+      "average": 7.8
+    },
+    "pattern_id": "P05",
+    "hook_id": "H14",
+    "theme": "IPO分析・セカンダリー",
+    "tweet_type": "standard",
+    "research_id": "r_1776585429611_r561",
+    "created_at": "2026-04-19T08:03:55.102Z"
+  }
+]

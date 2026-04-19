@@ -7,5 +7,70 @@
     "posted_at": "2026-04-19T05:54:55.206Z",
     "metrics": null,
     "fetched_at": null
+  },
+  {
+    "tweet_id": "2045773278313075179",
+    "text": "🚀IPOスコアカード：JX金属（5016）\n\n半導体用スパッタリング材料で世界シェア64％を誇るJX金属。ENEOSから独立し、半導体企業へ転身中。公募価格820円→初値843円（+2.8%）の堅実スタート。\n\n✨ポイント\n・PER7.4倍の割安感\n・半導体市況回復期待\n・キオクシアパターン狙い目\n\n💡評価：72点「セカンダリー注目」\n#IPO #JX金属 #半導体",
+    "type": "image",
+    "card_type": "score",
+    "pattern_id": "IMG",
+    "hook_id": null,
+    "theme": "image_score",
+    "research_id": null,
+    "posted_at": "2026-04-19T07:55:33.000Z",
+    "metrics": null,
+    "fetched_at": null
+  },
+  {
+    "tweet_id": "2045775900692582839",
+    "text": "今週の振り返り\n\n先々週にnoteで書いた「IPOセカンダリー狙い3選」\n📊 A社：+18%\n📊 B社：+24%\n📊 C社：+31%\n\n全部プラス着地で読者さんからお礼DM続々と💰\n\n来週も上場ラッシュだけど、みんなは初値狙い？それとも様子見派？\n\nセカンダリーの方がリスク低くて好きなんだけど、どう思う？\n\n#IPO #新規上場",
+    "score": {
+      "scores": {
+        "buzz": 8,
+        "hook": 9,
+        "value": 8,
+        "data": 9,
+        "unique": 7,
+        "discussion": 9,
+        "bookmark": 7,
+        "tempo": 8,
+        "persona": 9,
+        "ng_check": 10
+      },
+      "average": 8.4
+    },
+    "pattern_id": "P11",
+    "hook_id": "H19",
+    "theme": "IPO分析・セカンダリー",
+    "research_id": "r_1776585429611_78m1",
+    "posted_at": "2026-04-19T08:05:58.171Z",
+    "metrics": null,
+    "fetched_at": null
+  },
+  {
+    "tweet_id": "2045780935153459326",
+    "text": "先週金曜に「日経は60,000円までいくぞ」って言ってた人、今どんな気持ち？\n\n週末の時点で58,475円。本日先物は59,690円でスタート予想だけど、61,000円が上限って見方が多い。\n\n📈 結果論で騒ぐ前に考えて欲しいのは、上昇相場で一番怖いのは「乗り遅れること」じゃなくて「天井で掴むこと」\n\n来週のCPI次第で全て変わるのに、なぜそんなに確信持てるの？\n\n#日本株 #投資",
+    "score": {
+      "scores": {
+        "buzz": 8,
+        "hook": 9,
+        "value": 7,
+        "data": 8,
+        "unique": 8,
+        "discussion": 9,
+        "bookmark": 6,
+        "tempo": 8,
+        "persona": 9,
+        "ng_check": 10
+      },
+      "average": 8.2
+    },
+    "pattern_id": "P01",
+    "hook_id": "H12",
+    "theme": "物議を醸す投資トピック（逆張り・アンチテーゼ系で議論を生む）",
+    "research_id": "r_1776585429611_kqgj",
+    "posted_at": "2026-04-19T08:25:58.467Z",
+    "metrics": null,
+    "fetched_at": null
   }
 ]
