@@ -1,103 +1,10 @@
 [
   {
-<<<<<<< Updated upstream
-    "tweet_id": "2045396979291738566",
-=======
-    "tweet_id": "2045410235313963096",
->>>>>>> Stashed changes
-    "text": "TOPIX今日-1.41%で3,760.81。\n\n半導体株も軒並み下げてるけど、これって絶好の仕込みタイミングじゃない？\n\nTSMCの12月売上+37%、NVIDIA最新GPU出荷待ち状態、しかも日本の半導体関連は来期業績予想まだ上方修正余地あり。\n\n短期の株価と企業の実力は別物。東京エレクトロン（8035）とかレーザーテック（6920）、今の水準で買えるのラッキーだと思うんだよね。\n\nみんなこの下げ、どう見てる？",
-    "score": {
-      "scores": {
-        "buzz": 8,
-        "hook": 9,
-        "value": 8,
-        "data": 9,
-        "unique": 7,
-        "discussion": 9,
-        "bookmark": 7,
-        "tempo": 8,
-        "persona": 9,
-        "ng_check": 9
-      },
-      "average": 8.3
-    },
-    "pattern_id": "P06",
-    "hook_id": "H22",
-    "theme": "テーマ投資（半導体・AI・防衛・原子力・宇宙・Physical AI）",
-    "research_id": "r_1776470807490_kzny",
-<<<<<<< Updated upstream
-    "posted_at": "2026-04-18T07:00:16.262Z",
-=======
-    "posted_at": "2026-04-18T07:52:56.748Z",
->>>>>>> Stashed changes
-    "metrics": null,
-    "fetched_at": null
-  },
-  {
-<<<<<<< Updated upstream
-    "tweet_id": "2045402013404402065",
-=======
-    "tweet_id": "2045415269468602878",
->>>>>>> Stashed changes
-    "text": "日経平均59,000円が心理的節目になってるの、みんな気になってる？\n\n実は過去10年で「〇万円の大台」って節目を超えた後の動きを調べたんだけど、60%は一度調整入ってるんだよね。\n\n・2017年 22,000円→23,000円台で調整\n・2021年 29,000円→30,000円前に押し目\n・2024年 39,000円→40,000円で大幅調整\n\n今回も原油高・金利懸念が後退したとはいえ、AI投資サイクルで過熱感あるし、来週の動きで相場の地合いが見えそう。\n\n59,000円、素直に抜けるかな？",
-    "score": {
-      "scores": {
-        "buzz": 8,
-        "hook": 8,
-        "value": 9,
-        "data": 9,
-        "unique": 7,
-        "discussion": 8,
-        "bookmark": 8,
-        "tempo": 8,
-        "persona": 9,
-        "ng_check": 10
-      },
-      "average": 8.4
-    },
-    "pattern_id": "P05",
-    "hook_id": "H03",
-    "theme": "マクロ経済・市場環境",
-    "research_id": "r_1776470807490_ghpl",
-<<<<<<< Updated upstream
-    "posted_at": "2026-04-18T07:20:16.483Z",
-=======
-    "posted_at": "2026-04-18T08:12:56.985Z",
->>>>>>> Stashed changes
-    "metrics": null,
-    "fetched_at": null
-  },
-  {
-<<<<<<< Updated upstream
-    "tweet_id": "2045407048196604182",
-=======
-    "tweet_id": "2045420304277582253",
->>>>>>> Stashed changes
-    "text": "ポートフォリオの分散、みんなどのくらいやってる？\n\n日本株だけの人：約30%\n米国株メイン：約40% \n全世界分散：約20%\nその他：約10%\n\n最近気になるのが、テーマ投資に偏ってる人の多さ。AI・半導体だけで資産の70%とか。確かに上がってるけど、2022年のグロース株暴落を忘れちゃダメだよね。\n\nリスク許容度は人それぞれだけど、集中投資のリスクは理解しておきたい。みんなのポートフォリオ比率、どんな感じ？",
-    "score": {
-      "scores": {
-        "buzz": 7,
-        "hook": 8,
-        "value": 8,
-        "data": 9,
-        "unique": 6,
-        "discussion": 9,
-        "bookmark": 7,
-        "tempo": 8,
-        "persona": 8,
-        "ng_check": 10
-      },
-      "average": 8
-    },
-    "pattern_id": "P16",
-    "hook_id": "H10",
-    "theme": "ポートフォリオ戦略",
-    "research_id": null,
-<<<<<<< Updated upstream
-    "posted_at": "2026-04-18T07:40:16.870Z",
-=======
-    "posted_at": "2026-04-18T08:32:57.372Z",
->>>>>>> Stashed changes
+    "tweet_id": "2045742921127772426",
+    "text": "メタプラ（3350）、朝の買い増しが効いた。やっぱ押し目は仕込む。",
+    "tweet_type": "short_personal",
+    "theme": "short_jisseki",
+    "posted_at": "2026-04-19T05:54:55.206Z",
     "metrics": null,
     "fetched_at": null
   }
