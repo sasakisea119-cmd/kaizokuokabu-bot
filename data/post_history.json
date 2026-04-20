@@ -9,11 +9,75 @@
     "fetched_at": null
   },
   {
+<<<<<<< Updated upstream
     "tweet_id": "2046172885476135167",
     "text": "📊 NISA全世代化で見落とされてる点\n\n「早期スタート=リターン最大化」は正しいが、実は年代で逆転する。\n\n20年複利と5年複利では、後発でも配当+売却益の回転率次第。むしろ現役世代の方が、毎月の積立再投資サイクルで有利な場合も。\n\nジュニアNISAの低額スタートより、親の投資行動を見せる方が効果大では？\n\n#NISA #投資教育",
     "tweet_type": "inspire",
     "theme": "inspire_alljon12",
     "posted_at": "2026-04-20T10:23:26.719Z",
+=======
+    "tweet_id": "2046159403301113943",
+    "text": "【データ定義】対象: 2026年1-4月上場全IPO10社、公募価格比\n\n🔥IPO春の嵐が到来！\n✅年初IPO数は前年比45%減の大幅減少\n✅公募割れ率70%の厳しい現実\n✅平均騰落率-8.2%で投資家離れが深刻\n✅唯一の光はARCHION！日野・三菱ふそう統合で+7.8%\n\n新規市場の冷え込みが鮮明に。大型統合案件のARCHIONが数少ない明るい材料となっている状況です📊\n\n#IPO #投資 #株式市場",
+    "type": "image",
+    "card_type": "performance",
+    "pattern_id": "IMG",
+    "hook_id": null,
+    "theme": "image_performance",
+    "research_id": null,
+    "posted_at": "2026-04-20T09:29:52.443Z",
+    "metrics": null,
+    "fetched_at": null
+  },
+  {
+    "tweet_id": "2046162114394398805",
+    "text": "IPO初値、予想より20%高い銘柄が続出中。\n\nでも公募割れも3割ある現実。\n\n一喜一憂してる場合じゃない。\n\n#IPO #新規上場",
+    "score": {
+      "scores": {
+        "buzz": 8,
+        "hook": 9,
+        "value": 7,
+        "data": 8,
+        "unique": 7,
+        "discussion": 8,
+        "bookmark": 6,
+        "tempo": 9,
+        "persona": 8,
+        "ng_check": 10
+      },
+      "average": 8
+    },
+    "pattern_id": "P03",
+    "hook_id": "H09",
+    "theme": "IPO分析・セカンダリー",
+    "research_id": "r_1776677507785_gqhe",
+    "posted_at": "2026-04-20T09:40:38.672Z",
+    "metrics": null,
+    "fetched_at": null
+  },
+  {
+    "tweet_id": "2046167148926488636",
+    "text": "米株高と円安で日本株も上昇したけど、上値重いよね。\n\nS&P500が連日最高値更新してるのに、なんで日経平均は39,000円抜けられないんだろ？\n\n📊実は構造的な理由がある\n📈為替感応度の違い\n💎今狙うべき米国株セクター\n\n分析してたら長くなったので、詳しくはNoteに書きます（準備中）🚀\n\n#米国株 #日本株",
+    "score": {
+      "scores": {
+        "buzz": 7,
+        "hook": 8,
+        "value": 8,
+        "data": 7,
+        "unique": 7,
+        "discussion": 8,
+        "bookmark": 8,
+        "tempo": 8,
+        "persona": 8,
+        "ng_check": 10
+      },
+      "average": 7.9
+    },
+    "pattern_id": "P02",
+    "hook_id": "H16",
+    "theme": "米国株個別銘柄分析",
+    "research_id": "r_1776677507785_o3o8",
+    "posted_at": "2026-04-20T10:00:39.024Z",
+>>>>>>> Stashed changes
     "metrics": null,
     "fetched_at": null
   }
