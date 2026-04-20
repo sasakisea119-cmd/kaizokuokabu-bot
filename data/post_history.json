@@ -1,18 +1,28 @@
 [
   {
+<<<<<<< Updated upstream
     "tweet_id": "2046019043459494006",
     "text": "🚨日経平均6万円目前で一旦調整入り！\n\n📊58,476円(-1.75%)\n🏢4月IPO新規上場4銘柄が控える\n⚡️ARCHION(543A)商用車統合企業がプライム市場デビュー\n🍶梅乃宿酒造(559A)がBB募集中\n📈2025年IPO65社実績、グロース市場中心\n\n中東情勢と米金利動向に注目しつつ、IPO物色も活発化しそうだ👀",
+=======
+    "tweet_id": "2046021407939739733",
+    "text": "🚀史上初の6万円台が目前に！\n\n<cite index=\"3-2\">今週（4月20日～24日）の日経平均予想レンジは57,000～60,500円</cite>と、ついに6万円の大台突破が期待される展開✨\n\nIPO市場も活況！<cite index=\"18-3\">2024年は86社が新規上場</cite>し、<cite index=\"18-1\">東京地下鉄の初値時価総額9,500億円が話題</cite>に💪\n\n中東情勢には要警戒だが、投資家心理は明るい方向に🔥\n#日経平均 #IPO #株式投資",
+>>>>>>> Stashed changes
     "type": "image",
     "card_type": "market",
     "pattern_id": "IMG",
     "hook_id": null,
     "theme": "image_market",
     "research_id": null,
+<<<<<<< Updated upstream
     "posted_at": "2026-04-20T00:12:08.067Z",
+=======
+    "posted_at": "2026-04-20T00:21:31.818Z",
+>>>>>>> Stashed changes
     "metrics": null,
     "fetched_at": null
   },
   {
+<<<<<<< Updated upstream
     "tweet_id": "2046019559677714572",
     "text": "東京エレクトロン（8035）の決算、みんな注目してるけど実は別の視点で見るともっと面白い発見がある。\n\n📊 売上構成比の変化\n📈 地域別成長率の格差\n💎 隠れた成長ドライバー\n\nこの3つの角度で分析すると、株価の次の動きが見えてくる。特に3番目は意外すぎて、半導体業界にいる人でも気づいてない人が多い。\n\n詳しい分析はnoteにまとめました（準備中）\n\n#日本株 #半導体株",
     "score": {
@@ -24,10 +34,24 @@
         "unique": 8,
         "discussion": 7,
         "bookmark": 8,
+=======
+    "tweet_id": "2046021918587773102",
+    "text": "今週のIPO4社、初値予想が面白いことになってる😏\n\n📊 公開価格に対する期待度\n• A社：+180%予想（某証券会社調べ）\n• B社：-15%予想（需給悪化）\n• C社：+45%予想（業績堅調）\n• D社：±0%予想（様子見ムード）\n\nでも、これ表面的な数字だけ見てると痛い目に遭う。💎\n\n各社の「本当のリスク」と「狙い目タイミング」、noteで詳しく分析中。明日公開予定です🎯\n\n#IPO #新規上場",
+    "score": {
+      "scores": {
+        "buzz": 8,
+        "hook": 9,
+        "value": 8,
+        "data": 9,
+        "unique": 7,
+        "discussion": 6,
+        "bookmark": 9,
+>>>>>>> Stashed changes
         "tempo": 8,
         "persona": 8,
         "ng_check": 10
       },
+<<<<<<< Updated upstream
       "average": 7.8
     },
     "pattern_id": "P06",
@@ -35,16 +59,31 @@
     "theme": "日本株個別銘柄分析",
     "research_id": "r_1776643242012_lkdt",
     "posted_at": "2026-04-20T00:14:10.995Z",
+=======
+      "average": 8.2
+    },
+    "pattern_id": "P04",
+    "hook_id": "H21",
+    "theme": "IPO分析・セカンダリー",
+    "research_id": "r_1776643821736_tdni",
+    "posted_at": "2026-04-20T00:23:33.403Z",
+>>>>>>> Stashed changes
     "metrics": null,
     "fetched_at": null
   },
   {
+<<<<<<< Updated upstream
     "tweet_id": "2046024593924558973",
     "text": "日経先物、シカゴで1,135円の大幅安。\n\nホルムズ海峡の地政学リスクで原油急騰→米株先物も下落の連鎖反応。\n\n📉 58,705円まで売り込まれる\n🛢️ 原油価格が押し上げ要因\n📊 前週末比-1.9%の下落幅\n\nこういう時の投資家心理と、実際の相場への影響度合いの分析をnoteにまとめました（準備中）。\n\n地政学リスクって結局どこまで株価に織り込まれるのか、データで見ると興味深い。\n\n#日本株 #地政学リスク",
+=======
+    "tweet_id": "2046026953275146382",
+    "text": "日経平均、寄り付き+500円超え。\n\nIPO銘柄の値動きもヤバい。\n全面高相場、こういう時が一番美味しい。\n\n#IPO #日本株",
+>>>>>>> Stashed changes
     "score": {
       "scores": {
         "buzz": 8,
         "hook": 9,
+<<<<<<< Updated upstream
         "value": 8,
         "data": 8,
         "unique": 7,
@@ -52,10 +91,46 @@
         "bookmark": 8,
         "tempo": 8,
         "persona": 8,
+=======
+        "value": 7,
+        "data": 8,
+        "unique": 6,
+        "discussion": 7,
+        "bookmark": 6,
+        "tempo": 9,
+        "persona": 8,
         "ng_check": 10
       },
-      "average": 8.1
+      "average": 7.8
     },
+    "pattern_id": "P03",
+    "hook_id": "H03",
+    "theme": "IPO分析・セカンダリー",
+    "research_id": "r_1776643821737_2d3i",
+    "posted_at": "2026-04-20T00:43:33.741Z",
+    "metrics": null,
+    "fetched_at": null
+  },
+  {
+    "tweet_id": "2046031987740115166",
+    "text": "今日の相場、機械セクター主導で上がってるけど、実はIPO銘柄にとってはめちゃくちゃ重要な日だった。\n\nリスクオン相場でグロース市場も+5ポイント。この環境変化がセカンダリー市場に与える影響、みんな気づいてる？\n\n📊 特に注目すべき3つのポイント\n📈 初値形成への波及効果\n🎯 来週上場予定銘柄への影響度\n\nデータ分析した結果が想像以上だった...\n\n詳しい分析、noteに書いてます💎\n\n#IPO #新規上場",
+    "score": {
+      "scores": {
+        "buzz": 8,
+        "hook": 9,
+        "value": 8,
+        "data": 7,
+        "unique": 7,
+        "discussion": 8,
+        "bookmark": 9,
+        "tempo": 8,
+        "persona": 9,
+>>>>>>> Stashed changes
+        "ng_check": 10
+      },
+      "average": 8.3
+    },
+<<<<<<< Updated upstream
     "pattern_id": "P01",
     "hook_id": "H01",
     "theme": "今日のバズニュース（海外）",
@@ -87,6 +162,13 @@
     "theme": "メタプラネット・ビットコイン関連（賛否両論あるネタとして積極的に取り上げる）",
     "research_id": "r_1776643242012_6122",
     "posted_at": "2026-04-20T00:54:11.703Z",
+=======
+    "pattern_id": "P14",
+    "hook_id": "H22",
+    "theme": "IPO分析・セカンダリー",
+    "research_id": "r_1776643821737_vjoc",
+    "posted_at": "2026-04-20T01:03:34.080Z",
+>>>>>>> Stashed changes
     "metrics": null,
     "fetched_at": null
   }
