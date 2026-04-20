@@ -7,5 +7,70 @@
     "posted_at": "2026-04-20T12:13:44.717Z",
     "metrics": null,
     "fetched_at": null
+  },
+  {
+    "tweet_id": "2046257610366599557",
+    "text": "【データ定義】対象: 2026年1-4月上場全銘柄10社、公募価格比の騰落率\n\n🔥2026年IPO市場激震🔥\n\n📊異例の「初値7連敗」記録\n・平均騰落率-7.8%\n・公募価格上回り0社\n・セイワHDも-2.4%からストップ高へ急反発\n\n⚡要因分析\n・イラン情勢の地政学リスク\n・東証ルール変更の影響継続\n・小型IPO激減で需給悪化\n\n💡今後の注目\n・新年度から流れ変化期待\n・大型案件への注目集中\n・スマートニュース等の大型待機\n\n#IPO #株式投資 #新規上場",
+    "type": "image",
+    "card_type": "performance",
+    "pattern_id": "IMG",
+    "hook_id": null,
+    "theme": "image_performance",
+    "research_id": null,
+    "posted_at": "2026-04-20T16:00:06.777Z",
+    "metrics": null,
+    "fetched_at": null
+  },
+  {
+    "tweet_id": "2046260427202470162",
+    "text": "みんなが「今は買い時じゃない」って言ってる時こそチャンス。\n\n📊 過去10年のデータ見てみ：\n・悲観ムードの時→+30%\n・楽観ムードの時→-15%\n\n結局、群集心理と逆張りが一番勝率高いんだよね。\n\n今の相場で怖がってる人、3年後に後悔するパターンだと思う。歴史は繰り返すから。\n\nみんなはどのタイミングで動く？ #日本株 #投資",
+    "score": {
+      "scores": {
+        "buzz": 8,
+        "hook": 9,
+        "value": 7,
+        "data": 8,
+        "unique": 7,
+        "discussion": 9,
+        "bookmark": 6,
+        "tempo": 8,
+        "persona": 9,
+        "ng_check": 10
+      },
+      "average": 8.1
+    },
+    "pattern_id": "P14",
+    "hook_id": "H25",
+    "theme": "投資の基礎知識・考え方",
+    "research_id": "r_1776700929171_28gd",
+    "posted_at": "2026-04-20T16:11:18.323Z",
+    "metrics": null,
+    "fetched_at": null
+  },
+  {
+    "tweet_id": "2046265462523097174",
+    "text": "日経平均58,824円で着地、+0.6%の反発📈\n\n正直これ、微妙な位置だよね。米株高の恩恵は受けたけど、最高値更新後の過熱感で上値重い。中東情勢の不透明感もあるし。\n\n📊 4月はヨコヨコ相場が続きそう\n💭 個別株選びがより重要になってくる局面\n\nこういう時こそ、業績しっかりした銘柄を仕込むチャンスだと思うんだけど、みんなはどう見てる？\n\n#日本株 #個別株",
+    "score": {
+      "scores": {
+        "buzz": 7,
+        "hook": 8,
+        "value": 8,
+        "data": 8,
+        "unique": 7,
+        "discussion": 8,
+        "bookmark": 6,
+        "tempo": 8,
+        "persona": 9,
+        "ng_check": 10
+      },
+      "average": 7.9
+    },
+    "pattern_id": "P01",
+    "hook_id": "H06",
+    "theme": "日本株個別銘柄分析",
+    "research_id": "r_1776700929171_nskn",
+    "posted_at": "2026-04-20T16:31:18.812Z",
+    "metrics": null,
+    "fetched_at": null
   }
 ]
