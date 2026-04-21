@@ -1,63 +1,32 @@
 [
   {
-<<<<<<< Updated upstream
-    "id": "q_1776701353096_deu2zi",
-    "text": "日経もTOPIXも堅調なのに、なんか盛り上がりに欠けるよね🤔\n\n📊前場時点のデータ：\n・日経平均：+0.5%程度\n・TOPIX：+0.67%\n・出来高：やや控えめ\n\n高値警戒で上値追いが鈍いのか、それとも決算シーズン待ちなのか。みんなはどう見てる？この「堅調だけど物足りない」感じ。\n\n個人的には、こういう時こそ個別株の決算内容で差がつくタイミングだと思うんだけど🎯\n\n#日本株 #TOPIX",
-=======
-    "id": "q_1776703748143_diyuye",
-    "text": "先月末のIPO新規上場ラッシュで仕込んだ3銘柄、全部プラスになってる📈\n\n特に小型成長株の初動は読みやすかった。TOPIXも+0.43%と堅調だけど、個別のIPO銘柄の方が値動きある分面白い💎\n\nセカンダリー狙いで入った人、おめでとう🎯\nただし利確のタイミングは慎重にね。\n\n#IPO #新規上場",
+    "id": "q_1776730798791_r9u8i2",
+    "text": "TOPIXが置いてけぼりで日経平均だけ上がってる時って、実は一番危険なサインだと思うんだよね 📊\n\n日経平均は225社の価格加重だから、ソフトバンクグループ（9984）やファーストリテイリング（9983）が上がれば全体が押し上げられる。でもTOPIXは時価総額加重だから市場全体の実態を反映してる。\n\n📈 日経だけ上昇＝大型株の一人相撲\n📉 TOPIX横ばい＝中小型株は冷え込み\n\nこういう時に「株高だ！」って浮かれてる人、本当に大丈夫？市場の二極化が進んでるだけかもよ 🤔\n\nみんなはどっちの指数を信頼してる？\n\n#日本株 #TOPIX",
     "score": {
       "scores": {
         "buzz": 8,
         "hook": 9,
-        "value": 7,
-        "data": 8,
-        "unique": 7,
-        "discussion": 8,
-        "bookmark": 6,
+        "value": 8,
+        "data": 9,
+        "unique": 8,
+        "discussion": 9,
+        "bookmark": 7,
         "tempo": 8,
         "persona": 9,
-        "ng_check": 9
+        "ng_check": 10
       },
-      "average": 7.9
+      "average": 8.5
     },
-    "pattern_id": "P02",
-    "hook_id": "H26",
-    "theme": "IPO分析・セカンダリー",
-    "tweet_type": "contrarian",
-    "research_id": "r_1776703337002_2xw4",
-    "created_at": "2026-04-20T16:49:08.143Z"
-  },
-  {
-    "id": "q_1776703748143_f353s3",
-    "text": "先物一時6万円超えたけど、現物は上昇647銘柄（41%）vs下落862銘柄（54%）。\n\n結局、個別株選びが全てってことだよね 📊\n\n#日本株 #個別株",
->>>>>>> Stashed changes
-    "score": {
-      "scores": {
-        "buzz": 7,
-        "hook": 8,
-        "value": 7,
-        "data": 9,
-        "unique": 6,
-<<<<<<< Updated upstream
-        "discussion": 8,
-        "bookmark": 6,
-        "tempo": 8,
-        "persona": 8,
-        "ng_check": 9
-      },
-      "average": 7.5
-    },
-    "pattern_id": "P09",
-    "hook_id": "H26",
-    "theme": "決算速報・決算レビュー",
+    "pattern_id": "P04",
+    "hook_id": "H21",
+    "theme": "物議を醸す投資トピック（逆張り・アンチテーゼ系で議論を生む）",
     "tweet_type": "standard",
-    "research_id": "r_1776700929171_k589",
-    "created_at": "2026-04-20T16:09:13.096Z"
+    "research_id": "r_1776730231201_ievq",
+    "created_at": "2026-04-21T00:19:58.791Z"
   },
   {
-    "id": "q_1776701353096_eodmyl",
-    "text": "日経VI指数33.20って、実はかなりヤバい数字なんだよね📊\n\n720/785の値上がり/値下がり比率を見ると、表面上は「普通の調整」に見えるけど、実際はもっと深刻。\n\nボラティリティが高まってる時の銘柄選別法、3つのポイントがあるんだけど...\n\n詳しい分析手法、noteに書きました（準備中）🎯\n\n#日本株 #個別株",
+    "id": "q_1776730798791_sacxsf",
+    "text": "東証の売買代金6兆5,727億円。\n\n最近のIPO、この商いの恩恵受けてるよね。\n\nセイワHD（7897）も梅乃宿も、出来高が全然違う。\n\n📊 市場全体が活況だとIPO投資家にとって追い風\n\n今週上場の銘柄、要チェック。\n\n#IPO #新規上場",
     "score": {
       "scores": {
         "buzz": 7,
@@ -66,34 +35,43 @@
         "data": 8,
         "unique": 6,
         "discussion": 7,
-        "bookmark": 8,
-        "tempo": 8,
-        "persona": 8,
-        "ng_check": 10
-      },
-      "average": 7.7
-    },
-    "pattern_id": "P07",
-    "hook_id": "H10",
-    "theme": "日本株個別銘柄分析",
-    "tweet_type": "note_cta",
-    "research_id": "r_1776700929171_vcct",
-    "created_at": "2026-04-20T16:09:13.096Z"
-=======
-        "discussion": 7,
         "bookmark": 6,
         "tempo": 8,
         "persona": 8,
+        "ng_check": 9
+      },
+      "average": 7.4
+    },
+    "pattern_id": "P05",
+    "hook_id": "H25",
+    "theme": "IPO分析・セカンダリー",
+    "tweet_type": "short_personal",
+    "research_id": "r_1776730231201_phkb",
+    "created_at": "2026-04-21T00:19:58.791Z"
+  },
+  {
+    "id": "q_1776730798791_j4vkuo",
+    "text": "Physical AI銘柄、みんな注目してるけど日本株で狙うならココ。\n\n📊 トヨタ（7203）の生産ライン自動化\n🤖 ファナック（6954）の産業ロボット\n⚡ キーエンス（6861）のセンサー技術\n🎯 ソフトバンクG（9984）のARM経由AI半導体\n\n実はこの4社、Physical AIの川上〜川下まで全部カバーしてる。特にファナックの工場AI連携が面白い。\n\n詳しい投資戦略、noteに書きました（準備中）🔥\n\n#日本株 #PhysicalAI",
+    "score": {
+      "scores": {
+        "buzz": 8,
+        "hook": 9,
+        "value": 8,
+        "data": 7,
+        "unique": 8,
+        "discussion": 7,
+        "bookmark": 9,
+        "tempo": 8,
+        "persona": 8,
         "ng_check": 10
       },
-      "average": 7.6
+      "average": 8.2
     },
-    "pattern_id": "P09",
-    "hook_id": "H10",
-    "theme": "決算速報・決算レビュー",
-    "tweet_type": "short_personal",
-    "research_id": "r_1776703337002_c68m",
-    "created_at": "2026-04-20T16:49:08.143Z"
->>>>>>> Stashed changes
+    "pattern_id": "P01",
+    "hook_id": "H06",
+    "theme": "テーマ投資（半導体・AI・防衛・原子力・宇宙・Physical AI）",
+    "tweet_type": "note_cta",
+    "research_id": null,
+    "created_at": "2026-04-21T00:19:58.791Z"
   }
 ]
