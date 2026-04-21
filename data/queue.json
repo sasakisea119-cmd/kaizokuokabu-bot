@@ -73,5 +73,105 @@
     "tweet_type": "note_cta",
     "research_id": null,
     "created_at": "2026-04-21T00:19:58.791Z"
+  },
+  {
+    "id": "q_1776752423800_0zwrgw",
+    "text": "日経平均、最高値更新。\n\nでも個別株のポートフォリオ組んでる人の方が実は勝ててる説ある。\n\n指数連動より銘柄選択の時代かも。 📊\n\n#日本株 #ポートフォリオ",
+    "score": {
+      "scores": {
+        "buzz": 7,
+        "hook": 8,
+        "value": 6,
+        "data": 7,
+        "unique": 8,
+        "discussion": 9,
+        "bookmark": 5,
+        "tempo": 8,
+        "persona": 8,
+        "ng_check": 10
+      },
+      "average": 7.6
+    },
+    "pattern_id": "P08",
+    "hook_id": "H16",
+    "theme": "ポートフォリオ戦略",
+    "tweet_type": "short_personal",
+    "research_id": "r_1776751958009_6seb",
+    "created_at": "2026-04-21T06:20:23.800Z"
+  },
+  {
+    "id": "q_1776752423800_7u41qn",
+    "text": "日経平均5万9596円で午前引け。771円高って、ここまで一気に買われるとは📈\n\nAI・半導体株がけん引してるけど、ここで気になるのは来週の日銀会合。利上げ見送りが濃厚だからこその買いなんだよね。\n\nでも本当に織り込み済み？この相場の裏にある「3つの落とし穴」をNoteにまとめてます（準備中）🎯\n\n#日本株 #金融政策",
+    "score": {
+      "scores": {
+        "buzz": 7,
+        "hook": 8,
+        "value": 7,
+        "data": 8,
+        "unique": 6,
+        "discussion": 7,
+        "bookmark": 8,
+        "tempo": 7,
+        "persona": 8,
+        "ng_check": 9
+      },
+      "average": 7.5
+    },
+    "pattern_id": "P13",
+    "hook_id": "H13",
+    "theme": "マクロ経済・市場環境",
+    "tweet_type": "note_cta",
+    "research_id": "r_1776751958009_7nhv",
+    "created_at": "2026-04-21T06:20:23.800Z"
+  },
+  {
+    "id": "q_1776752423800_r0o1yq",
+    "text": "今日だけで4社が業績上方修正を発表。\n\n広栄化学（4367）：経常利益2.5倍\nツガミ（6101）：最終利益32％増＋配当13円増\n全保連（2331）：経常利益5％増\n不動テトラ（1761）：経常20％増＋配当25円増\n\n📊 上方修正ラッシュの背景と、来週以降も続きそうな銘柄リストをNoteにまとめました（準備中）\n\n#決算 #上方修正",
+    "score": {
+      "scores": {
+        "buzz": 8,
+        "hook": 9,
+        "value": 8,
+        "data": 9,
+        "unique": 7,
+        "discussion": 7,
+        "bookmark": 9,
+        "tempo": 8,
+        "persona": 8,
+        "ng_check": 10
+      },
+      "average": 8.3
+    },
+    "pattern_id": "P12",
+    "hook_id": "H25",
+    "theme": "決算速報・決算レビュー",
+    "tweet_type": "note_cta",
+    "research_id": "r_1776751958009_wbnt",
+    "created_at": "2026-04-21T06:20:23.800Z"
+  },
+  {
+    "id": "q_1776752423800_4gsvmp",
+    "text": "先月「防衛株はまだ早い」って言われてた時に仕込んだ人、おめでとう🎯\n\n三菱重工業（$7011）がプラ転、川重（$7012）も続伸。防衛装備品輸出の5類型撤廃決定で完全に流れ変わったね。\n\n📊 防衛費43兆円計画\n🚀 輸出拡大政策で売上底上げ\n💎 まだ織り込み途中だと思う\n\nこのタイミングで利確する？それとも政策転換の本格化まで持つ？みんなの戦略聞かせて。\n\n#防衛株 #日本株",
+    "score": {
+      "scores": {
+        "buzz": 8,
+        "hook": 9,
+        "value": 7,
+        "data": 8,
+        "unique": 7,
+        "discussion": 8,
+        "bookmark": 6,
+        "tempo": 8,
+        "persona": 9,
+        "ng_check": 10
+      },
+      "average": 8
+    },
+    "pattern_id": "P15",
+    "hook_id": "H27",
+    "theme": "日本株個別銘柄分析",
+    "tweet_type": "contrarian",
+    "research_id": "r_1776751958009_6mo6",
+    "created_at": "2026-04-21T06:20:23.800Z"
   }
 ]
