@@ -182,7 +182,7 @@
     "urgency": "medium",
     "source_type": "trending_x",
     "created_at": "2026-04-21T06:13:35.853Z",
-    "used": false
+    "used": true
   },
   {
     "id": "r_1776752015853_yodv",
@@ -197,7 +197,7 @@
     "urgency": "medium",
     "source_type": "trending_x",
     "created_at": "2026-04-21T06:13:35.853Z",
-    "used": false
+    "used": true
   },
   {
     "id": "r_1776752015853_u1h0",
@@ -212,7 +212,7 @@
     "urgency": "medium",
     "source_type": "trending_x",
     "created_at": "2026-04-21T06:13:35.853Z",
-    "used": false
+    "used": true
   },
   {
     "id": "r_1776752015853_bbth",
@@ -227,7 +227,7 @@
     "urgency": "medium",
     "source_type": "trending_x",
     "created_at": "2026-04-21T06:13:35.853Z",
-    "used": false
+    "used": true
   },
   {
     "id": "r_1776752015853_gy9b",
@@ -242,6 +242,81 @@
     "urgency": "medium",
     "source_type": "trending_x",
     "created_at": "2026-04-21T06:13:35.853Z",
+    "used": false
+  },
+  {
+    "id": "r_1776762885004_50qa",
+    "theme": "### 日本株相場トレンド（直近12時間：2026年4月21日市場終了後中心）",
+    "title": "### 日本株相場トレンド（直近12時間：2026年4月21日市場終了後中心）",
+    "published_date": "2026-04-21",
+    "summary": "### 日本株相場トレンド（直近12時間：2026年4月21日市場終了後中心）",
+    "investment_angle": "",
+    "tickers": [],
+    "keywords": [],
+    "recommended_pattern": "P14",
+    "urgency": "medium",
+    "source_type": "trending_x",
+    "created_at": "2026-04-21T09:14:45.004Z",
+    "used": false
+  },
+  {
+    "id": "r_1776762885004_b40k",
+    "theme": "- **日経平均株価**：59,349円（前日比+524円、+0.89%）で大幅続伸。一時最高値更新（59,596円台到",
+    "title": "- **日経平均株価**：59,349円（前日比+524円、+0.89%）で大幅続伸。一時最高値更新（59,596円台到",
+    "published_date": "2026-04-21",
+    "summary": "- **日経平均株価**：59,349円（前日比+524円、+0.89%）で大幅続伸。一時最高値更新（59,596円台到達）。寄り付きから買い優勢で高値圏維持、米イラン停戦交渉進展期待と地政学リスク後退、日銀利上げ見送り観測が後押し。ハイテク・半導体主導でFOMO（乗り遅れ恐怖）相場。[[1]](https://x.com/i/status/2046516055955407333)[[2]](https://x.com/i/status/2046509616192975125)[[3]](https://x.com/i/status/2046508131635843114)[[4]](https://x.com/i/status/2046504086913339639)",
+    "investment_angle": "",
+    "tickers": [],
+    "keywords": [],
+    "recommended_pattern": "P14",
+    "urgency": "medium",
+    "source_type": "trending_x",
+    "created_at": "2026-04-21T09:14:45.004Z",
+    "used": false
+  },
+  {
+    "id": "r_1776762885004_x2rn",
+    "theme": "- **TOPIX**：3,770.38（-6.64、-0.18%）と反落。NT倍率が1976年以降最高の15.74倍に",
+    "title": "- **TOPIX**：3,770.38（-6.64、-0.18%）と反落。NT倍率が1976年以降最高の15.74倍に",
+    "published_date": "2026-04-21",
+    "summary": "- **TOPIX**：3,770.38（-6.64、-0.18%）と反落。NT倍率が1976年以降最高の15.74倍に達し、日経平均の一人勝ち状態。値上がり銘柄は全体の3割強にとどまる。[[5]](https://x.com/i/status/2046506281968742482)[[4]](https://x.com/i/status/2046504086913339639)",
+    "investment_angle": "",
+    "tickers": [],
+    "keywords": [],
+    "recommended_pattern": "P14",
+    "urgency": "medium",
+    "source_type": "trending_x",
+    "created_at": "2026-04-21T09:14:45.004Z",
+    "used": false
+  },
+  {
+    "id": "r_1776762885004_yugb",
+    "theme": "- **全体トレンド**：上昇基調継続も、半導体など特定セクター集中で過熱感指摘。年初来安値銘柄57社存在し、相場全体の",
+    "title": "- **全体トレンド**：上昇基調継続も、半導体など特定セクター集中で過熱感指摘。年初来安値銘柄57社存在し、相場全体の",
+    "published_date": "2026-04-21",
+    "summary": "- **全体トレンド**：上昇基調継続も、半導体など特定セクター集中で過熱感指摘。年初来安値銘柄57社存在し、相場全体の過熱は限定的との声も。[[6]](https://x.com/i/status/2046517675300720702)",
+    "investment_angle": "",
+    "tickers": [],
+    "keywords": [],
+    "recommended_pattern": "P14",
+    "urgency": "medium",
+    "source_type": "trending_x",
+    "created_at": "2026-04-21T09:14:45.004Z",
+    "used": false
+  },
+  {
+    "id": "r_1776762885004_7f8l",
+    "theme": "- **東証プライム全体**：20億2,034万株（前日比増加傾向）、売買代金6兆8,522億円と活況。半導体関連で急増",
+    "title": "- **東証プライム全体**：20億2,034万株（前日比増加傾向）、売買代金6兆8,522億円と活況。半導体関連で急増",
+    "published_date": "2026-04-21",
+    "summary": "- **東証プライム全体**：20億2,034万株（前日比増加傾向）、売買代金6兆8,522億円と活況。半導体関連で急増（例：ソフトバンクG 9,628万株）。5日騰落レシオ99.00%、25日109.43%と需給均衡～やや割高。[[2]](https://x.com/i/status/2046509616192975125)[[7]](https://x.com/i/status/2046506716926541844)",
+    "investment_angle": "",
+    "tickers": [],
+    "keywords": [],
+    "recommended_pattern": "P14",
+    "urgency": "medium",
+    "source_type": "trending_x",
+    "created_at": "2026-04-21T09:14:45.004Z",
     "used": false
   }
 ]

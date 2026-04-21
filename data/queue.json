@@ -173,5 +173,105 @@
     "tweet_type": "contrarian",
     "research_id": "r_1776751958009_6mo6",
     "created_at": "2026-04-21T06:20:23.800Z"
+  },
+  {
+    "id": "q_1776763297761_ttve1k",
+    "text": "米FRB、年内2回の利上げ示唆。\n\nドル円150円超えも視野に入ってきた。\n\n円安銘柄の仕込み時かもね。\n\n#日本株 #円安",
+    "score": {
+      "scores": {
+        "buzz": 8,
+        "hook": 9,
+        "value": 8,
+        "data": 8,
+        "unique": 7,
+        "discussion": 8,
+        "bookmark": 7,
+        "tempo": 9,
+        "persona": 8,
+        "ng_check": 10
+      },
+      "average": 8.2
+    },
+    "pattern_id": "P08",
+    "hook_id": "H02",
+    "theme": "今日のバズニュース（海外）",
+    "tweet_type": "short_personal",
+    "research_id": "r_1776752015853_53id",
+    "created_at": "2026-04-21T09:21:37.761Z"
+  },
+  {
+    "id": "q_1776763297761_iakqsi",
+    "text": "日経平均が史上最高値更新後の調整から+771円の大幅高で前場を終えた今日、メタプラネット（3350）のチャートを見て気づいたことがある。\n\n📊 ビットコイン価格との相関係数が先月から明らかに変化してる。多くの人が「BTC上がればメタプラも上がる」と思ってるけど、実はもっと複雑。\n\n🎯 この相関の変化が意味するもの、そして今後の投資戦略について詳しい分析をNoteにまとめてます（準備中）\n\n#日本株 #ビットコイン",
+    "score": {
+      "scores": {
+        "buzz": 8,
+        "hook": 7,
+        "value": 8,
+        "data": 7,
+        "unique": 8,
+        "discussion": 8,
+        "bookmark": 9,
+        "tempo": 8,
+        "persona": 8,
+        "ng_check": 10
+      },
+      "average": 8.1
+    },
+    "pattern_id": "P12",
+    "hook_id": "H29",
+    "theme": "メタプラネット・ビットコイン関連（賛否両論あるネタとして積極的に取り上げる）",
+    "tweet_type": "note_cta",
+    "research_id": "r_1776752015853_yodv",
+    "created_at": "2026-04-21T09:21:37.761Z"
+  },
+  {
+    "id": "q_1776763297761_llf2qj",
+    "text": "正直に言う。今の相場で一番怖いのは日経だけ見てポートフォリオ組んでること。\n\n📊 今日の数字見てみて：\n・日経：好調維持\n・TOPIX：+0.30%と鈍い反応\n・下落銘柄 > 値上がり銘柄\n\n大型株偏重の人、気づいてる？実は中小型が足を引っ張ってる構造。\n\n💎 この温度差を利用した戦略、noteに詳しく書きました（準備中）\n\n#日本株 #ポートフォリオ",
+    "score": {
+      "scores": {
+        "buzz": 8,
+        "hook": 9,
+        "value": 8,
+        "data": 9,
+        "unique": 8,
+        "discussion": 8,
+        "bookmark": 9,
+        "tempo": 8,
+        "persona": 9,
+        "ng_check": 10
+      },
+      "average": 8.6
+    },
+    "pattern_id": "P04",
+    "hook_id": "H24",
+    "theme": "ポートフォリオ戦略",
+    "tweet_type": "note_cta",
+    "research_id": "r_1776752015853_u1h0",
+    "created_at": "2026-04-21T09:21:37.761Z"
+  },
+  {
+    "id": "q_1776763297761_fftnk0",
+    "text": "去年末にIPOで仕込んだ3銘柄、今見たら全部プラスになってた🚀\n\n📊 セカンダリー勝率:\n・AI関連: +40%台\n・バイオ系: +20%台  \n・SaaS系: +15%台\n\n外国人買いが+15兆円超で追い風だったのもある。でも一番大きかったのは「上場直後の売り圧力が一巡するタイミング」を狙えたこと💎\n\nIPOって初値で買うより、3-6ヶ月後の方が美味しいケース多いよね？\n\n#IPO #セカンダリー",
+    "score": {
+      "scores": {
+        "buzz": 8,
+        "hook": 9,
+        "value": 8,
+        "data": 9,
+        "unique": 7,
+        "discussion": 8,
+        "bookmark": 7,
+        "tempo": 8,
+        "persona": 9,
+        "ng_check": 10
+      },
+      "average": 8.3
+    },
+    "pattern_id": "P10",
+    "hook_id": "H27",
+    "theme": "IPO分析・セカンダリー",
+    "tweet_type": "contrarian",
+    "research_id": "r_1776752015853_bbth",
+    "created_at": "2026-04-21T09:21:37.761Z"
   }
 ]
