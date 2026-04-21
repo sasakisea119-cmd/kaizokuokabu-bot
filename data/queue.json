@@ -1,369 +1,102 @@
 [
   {
-    "id": "q_1776730798791_r9u8i2",
-    "text": "TOPIXが置いてけぼりで日経平均だけ上がってる時って、実は一番危険なサインだと思うんだよね 📊\n\n日経平均は225社の価格加重だから、ソフトバンクグループ（9984）やファーストリテイリング（9983）が上がれば全体が押し上げられる。でもTOPIXは時価総額加重だから市場全体の実態を反映してる。\n\n📈 日経だけ上昇＝大型株の一人相撲\n📉 TOPIX横ばい＝中小型株は冷え込み\n\nこういう時に「株高だ！」って浮かれてる人、本当に大丈夫？市場の二極化が進んでるだけかもよ 🤔\n\nみんなはどっちの指数を信頼してる？\n\n#日本株 #TOPIX",
+    "id": "q_1776789034879_l7p317",
+    "text": "エヌビディア（NVDA）の時価総額、またApple抜いて世界2位に戻ってきたね 📊\n\n決算後の下落で「AIバブル終了」って言われてたけど、結局3.8兆ドル超え。データセンター需要の根強さがやっぱり違う。\n\n📈 株価は年初来+180%超\n💎 AI需要は長期トレンドで継続中\n⚠️ ただし決算のハードルは毎回上がってる\n\nエヌビディア持ってる人、今の水準どう見てる？ #米国株 #AI株",
     "score": {
       "scores": {
         "buzz": 8,
-        "hook": 9,
+        "hook": 8,
         "value": 8,
         "data": 9,
-        "unique": 8,
-        "discussion": 9,
-        "bookmark": 7,
-        "tempo": 8,
-        "persona": 9,
-        "ng_check": 10
-      },
-      "average": 8.5
-    },
-    "pattern_id": "P04",
-    "hook_id": "H21",
-    "theme": "物議を醸す投資トピック（逆張り・アンチテーゼ系で議論を生む）",
-    "tweet_type": "standard",
-    "research_id": "r_1776730231201_ievq",
-    "created_at": "2026-04-21T00:19:58.791Z"
-  },
-  {
-    "id": "q_1776730798791_sacxsf",
-    "text": "東証の売買代金6兆5,727億円。\n\n最近のIPO、この商いの恩恵受けてるよね。\n\nセイワHD（7897）も梅乃宿も、出来高が全然違う。\n\n📊 市場全体が活況だとIPO投資家にとって追い風\n\n今週上場の銘柄、要チェック。\n\n#IPO #新規上場",
-    "score": {
-      "scores": {
-        "buzz": 7,
-        "hook": 8,
-        "value": 7,
-        "data": 8,
-        "unique": 6,
-        "discussion": 7,
-        "bookmark": 6,
-        "tempo": 8,
-        "persona": 8,
-        "ng_check": 9
-      },
-      "average": 7.4
-    },
-    "pattern_id": "P05",
-    "hook_id": "H25",
-    "theme": "IPO分析・セカンダリー",
-    "tweet_type": "short_personal",
-    "research_id": "r_1776730231201_phkb",
-    "created_at": "2026-04-21T00:19:58.791Z"
-  },
-  {
-    "id": "q_1776730798791_j4vkuo",
-    "text": "Physical AI銘柄、みんな注目してるけど日本株で狙うならココ。\n\n📊 トヨタ（7203）の生産ライン自動化\n🤖 ファナック（6954）の産業ロボット\n⚡ キーエンス（6861）のセンサー技術\n🎯 ソフトバンクG（9984）のARM経由AI半導体\n\n実はこの4社、Physical AIの川上〜川下まで全部カバーしてる。特にファナックの工場AI連携が面白い。\n\n詳しい投資戦略、noteに書きました（準備中）🔥\n\n#日本株 #PhysicalAI",
-    "score": {
-      "scores": {
-        "buzz": 8,
-        "hook": 9,
-        "value": 8,
-        "data": 7,
-        "unique": 8,
-        "discussion": 7,
-        "bookmark": 9,
-        "tempo": 8,
-        "persona": 8,
-        "ng_check": 10
-      },
-      "average": 8.2
-    },
-    "pattern_id": "P01",
-    "hook_id": "H06",
-    "theme": "テーマ投資（半導体・AI・防衛・原子力・宇宙・Physical AI）",
-    "tweet_type": "note_cta",
-    "research_id": null,
-    "created_at": "2026-04-21T00:19:58.791Z"
-  },
-  {
-    "id": "q_1776752423800_0zwrgw",
-    "text": "日経平均、最高値更新。\n\nでも個別株のポートフォリオ組んでる人の方が実は勝ててる説ある。\n\n指数連動より銘柄選択の時代かも。 📊\n\n#日本株 #ポートフォリオ",
-    "score": {
-      "scores": {
-        "buzz": 7,
-        "hook": 8,
-        "value": 6,
-        "data": 7,
-        "unique": 8,
-        "discussion": 9,
-        "bookmark": 5,
-        "tempo": 8,
-        "persona": 8,
-        "ng_check": 10
-      },
-      "average": 7.6
-    },
-    "pattern_id": "P08",
-    "hook_id": "H16",
-    "theme": "ポートフォリオ戦略",
-    "tweet_type": "short_personal",
-    "research_id": "r_1776751958009_6seb",
-    "created_at": "2026-04-21T06:20:23.800Z"
-  },
-  {
-    "id": "q_1776752423800_7u41qn",
-    "text": "日経平均5万9596円で午前引け。771円高って、ここまで一気に買われるとは📈\n\nAI・半導体株がけん引してるけど、ここで気になるのは来週の日銀会合。利上げ見送りが濃厚だからこその買いなんだよね。\n\nでも本当に織り込み済み？この相場の裏にある「3つの落とし穴」をNoteにまとめてます（準備中）🎯\n\n#日本株 #金融政策",
-    "score": {
-      "scores": {
-        "buzz": 7,
-        "hook": 8,
-        "value": 7,
-        "data": 8,
-        "unique": 6,
-        "discussion": 7,
-        "bookmark": 8,
-        "tempo": 7,
-        "persona": 8,
-        "ng_check": 9
-      },
-      "average": 7.5
-    },
-    "pattern_id": "P13",
-    "hook_id": "H13",
-    "theme": "マクロ経済・市場環境",
-    "tweet_type": "note_cta",
-    "research_id": "r_1776751958009_7nhv",
-    "created_at": "2026-04-21T06:20:23.800Z"
-  },
-  {
-    "id": "q_1776752423800_r0o1yq",
-    "text": "今日だけで4社が業績上方修正を発表。\n\n広栄化学（4367）：経常利益2.5倍\nツガミ（6101）：最終利益32％増＋配当13円増\n全保連（2331）：経常利益5％増\n不動テトラ（1761）：経常20％増＋配当25円増\n\n📊 上方修正ラッシュの背景と、来週以降も続きそうな銘柄リストをNoteにまとめました（準備中）\n\n#決算 #上方修正",
-    "score": {
-      "scores": {
-        "buzz": 8,
-        "hook": 9,
-        "value": 8,
-        "data": 9,
-        "unique": 7,
-        "discussion": 7,
-        "bookmark": 9,
-        "tempo": 8,
-        "persona": 8,
-        "ng_check": 10
-      },
-      "average": 8.3
-    },
-    "pattern_id": "P12",
-    "hook_id": "H25",
-    "theme": "決算速報・決算レビュー",
-    "tweet_type": "note_cta",
-    "research_id": "r_1776751958009_wbnt",
-    "created_at": "2026-04-21T06:20:23.800Z"
-  },
-  {
-    "id": "q_1776752423800_4gsvmp",
-    "text": "先月「防衛株はまだ早い」って言われてた時に仕込んだ人、おめでとう🎯\n\n三菱重工業（$7011）がプラ転、川重（$7012）も続伸。防衛装備品輸出の5類型撤廃決定で完全に流れ変わったね。\n\n📊 防衛費43兆円計画\n🚀 輸出拡大政策で売上底上げ\n💎 まだ織り込み途中だと思う\n\nこのタイミングで利確する？それとも政策転換の本格化まで持つ？みんなの戦略聞かせて。\n\n#防衛株 #日本株",
-    "score": {
-      "scores": {
-        "buzz": 8,
-        "hook": 9,
-        "value": 7,
-        "data": 8,
-        "unique": 7,
-        "discussion": 8,
-        "bookmark": 6,
-        "tempo": 8,
-        "persona": 9,
-        "ng_check": 10
-      },
-      "average": 8
-    },
-    "pattern_id": "P15",
-    "hook_id": "H27",
-    "theme": "日本株個別銘柄分析",
-    "tweet_type": "contrarian",
-    "research_id": "r_1776751958009_6mo6",
-    "created_at": "2026-04-21T06:20:23.800Z"
-  },
-  {
-<<<<<<< Updated upstream
-    "id": "q_1776763297761_ttve1k",
-    "text": "米FRB、年内2回の利上げ示唆。\n\nドル円150円超えも視野に入ってきた。\n\n円安銘柄の仕込み時かもね。\n\n#日本株 #円安",
-=======
-    "id": "q_1776763342111_cpf33s",
-    "text": "みんなが怖がってる時こそ買い。歴史が証明してる。\n\n正直に言うと、先月の調整局面で仕込んだ3銘柄、全部プラス転換した。📈\n\n📊 その時の判断基準：\n・PBR1倍割れの優良株\n・過度な売られすぎ感\n・業績に問題なし\n\n今回のタイミングで拾えた人、おめでとう💎\n相場の恐怖心に負けずに行動した結果だよね。\n\n#日本株 #投資",
->>>>>>> Stashed changes
-    "score": {
-      "scores": {
-        "buzz": 8,
-        "hook": 9,
-<<<<<<< Updated upstream
-        "value": 8,
-        "data": 8,
         "unique": 7,
         "discussion": 8,
         "bookmark": 7,
-        "tempo": 9,
-        "persona": 8,
-=======
-        "value": 7,
-        "data": 7,
-        "unique": 6,
-        "discussion": 8,
-        "bookmark": 6,
-        "tempo": 8,
-        "persona": 9,
-        "ng_check": 8
-      },
-      "average": 7.6
-    },
-    "pattern_id": "P17",
-    "hook_id": "H25",
-    "theme": "マクロ経済・市場環境",
-    "tweet_type": "contrarian",
-    "research_id": "r_1776752015853_53id",
-    "created_at": "2026-04-21T09:22:22.111Z"
-  },
-  {
-    "id": "q_1776763342111_4wgoj8",
-    "text": "日経平均、前場で+771円の大幅高だったのに、後場で失速して結局+500円って展開、みんなどう見てる？📈\n\n半導体株が買われてたのに内需株が重しになったらしいけど、これって典型的な「外需頼み相場」の構図だよね。\n\n59,417円の高値つけたあと58,821円まで下がる値幅596円って、ボラティリティやばくない？🎯\n\nこの展開、明日どうなるか気になる人多いと思う。\n\n#日本株 #日経平均",
-    "score": {
-      "scores": {
-        "buzz": 8,
-        "hook": 9,
-        "value": 7,
-        "data": 9,
-        "unique": 7,
-        "discussion": 9,
-        "bookmark": 6,
-        "tempo": 8,
-        "persona": 9,
->>>>>>> Stashed changes
-        "ng_check": 10
-      },
-      "average": 8.2
-    },
-<<<<<<< Updated upstream
-    "pattern_id": "P08",
-    "hook_id": "H02",
-    "theme": "今日のバズニュース（海外）",
-    "tweet_type": "short_personal",
-    "research_id": "r_1776752015853_53id",
-    "created_at": "2026-04-21T09:21:37.761Z"
-  },
-  {
-    "id": "q_1776763297761_iakqsi",
-    "text": "日経平均が史上最高値更新後の調整から+771円の大幅高で前場を終えた今日、メタプラネット（3350）のチャートを見て気づいたことがある。\n\n📊 ビットコイン価格との相関係数が先月から明らかに変化してる。多くの人が「BTC上がればメタプラも上がる」と思ってるけど、実はもっと複雑。\n\n🎯 この相関の変化が意味するもの、そして今後の投資戦略について詳しい分析をNoteにまとめてます（準備中）\n\n#日本株 #ビットコイン",
-=======
-    "pattern_id": "P15",
-    "hook_id": "H04",
-    "theme": "今日のバズニュース（国内）",
-    "tweet_type": "standard",
-    "research_id": "r_1776752015853_yodv",
-    "created_at": "2026-04-21T09:22:22.111Z"
-  },
-  {
-    "id": "q_1776763342111_3wtkx5",
-    "text": "メタプラネット（3350）、今日も-3%で2,400円台。\n\nビットコイン連動銘柄として注目されてるけど、実は「連動しない日」の方が投資的に面白いんだよね。\n\n📊 BTC価格との相関係数を3ヶ月で計算したら意外な結果が...\n📈 株価2倍になった期間のBTC騰落率は？\n💎 メタプラ投資家が見落としてるリスク指標とは\n\n詳しい分析、noteにまとめてます（準備中）\n\nみんなはメタプラ、どう見てる？\n\n#ビットコイン #メタプラネット",
->>>>>>> Stashed changes
-    "score": {
-      "scores": {
-        "buzz": 8,
-        "hook": 7,
-        "value": 8,
-        "data": 7,
-        "unique": 8,
-<<<<<<< Updated upstream
-        "discussion": 8,
-        "bookmark": 9,
-=======
-        "discussion": 9,
-        "bookmark": 8,
->>>>>>> Stashed changes
         "tempo": 8,
         "persona": 8,
         "ng_check": 10
       },
       "average": 8.1
     },
-<<<<<<< Updated upstream
-    "pattern_id": "P12",
-    "hook_id": "H29",
-    "theme": "メタプラネット・ビットコイン関連（賛否両論あるネタとして積極的に取り上げる）",
-    "tweet_type": "note_cta",
-    "research_id": "r_1776752015853_yodv",
-    "created_at": "2026-04-21T09:21:37.761Z"
+    "pattern_id": "P02",
+    "hook_id": "H12",
+    "theme": "米国株個別銘柄分析",
+    "tweet_type": "standard",
+    "research_id": "r_1776788543202_3wsl",
+    "created_at": "2026-04-21T16:30:34.879Z"
   },
   {
-    "id": "q_1776763297761_llf2qj",
-    "text": "正直に言う。今の相場で一番怖いのは日経だけ見てポートフォリオ組んでること。\n\n📊 今日の数字見てみて：\n・日経：好調維持\n・TOPIX：+0.30%と鈍い反応\n・下落銘柄 > 値上がり銘柄\n\n大型株偏重の人、気づいてる？実は中小型が足を引っ張ってる構造。\n\n💎 この温度差を利用した戦略、noteに詳しく書きました（準備中）\n\n#日本株 #ポートフォリオ",
+    "id": "q_1776789034879_htl46v",
+    "text": "高市政権の防衛AI国産化、思った以上に本気だった。\n\nサカナAIが防衛省システム受注のニュースで、三菱電機（6503）、キヤノン（7751）、日本電気（6701）あたりの防衛AI関連株に資金流入の兆し。\n\n📊 国策テーマとしての投資妙味\n🎯 長期トレンド転換の可能性\n⚠️ リスク要因も複数あり\n\n防衛×AIの本命株5選、詳しくはNoteにまとめてます（準備中）\n\n#防衛AI #日本株",
     "score": {
       "scores": {
         "buzz": 8,
         "hook": 9,
         "value": 8,
-        "data": 9,
+        "data": 7,
         "unique": 8,
-        "discussion": 8,
+        "discussion": 7,
         "bookmark": 9,
-        "tempo": 8,
-        "persona": 9,
-        "ng_check": 10
-      },
-      "average": 8.6
-    },
-    "pattern_id": "P04",
-    "hook_id": "H24",
-    "theme": "ポートフォリオ戦略",
-    "tweet_type": "note_cta",
-    "research_id": "r_1776752015853_u1h0",
-    "created_at": "2026-04-21T09:21:37.761Z"
-  },
-  {
-    "id": "q_1776763297761_fftnk0",
-    "text": "去年末にIPOで仕込んだ3銘柄、今見たら全部プラスになってた🚀\n\n📊 セカンダリー勝率:\n・AI関連: +40%台\n・バイオ系: +20%台  \n・SaaS系: +15%台\n\n外国人買いが+15兆円超で追い風だったのもある。でも一番大きかったのは「上場直後の売り圧力が一巡するタイミング」を狙えたこと💎\n\nIPOって初値で買うより、3-6ヶ月後の方が美味しいケース多いよね？\n\n#IPO #セカンダリー",
-    "score": {
-      "scores": {
-        "buzz": 8,
-        "hook": 9,
-        "value": 8,
-        "data": 9,
-        "unique": 7,
-        "discussion": 8,
-        "bookmark": 7,
         "tempo": 8,
         "persona": 9,
         "ng_check": 10
       },
       "average": 8.3
     },
-    "pattern_id": "P10",
-    "hook_id": "H27",
-    "theme": "IPO分析・セカンダリー",
-    "tweet_type": "contrarian",
-    "research_id": "r_1776752015853_bbth",
-    "created_at": "2026-04-21T09:21:37.761Z"
-=======
-    "pattern_id": "P07",
-    "hook_id": "H15",
-    "theme": "メタプラネット・ビットコイン関連（賛否両論あるネタとして積極的に取り上げる）",
+    "pattern_id": "P06",
+    "hook_id": "H11",
+    "theme": "テーマ投資（半導体・AI・防衛・原子力・宇宙・Physical AI）",
     "tweet_type": "note_cta",
-    "research_id": "r_1776752015853_u1h0",
-    "created_at": "2026-04-21T09:22:22.111Z"
+    "research_id": "r_1776788543202_ftr4",
+    "created_at": "2026-04-21T16:30:34.879Z"
   },
   {
-    "id": "q_1776763342111_eszrr6",
-    "text": "今日の相場、外国人の+15兆円買いと円安159円台で支えられてたけど、後場は調整モード。\n\n📊 中東情勢と日銀利上げ観測後退で投資家心理が微妙に変化\n📈 指数追うより個別テーマ選別の地合いに\n\nこういう時って、みんなどの銘柄に注目してる？循環物色って言葉は聞くけど、実際どのセクターがローテーションしてるか気になるよね。\n\n#日本株 #相場",
+    "id": "q_1776789034879_hqludx",
+    "text": "【ポートフォリオ戦略】バトンズ（554A）みたいなIPO銘柄、どう組み込む？\n\n昨日上場のM&Aプラットフォーム企業。事業承継市場は年6%成長だけど、こういう成長株は全体の何%まで持つべきか🤔\n\n📊 僕の考える「IPO銘柄の適正比率」\n💎 リスク許容度別の配分戦略\n🎯 初値買いvs様子見の判断基準\n\n詳しいポートフォリオ戦略、Noteにまとめてる（準備中）\n\n#IPO #ポートフォリオ",
     "score": {
       "scores": {
-        "buzz": 8,
+        "buzz": 7,
         "hook": 8,
-        "value": 7,
-        "data": 9,
+        "value": 8,
+        "data": 8,
         "unique": 7,
-        "discussion": 9,
-        "bookmark": 6,
+        "discussion": 8,
+        "bookmark": 9,
+        "tempo": 8,
+        "persona": 8,
+        "ng_check": 10
+      },
+      "average": 8.1
+    },
+    "pattern_id": "P04",
+    "hook_id": "H16",
+    "theme": "ポートフォリオ戦略",
+    "tweet_type": "note_cta",
+    "research_id": "r_1776788543202_q46q",
+    "created_at": "2026-04-21T16:30:34.879Z"
+  },
+  {
+    "id": "q_1776789034879_uujywf",
+    "text": "Apple（$AAPL）CEO交代で、テック株の決算見方が変わる。\n\n📊 ティム・クック退任、AI端末のエース ターナス氏が9月新CEOに。15年ぶりの大人事。\n\n🎯 これまでのハードウェア中心からAI特化戦略へ。iPhone依存脱却の本格始動かも。\n\n日本のテクノロジー株（ソフトバンクG、キーエンス）への影響も気になるところ。\n\n詳しい分析と関連銘柄リストはNoteに書きました（準備中）\n\n#決算 #テクノロジー株",
+    "score": {
+      "scores": {
+        "buzz": 7,
+        "hook": 8,
+        "value": 8,
+        "data": 7,
+        "unique": 8,
+        "discussion": 7,
+        "bookmark": 9,
         "tempo": 8,
         "persona": 8,
         "ng_check": 10
       },
       "average": 8
     },
-    "pattern_id": "P11",
-    "hook_id": "H02",
-    "theme": "今日のバズニュース（国内）",
-    "tweet_type": "standard",
-    "research_id": "r_1776752015853_bbth",
-    "created_at": "2026-04-21T09:22:22.111Z"
->>>>>>> Stashed changes
+    "pattern_id": "P05",
+    "hook_id": "H03",
+    "theme": "決算速報・決算レビュー",
+    "tweet_type": "note_cta",
+    "research_id": "r_1776788543202_ud38",
+    "created_at": "2026-04-21T16:30:34.879Z"
   }
 ]
