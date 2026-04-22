@@ -9,19 +9,29 @@
     "fetched_at": null
   },
   {
+<<<<<<< Updated upstream
     "tweet_id": "2046982089585648023",
     "text": "【データ定義】対象: 2026年1-4月上場全銘柄10社、公募価格比の騰落率\n\n🎯IPO前半戦終了🎯\n平均騰落率+3.8%、勝率40%と厳しい結果\n💡バトンズ（554A）が+153.6%でぶっちぎり首位\nM&Aプラットフォーム小型案件が久々の大化け\n\n昨日のSQUEEZE（558A）は+4.5%と微増\nインバウンド回復のホテルDX案件も期待ほど上がらず\n\n地政学リスクでIPO冬の時代が続くか？\n#IPO #株式投資 #初値予想",
+=======
+    "tweet_id": "2046994125057094111",
+    "text": "【データ定義】対象: 2026年1-4月上場全銘柄、公募価格比の騰落率\n\n🚨異常事態🚨\n史上稀な「IPO全敗記録」更新中\n\n✅ 1-4月期 9社連続で公募割れ\n✅ 平均騰落率 -8.2%\n✅ 18年IPO投資歴で初の事態\n\n🌪️ 中東情勢×AI相場の二重苦\n→IPO市場から資金流出\n\n📊 詳細データで完全検証\n→ 次の転換点を見極めよ\n\n#IPO #公募割れ #投資",
+>>>>>>> Stashed changes
     "type": "image",
     "card_type": "performance",
     "pattern_id": "IMG",
     "hook_id": null,
     "theme": "image_performance",
     "research_id": null,
+<<<<<<< Updated upstream
     "posted_at": "2026-04-22T15:58:56.082Z",
+=======
+    "posted_at": "2026-04-22T16:46:45.561Z",
+>>>>>>> Stashed changes
     "metrics": null,
     "fetched_at": null
   },
   {
+<<<<<<< Updated upstream
     "tweet_id": "2046984832249380946",
     "text": "Physical AI、実はもう実用化段階に入ってる。\n\nロボティクス×AIで製造業が激変する流れ、データ見たら想像以上だった。特に日本の3社、この分野でめちゃくちゃ面白いポジション取ってる。\n\n📊 市場規模予測\n📈 関連銘柄の業績推移\n🎯 投資タイミングの見極め方\n\n詳しい分析、noteにまとめてます（準備中）\n\nみんなPhysical AIってどこまで知ってる？\n\n#AI #テーマ投資",
     "score": {
@@ -59,10 +69,24 @@
         "unique": 8,
         "discussion": 8,
         "bookmark": 7,
+=======
+    "tweet_id": "2046996876461785122",
+    "text": "昨日のIPO初値結果、3社中2社が公開価格割れ。\n\nでも実はこれ、セカンダリー狙いには美味しい状況なんです。\n\n📊 初値公開価格倍率\n• 1社目：0.8倍（-20%）\n• 2社目：0.9倍（-10%）\n• 3社目：1.2倍（+20%）\n\n割れた銘柄の業績とバリュエーション分析したら、意外な発見が。特に2社目は…\n\n詳しい分析と今後の戦略、noteに書きました📝\n\n#IPO #新規上場",
+    "score": {
+      "scores": {
+        "buzz": 7,
+        "hook": 8,
+        "value": 8,
+        "data": 9,
+        "unique": 7,
+        "discussion": 6,
+        "bookmark": 8,
+>>>>>>> Stashed changes
         "tempo": 8,
         "persona": 8,
         "ng_check": 10
       },
+<<<<<<< Updated upstream
       "average": 8.3
     },
     "pattern_id": "P14",
@@ -70,6 +94,41 @@
     "theme": "今日のバズニュース（海外）",
     "research_id": "r_1776873647415_4wq6",
     "posted_at": "2026-04-22T16:29:50.345Z",
+=======
+      "average": 7.9
+    },
+    "pattern_id": "P11",
+    "hook_id": "H30",
+    "theme": "IPO分析・セカンダリー",
+    "research_id": "r_1776876517977_5i9x",
+    "posted_at": "2026-04-22T16:57:41.475Z",
+    "metrics": null,
+    "fetched_at": null
+  },
+  {
+    "tweet_id": "2047001910826127391",
+    "text": "日経6万円目前で浮かれてるけど、実は2極化相場の極地。指数だけ見て「全体が好調」って勘違いしてない？半導体株抜いたら実質下落だよ。 #日本株 #2極化相場",
+    "score": {
+      "scores": {
+        "buzz": 8,
+        "hook": 9,
+        "value": 7,
+        "data": 6,
+        "unique": 8,
+        "discussion": 9,
+        "bookmark": 6,
+        "tempo": 8,
+        "persona": 9,
+        "ng_check": 10
+      },
+      "average": 8
+    },
+    "pattern_id": "P10",
+    "hook_id": "H11",
+    "theme": "物議を醸す投資トピック（逆張り・アンチテーゼ系で議論を生む）",
+    "research_id": "r_1776876517977_o1py",
+    "posted_at": "2026-04-22T17:17:41.739Z",
+>>>>>>> Stashed changes
     "metrics": null,
     "fetched_at": null
   }

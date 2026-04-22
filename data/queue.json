@@ -1,5 +1,6 @@
 [
   {
+<<<<<<< Updated upstream
     "id": "q_1776874067428_b2826i",
     "text": "東証プライム、上昇18% vs 下落78%。\n\nこの極端な二極化、やばくない？📊\n\n日経平均上がってるけど、8割の銘柄は下落してる現実。みんなどう思う？\n\n#日本株 #東証プライム",
     "score": {
@@ -27,19 +28,29 @@
   {
     "id": "q_1776874067428_1l4xn3",
     "text": "今日上場したIPO4社、セカンダリーで買うか迷ってる人多そう。\n\n📊 初値→現在の値動き見ると、意外な銘柄が一番堅調だった\n📈 地政学リスク緩和で半導体関連IPOに資金流入の兆し\n💎 ただし明日以降のボラティリティには要注意\n\nセカンダリー投資の判断基準と、今回の4社それぞれの分析をNoteにまとめてます（準備中）\n\n#IPO #新規上場",
+=======
+    "id": "q_1776876939389_wyrkmo",
+    "text": "TOPIX 3,744、日経との乖離が気になる。\n\n市場全体の弱さが数字に出てる感じ。\nこういう時の米国株の動きが重要なんだよね。\n\n📊 -0.67%の意味、理解してる？\n\n#日本株 #TOPIX",
+>>>>>>> Stashed changes
     "score": {
       "scores": {
-        "buzz": 7,
-        "hook": 8,
-        "value": 8,
-        "data": 7,
+        "buzz": 6,
+        "hook": 7,
+        "value": 7,
+        "data": 8,
         "unique": 6,
+<<<<<<< Updated upstream
         "discussion": 8,
         "bookmark": 9,
+=======
+        "discussion": 7,
+        "bookmark": 5,
+>>>>>>> Stashed changes
         "tempo": 8,
         "persona": 8,
         "ng_check": 10
       },
+<<<<<<< Updated upstream
       "average": 7.9
     },
     "pattern_id": "P06",
@@ -48,5 +59,40 @@
     "tweet_type": "note_cta",
     "research_id": "r_1776873647415_az1y",
     "created_at": "2026-04-22T16:07:47.428Z"
+=======
+      "average": 7.2
+    },
+    "pattern_id": "P09",
+    "hook_id": "H04",
+    "theme": "米国株個別銘柄分析",
+    "tweet_type": "short_personal",
+    "research_id": "r_1776876517977_a3dn",
+    "created_at": "2026-04-22T16:55:39.389Z"
+  },
+  {
+    "id": "q_1776876939389_9sf820",
+    "text": "プライム市場で8割の銘柄が下落してるのに、なんで指数は上がるの？\n\nこれ「NT倍率の罠」って呼んでる現象で、投資初心者が一番勘違いしやすいポイント。\n\n📊 プライム1,523銘柄のうち下落1,225銘柄（78%）\n📈 でも日経平均は高値更新\n\nこのカラクリ、意外と知らない人多い。ポートフォリオ組む前に絶対理解しとくべき話をNoteにまとめました（準備中）\n\n#日本株 #投資初心者",
+    "score": {
+      "scores": {
+        "buzz": 8,
+        "hook": 9,
+        "value": 8,
+        "data": 9,
+        "unique": 8,
+        "discussion": 8,
+        "bookmark": 9,
+        "tempo": 8,
+        "persona": 9,
+        "ng_check": 10
+      },
+      "average": 8.6
+    },
+    "pattern_id": "P14",
+    "hook_id": "H15",
+    "theme": "投資の基礎知識・考え方",
+    "tweet_type": "note_cta",
+    "research_id": "r_1776876517977_qlb1",
+    "created_at": "2026-04-22T16:55:39.389Z"
+>>>>>>> Stashed changes
   }
 ]
