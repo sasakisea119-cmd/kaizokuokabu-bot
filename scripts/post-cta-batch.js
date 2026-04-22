@@ -11,6 +11,7 @@ const path = require('path');
 const { postTweet, uploadMedia, postTweetWithMedia } = require('../lib/x-api');
 const { buildStockCard, buildComparisonCard, renderSvgToBase64 } = require('../lib/card-gen');
 const { findDuplicate } = require('../lib/dedup');
+const { logAndGuardFreshness } = require('../lib/freshness');
 
 const QUEUE_PATH = path.join(__dirname, '..', 'data', 'queue.json');
 const HISTORY_PATH = path.join(__dirname, '..', 'data', 'post_history.json');
@@ -82,6 +83,13 @@ async function main() {
     if (dup.isDuplicate) {
       console.warn(`  ⚠️ 重複検出 → 投稿スキップ (${dup.reason})`);
       // queueには残す（手動レビュー待ち）
+      continue;
+    }
+
+    // 鮮度ガード
+    const guard = logAndGuardFreshness('cta-batch', tweet.text, history);
+    if (guard.blocked) {
+      console.warn(`  鮮度リスクで投稿スキップ（queueには残す）`);
       continue;
     }
 

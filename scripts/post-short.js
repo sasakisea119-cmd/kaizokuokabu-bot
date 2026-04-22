@@ -16,6 +16,7 @@ const path = require('path');
 const { postTweet } = require('../lib/x-api');
 const { generateShortTweet, STYLES } = require('../lib/short-generator');
 const { findDuplicate } = require('../lib/dedup');
+const { logAndGuardFreshness } = require('../lib/freshness');
 
 const HISTORY_PATH = path.join(__dirname, '..', 'data', 'post_history.json');
 const RESEARCH_PATH = path.join(__dirname, '..', 'data', 'research_pool.json');
@@ -107,6 +108,14 @@ async function main() {
     }
 
     console.log(`  [${result.label}] ${result.text} (${result.text.length}字)`);
+
+    // 鮮度ガード
+    const guard = logAndGuardFreshness('post-short', result.text, history);
+    if (guard.blocked) {
+      console.warn(`  鮮度リスクでスキップ → 次候補へ`);
+      i--; // カウンタを戻す
+      continue;
+    }
 
     if (dryRun) {
       postedCount++;

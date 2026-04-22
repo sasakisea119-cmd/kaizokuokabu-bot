@@ -16,6 +16,7 @@ const { getUserTimeline } = require('../lib/x-api-read');
 const { postTweet } = require('../lib/x-api');
 const { generateInspiredTweet } = require('../lib/inspire-generator');
 const { findDuplicate } = require('../lib/dedup');
+const { logAndGuardFreshness } = require('../lib/freshness');
 
 const TARGETS_CACHE = path.join(__dirname, '..', 'data', 'intercept-targets-cache.json');
 const STATE_PATH = path.join(__dirname, '..', 'data', 'inspire-state.json');
@@ -171,6 +172,13 @@ async function main() {
     const dup = findDuplicate(result.text, history, { hours: 72 });
     if (dup.isDuplicate) {
       console.warn(`  ⚠️ 自分の過去投稿と重複 (${dup.reason}) → 次へ`);
+      continue;
+    }
+
+    // 鮮度ガード
+    const guard = logAndGuardFreshness('inspire-bot', result.text, history);
+    if (guard.blocked) {
+      console.warn(`  鮮度リスクで投稿スキップ → 次候補へ`);
       continue;
     }
 

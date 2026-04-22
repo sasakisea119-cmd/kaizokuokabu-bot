@@ -4,7 +4,7 @@ const { Resvg } = require('@resvg/resvg-js');
 const { createWithRetry } = require('../lib/anthropic-client');
 const { uploadMedia, postTweetWithMedia } = require('../lib/x-api');
 const { findDuplicate } = require('../lib/dedup');
-const { buildFreshnessContext } = require('../lib/freshness');
+const { buildFreshnessContext, logAndGuardFreshness } = require('../lib/freshness');
 const DATA_DIR = path.join(__dirname, '..', 'data');
 
 function readJSON(filePath, fallback = []) {
@@ -403,6 +403,13 @@ async function run() {
     const dup = findDuplicate(tweetText, history, { hours: 48 });
     if (dup.isDuplicate) {
       console.warn(`[image-poster] 重複検出 → 投稿スキップ (${dup.reason})`);
+      return;
+    }
+
+    // 鮮度ガード（社長方針：1日前までのデータ基準）
+    const guard = logAndGuardFreshness('image-poster', tweetText, history);
+    if (guard.blocked) {
+      console.warn(`[image-poster] 鮮度リスクで投稿スキップ`);
       return;
     }
 

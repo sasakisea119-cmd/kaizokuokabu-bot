@@ -16,6 +16,9 @@ const path = require('path');
 const { getUserTimeline } = require('../lib/x-api-read');
 const { quoteTweet, likeTweet } = require('../lib/x-api');
 const { generateQuoteComment } = require('../lib/quote-generator');
+const { logAndGuardFreshness } = require('../lib/freshness');
+
+const HISTORY_PATH = path.join(__dirname, '..', 'data', 'post_history.json');
 
 // --- パス定義 ---
 const TARGETS_CACHE = path.join(__dirname, '..', 'data', 'intercept-targets-cache.json');
@@ -181,6 +184,14 @@ async function main() {
     }
 
     console.log(`  コメント案: ${comment}`);
+
+    // 鮮度ガード（社長方針：1日前までのデータ基準）
+    const history = readJSON(HISTORY_PATH, []);
+    const guard = logAndGuardFreshness('quote-bot', comment, history);
+    if (guard.blocked) {
+      console.warn(`  鮮度リスクで投稿スキップ → 次候補へ`);
+      continue;
+    }
 
     if (dryRun) {
       log.push({

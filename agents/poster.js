@@ -3,6 +3,7 @@ const fs = require('fs');
 const path = require('path');
 const { postTweet } = require('../lib/x-api');
 const { findDuplicate } = require('../lib/dedup');
+const { logAndGuardFreshness } = require('../lib/freshness');
 
 const DATA_DIR = path.join(__dirname, '..', 'data');
 const DEDUP_HOURS = 48;       // 過去48時間の投稿と比較
@@ -76,6 +77,15 @@ async function postOne() {
   }
 
   console.log(`[poster] 投稿中: ${item.text.substring(0, 50)}...`);
+
+  // 鮮度ガード（社長方針：1日前までのデータ基準）
+  const guard = logAndGuardFreshness('poster', item.text, history);
+  if (guard.blocked) {
+    // 高警戒度（履歴と同じ具体数値）→ スキップしてキューから除外
+    queue.shift();
+    writeJSON(path.join(DATA_DIR, 'queue.json'), queue);
+    return null;
+  }
 
   const result = await postTweet(item.text);
 
