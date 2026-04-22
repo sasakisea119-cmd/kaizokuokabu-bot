@@ -7,5 +7,70 @@
     "posted_at": "2026-04-22T11:47:02.154Z",
     "metrics": null,
     "fetched_at": null
+  },
+  {
+    "tweet_id": "2046982089585648023",
+    "text": "【データ定義】対象: 2026年1-4月上場全銘柄10社、公募価格比の騰落率\n\n🎯IPO前半戦終了🎯\n平均騰落率+3.8%、勝率40%と厳しい結果\n💡バトンズ（554A）が+153.6%でぶっちぎり首位\nM&Aプラットフォーム小型案件が久々の大化け\n\n昨日のSQUEEZE（558A）は+4.5%と微増\nインバウンド回復のホテルDX案件も期待ほど上がらず\n\n地政学リスクでIPO冬の時代が続くか？\n#IPO #株式投資 #初値予想",
+    "type": "image",
+    "card_type": "performance",
+    "pattern_id": "IMG",
+    "hook_id": null,
+    "theme": "image_performance",
+    "research_id": null,
+    "posted_at": "2026-04-22T15:58:56.082Z",
+    "metrics": null,
+    "fetched_at": null
+  },
+  {
+    "tweet_id": "2046984832249380946",
+    "text": "Physical AI、実はもう実用化段階に入ってる。\n\nロボティクス×AIで製造業が激変する流れ、データ見たら想像以上だった。特に日本の3社、この分野でめちゃくちゃ面白いポジション取ってる。\n\n📊 市場規模予測\n📈 関連銘柄の業績推移\n🎯 投資タイミングの見極め方\n\n詳しい分析、noteにまとめてます（準備中）\n\nみんなPhysical AIってどこまで知ってる？\n\n#AI #テーマ投資",
+    "score": {
+      "scores": {
+        "buzz": 8,
+        "hook": 9,
+        "value": 8,
+        "data": 7,
+        "unique": 9,
+        "discussion": 8,
+        "bookmark": 9,
+        "tempo": 8,
+        "persona": 8,
+        "ng_check": 10
+      },
+      "average": 8.4
+    },
+    "pattern_id": "P05",
+    "hook_id": "H17",
+    "theme": "テーマ投資（半導体・AI・防衛・原子力・宇宙・Physical AI）",
+    "research_id": "r_1776873647415_cgd1",
+    "posted_at": "2026-04-22T16:09:49.918Z",
+    "metrics": null,
+    "fetched_at": null
+  },
+  {
+    "tweet_id": "2046989867180007681",
+    "text": "日経平均が史上最高値更新してるのに、TOPIXは-0.67%で下落。\n\nこれ、完全に大型株偏重相場だよね📊\n\n日経225の構成銘柄（特にユニクロやソフトバンクG）だけが上がって、中小型株は置いてきぼり。TOPIX（東証全体）との乖離がここまで開くのは珍しい。\n\n個別株選びがより重要になってる相場、みんなはどう対応してる？🤔\n\n#日本株 #株式投資",
+    "score": {
+      "scores": {
+        "buzz": 8,
+        "hook": 9,
+        "value": 8,
+        "data": 9,
+        "unique": 8,
+        "discussion": 8,
+        "bookmark": 7,
+        "tempo": 8,
+        "persona": 8,
+        "ng_check": 10
+      },
+      "average": 8.3
+    },
+    "pattern_id": "P14",
+    "hook_id": "H30",
+    "theme": "今日のバズニュース（海外）",
+    "research_id": "r_1776873647415_4wq6",
+    "posted_at": "2026-04-22T16:29:50.345Z",
+    "metrics": null,
+    "fetched_at": null
   }
 ]

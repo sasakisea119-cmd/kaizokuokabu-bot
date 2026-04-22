@@ -1,8 +1,32 @@
 [
   {
-<<<<<<< Updated upstream
-    "id": "q_1776849046245_gaojrx",
-    "text": "半導体製造装置の決算、実はここが一番面白い🔥\n\n📊 ディスコ（6146）が今夜決算発表\n📈 アドバンテスト（6857）も注目\n💎 米SOX指数15連騰の恩恵は？\n\n装置メーカーの決算は半導体サイクルの先行指標なんだよね。特に来期ガイダンスで業界全体の方向性が見える。\n\n詳しい決算ポイントと注目すべき数字、noteにまとめてます📝\n\n#半導体株 #決算",
+    "id": "q_1776874067428_b2826i",
+    "text": "東証プライム、上昇18% vs 下落78%。\n\nこの極端な二極化、やばくない？📊\n\n日経平均上がってるけど、8割の銘柄は下落してる現実。みんなどう思う？\n\n#日本株 #東証プライム",
+    "score": {
+      "scores": {
+        "buzz": 8,
+        "hook": 9,
+        "value": 7,
+        "data": 9,
+        "unique": 8,
+        "discussion": 9,
+        "bookmark": 6,
+        "tempo": 8,
+        "persona": 8,
+        "ng_check": 10
+      },
+      "average": 8.2
+    },
+    "pattern_id": "P07",
+    "hook_id": "H13",
+    "theme": "今日のバズニュース（海外）",
+    "tweet_type": "short_personal",
+    "research_id": "r_1776873647415_227j",
+    "created_at": "2026-04-22T16:07:47.428Z"
+  },
+  {
+    "id": "q_1776874067428_1l4xn3",
+    "text": "今日上場したIPO4社、セカンダリーで買うか迷ってる人多そう。\n\n📊 初値→現在の値動き見ると、意外な銘柄が一番堅調だった\n📈 地政学リスク緩和で半導体関連IPOに資金流入の兆し\n💎 ただし明日以降のボラティリティには要注意\n\nセカンダリー投資の判断基準と、今回の4社それぞれの分析をNoteにまとめてます（準備中）\n\n#IPO #新規上場",
     "score": {
       "scores": {
         "buzz": 7,
@@ -10,92 +34,19 @@
         "value": 8,
         "data": 7,
         "unique": 6,
-        "discussion": 7,
-=======
-    "id": "q_1776849447542_2sadej",
-    "text": "SQUEEZE（558A）のIPO初値、エグいことになってる。\n\n公募価格3110円に対して、現在の株価は...\n\n📊 この会社のビジネスモデル、実はかなり面白い：\n・ホテル運営AIシステムでGMV649億円\n・RUM（運用客室数）2.14万室\n・インバウンド回復×AI×DXの三重テーマ\n\nでも、IPO7社連続公募割れの地合いで上場。この状況でどう判断する？\n\n詳細分析をNoteに書いてます（準備中） #IPO #新規上場",
-    "score": {
-      "scores": {
-        "buzz": 8,
-        "hook": 9,
-        "value": 8,
-        "data": 9,
-        "unique": 7,
         "discussion": 8,
->>>>>>> Stashed changes
-        "bookmark": 8,
-        "tempo": 8,
-        "persona": 8,
-        "ng_check": 10
-      },
-<<<<<<< Updated upstream
-      "average": 7.7
-    },
-    "pattern_id": "P17",
-    "hook_id": "H13",
-    "theme": "テーマ投資（半導体・AI・防衛・原子力・宇宙・Physical AI）",
-    "tweet_type": "note_cta",
-    "research_id": "r_1776848587510_7jrv",
-    "created_at": "2026-04-22T09:10:46.245Z"
-  },
-  {
-    "id": "q_1776849046245_eag9xt",
-    "text": "159円台突破で仕込んでた半導体3銘柄、全部プラス転換🚀\n\n📊 東京エレクトロン(8035): +8%\n📊 ソニーG(6758): +5%  \n📊 トヨタ(7203): +6%\n\n円安進行は輸出企業の業績押し上げ要因。日銀の利上げ観測後退で、この流れはまだ続きそう。\n\n為替相場読んで仕込んだ人、おめでとう💰\n\n#半導体株 #円安",
-    "score": {
-      "scores": {
-        "buzz": 8,
-        "hook": 9,
-        "value": 7,
-        "data": 9,
-        "unique": 7,
-        "discussion": 6,
-        "bookmark": 7,
-        "tempo": 8,
-        "persona": 9,
-        "ng_check": 10
-      },
-      "average": 8
-    },
-    "pattern_id": "P14",
-    "hook_id": "H17",
-    "theme": "テーマ投資（半導体・AI・防衛・原子力・宇宙・Physical AI）",
-    "tweet_type": "contrarian",
-    "research_id": "r_1776848587510_j7mu",
-    "created_at": "2026-04-22T09:10:46.245Z"
-=======
-      "average": 8.3
-    },
-    "pattern_id": "P11",
-    "hook_id": "H21",
-    "theme": "今日のバズニュース（海外）",
-    "tweet_type": "note_cta",
-    "research_id": "r_1776848972984_wzrz",
-    "created_at": "2026-04-22T09:17:27.542Z"
-  },
-  {
-    "id": "q_1776849447542_sr170p",
-    "text": "正興電機製作所（6648）が第1四半期で純利益41.6%増の10.57億円。売上も12.6%増と好調🔥\n\n決算シーズン本格化で、こういう「隠れ優良決算」を見つけるコツがある。実は3つのパターンに分類できるんだよね。\n\n詳しい分析と他の上方修正銘柄リストは明日のNoteで📊\n\n#決算 #個別株",
-    "score": {
-      "scores": {
-        "buzz": 7,
-        "hook": 8,
-        "value": 8,
-        "data": 9,
-        "unique": 7,
-        "discussion": 6,
-        "bookmark": 8,
+        "bookmark": 9,
         "tempo": 8,
         "persona": 8,
         "ng_check": 10
       },
       "average": 7.9
     },
-    "pattern_id": "P01",
-    "hook_id": "H25",
-    "theme": "今日のバズニュース（海外）",
+    "pattern_id": "P06",
+    "hook_id": "H19",
+    "theme": "IPO分析・セカンダリー",
     "tweet_type": "note_cta",
-    "research_id": "r_1776848972984_oggx",
-    "created_at": "2026-04-22T09:17:27.542Z"
->>>>>>> Stashed changes
+    "research_id": "r_1776873647415_az1y",
+    "created_at": "2026-04-22T16:07:47.428Z"
   }
 ]
