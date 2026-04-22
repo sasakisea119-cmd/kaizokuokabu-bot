@@ -4,6 +4,7 @@ const { Resvg } = require('@resvg/resvg-js');
 const { createWithRetry } = require('../lib/anthropic-client');
 const { uploadMedia, postTweetWithMedia } = require('../lib/x-api');
 const { findDuplicate } = require('../lib/dedup');
+const { buildFreshnessContext } = require('../lib/freshness');
 const DATA_DIR = path.join(__dirname, '..', 'data');
 
 function readJSON(filePath, fallback = []) {
@@ -225,21 +226,34 @@ async function generateCardData(cardType, researchItem) {
     : '今日の日本株・IPO市場に関する最新トピック';
 
   const prompts = {
-    market: `以下を元に、朝の市場サマリーカード用データを作成してください。
+    market: `${buildFreshnessContext()}
+
+以下を元に、朝の市場サマリーカード用データを作成してください。
 ${context}
+
+🚨 最重要：データ取得手順（厳守）
+1. **必ず web_search ツールを使用して本日の最新データを取得すること**
+2. 取得する情報：本日の日経平均終値、注目銘柄の株価、IPO市況の最新情報
+3. 学習データから株価・指数を記憶で書くことを絶対に禁止する（古い数字で出すな）
+4. web_searchで数値が取得できなかった指標は、具体数値を出さず定性的に書く（例：「年初来高値圏」「前日比上昇」）
 
 JSON形式で出力：
 {
   "title": "タイトル（最大20文字）",
   "subtitle": "サブタイトル（最大30文字）",
   "items": [
-    { "label": "指標名（最大15文字）", "value": "数値（最大15文字）", "change": "変動（例: +1.2%, -285円）" }
+    { "label": "指標名（最大15文字）", "value": "数値（最大15文字、web_searchで確認した本日値のみ）", "change": "変動（例: +1.2%, -285円）" }
   ],
   "tweet_text": "添付ツイート本文（最大200文字、1行目はフック）"
 }
 重要: itemsは4件。日経平均・注目IPO銘柄2つ・IPO全体の指標で構成。JSONのみ出力。`,
 
-    score: `以下を元に、IPO銘柄スコアカード用データを作成してください。直近3年以内のIPO銘柄を1つ選んで分析。
+    score: `${buildFreshnessContext()}
+
+以下を元に、IPO銘柄スコアカード用データを作成してください。直近3年以内のIPO銘柄を1つ選んで分析。
+
+🚨 重要：web_search ツールを使用して対象銘柄の最新株価・業績を取得してから書くこと。学習データの古い数字は使わない。PER/PBR/騰落率など鮮度に依存しない数字を優先的に使用。
+
 ${context}
 
 JSON形式で出力：
@@ -257,7 +271,12 @@ JSON形式で出力：
 }
 重要: metricsは4件（PER・成長率・PEGレシオ等）。JSONのみ出力。`,
 
-    performance: `以下を元に、IPO成績レポートカード用データを作成してください。
+    performance: `${buildFreshnessContext()}
+
+以下を元に、IPO成績レポートカード用データを作成してください。
+
+🚨 重要：web_search ツールを使用して本日時点の最新IPO情報を取得すること。methodology に記載する「対象期間」は**本日から過去を遡った範囲**で書く（例：現在が2026年4月なら「2026年1-4月」）。学習データの記憶で書くな。
+
 ${context}
 
 JSON形式で出力：
@@ -289,7 +308,14 @@ JSON形式で出力：
       role: 'user',
       content: prompts[cardType]
     }],
-    system: 'あなたはX（旧Twitter）のIPO投資アカウント「kaizokuokabu」です。IPOを誰よりも面白く、わかりやすく伝える。ランキング・データを出す場合は必ず対象銘柄の抽出条件と期間を明記する。JSONのみ出力。'
+    system: `あなたはX（旧Twitter）のIPO投資アカウント「kaizokuokabu」です。IPOを誰よりも面白く、わかりやすく伝える。
+
+${buildFreshnessContext()}
+
+ランキング・データを出す場合は必ず対象銘柄の抽出条件と期間を明記する。
+株価・指数は必ず web_search ツールで最新値を取得してから書く（学習データの記憶を絶対に使わない）。
+web_searchで取得できなければ定性的表現に切り替える。
+JSONのみ出力。`
   });
 
   for (const block of response.content) {
