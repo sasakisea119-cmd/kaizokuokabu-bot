@@ -1,5 +1,6 @@
 [
   {
+<<<<<<< Updated upstream
     "id": "q_1776849046245_gaojrx",
     "text": "半導体製造装置の決算、実はここが一番面白い🔥\n\n📊 ディスコ（6146）が今夜決算発表\n📈 アドバンテスト（6857）も注目\n💎 米SOX指数15連騰の恩恵は？\n\n装置メーカーの決算は半導体サイクルの先行指標なんだよね。特に来期ガイダンスで業界全体の方向性が見える。\n\n詳しい決算ポイントと注目すべき数字、noteにまとめてます📝\n\n#半導体株 #決算",
     "score": {
@@ -10,11 +11,24 @@
         "data": 7,
         "unique": 6,
         "discussion": 7,
+=======
+    "id": "q_1776849447542_2sadej",
+    "text": "SQUEEZE（558A）のIPO初値、エグいことになってる。\n\n公募価格3110円に対して、現在の株価は...\n\n📊 この会社のビジネスモデル、実はかなり面白い：\n・ホテル運営AIシステムでGMV649億円\n・RUM（運用客室数）2.14万室\n・インバウンド回復×AI×DXの三重テーマ\n\nでも、IPO7社連続公募割れの地合いで上場。この状況でどう判断する？\n\n詳細分析をNoteに書いてます（準備中） #IPO #新規上場",
+    "score": {
+      "scores": {
+        "buzz": 8,
+        "hook": 9,
+        "value": 8,
+        "data": 9,
+        "unique": 7,
+        "discussion": 8,
+>>>>>>> Stashed changes
         "bookmark": 8,
         "tempo": 8,
         "persona": 8,
         "ng_check": 10
       },
+<<<<<<< Updated upstream
       "average": 7.7
     },
     "pattern_id": "P17",
@@ -48,5 +62,40 @@
     "tweet_type": "contrarian",
     "research_id": "r_1776848587510_j7mu",
     "created_at": "2026-04-22T09:10:46.245Z"
+=======
+      "average": 8.3
+    },
+    "pattern_id": "P11",
+    "hook_id": "H21",
+    "theme": "今日のバズニュース（海外）",
+    "tweet_type": "note_cta",
+    "research_id": "r_1776848972984_wzrz",
+    "created_at": "2026-04-22T09:17:27.542Z"
+  },
+  {
+    "id": "q_1776849447542_sr170p",
+    "text": "正興電機製作所（6648）が第1四半期で純利益41.6%増の10.57億円。売上も12.6%増と好調🔥\n\n決算シーズン本格化で、こういう「隠れ優良決算」を見つけるコツがある。実は3つのパターンに分類できるんだよね。\n\n詳しい分析と他の上方修正銘柄リストは明日のNoteで📊\n\n#決算 #個別株",
+    "score": {
+      "scores": {
+        "buzz": 7,
+        "hook": 8,
+        "value": 8,
+        "data": 9,
+        "unique": 7,
+        "discussion": 6,
+        "bookmark": 8,
+        "tempo": 8,
+        "persona": 8,
+        "ng_check": 10
+      },
+      "average": 7.9
+    },
+    "pattern_id": "P01",
+    "hook_id": "H25",
+    "theme": "今日のバズニュース（海外）",
+    "tweet_type": "note_cta",
+    "research_id": "r_1776848972984_oggx",
+    "created_at": "2026-04-22T09:17:27.542Z"
+>>>>>>> Stashed changes
   }
 ]
