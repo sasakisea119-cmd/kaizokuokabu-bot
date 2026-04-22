@@ -116,5 +116,18 @@
     "posted_at": "2026-04-21T12:08:08.504Z",
     "metrics": null,
     "fetched_at": null
+  },
+  {
+    "tweet_id": "2046743505901355155",
+    "text": "🔥AI株に乗り遅れるな！日経平均が3年ぶり6万円目前、ソフトバンクG・東エレクが爆上げ\n\n📊今日のIPO市場サマリー\n・<cite index=\"1-1\">日経平均524円高の5万9349円</cite>で続伸\n・<cite index=\"31-1\">ARCHION（543A）は400円始値、431円終値</cite>で苦戦継続\n・<cite index=\"24-2,24-3\">2026年IPO市場は6連敗スタート</cite>も徐々に回復兆候\n・<cite index=\"11-1\">4月上場予定3銘柄</cite>で新年度IPOラッシュに期待\n\n#IPO #kaizokuokabu #日経平均",
+    "type": "image",
+    "card_type": "market",
+    "pattern_id": "IMG",
+    "hook_id": null,
+    "theme": "image_market",
+    "research_id": null,
+    "posted_at": "2026-04-22T00:10:53.294Z",
+    "metrics": null,
+    "fetched_at": null
   }
 ]
