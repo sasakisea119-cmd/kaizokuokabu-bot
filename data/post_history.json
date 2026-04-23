@@ -1,134 +1,92 @@
 [
   {
-    "tweet_id": "2046918697499992518",
-    "text": "日経平均、夜間で弱含み。先週の好調が続かず、来週の重要指標控えて様子見ムード漂ってるな。",
-    "tweet_type": "short_personal",
-    "theme": "short_jikkyou",
-    "posted_at": "2026-04-22T11:47:02.154Z",
-    "metrics": null,
-    "fetched_at": null
-  },
-  {
-<<<<<<< Updated upstream
-    "tweet_id": "2046982089585648023",
-    "text": "【データ定義】対象: 2026年1-4月上場全銘柄10社、公募価格比の騰落率\n\n🎯IPO前半戦終了🎯\n平均騰落率+3.8%、勝率40%と厳しい結果\n💡バトンズ（554A）が+153.6%でぶっちぎり首位\nM&Aプラットフォーム小型案件が久々の大化け\n\n昨日のSQUEEZE（558A）は+4.5%と微増\nインバウンド回復のホテルDX案件も期待ほど上がらず\n\n地政学リスクでIPO冬の時代が続くか？\n#IPO #株式投資 #初値予想",
-=======
-    "tweet_id": "2046994125057094111",
-    "text": "【データ定義】対象: 2026年1-4月上場全銘柄、公募価格比の騰落率\n\n🚨異常事態🚨\n史上稀な「IPO全敗記録」更新中\n\n✅ 1-4月期 9社連続で公募割れ\n✅ 平均騰落率 -8.2%\n✅ 18年IPO投資歴で初の事態\n\n🌪️ 中東情勢×AI相場の二重苦\n→IPO市場から資金流出\n\n📊 詳細データで完全検証\n→ 次の転換点を見極めよ\n\n#IPO #公募割れ #投資",
->>>>>>> Stashed changes
+    "tweet_id": "2047110452115636524",
+    "text": "📈 日経平均が史上最高値更新で6万円台目前！\n\n昨日のSBG急騰でAI株に再び熱視線。時価総額30兆円台回復は約5カ月ぶり🔥\n\nIPO市場も盛況で、商用車統合のARCHIONに続き、本日は前澤ファンド出資の犬猫生活が東証グロースに新規上場。ペット×D2C×定期購入の成長ストーリーに注目\n\n#IPO #日経平均 #SBG",
     "type": "image",
-    "card_type": "performance",
+    "card_type": "market",
     "pattern_id": "IMG",
     "hook_id": null,
-    "theme": "image_performance",
+    "theme": "image_market",
     "research_id": null,
-<<<<<<< Updated upstream
-    "posted_at": "2026-04-22T15:58:56.082Z",
-=======
-    "posted_at": "2026-04-22T16:46:45.561Z",
->>>>>>> Stashed changes
+    "posted_at": "2026-04-23T00:29:00.138Z",
     "metrics": null,
     "fetched_at": null
   },
   {
-<<<<<<< Updated upstream
-    "tweet_id": "2046984832249380946",
-    "text": "Physical AI、実はもう実用化段階に入ってる。\n\nロボティクス×AIで製造業が激変する流れ、データ見たら想像以上だった。特に日本の3社、この分野でめちゃくちゃ面白いポジション取ってる。\n\n📊 市場規模予測\n📈 関連銘柄の業績推移\n🎯 投資タイミングの見極め方\n\n詳しい分析、noteにまとめてます（準備中）\n\nみんなPhysical AIってどこまで知ってる？\n\n#AI #テーマ投資",
+    "tweet_id": "2047110962210033767",
+    "text": "エヌビディア（NVDA）の決算前に知っておくべきこと。\n\n📊 前回決算での売上ガイダンス vs 実際の着地\n📈 データセンター事業の成長率トレンド\n📉 中国規制の影響度（これが意外と..）\n🎯 今回のコンセンサス予想との乖離ポイント\n\n決算前の仕込みパターンを3つのケースに分けて分析。詳しくはNoteに書きました（準備中）\n\nみんなNVDA、どう見てる？\n\n#米国株 #エヌビディア",
     "score": {
       "scores": {
         "buzz": 8,
         "hook": 9,
         "value": 8,
         "data": 7,
-        "unique": 9,
+        "unique": 8,
         "discussion": 8,
         "bookmark": 9,
         "tempo": 8,
         "persona": 8,
         "ng_check": 10
       },
-      "average": 8.4
+      "average": 8.3
     },
-    "pattern_id": "P05",
-    "hook_id": "H17",
-    "theme": "テーマ投資（半導体・AI・防衛・原子力・宇宙・Physical AI）",
-    "research_id": "r_1776873647415_cgd1",
-    "posted_at": "2026-04-22T16:09:49.918Z",
+    "pattern_id": "P03",
+    "hook_id": "H12",
+    "theme": "米国株個別銘柄分析",
+    "research_id": "r_1776903454353_eh7u",
+    "posted_at": "2026-04-23T00:31:01.640Z",
     "metrics": null,
     "fetched_at": null
   },
   {
-    "tweet_id": "2046989867180007681",
-    "text": "日経平均が史上最高値更新してるのに、TOPIXは-0.67%で下落。\n\nこれ、完全に大型株偏重相場だよね📊\n\n日経225の構成銘柄（特にユニクロやソフトバンクG）だけが上がって、中小型株は置いてきぼり。TOPIX（東証全体）との乖離がここまで開くのは珍しい。\n\n個別株選びがより重要になってる相場、みんなはどう対応してる？🤔\n\n#日本株 #株式投資",
-    "score": {
-      "scores": {
-        "buzz": 8,
-        "hook": 9,
-        "value": 8,
-        "data": 9,
-        "unique": 8,
-        "discussion": 8,
-        "bookmark": 7,
-=======
-    "tweet_id": "2046996876461785122",
-    "text": "昨日のIPO初値結果、3社中2社が公開価格割れ。\n\nでも実はこれ、セカンダリー狙いには美味しい状況なんです。\n\n📊 初値公開価格倍率\n• 1社目：0.8倍（-20%）\n• 2社目：0.9倍（-10%）\n• 3社目：1.2倍（+20%）\n\n割れた銘柄の業績とバリュエーション分析したら、意外な発見が。特に2社目は…\n\n詳しい分析と今後の戦略、noteに書きました📝\n\n#IPO #新規上場",
+    "tweet_id": "2047115997107064936",
+    "text": "日経6万円の心理的節目突破、でも「寄り天」で即座に反落。\n\n実はこのタイミング、IPO市場にとって超重要なターニングポイントになる可能性が高い。\n\n📊 過去データ見ると、日経が大台突破した直後のIPOパフォーマンスには明確な傾向がある\n🎯 特にセカンダリー狙いの人は要チェック\n⚠️ ただし注意点も3つある\n\n詳しい分析とデータはNoteにまとめてます（準備中）\n\n今日の6万円タッチ、みんなどう見てる？\n\n#IPO #日本株",
     "score": {
       "scores": {
         "buzz": 7,
         "hook": 8,
-        "value": 8,
-        "data": 9,
-        "unique": 7,
-        "discussion": 6,
+        "value": 7,
+        "data": 6,
+        "unique": 8,
+        "discussion": 7,
         "bookmark": 8,
->>>>>>> Stashed changes
         "tempo": 8,
         "persona": 8,
         "ng_check": 10
       },
-<<<<<<< Updated upstream
-      "average": 8.3
+      "average": 7.7
     },
-    "pattern_id": "P14",
-    "hook_id": "H30",
-    "theme": "今日のバズニュース（海外）",
-    "research_id": "r_1776873647415_4wq6",
-    "posted_at": "2026-04-22T16:29:50.345Z",
-=======
-      "average": 7.9
-    },
-    "pattern_id": "P11",
-    "hook_id": "H30",
+    "pattern_id": "P04",
+    "hook_id": "H29",
     "theme": "IPO分析・セカンダリー",
-    "research_id": "r_1776876517977_5i9x",
-    "posted_at": "2026-04-22T16:57:41.475Z",
+    "research_id": "r_1776903454353_4993",
+    "posted_at": "2026-04-23T00:51:02.055Z",
     "metrics": null,
     "fetched_at": null
   },
   {
-    "tweet_id": "2047001910826127391",
-    "text": "日経6万円目前で浮かれてるけど、実は2極化相場の極地。指数だけ見て「全体が好調」って勘違いしてない？半導体株抜いたら実質下落だよ。 #日本株 #2極化相場",
+    "tweet_id": "2047121031794446651",
+    "text": "メタプラネット（3350）の含み益、実はヤバいことになってる件。\n\nビットコイン保有量×現在価格で計算すると、時価総額の◯%がBTC依存。これって実質「ビットコインETF」なんだよね。\n\n📊 しかも買い増しタイミングが絶妙すぎて、平均取得単価が...\n📈 株価との連動性も0.8超えてるし\n\nTOPIX軟調でも独歩高の理由、詳しくはNoteに書きました（準備中）\n\n#ビットコイン #メタプラネット",
     "score": {
       "scores": {
         "buzz": 8,
         "hook": 9,
-        "value": 7,
-        "data": 6,
+        "value": 8,
+        "data": 7,
         "unique": 8,
-        "discussion": 9,
-        "bookmark": 6,
+        "discussion": 8,
+        "bookmark": 9,
         "tempo": 8,
-        "persona": 9,
+        "persona": 8,
         "ng_check": 10
       },
-      "average": 8
+      "average": 8.3
     },
     "pattern_id": "P10",
-    "hook_id": "H11",
-    "theme": "物議を醸す投資トピック（逆張り・アンチテーゼ系で議論を生む）",
-    "research_id": "r_1776876517977_o1py",
-    "posted_at": "2026-04-22T17:17:41.739Z",
->>>>>>> Stashed changes
+    "hook_id": "H18",
+    "theme": "メタプラネット・ビットコイン関連（賛否両論あるネタとして積極的に取り上げる）",
+    "research_id": "r_1776903454353_hpik",
+    "posted_at": "2026-04-23T01:11:02.423Z",
     "metrics": null,
     "fetched_at": null
   }
