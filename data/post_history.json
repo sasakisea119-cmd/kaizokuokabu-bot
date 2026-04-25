@@ -9,8 +9,13 @@
     "theme": "image_market",
     "research_id": null,
     "posted_at": "2026-04-23T00:29:00.138Z",
-    "metrics": null,
-    "fetched_at": null
+    "metrics": {
+      "impressions": 40,
+      "likes": 2,
+      "retweets": 0,
+      "replies": 0
+    },
+    "fetched_at": "2026-04-25T00:06:42.297Z"
   },
   {
     "tweet_id": "2047110962210033767",
@@ -35,8 +40,13 @@
     "theme": "米国株個別銘柄分析",
     "research_id": "r_1776903454353_eh7u",
     "posted_at": "2026-04-23T00:31:01.640Z",
-    "metrics": null,
-    "fetched_at": null
+    "metrics": {
+      "impressions": 21,
+      "likes": 2,
+      "retweets": 0,
+      "replies": 0
+    },
+    "fetched_at": "2026-04-25T00:06:44.390Z"
   },
   {
     "tweet_id": "2047115997107064936",
@@ -61,8 +71,13 @@
     "theme": "IPO分析・セカンダリー",
     "research_id": "r_1776903454353_4993",
     "posted_at": "2026-04-23T00:51:02.055Z",
-    "metrics": null,
-    "fetched_at": null
+    "metrics": {
+      "impressions": 40,
+      "likes": 1,
+      "retweets": 0,
+      "replies": 1
+    },
+    "fetched_at": "2026-04-25T00:06:46.485Z"
   },
   {
     "tweet_id": "2047121031794446651",
@@ -87,8 +102,13 @@
     "theme": "メタプラネット・ビットコイン関連（賛否両論あるネタとして積極的に取り上げる）",
     "research_id": "r_1776903454353_hpik",
     "posted_at": "2026-04-23T01:11:02.423Z",
-    "metrics": null,
-    "fetched_at": null
+    "metrics": {
+      "impressions": 42,
+      "likes": 2,
+      "retweets": 0,
+      "replies": 0
+    },
+    "fetched_at": "2026-04-25T00:06:48.576Z"
   },
   {
     "tweet_id": "2047477815163953259",
