@@ -1,16 +1,25 @@
 [
   {
+<<<<<<< Updated upstream
     "id": "r_1777161774660_9dx8",
     "theme": "### 日本株相場トレンド（直近12時間：2026年4月26日時点）",
     "title": "### 日本株相場トレンド（直近12時間：2026年4月26日時点）",
     "published_date": "2026-04-26",
     "summary": "### 日本株相場トレンド（直近12時間：2026年4月26日時点）",
+=======
+    "id": "r_1777162340428_tsty",
+    "theme": "### 日本株相場トレンド（直近12時間：2026/4/26 早朝JST時点のX投稿まとめ）",
+    "title": "### 日本株相場トレンド（直近12時間：2026/4/26 早朝JST時点のX投稿まとめ）",
+    "published_date": "2026-04-26",
+    "summary": "### 日本株相場トレンド（直近12時間：2026/4/26 早朝JST時点のX投稿まとめ）",
+>>>>>>> Stashed changes
     "investment_angle": "",
     "tickers": [],
     "keywords": [],
     "recommended_pattern": "P14",
     "urgency": "medium",
     "source_type": "trending_x",
+<<<<<<< Updated upstream
     "created_at": "2026-04-26T00:02:54.660Z",
     "used": false
   },
@@ -20,12 +29,24 @@
     "title": "- 日経平均株価は**6万円の大台を初めて突破し、最高値を更新**する強い上昇トレンドを示しています。[[1]](htt",
     "published_date": "2026-04-26",
     "summary": "- 日経平均株価は**6万円の大台を初めて突破し、最高値を更新**する強い上昇トレンドを示しています。[[1]](https://x.com/i/status/2048190535492612527)[[2]](https://x.com/i/status/2048190325013754364)[[3]](https://x.com/i/status/2048190761062330482)",
+=======
+    "created_at": "2026-04-26T00:12:20.428Z",
+    "used": false
+  },
+  {
+    "id": "r_1777162340428_7d05",
+    "theme": "直近12時間（主に4/26 00:00 GMT以降の最新投稿ベース）は週末休場のため、現物取引はなく、先物・振り返り議論",
+    "title": "直近12時間（主に4/26 00:00 GMT以降の最新投稿ベース）は週末休場のため、現物取引はなく、先物・振り返り議論",
+    "published_date": "2026-04-26",
+    "summary": "直近12時間（主に4/26 00:00 GMT以降の最新投稿ベース）は週末休場のため、現物取引はなく、先物・振り返り議論が中心。市場は**高値圏堅調で上昇方向感が継続**だが、**AI・半導体依存の「選別相場」色が濃く、TOPIXはやや弱含み**。全体として**楽観ムード**だが、「指数強いのに稼げない」「狭く深く資金集中」の声多数。[[1]](https://x.com/i/status/2048191909357904000)[[2]](https://x.com/i/status/2048190325013754364)",
+>>>>>>> Stashed changes
     "investment_angle": "",
     "tickers": [],
     "keywords": [],
     "recommended_pattern": "P14",
     "urgency": "medium",
     "source_type": "trending_x",
+<<<<<<< Updated upstream
     "created_at": "2026-04-26T00:02:54.660Z",
     "used": false
   },
@@ -35,12 +56,24 @@
     "title": "- DEX先物（現物終値比）では日経平均**59,750円（+0.1%）**と微増で推移しており、週末ながら堅調な地合い",
     "published_date": "2026-04-26",
     "summary": "- DEX先物（現物終値比）では日経平均**59,750円（+0.1%）**と微増で推移しており、週末ながら堅調な地合いを維持。[[4]](https://x.com/i/status/2048190457616978152)",
+=======
+    "created_at": "2026-04-26T00:12:20.428Z",
+    "used": false
+  },
+  {
+    "id": "r_1777162340428_0z2j",
+    "theme": "- **日経平均**：前週末終値59,716円（+0.97%、一時60,000円超最高値更新）。先物は59,750〜60",
+    "title": "- **日経平均**：前週末終値59,716円（+0.97%、一時60,000円超最高値更新）。先物は59,750〜60",
+    "published_date": "2026-04-26",
+    "summary": "- **日経平均**：前週末終値59,716円（+0.97%、一時60,000円超最高値更新）。先物は59,750〜60,065円台で推移し、**6万円定着期待高まる**。円安（ドル円159円台後半）と海外資金流入が支え。[[3]](https://x.com/i/status/2048192121723924728)[[2]](https://x.com/i/status/2048190325013754364)[[4]](https://x.com/i/status/2048182822217843187)",
+>>>>>>> Stashed changes
     "investment_angle": "",
     "tickers": [],
     "keywords": [],
     "recommended_pattern": "P14",
     "urgency": "medium",
     "source_type": "trending_x",
+<<<<<<< Updated upstream
     "created_at": "2026-04-26T00:02:54.660Z",
     "used": false
   },
@@ -50,12 +83,24 @@
     "title": "- 一方で、「日経平均6万円だが実体はほとんどの株が下がっている」という指摘もあり、指数上昇は一部大型株中心の集中現象と",
     "published_date": "2026-04-26",
     "summary": "- 一方で、「日経平均6万円だが実体はほとんどの株が下がっている」という指摘もあり、指数上昇は一部大型株中心の集中現象との声。[[3]](https://x.com/i/status/2048190761062330482)",
+=======
+    "created_at": "2026-04-26T00:12:20.428Z",
+    "used": false
+  },
+  {
+    "id": "r_1777162340428_cff5",
+    "theme": "- **TOPIX**：横ばい〜弱め（3,716.59）。NT倍率過去最高水準で、日経の半導体偏重が顕著。「見た目強いが",
+    "title": "- **TOPIX**：横ばい〜弱め（3,716.59）。NT倍率過去最高水準で、日経の半導体偏重が顕著。「見た目強いが",
+    "published_date": "2026-04-26",
+    "summary": "- **TOPIX**：横ばい〜弱め（3,716.59）。NT倍率過去最高水準で、日経の半導体偏重が顕著。「見た目強いが中身弱い」相場。[[1]](https://x.com/i/status/2048191909357904000)[[5]](https://x.com/i/status/2048188955687088331)",
+>>>>>>> Stashed changes
     "investment_angle": "",
     "tickers": [],
     "keywords": [],
     "recommended_pattern": "P14",
     "urgency": "medium",
     "source_type": "trending_x",
+<<<<<<< Updated upstream
     "created_at": "2026-04-26T00:02:54.660Z",
     "used": false
   },
@@ -65,13 +110,28 @@
     "title": "- 背景として円安進行（ドル円159円台）が株高を後押し。[[5]](https://x.com/i/status/20",
     "published_date": "2026-04-26",
     "summary": "- 背景として円安進行（ドル円159円台）が株高を後押し。[[5]](https://x.com/i/status/2048190602295353528) 来週の日銀金融政策決定会合（4/28）への警戒感も漂う中、乱高下しやすい相場環境。[[6]](https://x.com/i/status/2048190652933169654)[[7]](https://x.com/i/status/2048190439900221478)",
+=======
+    "created_at": "2026-04-26T00:12:20.428Z",
+    "used": false
+  },
+  {
+    "id": "r_1777162340428_6qbv",
+    "theme": "- **全体トレンド**：上昇継続も**二極化加速**。AI特需・トランプ相場恩恵で楽観、来週日銀会合/FOMC警戒も「",
+    "title": "- **全体トレンド**：上昇継続も**二極化加速**。AI特需・トランプ相場恩恵で楽観、来週日銀会合/FOMC警戒も「",
+    "published_date": "2026-04-26",
+    "summary": "- **全体トレンド**：上昇継続も**二極化加速**。AI特需・トランプ相場恩恵で楽観、来週日銀会合/FOMC警戒も「押したら買う」ムード。[[6]](https://x.com/i/status/2048190464457850905)[[7]](https://x.com/i/status/2047834776263160292)",
+>>>>>>> Stashed changes
     "investment_angle": "",
     "tickers": [],
     "keywords": [],
     "recommended_pattern": "P14",
     "urgency": "medium",
     "source_type": "trending_x",
+<<<<<<< Updated upstream
     "created_at": "2026-04-26T00:02:54.660Z",
+=======
+    "created_at": "2026-04-26T00:12:20.428Z",
+>>>>>>> Stashed changes
     "used": false
   }
 ]
