@@ -93,6 +93,7 @@ jobs:
         if: steps.dedup.outputs.skip != 'true' && steps.mode.outputs.mode == 'morning'
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           XAI_API_KEY: ${{ secrets.XAI_API_KEY }}
           EDINET_API_KEY: ${{ secrets.EDINET_API_KEY }}
           X_API_KEY: ${{ secrets.X_API_KEY }}
@@ -111,6 +112,7 @@ jobs:
         if: steps.dedup.outputs.skip != 'true' && steps.mode.outputs.mode == 'noon'
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           XAI_API_KEY: ${{ secrets.XAI_API_KEY }}
           X_API_KEY: ${{ secrets.X_API_KEY }}
           X_API_SECRET: ${{ secrets.X_API_SECRET }}
@@ -124,6 +126,7 @@ jobs:
         if: steps.dedup.outputs.skip != 'true' && steps.mode.outputs.mode == 'evening'
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           XAI_API_KEY: ${{ secrets.XAI_API_KEY }}
           X_API_KEY: ${{ secrets.X_API_KEY }}
           X_API_SECRET: ${{ secrets.X_API_SECRET }}
