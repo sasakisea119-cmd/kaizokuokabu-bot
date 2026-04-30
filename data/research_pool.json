@@ -1,16 +1,25 @@
 [
   {
+<<<<<<< Updated upstream
     "id": "r_1777503263678_wzd0",
     "theme": "### 日本株相場トレンド（直近12時間：2026/4/29 休場明け夜間取引中心）",
     "title": "### 日本株相場トレンド（直近12時間：2026/4/29 休場明け夜間取引中心）",
     "published_date": "2026-04-30",
     "summary": "### 日本株相場トレンド（直近12時間：2026/4/29 休場明け夜間取引中心）",
+=======
+    "id": "r_1777504763701_d06t",
+    "theme": "### 日本株相場トレンド（直近12時間：2026/4/29夜～30日朝時点）",
+    "title": "### 日本株相場トレンド（直近12時間：2026/4/29夜～30日朝時点）",
+    "published_date": "2026-04-30",
+    "summary": "### 日本株相場トレンド（直近12時間：2026/4/29夜～30日朝時点）",
+>>>>>>> Stashed changes
     "investment_angle": "",
     "tickers": [],
     "keywords": [],
     "recommended_pattern": "P14",
     "urgency": "medium",
     "source_type": "trending_x",
+<<<<<<< Updated upstream
     "created_at": "2026-04-29T22:54:23.678Z",
     "used": false
   },
@@ -20,12 +29,24 @@
     "title": "日本市場は4/29（昭和の日）で休場のため、直近12時間の主な動向は**日経平均先物夜間取引**と**米国ADR**に集",
     "published_date": "2026-04-30",
     "summary": "日本市場は4/29（昭和の日）で休場のため、直近12時間の主な動向は**日経平均先物夜間取引**と**米国ADR**に集中。全体的に**大幅安・リスクオフ方向**で推移し、寄り付き警戒感が強い。[[1]](https://x.com/i/status/2049604022706004109)[[2]](https://x.com/i/status/2049622844938838439)",
+=======
+    "created_at": "2026-04-29T23:19:23.701Z",
+    "used": false
+  },
+  {
+    "id": "r_1777504763701_to4o",
+    "theme": "直近12時間は4/29（水）が昭和の日で**現物市場休場**のため、先物市場（大阪取引所など）の動きが主。全体的に**リ",
+    "title": "直近12時間は4/29（水）が昭和の日で**現物市場休場**のため、先物市場（大阪取引所など）の動きが主。全体的に**リ",
+    "published_date": "2026-04-30",
+    "summary": "直近12時間は4/29（水）が昭和の日で**現物市場休場**のため、先物市場（大阪取引所など）の動きが主。全体的に**リスクオフムードが強まり、日経平均先物は大幅下落**。米FOMCのタカ派解釈、中東情勢緊迫（原油高$108超）、連休前のポジション調整が重荷。[[1]](https://x.com/i/status/2049618412440101158)[[2]](https://x.com/i/status/2049629258038063544)[[3]](https://x.com/i/status/2049627758821790076)",
+>>>>>>> Stashed changes
     "investment_angle": "",
     "tickers": [],
     "keywords": [],
     "recommended_pattern": "P14",
     "urgency": "medium",
     "source_type": "trending_x",
+<<<<<<< Updated upstream
     "created_at": "2026-04-29T22:54:23.678Z",
     "used": false
   },
@@ -35,12 +56,24 @@
     "title": "- **日経平均先物**：夜間取引で**1,000円超の下落**（-2.16%〜-2.24%）。大幅安スタートで軟調推移",
     "published_date": "2026-04-30",
     "summary": "- **日経平均先物**：夜間取引で**1,000円超の下落**（-2.16%〜-2.24%）。大幅安スタートで軟調推移。[[2]](https://x.com/i/status/2049622844938838439)[[3]](https://x.com/i/status/2049622813880021319)[[1]](https://x.com/i/status/2049604022706004109)",
+=======
+    "created_at": "2026-04-29T23:19:23.701Z",
+    "used": false
+  },
+  {
+    "id": "r_1777504763701_4rb6",
+    "theme": "- **前日（4/28）終値振り返り**：日経平均 **59,917円（-619円, -1.02%）**、一時6万円台突",
+    "title": "- **前日（4/28）終値振り返り**：日経平均 **59,917円（-619円, -1.02%）**、一時6万円台突",
+    "published_date": "2026-04-30",
+    "summary": "- **前日（4/28）終値振り返り**：日経平均 **59,917円（-619円, -1.02%）**、一時6万円台突破後反落。TOPIX **3,772（+37, +0.99%）**と小幅続伸。日経は半導体利確売りが主因で下落も、TOPIXは資金回転で堅調。[[4]](https://x.com/i/status/2049360326890762645)[[5]](https://x.com/i/status/2049374223932788855)[[6]](https://x.com/i/status/2049480024039072216)",
+>>>>>>> Stashed changes
     "investment_angle": "",
     "tickers": [],
     "keywords": [],
     "recommended_pattern": "P14",
     "urgency": "medium",
     "source_type": "trending_x",
+<<<<<<< Updated upstream
     "created_at": "2026-04-29T22:54:23.678Z",
     "used": false
   },
@@ -50,12 +83,24 @@
     "title": "- **要因**：米FOMC結果消化、原油高（+9.02%）、中東情勢・米金融政策の不透明感。VIX上昇（+5.38%）",
     "published_date": "2026-04-30",
     "summary": "- **要因**：米FOMC結果消化、原油高（+9.02%）、中東情勢・米金融政策の不透明感。VIX上昇（+5.38%）、円安進行（160円台）、地政学リスク高まりでリスクオフ転換。[[4]](https://x.com/i/status/2049623224372347100)[[2]](https://x.com/i/status/2049622844938838439)[[1]](https://x.com/i/status/2049604022706004109)",
+=======
+    "created_at": "2026-04-29T23:19:23.701Z",
+    "used": false
+  },
+  {
+    "id": "r_1777504763701_1gx2",
+    "theme": "- **直近先物動向（4/29夜間～30日朝）**：",
+    "title": "- **直近先物動向（4/29夜間～30日朝）**：",
+    "published_date": "2026-04-30",
+    "summary": "- **直近先物動向（4/29夜間～30日朝）**：",
+>>>>>>> Stashed changes
     "investment_angle": "",
     "tickers": [],
     "keywords": [],
     "recommended_pattern": "P14",
     "urgency": "medium",
     "source_type": "trending_x",
+<<<<<<< Updated upstream
     "created_at": "2026-04-29T22:54:23.678Z",
     "used": false
   },
@@ -65,13 +110,28 @@
     "title": "- **海外連動**：S&P500・Dow小幅下落、Nasdaqほぼ横ばい。米国先物も軟調。[[2]](https://",
     "published_date": "2026-04-30",
     "summary": "- **海外連動**：S&P500・Dow小幅下落、Nasdaqほぼ横ばい。米国先物も軟調。[[2]](https://x.com/i/status/2049622844938838439)",
+=======
+    "created_at": "2026-04-29T23:19:23.701Z",
+    "used": false
+  },
+  {
+    "id": "r_1777504763701_5udi",
+    "theme": "| 指数       | 終値/水準     | 前日比       | 備考                  |",
+    "title": "| 指数       | 終値/水準     | 前日比       | 備考                  |",
+    "published_date": "2026-04-30",
+    "summary": "| 指数       | 終値/水準     | 前日比       | 備考                  |",
+>>>>>>> Stashed changes
     "investment_angle": "",
     "tickers": [],
     "keywords": [],
     "recommended_pattern": "P14",
     "urgency": "medium",
     "source_type": "trending_x",
+<<<<<<< Updated upstream
     "created_at": "2026-04-29T22:54:23.678Z",
+=======
+    "created_at": "2026-04-29T23:19:23.701Z",
+>>>>>>> Stashed changes
     "used": false
   }
 ]
