@@ -1,37 +1,10 @@
 [
   {
-    "tweet_id": "2049484822725222694",
-    "text": "昨日の市場、みんなは何を",
-    "tweet_type": "short_personal",
-    "theme": "short_toikake",
-    "posted_at": "2026-04-29T13:43:54.062Z",
-    "metrics": null,
-    "fetched_at": null
-  },
-  {
-    "tweet_id": "2049796802656809299",
-    "text": "引けにかけては厳しかったけど",
+    "tweet_id": "2050510507648373106",
+    "text": "来週のFOMC、さすが",
     "tweet_type": "short_personal",
     "theme": "short_tsubuyaki",
-    "posted_at": "2026-04-30T10:23:35.883Z",
-    "metrics": {
-      "impressions": 9,
-      "likes": 2,
-      "retweets": 0,
-      "replies": 0
-    },
-<<<<<<< Updated upstream
-    "fetched_at": "2026-05-01T22:48:25.657Z"
-=======
-    "fetched_at": "2026-05-01T23:17:21.600Z"
->>>>>>> Stashed changes
-  },
-  {
-    "tweet_id": "2050154071995118011",
-    "text": "昨日の米国市場は堅調だった",
-    "tweet_type": "short_personal",
-    "theme": "short_jikkyou",
-    "posted_at": "2026-05-01T10:03:15.535Z",
+    "posted_at": "2026-05-02T09:39:36.407Z",
     "metrics": null,
     "fetched_at": null
   }
