@@ -1,37 +1,10 @@
 [
   {
-    "tweet_id": "2050510507648373106",
-    "text": "来週のFOMC、さすが",
-    "tweet_type": "short_personal",
-    "theme": "short_tsubuyaki",
-    "posted_at": "2026-05-02T09:39:36.407Z",
-    "metrics": {
-      "impressions": 7,
-      "likes": 0,
-      "retweets": 0,
-      "replies": 0
-    },
-<<<<<<< Updated upstream
-    "fetched_at": "2026-05-03T22:35:42.892Z"
-=======
-    "fetched_at": "2026-05-03T23:09:37.765Z"
->>>>>>> Stashed changes
-  },
-  {
-    "tweet_id": "2050813527393222794",
-    "text": "週末だし来週の戦略練ってる",
-    "tweet_type": "short_personal",
-    "theme": "short_tsubuyaki",
-    "posted_at": "2026-05-03T05:43:41.931Z",
-    "metrics": null,
-    "fetched_at": null
-  },
-  {
-    "tweet_id": "2050874460798951661",
-    "text": "来週に向けて、今一番注目してる",
+    "tweet_id": "2051248412142780549",
+    "text": "来週注目してる銘柄、何か",
     "tweet_type": "short_personal",
     "theme": "short_toikake",
-    "posted_at": "2026-05-03T09:45:49.600Z",
+    "posted_at": "2026-05-04T10:31:46.540Z",
     "metrics": null,
     "fetched_at": null
   }
