@@ -5,8 +5,13 @@
     "tweet_type": "short_personal",
     "theme": "short_tsubuyaki",
     "posted_at": "2026-05-02T09:39:36.407Z",
-    "metrics": null,
-    "fetched_at": null
+    "metrics": {
+      "impressions": 7,
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0
+    },
+    "fetched_at": "2026-05-03T22:35:42.892Z"
   },
   {
     "tweet_id": "2050813527393222794",
