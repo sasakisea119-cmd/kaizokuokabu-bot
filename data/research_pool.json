@@ -75,6 +75,7 @@
     "used": false
   },
   {
+<<<<<<< Updated upstream
     "id": "r_1778021513245_3qxc",
     "theme": "AI活用で人員シフト、グループで法人営業1・5倍に 北九州銀、岡田新頭取インタビュー",
     "title": "AI活用で人員シフト、グループで法人営業1・5倍に 北九州銀、岡田新頭取インタビュー",
@@ -104,12 +105,20 @@
     "title": "### 日本株相場トレンド（直近12時間：2026/5/5 夕方～夜間）",
     "published_date": "2026-05-06",
     "summary": "### 日本株相場トレンド（直近12時間：2026/5/5 夕方～夜間）",
+=======
+    "id": "r_1778023594714_xy3q",
+    "theme": "### 日本株相場トレンド（直近12時間：2026/5/5 午後～夜間）",
+    "title": "### 日本株相場トレンド（直近12時間：2026/5/5 午後～夜間）",
+    "published_date": "2026-05-06",
+    "summary": "### 日本株相場トレンド（直近12時間：2026/5/5 午後～夜間）",
+>>>>>>> Stashed changes
     "investment_angle": "",
     "tickers": [],
     "keywords": [],
     "recommended_pattern": "P14",
     "urgency": "medium",
     "source_type": "trending_x",
+<<<<<<< Updated upstream
     "created_at": "2026-05-05T22:53:12.707Z",
     "used": false
   },
@@ -119,12 +128,24 @@
     "title": "日本市場はゴールデンウィーク（憲法記念日振替休日）のため本日休場で、次回取引は5/7(木)。主に**日経平均先物**の時",
     "published_date": "2026-05-06",
     "summary": "日本市場はゴールデンウィーク（憲法記念日振替休日）のため本日休場で、次回取引は5/7(木)。主に**日経平均先物**の時間外動向と米市場の影響が焦点。全体として**リスクオン相場が継続**し、**強い上昇方向感**を示しています。[[1]](https://x.com/i/status/2051796838739820595)[[2]](https://x.com/i/status/2051794343791624227)",
+=======
+    "created_at": "2026-05-05T23:26:34.714Z",
+    "used": false
+  },
+  {
+    "id": "r_1778023594714_vcba",
+    "theme": "日本市場はゴールデンウィーク（GW）休場中（5/3～5/6）で、現物取引は停止しています。主に**日経平均先物（大阪取引",
+    "title": "日本市場はゴールデンウィーク（GW）休場中（5/3～5/6）で、現物取引は停止しています。主に**日経平均先物（大阪取引",
+    "published_date": "2026-05-06",
+    "summary": "日本市場はゴールデンウィーク（GW）休場中（5/3～5/6）で、現物取引は停止しています。主に**日経平均先物（大阪取引所夜間・CME）**の動きが市場の方向感を示しており、直近12時間で**大幅上昇**基調です。米株高（特に半導体株の急騰）と円安進行、中東リスク（イラン停戦継続）後退が主な材料。[[1]](https://x.com/i/status/2051770041281232994)[[2]](https://x.com/i/status/2051799498574462995)[[3]](https://x.com/i/status/2051783631430164987)",
+>>>>>>> Stashed changes
     "investment_angle": "",
     "tickers": [],
     "keywords": [],
     "recommended_pattern": "P14",
     "urgency": "medium",
     "source_type": "trending_x",
+<<<<<<< Updated upstream
     "created_at": "2026-05-05T22:53:12.707Z",
     "used": false
   },
@@ -134,12 +155,24 @@
     "title": "- **日経平均先物**: 急騰。一時**60,700円台**を突破（連休前比+1,280円、+1,200円超）。史上最",
     "published_date": "2026-05-06",
     "summary": "- **日経平均先物**: 急騰。一時**60,700円台**を突破（連休前比+1,280円、+1,200円超）。史上最速で6万円大台定着の兆し。5/7開場で**ギャップアップ期待**が高まっています。[[3]](https://x.com/i/status/2051796943547052444)[[4]](https://x.com/i/status/2051795159990587864)[[5]](https://x.com/i/status/2051795140092768591)[[6]](https://x.com/i/status/2051779427252720006)",
+=======
+    "created_at": "2026-05-05T23:26:34.714Z",
+    "used": false
+  },
+  {
+    "id": "r_1778023594714_zedh",
+    "theme": "- **日経平均先物**: 前日比+1200～1330円高。一時**6万700円台**、引け**6万0700円**（+2",
+    "title": "- **日経平均先物**: 前日比+1200～1330円高。一時**6万700円台**、引け**6万0700円**（+2",
+    "published_date": "2026-05-06",
+    "summary": "- **日経平均先物**: 前日比+1200～1330円高。一時**6万700円台**、引け**6万0700円**（+2.24%）。GW明け（5/7想定）の本格寄りは**お祭り騒ぎ**級の強気スタートが期待される。[[1]](https://x.com/i/status/2051770041281232994)[[4]](https://x.com/i/status/2051804415594783012)[[3]](https://x.com/i/status/2051783631430164987)",
+>>>>>>> Stashed changes
     "investment_angle": "",
     "tickers": [],
     "keywords": [],
     "recommended_pattern": "P14",
     "urgency": "medium",
     "source_type": "trending_x",
+<<<<<<< Updated upstream
     "created_at": "2026-05-05T22:53:12.707Z",
     "used": false
   },
@@ -149,12 +182,24 @@
     "title": "- **TOPIX先物**: 連動上昇（例: 3,728.73 +1.52%）。[[7]](https://x.com/",
     "published_date": "2026-05-06",
     "summary": "- **TOPIX先物**: 連動上昇（例: 3,728.73 +1.52%）。[[7]](https://x.com/i/status/2051795826536841408)",
+=======
+    "created_at": "2026-05-05T23:26:34.714Z",
+    "used": false
+  },
+  {
+    "id": "r_1778023594714_cga5",
+    "theme": "- **要因**: 米NASDAQ/S&P500最高値更新、半導体株（マイクロン+11%、AMD+14%、サンディスク急",
+    "title": "- **要因**: 米NASDAQ/S&P500最高値更新、半導体株（マイクロン+11%、AMD+14%、サンディスク急",
+    "published_date": "2026-05-06",
+    "summary": "- **要因**: 米NASDAQ/S&P500最高値更新、半導体株（マイクロン+11%、AMD+14%、サンディスク急騰）が波及。円安（USD/JPY 157-159円台）、原油下落期待でリスクオン。[[5]](https://x.com/i/status/2051798632127672729)[[6]](https://x.com/i/status/2051795450651656404)",
+>>>>>>> Stashed changes
     "investment_angle": "",
     "tickers": [],
     "keywords": [],
     "recommended_pattern": "P14",
     "urgency": "medium",
     "source_type": "trending_x",
+<<<<<<< Updated upstream
     "created_at": "2026-05-05T22:53:12.707Z",
     "used": false
   },
@@ -164,13 +209,28 @@
     "title": "- **背景**: 米市場の堅調（NYダウ+0.73%、NASDAQ+1.03%、S&P500+0.81%）。VIX低下",
     "published_date": "2026-05-06",
     "summary": "- **背景**: 米市場の堅調（NYダウ+0.73%、NASDAQ+1.03%、S&P500+0.81%）。VIX低下（17.38、恐怖指数-4.98%）でリスク選好強まる。ドル円157.8～157.87円台の**円安進行**も追い風。[[8]](https://x.com/i/status/2051796736688144425)[[7]](https://x.com/i/status/2051795826536841408)",
+=======
+    "created_at": "2026-05-05T23:26:34.714Z",
+    "used": false
+  },
+  {
+    "id": "r_1778023594714_qkby",
+    "theme": "- **全体ムード**: 先物主導の**指数偏重相場**（一部大型株中心）。TOPIX乖離懸念ありも、海外勢買い優勢。[",
+    "title": "- **全体ムード**: 先物主導の**指数偏重相場**（一部大型株中心）。TOPIX乖離懸念ありも、海外勢買い優勢。[",
+    "published_date": "2026-05-06",
+    "summary": "- **全体ムード**: 先物主導の**指数偏重相場**（一部大型株中心）。TOPIX乖離懸念ありも、海外勢買い優勢。[[4]](https://x.com/i/status/2051804415594783012)[[7]](https://x.com/i/status/2051805224655069422)",
+>>>>>>> Stashed changes
     "investment_angle": "",
     "tickers": [],
     "keywords": [],
     "recommended_pattern": "P14",
     "urgency": "medium",
     "source_type": "trending_x",
+<<<<<<< Updated upstream
     "created_at": "2026-05-05T22:53:12.707Z",
+=======
+    "created_at": "2026-05-05T23:26:34.714Z",
+>>>>>>> Stashed changes
     "used": false
   }
 ]
