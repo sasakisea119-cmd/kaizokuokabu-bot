@@ -1,28 +1,10 @@
 [
   {
-    "tweet_id": "2051248412142780549",
-    "text": "来週注目してる銘柄、何か",
+    "tweet_id": "2051901310010884185",
+    "text": "KOKUSAI（65",
     "tweet_type": "short_personal",
     "theme": "short_toikake",
-    "posted_at": "2026-05-04T10:31:46.540Z",
-    "metrics": {
-      "impressions": 13,
-      "likes": 1,
-      "retweets": 0,
-      "replies": 0
-    },
-<<<<<<< Updated upstream
-    "fetched_at": "2026-05-05T22:51:28.653Z"
-=======
-    "fetched_at": "2026-05-05T23:19:26.738Z"
->>>>>>> Stashed changes
-  },
-  {
-    "tweet_id": "2051607901970530670",
-    "text": "来週、一番注目してるセクター",
-    "tweet_type": "short_personal",
-    "theme": "short_toikake",
-    "posted_at": "2026-05-05T10:20:15.611Z",
+    "posted_at": "2026-05-06T05:46:09.537Z",
     "metrics": null,
     "fetched_at": null
   }
