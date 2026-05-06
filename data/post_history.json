@@ -5,8 +5,13 @@
     "tweet_type": "short_personal",
     "theme": "short_toikake",
     "posted_at": "2026-05-04T10:31:46.540Z",
-    "metrics": null,
-    "fetched_at": null
+    "metrics": {
+      "impressions": 13,
+      "likes": 1,
+      "retweets": 0,
+      "replies": 0
+    },
+    "fetched_at": "2026-05-05T22:51:28.653Z"
   },
   {
     "tweet_id": "2051607901970530670",
