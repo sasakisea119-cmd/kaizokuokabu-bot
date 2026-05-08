@@ -9,7 +9,7 @@ on:
 jobs:
   quote:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 8
     permissions:
       contents: write
 

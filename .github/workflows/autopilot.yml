@@ -2,15 +2,10 @@ name: kaizokuokabu IPO autopilot
 
 on:
   schedule:
-    # 朝7時 JST = UTC 22:00（プライマリ＋バックアップ）
+    # 朝7時 JST = UTC 22:00（writer 6本生成 → queue）
     - cron: '0 22 * * *'
-    - cron: '20 22 * * *'
-    # 昼12時 JST = UTC 03:00
-    - cron: '0 3 * * *'
-    - cron: '20 3 * * *'
-    # 夜21時 JST = UTC 12:00（プライマリ＋バックアップ）
+    # 夜21時 JST = UTC 12:00（夜間ニュース取得 + writer 4本追加生成）
     - cron: '0 12 * * *'
-    - cron: '20 12 * * *'
   workflow_dispatch:
     inputs:
       mode:
@@ -21,7 +16,7 @@ on:
 jobs:
   autopilot:
     runs-on: ubuntu-latest
-    timeout-minutes: 240
+    timeout-minutes: 30
     permissions:
       contents: write
 

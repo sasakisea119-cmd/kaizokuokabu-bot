@@ -1,13 +1,18 @@
-name: post-short
+name: poster
+
+# autopilot がqueueに溜めた長文投稿を、1日4回ピックアップして投稿する
+# 朝・昼・午後・夜の4枠で「ガッツリ投稿スキーム」の柱
 
 on:
   schedule:
-    # 11:30 JST = 02:30 UTC
-    - cron: '30 2 * * *'
-    # 13:30 JST = 04:30 UTC
-    - cron: '30 4 * * *'
-    # 17:30 JST = 08:30 UTC
-    - cron: '30 8 * * *'
+    # 09:00 JST = 00:00 UTC
+    - cron: '0 0 * * *'
+    # 12:00 JST = 03:00 UTC
+    - cron: '0 3 * * *'
+    # 15:00 JST = 06:00 UTC
+    - cron: '0 6 * * *'
+    # 20:00 JST = 11:00 UTC
+    - cron: '0 11 * * *'
   workflow_dispatch:
 
 jobs:
@@ -29,7 +34,7 @@ jobs:
       - name: Install dependencies
         run: npm install --no-audit --no-fund
 
-      - name: Run post-short
+      - name: Run poster (1 long-form post from queue)
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
@@ -37,7 +42,7 @@ jobs:
           X_API_SECRET: ${{ secrets.X_API_SECRET }}
           X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
           X_ACCESS_TOKEN_SECRET: ${{ secrets.X_ACCESS_TOKEN_SECRET }}
-        run: node scripts/post-short.js --max 1
+        run: node agents/poster.js
 
       - name: Commit state changes
         run: |
@@ -46,6 +51,6 @@ jobs:
           git stash --include-untracked || true
           git pull --rebase origin master || true
           git stash pop || true
-          git add data/post_history.json
-          git diff --staged --quiet || git commit -m "chore: post-short [$(date -u +%H:%M)]"
+          git add data/queue.json data/post_history.json
+          git diff --staged --quiet || git commit -m "chore: poster [$(date -u +%H:%M)]"
           git push || echo "push failed, will retry"

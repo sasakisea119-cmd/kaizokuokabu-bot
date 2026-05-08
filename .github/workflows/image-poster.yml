@@ -1,19 +1,18 @@
-name: post-short
+name: image-poster
+
+# 画像カード付き投稿。1日1回、朝の市場サマリーとして
+# autopilotから切り出して独立運用（autopilotの肥大化防止）
 
 on:
   schedule:
-    # 11:30 JST = 02:30 UTC
-    - cron: '30 2 * * *'
-    # 13:30 JST = 04:30 UTC
-    - cron: '30 4 * * *'
-    # 17:30 JST = 08:30 UTC
-    - cron: '30 8 * * *'
+    # 07:30 JST = 22:30 UTC (前日)
+    - cron: '30 22 * * *'
   workflow_dispatch:
 
 jobs:
   post:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 15
     permissions:
       contents: write
 
@@ -26,10 +25,13 @@ jobs:
         with:
           node-version: '20'
 
+      - name: Install Japanese fonts
+        run: sudo apt-get install -y fonts-noto-cjk fonts-noto-cjk-extra
+
       - name: Install dependencies
         run: npm install --no-audit --no-fund
 
-      - name: Run post-short
+      - name: Run image-poster
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
@@ -37,7 +39,7 @@ jobs:
           X_API_SECRET: ${{ secrets.X_API_SECRET }}
           X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
           X_ACCESS_TOKEN_SECRET: ${{ secrets.X_ACCESS_TOKEN_SECRET }}
-        run: node scripts/post-short.js --max 1
+        run: node agents/image-poster.js
 
       - name: Commit state changes
         run: |
@@ -46,6 +48,6 @@ jobs:
           git stash --include-untracked || true
           git pull --rebase origin master || true
           git stash pop || true
-          git add data/post_history.json
-          git diff --staged --quiet || git commit -m "chore: post-short [$(date -u +%H:%M)]"
+          git add data/post_history.json data/research_pool.json
+          git diff --staged --quiet || git commit -m "chore: image-poster [$(date -u +%H:%M)]"
           git push || echo "push failed, will retry"
