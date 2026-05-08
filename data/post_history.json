@@ -1,28 +1,10 @@
 [
   {
-    "tweet_id": "2051901310010884185",
-    "text": "KOKUSAI（65",
-    "tweet_type": "short_personal",
-    "theme": "short_toikake",
-    "posted_at": "2026-05-06T05:46:09.537Z",
-    "metrics": {
-      "impressions": 15,
-      "likes": 0,
-      "retweets": 0,
-      "replies": 0
-    },
-<<<<<<< Updated upstream
-    "fetched_at": "2026-05-07T22:56:38.636Z"
-=======
-    "fetched_at": "2026-05-07T23:16:49.795Z"
->>>>>>> Stashed changes
-  },
-  {
-    "tweet_id": "2052337553492287518",
-    "text": "今週の地合い、さすが",
+    "tweet_id": "2052619512386888146",
+    "text": "KOKUSAI（652",
     "tweet_type": "short_personal",
     "theme": "short_tsubuyaki",
-    "posted_at": "2026-05-07T10:39:38.095Z",
+    "posted_at": "2026-05-08T05:20:02.317Z",
     "metrics": null,
     "fetched_at": null
   }
